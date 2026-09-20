@@ -177,18 +177,6 @@ Splits from siblings: `decision-log` owns the *form* of a record, this owns *whi
 be made before starting. `platform-correctness` owns conforming to a platform, this owns choosing
 one. `linting` owns the mechanism, this owns standing it up on day one.
 
-## `fixtures` — real-world capture is the only legitimate source
-
-Port of Metanoia's `empirical-fixtures`, which already covers the capture script as a shipped
-deliverable and the triggers for growing a corpus.
-
-**Add: drift.** A fixture captured from a system you do not control is a **dated snapshot, not a
-fact**. The existing skill covers re-capturing for *breadth* (a new network, a new platform) but
-not for *change underneath you*. Record the capture date and the conditions, so a fresh capture
-diffs against the old one and shows what moved. Without the conditions recorded the diff is
-unreadable: a YouTube capture taken on Premium differs from a free-account one for reasons that
-have nothing to do with YouTube changing.
-
 ## Also planned
 
 `harness` (make the system locally observable without external services), `decision-log` (port),

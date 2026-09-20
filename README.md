@@ -14,9 +14,10 @@ The reasoning behind them lives in [docs/essays/](docs/essays/).
 | [platform-correctness](skills/platform-correctness/SKILL.md) | Meet the conventions of the environment the software runs in. |
 | [naming](skills/naming/SKILL.md) | A name tells the truth about the thing it names. |
 | [format](skills/format/SKILL.md) | Remove formatting from human judgment. |
+| [fixtures](skills/fixtures/SKILL.md) | Test data comes from the real world, or says that it does not. |
 
-Planned: `linting`, `contracts`, `spec`, `definition-of-done`, `test-fidelity`, `fixtures`,
-`harness`, `decision-log`, plus ports of `tdd` and `error-taxonomy`.
+Planned: `linting`, `contracts`, `spec`, `definition-of-done`, `test-fidelity`, `harness`,
+`project-setup`, `decision-log`, plus ports of `tdd` and `error-taxonomy`.
 
 ## Installation
 
