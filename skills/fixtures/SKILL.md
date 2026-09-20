@@ -19,6 +19,10 @@ with your assumptions because it was made from them.
    is synthetic. Synthetic data is also the right tool for extremes a real corpus will not reliably
    produce. **Unlabelled synthetic data is the failure, not synthetic data.**
 
+   So is reaching for synthetic because capture was work. Effort is not impracticality, and a file
+   built to fit a test is exactly what this skill exists to prevent: the fixture then encodes the
+   code's assumptions rather than the world's behaviour, and the test can only confirm them.
+
 2. **The capture script ships.** It lives in the repo and is run, not described. Anything captured
    by hand once will need capturing again, and by then the steps are gone.
 
