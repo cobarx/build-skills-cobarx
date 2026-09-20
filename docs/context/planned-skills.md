@@ -1,6 +1,7 @@
 # Planned skills
 
-Designs settled in conversation but not yet written. Working notes, not commitments.
+**Scratchpad.** In-progress designs for skills not yet written. Messy on purpose, and not
+subject to `simplicity` rule 8, which targets output presented as finished.
 
 ## `linting` — enforce the rules mechanically from the first commit
 
