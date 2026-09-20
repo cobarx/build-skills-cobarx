@@ -52,9 +52,9 @@ skill claimed to be about size.
   useful unit.
 - **Thresholds are diagnostics.** A long function is not wrong for being long; it is long because
   something upstream went wrong.
-- **A short menu is a feature.** The Olympia offers cheeseburger and Pepsi. Not no choice, and
-  not a decision tree: someone narrowed it first, and the customer still picks. Handing over every
-  option with its tradeoffs is passing the narrowing work to the reader.
+- **Cheeseburger. No Coke, Pepsi.** Hampton sent the SNL Olympia sketch as a comment on this
+  session, which is fair: he asked one question and got the whole menu, repeatedly. I then turned
+  the joke into a design principle about curated option sets, which is its own kind of proof.
 - **The principle applies to the conversation, not just the code.** A message is a change too.
   Feedback, a short answer, a diff. Writing at length is cheap for the author and expensive for
   the reader, which is the exact asymmetry this skill exists to correct. Every revision above was
