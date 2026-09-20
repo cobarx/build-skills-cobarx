@@ -1,12 +1,14 @@
 ---
 name: simplicity
-description: This skill should be used before starting any unit of work; when a task or PR description needs the word "and" to be accurate; when a function grows a third level of nesting; when a new dependency is proposed; when a complexity gate fails; or when asked to do several things at once. It bounds how much rides in a single unit of work, so that any one part can be built or changed with only its contract in view.
+description: This skill should be used before starting any unit of work; when a task or PR description needs the word "and" to be accurate; when a function grows a third level of nesting; when a new dependency is proposed; when a complexity gate fails; or when asked to do several things at once. It keeps the cost of understanding a change low, so any one part can be reviewed with only its contract in view.
 ---
 
 # simplicity
 
-Bound the size of a unit of work. Small units keep the working context bounded, so any part can be
-built or changed with only its contract in view.
+Make every change cheap to understand. Size is the indicator, not the goal: a change is expensive
+when reviewing it means holding several unrelated things at once.
+
+A change is anything handed to a reader. A diff, a PR description, a review comment, a reply.
 
 ## Rules
 
@@ -44,8 +46,9 @@ branches, cognitive penalizes nesting, which is closer to what a person can hold
 | File length | 300 lines |
 | Parameters | 4 |
 
-These are budgets, not targets. Complexity essential to the problem must be paid for; complexity
-introduced by the solution is waste. Being under the threshold is not the same as having earned it.
+These are diagnostics, not targets. A function over fifty lines is not wrong for being long; it is
+long because a design decision upstream went wrong, and the number is how you notice. Complexity
+essential to the problem must be paid for; complexity introduced by the solution is waste.
 
 Completion is not here. See `definition-of-done`.
 

@@ -95,6 +95,34 @@ From wheelviser. Three parts worth keeping verbatim:
   incomplete. You never argue about it; you try to build a client and find out.
 - **The remedy is directional.** Extend the contract first, same PR. Never reach inside.
 
+### Before integrating, two questions in order
+
+**First, what does the system document?** Three branches, not two:
+
+1. **Documented and free to adopt** - build against the contract.
+2. **Undocumented** - write a scaffold contract derived from capture, not from documentation.
+3. **Documented, but adopting it carries terms that forbid what you are building** - scaffold
+   anyway, and stay deliberately off the official surface.
+
+The third is real and counterintuitive. YouTube documents an IFrame Player API, but using it makes
+you an API Client under the YouTube API Terms, whose Developer Policies prohibit "modifying,
+adding to or blocking the standard playback function of the YouTube video player". Reaching for
+the official API makes the position worse. A documented contract can come with terms attached, and
+adopting the contract means adopting the terms.
+
+**Second, which attachment point?** Having established what exists, there is usually more than one
+way in, and taking the first that works is not a decision. Enumerate them and choose on
+**stability, testability and coupling**, then record why.
+
+YouTube captions offer at least four, with different answers on each axis:
+
+| Attachment point | Stability | Notes |
+|---|---|---|
+| Native `textTracks` | High if present | May not exist; YouTube renders its own |
+| Player object caption methods | Medium | Undocumented, but semantic names change less than markup |
+| Caption container DOM | Low | Generated class names, changes on redesign |
+| Timedtext network request | High | Stable format, but requires `document_start` timing |
+
 **The checkpoint**, because a linter enforces the *import* boundary but not the *reading*
 boundary:
 
@@ -130,6 +158,11 @@ Each glossary entry cites its source, per `platform-correctness` rule 1.
 Owns technology selection and standing up the gates before the first feature: language, build
 tool, linter, formatter, test runner, CI, directory layout, licence, PR template.
 
+**If you will do it twice, it is a checked-in command.** A task runner exists from the first
+commit, and anything done by hand that will recur becomes a recipe in it at the moment of doing it
+by hand, not afterwards. Capture, retest, rebuild, release. `pubnet-tools` is the reference: every
+recipe committed, and each one commented with why it exists rather than what it runs.
+
 **The sentence matters here.** "Everything you do at the start" is a *time* grouping, and time
 groupings are usually a smell. The real category is the **cost curve**: choices whose switching
 cost rises sharply after the first commit. That is why the language, the linter and the directory
@@ -144,10 +177,22 @@ Splits from siblings: `decision-log` owns the *form* of a record, this owns *whi
 be made before starting. `platform-correctness` owns conforming to a platform, this owns choosing
 one. `linting` owns the mechanism, this owns standing it up on day one.
 
+## `fixtures` — real-world capture is the only legitimate source
+
+Port of Metanoia's `empirical-fixtures`, which already covers the capture script as a shipped
+deliverable and the triggers for growing a corpus.
+
+**Add: drift.** A fixture captured from a system you do not control is a **dated snapshot, not a
+fact**. The existing skill covers re-capturing for *breadth* (a new network, a new platform) but
+not for *change underneath you*. Record the capture date and the conditions, so a fresh capture
+diffs against the old one and shows what moved. Without the conditions recorded the diff is
+unreadable: a YouTube capture taken on Premium differs from a free-account one for reasons that
+have nothing to do with YouTube changing.
+
 ## Also planned
 
-`fixtures` (corpus mechanism), `harness` (make the system locally observable without external
-services), `decision-log` (port), `tdd` (port), `error-taxonomy` (port).
+`harness` (make the system locally observable without external services), `decision-log` (port),
+`tdd` (port), `error-taxonomy` (port).
 
 ## The adversarial stance is not a skill
 
