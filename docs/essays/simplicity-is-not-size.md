@@ -52,7 +52,7 @@ skill claimed to be about size.
   useful unit.
 - **Thresholds are diagnostics.** A long function is not wrong for being long; it is long because
   something upstream went wrong.
-- **Cheeseburger. No Coke, Pepsi.** Hampton sent the SNL Olympia sketch as a comment on this
+- **Cheeseburger. No Coke, Pepsi.** Hampton sent the [SNL Olympia sketch](https://www.youtube.com/watch?v=puJePACBoIo) as a comment on this
   session, which is fair: he asked one question and got the whole menu, repeatedly. I then turned
   the joke into a design principle about curated option sets, which is its own kind of proof.
 - **The principle applies to the conversation, not just the code.** A message is a change too.
