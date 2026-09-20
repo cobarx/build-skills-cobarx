@@ -23,16 +23,28 @@ Planned: `linting`, `contracts`, `spec`, `definition-of-done`, `test-fidelity`, 
 
 ### Claude Code
 
+Install once, from this repo as a local marketplace:
+
 ```
 /plugin marketplace add ~/code/build-skills-cobarx
-/plugin install build-skills-cobarx --scope user
+/plugin install build-skills-cobarx@build-skills-cobarx --scope user
 ```
+
+`--scope user` makes the skills available in every project.
 
 To load temporarily without installing:
 
 ```bash
 claude --plugin-dir ~/code/build-skills-cobarx
 ```
+
+#### Updating
+
+The marketplace points at this directory, so `git pull` is the update — no copy step to go stale:
+
+- Edited an existing skill — the next session picks it up, nothing else to do.
+- Added or removed a skill — run `/plugin marketplace update build-skills-cobarx`.
+- Check what is installed — run `/plugin`.
 
 ### GitHub Copilot CLI
 
