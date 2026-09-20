@@ -52,6 +52,10 @@ skill claimed to be about size.
   useful unit.
 - **Thresholds are diagnostics.** A long function is not wrong for being long; it is long because
   something upstream went wrong.
+- **The principle applies to the conversation, not just the code.** A message is a change too.
+  Feedback, a short answer, a diff. Writing at length is cheap for the author and expensive for
+  the reader, which is the exact asymmetry this skill exists to correct. Every revision above was
+  delivered as an essay when it should have been a paragraph and a patch.
 
 ## Open questions
 
