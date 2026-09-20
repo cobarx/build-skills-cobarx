@@ -8,6 +8,8 @@ description: This skill should be used before starting any unit of work; when a 
 Make every change cheap to understand. Size is the indicator, not the goal: a change is expensive
 when reviewing it means holding several unrelated things at once.
 
+A change is anything handed to a reader. A diff, a PR description, a review comment, a reply.
+
 ## Rules
 
 1. **One sentence, no "and".** If you cannot describe the unit in one sentence without "and", it is
