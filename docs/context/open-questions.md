@@ -34,10 +34,19 @@ question is whether non-code linting counts, which is itself an open question be
 
 ## For `linting`, before it can be written
 
-**How is a linter chosen for a stack?** The missing procedure. Starting position: ask whether the
-ecosystem has converged and whether the tool ships with the toolchain, rather than running a
-feature comparison. clippy and ruff largely settle their own languages on those two questions
-alone.
+**How is a linter chosen for a stack?** Settled as an ordered procedure, kept here because it was
+agreed and the tool examples still need verifying before they go in the skill:
+
+1. Does the toolchain ship one? If yes that is the answer, unless step 3 disqualifies it.
+2. Has the ecosystem converged? Take the dominant tool, not the best one.
+3. Can it express the rules our skills require? The only disqualifying check.
+4. Fast enough to run on save? Tie-breaker.
+5. Escape hatch for a custom rule? Tie-breaker.
+
+Two rule names verified rather than recalled, since they are what make `naming` enforceable:
+[`@typescript-eslint/naming-convention`](https://typescript-eslint.io/rules/naming-convention/)
+takes `custom: { regex, match }`, and [`id-denylist`](https://eslint.org/docs/latest/rules/id-denylist)
+bans generic identifiers by name.
 
 **Does non-code linting belong in scope?** Markdown, YAML, shell. Real, but arguably a different
 concern from code quality gates, and including it starts the scope creep this skill is most

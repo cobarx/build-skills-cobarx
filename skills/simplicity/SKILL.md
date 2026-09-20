@@ -27,11 +27,18 @@ A change is anything handed to a reader. A diff, a PR description, a review comm
 
 5. **Extract, do not raise the threshold.** Overriding a default is a decision, and gets logged.
 
-6. **Admit dependencies deliberately.** Review before it enters. Prefer the platform. Prefer twenty
-   local lines over a dependency used once.
+6. **Weigh dependencies both ways.** Prefer the platform, which costs neither. Otherwise: twenty
+   lines used once are not worth a supply chain, and a module you would implement is not just
+   lines but every decision inside it, each one yours to make, justify and maintain. Neither side
+   wins by default.
 
 7. **Propose the split.** When asked for too much at once, say so, and give the units and their
    order. State it once; if reaffirmed, proceed.
+
+8. **The cheapest change to review is the one not written.** Reuse before implementing, delete
+   before adding, and generate no documentation or tests nobody asked for. Volume is a cost even
+   when every individual piece is small, and it is the cost that rises fastest when producing more
+   is nearly free.
 
 ## Thresholds
 
