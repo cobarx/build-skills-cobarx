@@ -5,15 +5,19 @@ description: This skill should be used whenever a test needs data that originate
 
 # fixtures
 
-Test data comes from real-world capture, never invention.
+Test data comes from the real world, or says that it does not.
 
 A fixture that was never real shares every blind spot of the code written beside it. It will agree
 with your assumptions because it was made from them.
 
 ## Rules
 
-1. **Capture, never invent.** Not from memory, not from a specification, not from a string typed
-   until the test passed. If you have not seen the real output, you do not have a fixture.
+1. **Prefer capture; label everything else.** Not from memory, not from a specification, not from
+   a string typed until the test passed. Capture is sometimes impossible or impractical: the system
+   does not exist yet, access is unavailable, the real thing is gigabytes, it needs a setup you
+   cannot reproduce. Then derive from a capture where you can (trim, sample, redact) and mark what
+   is synthetic. Synthetic data is also the right tool for extremes a real corpus will not reliably
+   produce. **Unlabelled synthetic data is the failure, not synthetic data.**
 
 2. **The capture script ships.** It lives in the repo and is run, not described. Anything captured
    by hand once will need capturing again, and by then the steps are gone.
