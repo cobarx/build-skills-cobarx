@@ -30,6 +30,38 @@ exists for exactly this purpose.
 Four written skills already contain promises `linting` has to keep, so those references dangle
 until it exists.
 
+### Selection procedure (agreed)
+
+Ordered, not criteria to weigh. Each step is a question with a decision.
+
+1. **Does the toolchain ship one?** If yes, that is the answer. Zero install, zero version drift,
+   guaranteed compatibility, nothing added to the supply chain, and `simplicity` rule 6 already
+   points here. Rust has clippy; Go has `go vet`. Stop unless step 3 disqualifies it.
+2. **Has the ecosystem converged?** If the toolchain ships nothing, take the dominant tool rather
+   than the best one. Deviating costs you plugins, documentation, and every answer written on the
+   internet, which is a recurring tax for a marginal gain.
+3. **Can it express the rules our skills require?** The disqualifying check, and the only one that
+   overrides 1 and 2. Cognitive complexity, import boundaries, identifier denylist, naming regex,
+   doc presence. A rule needing a plugin is fine; a rule nothing can express puts the tool out.
+   This is usually where a fast newcomer fails, since speed often comes with thinner coverage.
+4. **Fast enough to run on save?** Tie-breaker. Speed decides whether it runs locally or only in
+   CI, and CI-only means finding out after you have moved on.
+5. **Is there an escape hatch for a custom rule?** Tie-breaker. The skills will eventually require
+   a rule nobody has written.
+
+Output is a `decision-log` entry naming the tool and which step settled it, so the reasoning is
+recoverable when someone proposes switching.
+
+**Verify the tool examples before writing them into the skill.** clippy, `go vet`, ruff, oxlint
+coverage claims are currently recalled, not cited, which is our own `platform-correctness` rule 1
+pointed back at us.
+
+### Day one becomes a branch, not a stance
+
+Adopting at project start needs no decision. Adopting later forces one, because you must either
+suppress the existing violations or fix them, and that choice gets logged. That turns "day one or
+not at all" from a position into a procedure step. The day-one half is owned by `project-setup`.
+
 ## `test-fidelity` — a test must be able to fail for the real reason
 
 Fully designed, zero remaining design work. Five rules, each a way a test loses that ability:
@@ -92,6 +124,25 @@ Domain concepts must use the industry term. Architectural constructs local to a 
 coined, but coinage is recorded in the glossary and marked as ours.
 
 Each glossary entry cites its source, per `platform-correctness` rule 1.
+
+## `project-setup` — set up what is expensive to change later
+
+Owns technology selection and standing up the gates before the first feature: language, build
+tool, linter, formatter, test runner, CI, directory layout, licence, PR template.
+
+**The sentence matters here.** "Everything you do at the start" is a *time* grouping, and time
+groupings are usually a smell. The real category is the **cost curve**: choices whose switching
+cost rises sharply after the first commit. That is why the language, the linter and the directory
+layout belong together, and why adding a dependency in month three does not, since that is
+`simplicity` rule 6.
+
+Named `project-setup` rather than `scaffolding` because `contracts` needs that word for
+wheelviser's meaning, a wrapper contract around an undocumented dependency, which is the more
+valuable use.
+
+Splits from siblings: `decision-log` owns the *form* of a record, this owns *which* decisions must
+be made before starting. `platform-correctness` owns conforming to a platform, this owns choosing
+one. `linting` owns the mechanism, this owns standing it up on day one.
 
 ## Also planned
 
