@@ -1,12 +1,12 @@
 ---
 name: simplicity
-description: This skill should be used before starting any unit of work; when a task or PR description needs the word "and" to be accurate; when a function grows a third level of nesting; when a new dependency is proposed; when a complexity gate fails; or when asked to do several things at once. It bounds how much rides in a single unit of work, so that any one part can be built or changed with only its contract in view.
+description: This skill should be used before starting any unit of work; when a task or PR description needs the word "and" to be accurate; when a function grows a third level of nesting; when a new dependency is proposed; when a complexity gate fails; or when asked to do several things at once. It bounds how much rides in a single unit of work, so that any one part can be built, changed, or reviewed with only its contract in view.
 ---
 
 # simplicity
 
 Bound the size of a unit of work. Small units keep the working context bounded, so any part can be
-built or changed with only its contract in view.
+built, changed, or reviewed with only its contract in view.
 
 ## Rules
 
