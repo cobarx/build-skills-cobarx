@@ -182,6 +182,17 @@ one. `linting` owns the mechanism, this owns standing it up on day one.
 Port of Metanoia's `empirical-fixtures`, which already covers the capture script as a shipped
 deliverable and the triggers for growing a corpus.
 
+**Add: a capture verifies its own preconditions and refuses to record when they fail.** A capture
+environment can fail silently and produce data indistinguishable from real behaviour. Capturing
+YouTube stats from a backgrounded tab yields `readyState: 0`, a `blob:` src, zero buffered ranges
+and **no error**, which reads exactly like "the site is broken". Saved, that fixture would encode
+our environment's failure as the system's behaviour and look plausible forever. The script asserts
+what must be true and writes nothing otherwise.
+
+Corollary: **do not hardcode what can be derived.** An operator-typed `scenario` field was the only
+thing that lied when autoplay moved the session to a different video; every field read from the
+page was correct.
+
 **Add: drift.** A fixture captured from a system you do not control is a **dated snapshot, not a
 fact**. The existing skill covers re-capturing for *breadth* (a new network, a new platform) but
 not for *change underneath you*. Record the capture date and the conditions, so a fresh capture
