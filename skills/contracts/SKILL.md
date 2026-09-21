@@ -1,11 +1,15 @@
 ---
 name: contracts
-description: This skill should be used when starting a module, package or service; when adding a public entry point to one; when a change is about to leak internal details across a boundary; when you are about to open another unit's implementation to answer a question; when integrating with a system you do not control; or when an implementation is getting clever. It governs what units are allowed to know about each other.
+description: This skill should be used when drawing a boundary between two parts of the same system; when starting a module, package or service; when adding a public entry point to one; when a change to one unit forces simultaneous edits in its callers; when you are about to open another unit's implementation to answer a question; when an implementation is getting clever; or when integrating with a system you do not control. It governs what units are allowed to know about each other, inside a system as much as at its edges.
 ---
 
 # contracts
 
 Units meet only at explicit contracts, never internals.
+
+This applies inside a system as much as at its edges. External boundaries announce themselves;
+internal ones do not, which is where coupling actually accumulates. A subtitle renderer should
+know nothing of the settings UI, the config format, or where its cues came from.
 
 ## The review checkpoint
 
@@ -35,7 +39,7 @@ behaviour while passing every gate. Testable in review by asking what you had to
 5. **Documentation on the exported surface is part of the contract.** Internally a good name
    carries it. `linting` enforces presence; whether the doc says anything is a review question.
 
-## Systems you do not control
+## The same rules, against a system you do not control
 
 6. **Establish what it documents before integrating.** Three branches. Documented and free to
    adopt: build against it. Undocumented: scaffold. **Documented but carrying terms that forbid

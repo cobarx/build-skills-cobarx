@@ -42,11 +42,11 @@ claude --plugin-dir ~/code/build-skills-cobarx
 
 #### Updating
 
-The marketplace points at this directory, so `git pull` is the update — no copy step to go stale:
+The marketplace points at this directory, so `git pull` is the update, with no copy step to go stale:
 
-- Edited an existing skill — the next session picks it up, nothing else to do.
-- Added or removed a skill — run `/plugin marketplace update build-skills-cobarx`.
-- Check what is installed — run `/plugin`.
+- Edited an existing skill: the next session picks it up, nothing else to do.
+- Added or removed a skill: run `/plugin marketplace update build-skills-cobarx`.
+- Check what is installed: run `/plugin`.
 
 ### GitHub Copilot CLI
 
