@@ -3,6 +3,24 @@
 **Scratchpad.** In-progress designs for skills not yet written. Messy on purpose, and not
 subject to `simplicity` rule 8, which targets output presented as finished.
 
+## Not ready: owning the type you accept
+
+Candidate rule for `contracts`, parked because the first attempt at stating it was too absolute.
+
+The observation: a renderer that accepts `VTTCue` is bound to the browser's cue source even though
+it imported nothing illegal. You can honour every import boundary and still be coupled, because
+you took their type. It stays invisible until a second source arrives, which is why the second
+source is always the expensive one.
+
+The correction that stopped it becoming a rule: modelling on a well-designed existing type is a
+good starting point, especially in an unfamiliar domain where you do not yet know what your inputs
+look like. Defaulting to it is the failure; using it as a reference is not.
+
+Probable shape: **own the type, whatever shape it borrows.** Borrowing a design is fine; accepting
+the supplier's type is the coupling, because you cannot change it.
+
+One instance, one correction. Needs a second before it earns a rule.
+
 ## `linting` — enforce the rules mechanically from the first commit
 
 Owns the **mechanism only**. Holds no policy of its own: every rule it runs is required by another
@@ -85,54 +103,6 @@ Named `test-fidelity` because plain `testing` admits anything, failing `naming` 
 Splits: `fixtures` owns the corpus mechanism (capture, organise, grow), this owns the rule. `tdd`
 owns test-first timing, this owns test design. They are counterparts, since tdd's "watch it fail
 for the right reason" is this rule at runtime.
-
-## `contracts` — units meet only at explicit contracts, never internals
-
-From wheelviser. Three parts worth keeping verbatim:
-
-- **Two sources.** The API gives shape, the spec gives behaviour. `contracts` and `spec` are a
-  pair, which is why writing one without the other leaves half a contract.
-- **Completeness is falsifiable.** A gap you cannot fill from them means the contract is
-  incomplete. You never argue about it; you try to build a client and find out.
-- **The remedy is directional.** Extend the contract first, same PR. Never reach inside.
-
-### Before integrating, two questions in order
-
-**First, what does the system document?** Three branches, not two:
-
-1. **Documented and free to adopt** - build against the contract.
-2. **Undocumented** - write a scaffold contract derived from capture, not from documentation.
-3. **Documented, but adopting it carries terms that forbid what you are building** - scaffold
-   anyway, and stay deliberately off the official surface.
-
-The third is real and counterintuitive. YouTube documents an IFrame Player API, but using it makes
-you an API Client under the YouTube API Terms, whose Developer Policies prohibit "modifying,
-adding to or blocking the standard playback function of the YouTube video player". Reaching for
-the official API makes the position worse. A documented contract can come with terms attached, and
-adopting the contract means adopting the terms.
-
-**Second, which attachment point?** Having established what exists, there is usually more than one
-way in, and taking the first that works is not a decision. Enumerate them and choose on
-**stability, testability and coupling**, then record why.
-
-YouTube captions offer at least four, with different answers on each axis:
-
-| Attachment point | Stability | Notes |
-|---|---|---|
-| Native `textTracks` | High if present | May not exist; YouTube renders its own |
-| Player object caption methods | Medium | Undocumented, but semantic names change less than markup |
-| Caption container DOM | Low | Generated class names, changes on redesign |
-| Timedtext network request | High | Stable format, but requires `document_start` timing |
-
-**The checkpoint**, because a linter enforces the *import* boundary but not the *reading*
-boundary:
-
-> Work from the spec and public API only. If you open the implementation to answer a question,
-> that question *is* the contract gap. Record it, extend the contract, continue. Do not answer it
-> by reading.
-
-Testable in review by asking what you had to open. This matters more for AI-assisted work than
-human work, since nothing but the discipline stops an agent reading any file.
 
 ## `definition-of-done` — establish when a unit is complete
 

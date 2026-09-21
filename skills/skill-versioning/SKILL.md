@@ -1,6 +1,6 @@
 ---
 name: skill-versioning
-description: This skill should be used when opening a PR that changes a skill library — adding, removing, editing, or renaming a skill; when choosing the next version for the library's plugin.json; or whenever that version is about to be bumped by habit rather than by what changed in the skills.
+description: This skill should be used when opening a PR that changes a skill library by adding, removing, editing, or renaming a skill; when choosing the next version for the library's plugin.json; or whenever that version is about to be bumped by habit rather than by what changed in the skills.
 ---
 
 # skill-versioning

@@ -14,10 +14,11 @@ The reasoning behind them lives in [docs/essays/](docs/essays/).
 | [platform-correctness](skills/platform-correctness/SKILL.md) | Meet the conventions of the environment the software runs in. |
 | [naming](skills/naming/SKILL.md) | A name tells the truth about the thing it names. |
 | [format](skills/format/SKILL.md) | Remove formatting from human judgment. |
+| [contracts](skills/contracts/SKILL.md) | Units meet only at explicit contracts, never internals. |
 | [fixtures](skills/fixtures/SKILL.md) | Test data comes from the real world, or says that it does not. |
 | [skill-versioning](skills/skill-versioning/SKILL.md) | Version the skill library by how its skills changed. |
 
-Planned: `linting`, `contracts`, `spec`, `definition-of-done`, `test-fidelity`, `harness`,
+Planned: `linting`, `spec`, `definition-of-done`, `test-fidelity`, `harness`,
 `project-setup`, `decision-log`, plus ports of `tdd` and `error-taxonomy`.
 
 ## Installation
@@ -41,11 +42,11 @@ claude --plugin-dir ~/code/build-skills-cobarx
 
 #### Updating
 
-The marketplace points at this directory, so `git pull` is the update — no copy step to go stale:
+The marketplace points at this directory, so `git pull` is the update, with no copy step to go stale:
 
-- Edited an existing skill — the next session picks it up, nothing else to do.
-- Added or removed a skill — run `/plugin marketplace update build-skills-cobarx`.
-- Check what is installed — run `/plugin`.
+- Edited an existing skill: the next session picks it up, nothing else to do.
+- Added or removed a skill: run `/plugin marketplace update build-skills-cobarx`.
+- Check what is installed: run `/plugin`.
 
 ### GitHub Copilot CLI
 

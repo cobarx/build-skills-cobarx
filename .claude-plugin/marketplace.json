@@ -9,7 +9,7 @@
   "plugins": [
     {
       "name": "build-skills-cobarx",
-      "description": "Skills for how software gets built — each loaded when it applies",
+      "description": "Skills for how software gets built, each loaded when it applies",
       "author": {
         "name": "Hampton Maxwell",
         "email": "me@hamptonmaxwell.com"
