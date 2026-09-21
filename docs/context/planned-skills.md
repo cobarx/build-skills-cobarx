@@ -3,6 +3,24 @@
 **Scratchpad.** In-progress designs for skills not yet written. Messy on purpose, and not
 subject to `simplicity` rule 8, which targets output presented as finished.
 
+## Not ready: owning the type you accept
+
+Candidate rule for `contracts`, parked because the first attempt at stating it was too absolute.
+
+The observation: a renderer that accepts `VTTCue` is bound to the browser's cue source even though
+it imported nothing illegal. You can honour every import boundary and still be coupled, because
+you took their type. It stays invisible until a second source arrives, which is why the second
+source is always the expensive one.
+
+The correction that stopped it becoming a rule: modelling on a well-designed existing type is a
+good starting point, especially in an unfamiliar domain where you do not yet know what your inputs
+look like. Defaulting to it is the failure; using it as a reference is not.
+
+Probable shape: **own the type, whatever shape it borrows.** Borrowing a design is fine; accepting
+the supplier's type is the coupling, because you cannot change it.
+
+One instance, one correction. Needs a second before it earns a rule.
+
 ## `linting` — enforce the rules mechanically from the first commit
 
 Owns the **mechanism only**. Holds no policy of its own: every rule it runs is required by another
