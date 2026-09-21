@@ -1,0 +1,20 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "build-skills-cobarx",
+  "description": "Hampton Maxwell's skills for how software gets built",
+  "owner": {
+    "name": "Hampton Maxwell",
+    "email": "me@hamptonmaxwell.com"
+  },
+  "plugins": [
+    {
+      "name": "build-skills-cobarx",
+      "description": "Skills for how software gets built — each loaded when it applies",
+      "author": {
+        "name": "Hampton Maxwell",
+        "email": "me@hamptonmaxwell.com"
+      },
+      "source": "./"
+    }
+  ]
+}
