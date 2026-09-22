@@ -21,27 +21,27 @@ the supplier's type is the coupling, because you cannot change it.
 
 One instance, one correction. Needs a second before it earns a rule.
 
-## `<name TBD>` — how you arrived at the goal (the *why*)
+## `<name TBD>`: how you arrived at the goal (the *why*)
 
-The step before the goal. `definition-of-done` owns the *goal* — the *what* that must be true for a
+The step before the goal. `definition-of-done` owns the *goal*, the *what* that must be true for a
 change to be done; this owns the *why*: the problem, the evidence, and the reasoning that produced
 that goal, so it can be trusted and revisited rather than taken as given. **Why before what:**
 justify the goal before you state it.
 
 Completes the chain **why → what → how**. The *what* has two faces: `spec` states the target and
-`definition-of-done` confirms it was hit — both are the *what*, not two rungs. This skill is the
-*why* above them; `decision-log` is the *how* below (and it records the why of a *decision* — a
+`definition-of-done` confirms it was hit; both are the *what*, not two rungs. This skill is the
+*why* above them; `decision-log` is the *how* below (and it records the why of a *decision*, a
 narrower why than the why of the *goal*). `essays` carry some of this reasoning as narrative, but
 are not the structured account.
 
 **A why has a source, and the source is its weight.** Where the goal came from sets how much it must
 earn its place before you build on it:
-- *research* — evidence-backed; grounded, if the research holds.
-- *an immediate problem* — real, if it is the root problem and not a symptom.
-- *intuition or past learnings* — may be right, may be stale; unexamined until it is named.
-- *someone asked or recommended* — an inherited why; whose problem is it, and did they examine it?
+- *research*: evidence-backed; grounded, if the research holds.
+- *an immediate problem*: real, if it is the root problem and not a symptom.
+- *intuition or past learnings*: may be right, may be stale; unexamined until it is named.
+- *someone asked or recommended*: an inherited why; whose problem is it, and did they examine it?
   (the bundler recommendation was this one.)
-- *a lifelong dream* — motivating, but the weakest evidence that this is the right thing to build now.
+- *a lifelong dream*: motivating, but the weakest evidence that this is the right thing to build now.
 
 None is disqualified. The weaker sources are a flag to validate the goal harder, not to skip it, and
 the skill names the source so its weight is visible. Candidate spine: *a goal is only as trustworthy
@@ -51,7 +51,7 @@ Name TBD: `rationale`, `problem`, `discovery`, `justification`, `why`. Open.
 
 Prompted 2026-09-22: "dod is not the why, it's the what; how you arrived at the goal is the why."
 
-## `linting` — enforce the rules mechanically from the first commit
+## `linting`: enforce the rules mechanically from the first commit
 
 Owns the **mechanism only**. Holds no policy of its own: every rule it runs is required by another
 skill, which owns the threshold and the rationale.
@@ -111,7 +111,7 @@ Adopting at project start needs no decision. Adopting later forces one, because 
 suppress the existing violations or fix them, and that choice gets logged. That turns "day one or
 not at all" from a position into a procedure step. The day-one half is owned by `project-setup`.
 
-## `test-fidelity` — a test must be able to fail for the real reason
+## `test-fidelity`: a test must be able to fail for the real reason
 
 Designed; one refinement recorded below (flow coverage). Five rules, each a way a test loses that
 ability:
@@ -120,7 +120,7 @@ ability:
    tests where the logic is; contract tests at every service boundary, including local utilities
    and shell scripts, which is the part people skip.
 2. **Cover every dimension; the e2e dimension covers the enumerated flows.** Unit, integration,
-   e2e, browser — a missing kind means that class of failure cannot be caught at all. For e2e, the
+   e2e, browser. A missing kind means that class of failure cannot be caught at all. For e2e, the
    coverage target is the enumerated key user flows and their options, taken from the spec: each
    driven end to end, asserting the goal reached, not the lines touched. 100% of that list, since
    the flows are the spec's behavioral core. Presence across kinds, not the test pyramid's
@@ -141,22 +141,22 @@ for the right reason" is this rule at runtime.
 
 ### Flow coverage, and why it is a gate
 
-The e2e gap in AI-built code is not industry's cost gradient — code is cheap. It is optimism: the
+The e2e gap in AI-built code is not industry's cost gradient; code is cheap. It is optimism: the
 model assumes the flow works and never writes the test that would complete it. A bias, not a budget,
-so the fix is a measured gate — 100% of the enumerated flows — not a judgment call. That is the
+so the fix is a measured gate (100% of the enumerated flows), not a judgment call. That is the
 `format` and `linting` move: take it out of judgment.
 
-Ownership stays clean. Enumerating the flows and their options is high-leverage `spec` work — the
+Ownership stays clean. Enumerating the flows and their options is high-leverage `spec` work: the
 `spec` states the behavior, `test-fidelity` requires each enumerated flow exercised end to end and
 asserting the goal. So "user flows" does not enter the general `spec` skill (a library API or a
 data-format spec has no flows); it enters here, as the denominator this rule measures against.
 
-Coverage here means execution against that denominator, not lines touched — line coverage inflates
+Coverage here means execution against that denominator, not lines touched; line coverage inflates
 because it is cheap to raise, and the user flow is the behavior it cannot count. The residual trust
 question moves with it, and to a better place: not "are the assertions across the suite strong
 enough" (opaque) but "did we enumerate the right flows" (one legible list, reviewable as spec).
 
-## `glossary` — a domain concept has one registered term
+## `glossary`: a domain concept has one registered term
 
 Pulled out of `spec` (2026-09-22), so `spec` stays *what, at the right depth, before how* and the
 vocabulary has its own home. Owns the *register* act in the chain **industry → glossary → code**:
@@ -165,12 +165,12 @@ term only for a construct with no industry name, and mark it as ours. One term p
 
 Three peers on the vocabulary chain: this *registers* the term, `spec` *uses* it to say what the
 system does, `naming` *binds* code to it (rule 6). `naming` could absorb the register act, but its
-spine — "a name tells the truth about the thing it names" — is individual code names, not a domain
+spine ("a name tells the truth about the thing it names") is individual code names, not a domain
 registry; a different act. Each glossary entry cites its source, per `platform-correctness` rule 1.
 
 Name TBD: `glossary`, `define-terms`, `vocabulary`.
 
-## `project-setup` — set up what is expensive to change later
+## `project-setup`: set up what is expensive to change later
 
 Owns technology selection and standing up the gates before the first feature: language, build
 tool, linter, formatter, test runner, CI, directory layout, licence, PR template.

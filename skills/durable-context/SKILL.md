@@ -5,14 +5,14 @@ description: This skill should be used when recording a decision, a follow-up, p
 
 # durable-context
 
-Context lives in the project, where the next reader — human or agent — will find it.
+Context lives in the project, where the next reader, human or agent, will find it.
 
 Context kept in a private store, a chat, or a soon-buried PR description is context no one can find
 later. If it matters past this moment, it belongs in the project, in the open.
 
 ## Rules
 
-1. **Project context goes in the project — not in private memory or a chat.** Decisions, knowledge,
+1. **Project context goes in the project, not in private memory or a chat.** Decisions, knowledge,
    and state that others will need live in a repo file or an issue, readable by humans and agents
    alike. A private note about how you yourself operate is the exception, and the only one.
 
@@ -22,13 +22,13 @@ later. If it matters past this moment, it belongs in the project, in the open.
 3. **Index every context file so a reader can reach it from the entry point.** Follow the indexes
    down from the `README` or `CLAUDE.md`; in a nested project a file's link lives in the nearest
    index, not the root, and each index points on to the next. A file no chain of indexes reaches
-   cannot be found — the same as not existing.
+   cannot be found, which is the same as not existing.
 
 4. **Keep it plain and open.** Markdown or the like, readable without a particular tool. If only one
    tool can read it, it is hidden.
 
 5. **One home per kind.** Decisions to `decision-log`, open questions to `docs/context`, rationale
-   to `essays` — so a reader knows where to look before they look.
+   to `essays`, so a reader knows where to look before they look.
 
 ## Not here
 

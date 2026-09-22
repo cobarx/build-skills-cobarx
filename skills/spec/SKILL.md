@@ -1,15 +1,15 @@
 ---
 name: spec
-description: This skill should be used when a change needs a choice about how to build it — a tool, a library, a design; when work jumps to a solution before what it must do is written down; or when it is unclear how much of the behaviour to pin down. It governs defining what the system must do, and how deeply, before choosing how.
+description: This skill should be used when a change needs a choice about how to build it (a tool, a library, a design); when work jumps to a solution before what it must do is written down; or when it is unclear how much of the behaviour to pin down. It governs defining what the system must do, and how deeply, before choosing how.
 ---
 
 # spec
 
 Say what the system must do before choosing how.
 
-A solution proposed before its criteria is a guess dressed as an answer. The spec fixes the target —
-what the change must accomplish, and what it is judged against — so a choice can be weighed instead
-of picked.
+A solution proposed before its criteria is a guess dressed as an answer. The spec fixes the target
+(what the change must accomplish, and what it is judged against), so a choice can be weighed
+instead of picked.
 
 ## Rules
 
@@ -23,9 +23,9 @@ of picked.
    architecture. What the builder gets right from convention can rest on convention; what bears on
    the goal, reads two ways, or would be filled with the convenient guess must be written.
 
-4. **Set the depth by the cost of a wrong guess, and by the builder.** The more a bad guess costs —
-   safety, an irreversible action, a builder who builds exactly and only what is written, like a
-   vendor or an agent — the closer to exhaustive. A builder who fills gaps with judgement needs less.
+4. **Set the depth by the cost of a wrong guess, and by the builder.** The more a bad guess costs
+   (safety, an irreversible action, a builder who builds exactly and only what is written, like a
+   vendor or an agent), the closer to exhaustive. A builder who fills gaps with judgement needs less.
 
 5. **Complete when it cannot be met while missing the goal.** If someone could satisfy the whole
    spec and still miss the point, it has a hole; if a line could be cut and nothing would be gotten
@@ -33,7 +33,7 @@ of picked.
 
 ## Not here
 
-Registering the terms a spec uses — the vocabulary chain, industry to code — is `glossary`
+Registering the terms a spec uses (the vocabulary chain, industry to code) is `glossary`
 (planned); binding code to those terms is `naming`. Whether the goal was met is `definition-of-done`.
 How a choice among options is made and recorded is `decision-log`. This governs what the system must
 do, and how deeply, not how it is built.
