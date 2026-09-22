@@ -35,8 +35,8 @@ its provenance, the byline and the revision history, and will grow.
 
 ## Not here
 
-When to reach for an essay over a decision record or a chat reply is the repo's own guidance
-(`README`, `CLAUDE.md`). Versioning the skill library is `skill-versioning`.
+Where an essay sits among the other kinds of record is `durable-context`. Versioning the skill
+library is `skill-versioning`.
 
 ---
 

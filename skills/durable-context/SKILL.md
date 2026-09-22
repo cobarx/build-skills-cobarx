@@ -27,8 +27,8 @@ later. If it matters past this moment, it belongs in the project, in the open.
 4. **Keep it plain and open.** Markdown or the like, readable without a particular tool. If only one
    tool can read it, it is hidden.
 
-5. **One home per kind.** Decisions to `decision-log`, open questions to `docs/context`, rationale
-   to `essays`, so a reader knows where to look before they look.
+5. **One home per kind.** Decisions in `docs/decisions/`, open questions in `docs/context/`,
+   rationale in `docs/essays/`, so a reader knows where to look before they look.
 
 ## Not here
 
