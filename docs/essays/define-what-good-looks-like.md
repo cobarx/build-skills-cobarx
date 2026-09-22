@@ -14,8 +14,9 @@ later.
 ## What the clip taught
 
 We dogfooded the skill on playhead #4, a script that generates a test clip for caption fixtures —
-and it caught me out. I checked three of the spec's four values off `ffprobe` competently enough
-(30s, 1280x720, 30fps). Three things I did not do, in ascending order of how much they mattered:
+and it caught me out. I went straight to `ffprobe` and read metadata (30s, 1280x720, 30fps). It
+felt like verifying, but the criteria were mediocre: the first thing a staff engineer does is open
+the file and watch it. Three misses, in ascending order of how much they mattered:
 
 - I wrote "604 KB ✓" on the fourth value without measuring it (it was 617,574 bytes). *Show, don't
   assert* — even to yourself.
