@@ -17,8 +17,10 @@ not approval, and neither is a green check.
    replace, not evidence. Every check shows its measured value beside the expected one; a bare
    check mark is an assertion.
 
-2. **No stated goal, nothing to check.** A spec with no goal, or one fitted afterward to what was
-   built, is a defect in the spec: fix it (`spec`) rather than assert past it.
+2. **No stated goal, nothing to check.** A unit smaller than its spec states its own goal, the
+   slice of the spec's goal it delivers; the unit that completes the spec also shows the whole
+   goal met. A missing goal, or one fitted afterward to what was built, is a spec defect: fix it
+   (`spec`) rather than assert past it.
 
 3. **Check every dimension; a skipped one is a failure.** Enumerate what the artifact must be and
    show each, rather than the routine you find convenient. A dimension the spec never named (the
