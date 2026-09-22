@@ -19,6 +19,7 @@ The reasoning behind them lives in [docs/essays/](docs/essays/).
 | [skill-versioning](skills/skill-versioning/SKILL.md) | Version the skill library by how its skills changed. |
 | [parallel-work](skills/parallel-work/SKILL.md) | Isolate concurrent work at the cheapest level that prevents collisions. |
 | [definition-of-done](skills/definition-of-done/SKILL.md) | Done is the goal met, and shown to be met. |
+| [essays](skills/essays/SKILL.md) | An essay says who wrote it and how it has changed. |
 
 Planned: `linting`, `spec`, `test-fidelity`, `harness`, `project-setup`,
 `decision-log`, plus ports of `tdd` and `error-taxonomy`.
