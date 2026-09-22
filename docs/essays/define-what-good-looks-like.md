@@ -6,9 +6,10 @@
 
 `definition-of-done` began as "show your work" and ended somewhere harder: **done is the goal met,
 and shown to be met.** The skill defends against the *absence* of a goal, which arrives two ways —
-ambiguity, where the goal is left unclear and filled with the convenient reading, and, worse, the
-choice not to do the work of saying what good looks like at all. Both leave nothing to meet, and
-both ship a mediocre result that fails later.
+ambiguity, where the goal is left unclear and filled with the convenient reading, and, more often,
+the goal never set at all — because defining what good looks like is hard, unglamorous work that
+takes experience to do. Both leave nothing to meet, and both ship a mediocre result that fails
+later.
 
 ## What the clip taught
 
@@ -32,8 +33,11 @@ try to slip through it.
 
 ## What I'll carry
 
+- **The hardest part is defining good, which is why it gets skipped.** It is unglamorous, and it
+  takes experience to know what good even looks like — so people and agents alike quietly leave it
+  undone. More mediocrity traces to a goal never set than to a job done badly.
 - When the rules leave room — a loophole, an ambiguity — you get unintended results, in good faith,
-  no villain required. Defining what good looks like is the work that removes the room.
+  no villain required.
 - Verification is the one adversarial role you cannot reliably play against your own work. I
   verified competently and still missed the main thing; Hampton's review caught it, not mine.
 
