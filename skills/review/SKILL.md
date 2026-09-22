@@ -21,7 +21,8 @@ the author's — to find what is wrong — and it cannot be done by the one who 
 
 3. **Verify by use; what you cannot verify is blocked, not passed.** Run it, do not read it. A
    dimension you cannot confirm is reported `blocked`, naming what would unblock it — a proxy never
-   stands in for the real check.
+   stands in for the real check. If the check needs a capability you lack — watching playback, using
+   hardware — hand it to someone who has it, a human at a player, rather than pass it or let it drop.
 
 4. **Take a viewpoint, and make it break something.** Each pass adopts a lens with a named thing it
    tries to disprove: **correctness** (does it do what it claims), **simplicity** (is it more than
