@@ -104,15 +104,6 @@ Splits: `fixtures` owns the corpus mechanism (capture, organise, grow), this own
 owns test-first timing, this owns test design. They are counterparts, since tdd's "watch it fail
 for the right reason" is this rule at runtime.
 
-## `definition-of-done` — establish when a unit is complete
-
-Spine is **burden of proof**: the change justifies itself, and silence is not approval. That is a
-stronger shape than a checklist of boxes.
-
-Kept separate from `simplicity` because it cuts across `spec`, `contracts`, `linting` and
-`decision-log`, and a cross-cutting concern belongs beside the things it cuts across rather than
-inside one of them (`simplicity` rule 2).
-
 ## `spec` — define what the system must do before choosing how
 
 Owns the **glossary**, and the vocabulary chain: **industry to spec to code**. The spec does not
