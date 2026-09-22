@@ -66,6 +66,14 @@ is the kind of thing that rots quietly.
 skill authoring to specs, docs, and any distillation task. Currently it lives only in
 `docs/essays/outline-is-the-skill.md` and in `CLAUDE.md` as a convention.
 
+**How much proof is enough?** `definition-of-done` says to check every dimension and to scale the
+proof to the blast radius. "Exhaustive" and "proportionate" pull against each other, and the line is
+not yet drawn. Raised in `docs/essays/define-what-good-looks-like.md`.
+
+**Is survey-then-dive a real pattern**, or an artifact of one probe? Survey first is cheap and
+tells you which dive is worth doing, but that is one data point. Raised in
+`docs/essays/simplicity-is-not-size.md`.
+
 ## Stranded elsewhere
 
 Research for the **playhead** project, including the caption test corpus (Sintel's ~40 languages,
