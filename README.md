@@ -18,9 +18,10 @@ The reasoning behind them lives in [docs/essays/](docs/essays/).
 | [fixtures](skills/fixtures/SKILL.md) | Test data comes from the real world, or says that it does not. |
 | [skill-versioning](skills/skill-versioning/SKILL.md) | Version the skill library by how its skills changed. |
 | [parallel-work](skills/parallel-work/SKILL.md) | Isolate concurrent work at the cheapest level that prevents collisions. |
+| [definition-of-done](skills/definition-of-done/SKILL.md) | Done is the goal met, and shown to be met. |
 
-Planned: `linting`, `spec`, `definition-of-done`, `test-fidelity`, `harness`,
-`project-setup`, `decision-log`, plus ports of `tdd` and `error-taxonomy`.
+Planned: `linting`, `spec`, `test-fidelity`, `harness`, `project-setup`,
+`decision-log`, plus ports of `tdd` and `error-taxonomy`.
 
 ## Installation
 
