@@ -23,10 +23,14 @@ I did not do badly on what I looked at. I read three of the spec's four values o
 track, which is a fair question: you do not ship a video without deciding whether it has audio and
 what belongs in it.
 
-Two misses remained, and the second is the bigger one. On that fourth value I wrote "604 KB ✓" — a
-check mark on a number I never measured (the file is 617,574 bytes). And I never played the clip: I
-checked its properties and never checked that the object, as a whole, worked. A file can report
-every right value and still not play.
+Three misses, in ascending order of how much they matter. On that fourth value I wrote "604 KB ✓" —
+a check mark on a number I never measured (the file is 617,574 bytes). Worse, I never played the
+clip: I checked its properties and never checked that the object, as a whole, worked — a file can
+report every right value and still not play. Worst, and the point I raised and then let slip: **no
+one asked whether the clip is actually useful for testing captions.** It can hit every property,
+play cleanly, and still be useless for its one job — captions could render illegibly over that busy
+pattern, and there is no defined region for them to land in. That is the goal, and it went
+unexamined.
 
 ## The actual diagnosis
 
@@ -68,8 +72,10 @@ in good faith, and ship the mediocre thing the undefined rule allowed.
 - **The absence of a goal has two causes, and one is a choice.** Ambiguity leaves the goal unclear;
   sloth never defines it. Defining what good looks like is real work, done up front, and declining
   to do it is the deeper failure.
-- **A goal is what the output must let its user do** — not what it is, not a number it hits. A role
-  and an attribute both masquerade as goals and check out while the thing is useless.
+- **A goal is what the output must let its user do** — not what it is, not a number it hits, not
+  even that it runs. The real question for the clip was never asked: can you place a caption on it
+  and tell whether it rendered right? A role and an attribute both check out while the thing is
+  useless for its purpose.
 - **State the goal before the work.** One invented afterward to fit what you built passes by
   construction, and proves nothing.
 - **Analysis is not use.** `ffprobe` reads the container's claims about itself; only playing the
