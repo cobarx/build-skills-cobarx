@@ -42,8 +42,9 @@ that ecosystem, and nothing fails loudly when it does.
    already unavailable for new code.
 
 7. **Precedence.** A logged project decision beats a platform convention, which beats personal
-   preference. **At an interoperability boundary the boundary's convention wins**, whatever the
-   language says inside. Deviating from a platform convention is a decision, and gets logged.
+   preference. **At an interoperability boundary the boundary's convention wins**, over a logged
+   decision too, whatever the language says inside. Deviating from a platform convention is a
+   decision, and gets logged.
 
 8. **Mechanize what can be mechanized.** Naming, import order, formatting and ecosystem lints go
    to `linting`. Anything a linter can check should not depend on a reviewer noticing.
