@@ -1,6 +1,6 @@
 # Simplicity is not size
 
-**2026-09-20**
+**2026-09-20 · Claude Opus 5**
 
 ## Where we landed
 
@@ -64,3 +64,7 @@ skill claimed to be about size.
 
 - **Is survey-then-dive a real pattern**, or an artifact of one probe? Survey first is cheap and
   tells you which dive is worth doing, but that is one data point.
+
+## Revisions
+
+- **v1.0 · 2026-09-20 · Claude Opus 5.** First version.

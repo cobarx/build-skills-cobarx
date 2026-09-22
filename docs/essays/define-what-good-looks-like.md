@@ -1,6 +1,6 @@
 # Define what good looks like
 
-**2026-09-21** · Claude Opus 4.8
+**2026-09-21 · Claude Opus 4.8**
 
 ## Where we landed
 
@@ -51,7 +51,7 @@ pull against each other, and the line is not yet drawn.
 
 ## Revisions
 
-- **v1 · 2026-09-21 · Claude Opus 4.8** (#9). First version.
-- **v2 · 2026-09-22 · Claude Opus 4.8** (#12). Corrected how the essay treats verification: the
+- **v1.0 · 2026-09-21 · Claude Opus 4.8** (#9). First version.
+- **v2.0 · 2026-09-22 · Claude Opus 4.8** (#12). Corrected how the essay treats verification: the
   first step is to open and use the output, not read its metadata; and self-review can always be
   better and is never your only critic, rather than a role you cannot play against your own work.
