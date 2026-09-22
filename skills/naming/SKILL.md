@@ -36,8 +36,8 @@ looks reasonable enough.
    a test attached. Splitting is the fix; a vaguer name is not.
 
 4. **Vagueness is denied, not discouraged.** `process`, `handle`, `manage`, `do`, `perform`,
-   `util`, `helper`, `data`, `info`, `temp`, `val`, `obj`. Enforced by `linting` via `id-denylist`
-   and `naming-convention`, so this is a build failure rather than a review opinion.
+   `util`, `helper`, `data`, `info`, `temp`, `val`, `obj`. `linting` (planned) makes this a build
+   failure; until it exists, a reviewer blocks on it.
 
 5. **Booleans read as assertions.** `isReady`, `hasCaptions`, `shouldRetry`. Not `ready`,
    `captions`, `retry`.
