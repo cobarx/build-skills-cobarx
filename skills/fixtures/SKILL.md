@@ -13,10 +13,9 @@ with your assumptions because it was made from them.
 ## Rules
 
 1. **Prefer capture.** Not from memory, not from a specification, not from a string typed until
-   the test passed. The exceptions are genuine impossibility, never effort: the system does not
-   exist yet, access is unavailable, the real thing is gigabytes, it needs a setup you cannot
-   reproduce. A file built to fit a test encodes the code's assumptions rather than the world's
-   behaviour, and the test can then only confirm them.
+   the test passed. The exceptions are genuine impossibility, never effort: the real thing is
+   gigabytes, or it needs a setup you cannot reproduce. A file built to fit a test encodes the
+   code's assumptions rather than the world's behaviour, and the test can then only confirm them.
 
 2. **Label what is synthetic.** Derive from a capture where you can, by trimming, sampling or
    redacting. Synthetic is also the right tool for extremes a real corpus will not reliably
@@ -41,8 +40,9 @@ with your assumptions because it was made from them.
 7. **Scrub at capture, not at commit.** Secrets, tokens and personal data are removed by the
    capture script. A scrub step that runs later is a scrub step that gets skipped once.
 
-8. **Defer a missing fixture; do not invent one.** Mark the test ignored, naming what is needed and
-   where to get it. An ignored test is honest; a test passing against imagined data is not.
+8. **Defer what cannot be captured yet; do not invent it.** When the system does not exist yet or
+   access is pending, mark the test ignored, naming what is needed and where to get it. An ignored
+   test is honest; a test passing against imagined data is not.
 
 9. **Vendor only what you can license.** A corpus with unclear provenance is a liability sitting in
    the repository, whatever its technical merits.
