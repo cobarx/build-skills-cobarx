@@ -21,6 +21,7 @@ The reasoning behind them lives in [docs/essays/](docs/essays/).
 | [definition-of-done](skills/definition-of-done/SKILL.md) | Done is the goal met, and shown to be met. |
 | [essays](skills/essays/SKILL.md) | An essay says who wrote it and how it has changed. |
 | [review](skills/review/SKILL.md) | A reviewer tries to break the work against the standard it claims to meet. |
+| [durable-context](skills/durable-context/SKILL.md) | Context lives in the project, where the next reader will find it. |
 
 Planned: `linting`, `spec`, `test-fidelity`, `harness`, `project-setup`,
 `decision-log`, plus ports of `tdd` and `error-taxonomy`.
