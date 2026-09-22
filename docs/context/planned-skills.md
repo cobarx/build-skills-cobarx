@@ -113,13 +113,18 @@ not at all" from a position into a procedure step. The day-one half is owned by 
 
 ## `test-fidelity` — a test must be able to fail for the real reason
 
-Fully designed, zero remaining design work. Five rules, each a way a test loses that ability:
+Designed; one refinement recorded below (flow coverage). Five rules, each a way a test loses that
+ability:
 
 1. **Place the test at the seam.** A test far from the failure fails for a proxy reason. Unit
    tests where the logic is; contract tests at every service boundary, including local utilities
    and shell scripts, which is the part people skip.
-2. **Cover every dimension.** Unit, integration, e2e, browser. A missing kind means that class of
-   failure cannot be caught at all. Presence across kinds, not the test pyramid's proportions.
+2. **Cover every dimension; the e2e dimension covers the enumerated flows.** Unit, integration,
+   e2e, browser — a missing kind means that class of failure cannot be caught at all. For e2e, the
+   coverage target is the enumerated key user flows and their options, taken from the spec: each
+   driven end to end, asserting the goal reached, not the lines touched. 100% of that list, since
+   the flows are the spec's behavioral core. Presence across kinds, not the test pyramid's
+   proportions.
 3. **Test in an environment that tells the truth.** Where deployed differs from local, test where
    it deploys. A fake environment produces fake passes.
 4. **Use real data, never invented mocks.** A mock makes the test pass for a reason real data
@@ -133,6 +138,23 @@ Named `test-fidelity` because plain `testing` admits anything, failing `naming` 
 Splits: `fixtures` owns the corpus mechanism (capture, organise, grow), this owns the rule. `tdd`
 owns test-first timing, this owns test design. They are counterparts, since tdd's "watch it fail
 for the right reason" is this rule at runtime.
+
+### Flow coverage, and why it is a gate
+
+The e2e gap in AI-built code is not industry's cost gradient — code is cheap. It is optimism: the
+model assumes the flow works and never writes the test that would complete it. A bias, not a budget,
+so the fix is a measured gate — 100% of the enumerated flows — not a judgment call. That is the
+`format` and `linting` move: take it out of judgment.
+
+Ownership stays clean. Enumerating the flows and their options is high-leverage `spec` work — the
+`spec` states the behavior, `test-fidelity` requires each enumerated flow exercised end to end and
+asserting the goal. So "user flows" does not enter the general `spec` skill (a library API or a
+data-format spec has no flows); it enters here, as the denominator this rule measures against.
+
+Coverage here means execution against that denominator, not lines touched — line coverage inflates
+because it is cheap to raise, and the user flow is the behavior it cannot count. The residual trust
+question moves with it, and to a better place: not "are the assertions across the suite strong
+enough" (opaque) but "did we enumerate the right flows" (one legible list, reviewable as spec).
 
 ## `glossary` — a domain concept has one registered term
 
