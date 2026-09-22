@@ -39,8 +39,7 @@ actually contends for, and no more.
 
 The git commands that add, list, and prune a worktree are mechanics, not decisions; they live in
 git's own documentation. Whether something is one unit or several is `simplicity`. Where isolated
-config and data are allowed to live is `platform-correctness`. Merging skill changes back and
-versioning them is `skill-versioning`.
+config and data are allowed to live is `platform-correctness`.
 
 ---
 
