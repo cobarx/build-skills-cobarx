@@ -26,7 +26,7 @@ looks reasonable enough.
 ## Rules
 
 1. **Name what it does, not what it accomplishes or how it behaves.** `updateTimestamp`, not
-   `refreshUI` (the outcome) and not `processEvent` (the mechanism).
+   `refreshUI` (the outcome) and not `mutateInPlace` (the mechanism).
 
 2. **A name excludes implementations; it does not admit them.** If two functions with different
    behaviour could both plausibly carry the name, the name says nothing. `parseManifest` admits
