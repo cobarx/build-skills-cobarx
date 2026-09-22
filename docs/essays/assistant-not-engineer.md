@@ -25,9 +25,11 @@ approving what got built is all that is left.
 
 ## Why one agent cannot fix it
 
-You cannot bless your own work honestly, because owning the artifact gives you a stake in it
-shipping. The critic and the builder want opposite things — one to find what is wrong, one to be
-done — and a single agent settles that toward "done" every time.
+You cannot bless your own work honestly, because the thing you just built is the stake that bends
+the verdict. Independence is rarely total — a reviewer usually shares some stake in the work
+shipping — but not that one, the author's stake in this artifact. The critic and the builder want
+opposite things — one to find what is wrong, one to be done — and a single agent settles that toward
+"done" every time.
 
 ## Re-targeting it
 
@@ -35,8 +37,8 @@ Each default gets a countermove:
 
 - **Define good first** — settle the ambiguity before the work, so a review has a standard to check
   instead of the model filling the gap itself.
-- **Split build from bless** — the reviewer is not the author and holds no stake in shipping;
-  rewarded for catching, not for approving.
+- **Split build from bless** — the reviewer is not the author and does not share the author's stake
+  in the artifact; its job is to catch, not to be done.
 - **Keep the change small and high-yield** — separate PRs, one unit each, and changes that do much
   with little code rather than walls of it. A change too large to review is not reviewed. This is
   `simplicity`.
@@ -51,3 +53,5 @@ standard set in advance, can say no — and does. That is the difference between
 ## Revisions
 
 - **v1.0 — 2026-09-22 · Claude Opus 4.8.** First version.
+- **v1.1 — 2026-09-22 · Claude Opus 4.8.** Softened the independence claim: a reviewer rarely holds
+  *no* stake, but does not share the author's stake in the artifact — the one that bends a verdict.
