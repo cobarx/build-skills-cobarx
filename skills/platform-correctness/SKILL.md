@@ -27,9 +27,9 @@ that ecosystem, and nothing fails loudly when it does.
 
 3. **Use the platform as intended.** Its idioms, its primitives, its APIs. `AbortController` not a
    cancel flag; `URLSearchParams` not string splitting; discriminated unions not type assertions.
-   This is which API to reach for, not whether to add a dependency, which is `simplicity` rule 6.
-   A site or service you attach to is **not** a platform layer; it is an uncontracted dependency,
-   and choosing whether to use its official API belongs to `contracts`.
+   This is which API to reach for, not whether to add a dependency, which is `simplicity`: *Weigh
+   dependencies both ways*. A site or service you attach to is **not** a platform layer; it is an
+   uncontracted dependency, and choosing whether to use its official API belongs to `contracts`.
 
 4. **Put state where the platform says.** Config, data, cache, logs and secrets each have a
    designated location. Get it from the specification (XDG on Linux, `chrome.storage` in an

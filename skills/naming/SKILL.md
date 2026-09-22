@@ -46,7 +46,8 @@ looks reasonable enough.
    concept, everywhere.
 
 7. **A rename is its own change.** Mechanical refactors are single units regardless of size
-   (`simplicity` rule 4), so rename in its own PR rather than smuggling it alongside behaviour.
+   (`simplicity`: *Exceptions, named so the rule survives*), so rename in its own PR rather than
+   smuggling it alongside behaviour.
 
 ## Not here
 
