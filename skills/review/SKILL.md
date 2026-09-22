@@ -19,7 +19,7 @@ the author's (to find what is wrong), and it cannot be done by the one who built
    to (`definition-of-done`, `simplicity`, `naming`, the rest) and to its own stated goal. A
    private preference dressed as a finding wastes the author's time.
 
-3. **Verify by use; what you cannot verify is blocked, not passed.** Run it, do not read it. A
+3. **Verify by use; what you cannot verify is blocked, not passed.** Run it, don't just read it. A
    dimension you cannot confirm is reported `blocked`, naming what would unblock it; a proxy never
    stands in for the real check. If the check needs a capability you lack (watching playback, using
    hardware), hand it to someone who has it, a human at a player, rather than pass it or let it drop.
