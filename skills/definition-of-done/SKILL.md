@@ -5,11 +5,11 @@ description: This skill should be used when preparing a change for review or dec
 
 # definition-of-done
 
-The change shows what it does and how it was checked; it does not merely say so.
+Done is the goal shown to be met.
 
-Done is the goal met, and shown to be met. The goal lives in the spec; checking every dimension
-against it is also how a hole in the spec shows. An assertion asks the reviewer to trust; an
-artifact lets them decide by looking. Silence is not approval, and neither is a green check.
+The goal lives in the spec; checking every dimension against it is also how a hole in the spec
+shows. An assertion asks the reviewer to trust; an artifact lets them decide by looking. Silence is
+not approval, and neither is a green check.
 
 ## Rules
 

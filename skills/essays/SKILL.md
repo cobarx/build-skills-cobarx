@@ -5,7 +5,7 @@ description: This skill should be used when writing or editing an essay in docs/
 
 # essays
 
-An essay says who wrote it and how it has changed.
+An essay carries its provenance.
 
 An essay is where the reasoning lives that a skill leaves out (why a practice exists, what it cost
 to learn, what it shapes). Writing one well is a wider skill than this; for now these rules cover
