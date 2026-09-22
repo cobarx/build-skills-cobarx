@@ -138,14 +138,14 @@ Named `project-setup` rather than `scaffolding` because `contracts` needs that w
 wheelviser's meaning, a wrapper contract around an undocumented dependency, which is the more
 valuable use.
 
-Splits from siblings: `decision-log` owns the *form* of a record, this owns *which* decisions must
-be made before starting. `platform-correctness` owns conforming to a platform, this owns choosing
+Splits from siblings: `decision-log` owns how a decision is made and recorded, this owns *which*
+decisions must be made before starting. `platform-correctness` owns conforming to a platform, this owns choosing
 one. `linting` owns the mechanism, this owns standing it up on day one.
 
 ## Also planned
 
-`harness` (make the system locally observable without external services), `decision-log` (port),
-`tdd` (port), `error-taxonomy` (port).
+`harness` (make the system locally observable without external services), `tdd` (port),
+`error-taxonomy` (port).
 
 ## The adversarial stance is not a skill
 
