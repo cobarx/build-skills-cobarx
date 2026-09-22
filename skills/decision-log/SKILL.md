@@ -1,19 +1,19 @@
 ---
 name: decision-log
-description: This skill should be used when a choice is made between options — a tool, a library, an architecture; when an agent is about to hand someone a decision to make; or when a past decision is revisited or reversed. It governs how a decision is made and recorded, not which decisions are owed.
+description: This skill should be used when a choice is made between options (a tool, a library, an architecture); when an agent is about to hand someone a decision to make; or when a past decision is revisited or reversed. It governs how a decision is made and recorded, not which decisions are owed.
 ---
 
 # decision-log
 
 A decision is made in the open, and the record says how.
 
-The choice is the least of it. What a later reader needs is why this option and not the others — so
+The choice is the least of it. What a later reader needs is why this option and not the others, so
 the record carries the reasoning, and the reasoning happens before the choice, not after it.
 
 ## Rules
 
-1. **Frame it before you make it.** The criteria (from `spec`), the real options, the tradeoffs —
-   established first. A choice made before it is framed is made in the dark.
+1. **Frame it before you make it.** Establish the criteria (from `spec`), the real options, and the
+   tradeoffs first. A choice made before it is framed is made in the dark.
 
 2. **Record the how, not just the what.** The entry says what was weighed and why this one won, so
    the decision can be revisited on its reasoning rather than re-argued from scratch.

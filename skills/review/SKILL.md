@@ -8,7 +8,7 @@ description: This skill should be used when reviewing a change, a PR, or another
 A reviewer tries to break the work against the standard it claims to meet.
 
 A review that sets out to approve finds reasons to approve. The reviewer's job is the opposite of
-the author's — to find what is wrong — and it cannot be done by the one who wants the change to ship.
+the author's (to find what is wrong), and it cannot be done by the one who wants the change to ship.
 
 ## Rules
 
@@ -16,18 +16,18 @@ the author's — to find what is wrong — and it cannot be done by the one who 
    The moment it owns the fix, it has a stake, and stops being a critic.
 
 2. **Check the declared standard, not one you invent.** Hold the change to the skills it is subject
-   to — `definition-of-done`, `simplicity`, `naming`, the rest — and to its own stated goal. A
+   to (`definition-of-done`, `simplicity`, `naming`, the rest) and to its own stated goal. A
    private preference dressed as a finding wastes the author's time.
 
 3. **Verify by use; what you cannot verify is blocked, not passed.** Run it, do not read it. A
-   dimension you cannot confirm is reported `blocked`, naming what would unblock it — a proxy never
-   stands in for the real check. If the check needs a capability you lack — watching playback, using
-   hardware — hand it to someone who has it, a human at a player, rather than pass it or let it drop.
+   dimension you cannot confirm is reported `blocked`, naming what would unblock it; a proxy never
+   stands in for the real check. If the check needs a capability you lack (watching playback, using
+   hardware), hand it to someone who has it, a human at a player, rather than pass it or let it drop.
 
 4. **Take a viewpoint, and make it break something.** Each pass adopts a lens with a named thing it
    tries to disprove: **correctness** (does it do what it claims), **simplicity** (is it more than
    one thing, is it coupled), the **user's purpose** (does it serve the goal, not merely run). A
-   persona with no disproof is costume. More lenses — security, docs — as the work warrants.
+   persona with no disproof is costume. More lenses (security, docs) as the work warrants.
 
 5. **Report pass, fail, or blocked, then stop.** Return a verdict per point, with the evidence. The
    fix belongs to the author; a review that rewrites the work has reviewed nothing.
