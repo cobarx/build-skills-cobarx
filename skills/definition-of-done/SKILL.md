@@ -50,9 +50,8 @@ them decide by looking. Silence is not approval, and neither is a green check.
 
 ## Not here
 
-How a test earns the right to fail is `test-fidelity`. What a good spec contains, and how it names
-its terms, is `spec`. Where a fixture's data comes from is `fixtures`. Whether the unit is one thing
-is `simplicity`.
+How a test earns the right to fail is `test-fidelity`. What a good spec contains is `spec`. Where a
+fixture's data comes from is `fixtures`. Whether the unit is one thing is `simplicity`.
 
 ---
 

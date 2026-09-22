@@ -42,8 +42,7 @@ looks reasonable enough.
 5. **Booleans read as assertions.** `isReady`, `hasCaptions`, `shouldRetry`. Not `ready`,
    `captions`, `retry`.
 
-6. **Use the spec's registered vocabulary.** The spec does not originate terms, it adopts the
-   industry term and records the choice. Code then uses what the spec registered, one term per
+6. **Use the registered vocabulary.** Code uses the term registered for a concept, one term per
    concept, everywhere.
 
 7. **A rename is its own change.** Mechanical refactors are single units regardless of size
@@ -52,8 +51,9 @@ looks reasonable enough.
 ## Not here
 
 The *shape* of a name (casing, prefixes, platform convention) is `platform-correctness`. The
-*meaning* is here. Complexity thresholds are `simplicity`. Where module boundaries fall is
-`contracts`. Enforcement is `linting`.
+*meaning* is here. Which term a domain concept is registered under is `glossary` (planned).
+Complexity thresholds are `simplicity`. Where module boundaries fall is `contracts`. Enforcement
+is `linting`.
 
 ---
 
