@@ -14,7 +14,7 @@ them decide by looking. Silence is not approval, and neither is a green check.
 
 ## Rules
 
-1. **Show, don't assert.** A claim — "tested", "works", "607 KB" — is the thing evidence would
+1. **Show, don't assert.** A claim — "tested", "works", "all green" — is the thing evidence would
    replace, not evidence. Every check shows its measured value beside the expected one; a bare
    check mark is an assertion.
 
