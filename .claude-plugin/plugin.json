@@ -1,7 +1,7 @@
 {
   "name": "build-skills-cobarx",
   "description": "Skills for how software gets built, each loaded when it applies",
-  "version": "0.10.1",
+  "version": "0.10.2",
   "author": {
     "name": "Hampton Maxwell",
     "email": "me@hamptonmaxwell.com"
