@@ -1,6 +1,6 @@
 ---
 name: fixtures
-description: This skill should be used whenever a test needs data that originates outside the codebase: command output, network responses, sensor readings, third-party API payloads, page state from a site you do not control. It governs where that data comes from and what has to be recorded alongside it. Load it before writing a test that needs such data, before writing or running a capture, and when a fixture stops matching reality.
+description: This skill should be used whenever a test needs data that originates outside the codebase, such as command output, network responses, sensor readings, third-party API payloads, page state from a site you do not control. It governs where that data comes from and what has to be recorded alongside it. Load it before writing a test that needs such data, before writing or running a capture, and when a fixture stops matching reality.
 ---
 
 # fixtures
