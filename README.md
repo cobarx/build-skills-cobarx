@@ -10,23 +10,23 @@ The reasoning behind them lives in [docs/essays/](docs/essays/).
 
 | Skill | Purpose |
 |---|---|
-| [simplicity](skills/simplicity/SKILL.md) | Bound the size of a unit of work. |
+| [simplicity](skills/simplicity/SKILL.md) | Make every change cheap to understand. |
 | [platform-correctness](skills/platform-correctness/SKILL.md) | Meet the conventions of the environment the software runs in. |
 | [naming](skills/naming/SKILL.md) | A name tells the truth about the thing it names. |
 | [format](skills/format/SKILL.md) | Remove formatting from human judgment. |
 | [contracts](skills/contracts/SKILL.md) | Units meet only at explicit contracts, never internals. |
 | [fixtures](skills/fixtures/SKILL.md) | Test data comes from the real world, or says that it does not. |
 | [skill-versioning](skills/skill-versioning/SKILL.md) | Version the skill library by how its skills changed. |
-| [parallel-work](skills/parallel-work/SKILL.md) | Isolate concurrent work at the cheapest level that prevents collisions. |
+| [parallel-work](skills/parallel-work/SKILL.md) | Isolate concurrent units of work at the lowest level that prevents them from colliding. |
 | [definition-of-done](skills/definition-of-done/SKILL.md) | Done is the goal met, and shown to be met. |
 | [essays](skills/essays/SKILL.md) | An essay says who wrote it and how it has changed. |
 | [review](skills/review/SKILL.md) | A reviewer tries to break the work against the standard it claims to meet. |
-| [durable-context](skills/durable-context/SKILL.md) | Context lives in the project, where the next reader will find it. |
+| [durable-context](skills/durable-context/SKILL.md) | Context lives in the project, where the next reader, human or agent, will find it. |
 | [spec](skills/spec/SKILL.md) | Say what the system must do before choosing how. |
 | [decision-log](skills/decision-log/SKILL.md) | A decision is made in the open, and the record says how. |
 
-Planned: `linting`, `test-fidelity`, `harness`, `project-setup`, plus ports of
-`tdd` and `error-taxonomy`.
+Planned: `linting`, `test-fidelity`, `glossary`, `harness`, `project-setup`, a skill for the *why*
+behind a goal (name not settled), plus ports of `tdd` and `error-taxonomy`.
 
 ## Installation
 
