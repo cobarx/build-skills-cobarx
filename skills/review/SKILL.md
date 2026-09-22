@@ -8,12 +8,12 @@ description: This skill should be used when reviewing a change, a PR, or another
 A reviewer tries to break the work against the standard it claims to meet.
 
 A review that sets out to approve finds reasons to approve. The reviewer's job is the opposite of
-the author's (to find what is wrong), and it cannot be done by the one who wants the change to ship.
+the author's (to find what is wrong), and it cannot be done by the one who built it.
 
 ## Rules
 
-1. **Review from outside.** The reviewer is not the author and has no stake in the change shipping.
-   The moment it owns the fix, it has a stake, and stops being a critic.
+1. **Review from outside.** The reviewer is not the author and does not share the author's stake in
+   the artifact. The moment it owns the fix, it takes on that stake, and stops being a critic.
 
 2. **Check the declared standard, not one you invent.** Hold the change to the skills it is subject
    to (`definition-of-done`, `simplicity`, `naming`, the rest) and to its own stated goal. A
