@@ -32,6 +32,10 @@ the author's — to find what is wrong — and it cannot be done by the one who 
 5. **Report pass, fail, or blocked, then stop.** Return a verdict per point, with the evidence. The
    fix belongs to the author; a review that rewrites the work has reviewed nothing.
 
+6. **One review of record, kept current.** Edit one comment each pass rather than stack new ones:
+   the current verdict on top, then a history of what each pass raised and how it was resolved. A
+   reader should see the standing verdict without parsing the thread.
+
 ## Not here
 
 What "done" means is `definition-of-done`; a review checks against it, never redefines it. Whether a
