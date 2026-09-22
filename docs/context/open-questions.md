@@ -17,17 +17,6 @@ stays independently shareable, which was the reason for a separate repo at all.
 why a practice exists. Oxide's RFDs are the closest published model but are pre-decision. Recorded
 as ours per the vocabulary rule, and open to a better name.
 
-**Decision records do not exist.** Each skill ends with a glob pointing at
-`docs/decisions/*-<skill>-*.md`, which currently matches nothing. At minimum these are owed:
-
-- Why the outline is the skill (the essay exists, the record does not)
-- Why `linting` owns mechanism and not policy
-- Why `definition-of-done` stayed separate from `simplicity`
-- Why Brooks's essential/accidental rather than a spend/save/earn coinage
-- Why industry terms over our own
-- Why the adversarial stance is not a skill
-- Why three documentation classes rather than two
-
 **No linting or formatting configured in this repo yet.** A skills repo that preaches lint-from-day-one
 and ships without it is its own counterexample. Markdown is the only file type here, so the
 question is whether non-code linting counts, which is itself an open question below.
