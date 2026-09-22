@@ -21,6 +21,36 @@ the supplier's type is the coupling, because you cannot change it.
 
 One instance, one correction. Needs a second before it earns a rule.
 
+## `<name TBD>` — how you arrived at the goal (the *why*)
+
+The step before the goal. `definition-of-done` owns the *goal* — the *what* that must be true for a
+change to be done; this owns the *why*: the problem, the evidence, and the reasoning that produced
+that goal, so it can be trusted and revisited rather than taken as given. **Why before what:**
+justify the goal before you state it.
+
+Completes the chain **why → what → how**. The *what* has two faces: `spec` states the target and
+`definition-of-done` confirms it was hit — both are the *what*, not two rungs. This skill is the
+*why* above them; `decision-log` is the *how* below (and it records the why of a *decision* — a
+narrower why than the why of the *goal*). `essays` carry some of this reasoning as narrative, but
+are not the structured account.
+
+**A why has a source, and the source is its weight.** Where the goal came from sets how much it must
+earn its place before you build on it:
+- *research* — evidence-backed; grounded, if the research holds.
+- *an immediate problem* — real, if it is the root problem and not a symptom.
+- *intuition or past learnings* — may be right, may be stale; unexamined until it is named.
+- *someone asked or recommended* — an inherited why; whose problem is it, and did they examine it?
+  (the bundler recommendation was this one.)
+- *a lifelong dream* — motivating, but the weakest evidence that this is the right thing to build now.
+
+None is disqualified. The weaker sources are a flag to validate the goal harder, not to skip it, and
+the skill names the source so its weight is visible. Candidate spine: *a goal is only as trustworthy
+as the why behind it; name where it came from.*
+
+Name TBD: `rationale`, `problem`, `discovery`, `justification`, `why`. Open.
+
+Prompted 2026-09-22: "dod is not the why, it's the what; how you arrived at the goal is the why."
+
 ## `linting` — enforce the rules mechanically from the first commit
 
 Owns the **mechanism only**. Holds no policy of its own: every rule it runs is required by another
