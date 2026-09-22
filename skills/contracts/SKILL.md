@@ -42,9 +42,10 @@ behaviour while passing every gate. Testable in review by asking what you had to
 ## The same rules, against a system you do not control
 
 6. **Establish what it documents before integrating.** Three branches. Documented and free to
-   adopt: build against it. Undocumented: scaffold. **Documented but carrying terms that forbid
-   what you are building: scaffold anyway** and stay deliberately off the official surface. A
-   documented contract can come with terms attached, and adopting the contract adopts the terms.
+   adopt: build against it. Undocumented: scaffold. **Documented, but with terms that forbid what
+   you are building: log a decision** (`decision-log`) naming which terms bind you on every
+   surface. Adopting the contract adopts its terms; staying off it does not escape the provider's
+   general terms.
 
 7. **Choose the attachment point deliberately.** There is usually more than one way in. Enumerate
    them and choose on stability, testability and coupling. Taking the first that works is not a
