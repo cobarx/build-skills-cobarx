@@ -38,8 +38,10 @@ try to slip through it.
   undone. More mediocrity traces to a goal never set than to a job done badly.
 - When the rules leave room — a loophole, an ambiguity — you get unintended results, in good faith,
   no villain required.
-- Verification is the one adversarial role you cannot reliably play against your own work. I
-  verified competently and still missed the main thing; Hampton's review caught it, not mine.
+- You can always verify your own work better — and still should not be your only critic. I missed
+  the main thing and Hampton caught it, but that is mine to prevent next time, not a limit to hide
+  behind. Blind spots are universal, so another set of eyes stays essential. The error is treating
+  your own review as either futile or enough.
 
 ## Open question
 
