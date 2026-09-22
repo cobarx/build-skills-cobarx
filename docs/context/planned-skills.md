@@ -104,16 +104,19 @@ Splits: `fixtures` owns the corpus mechanism (capture, organise, grow), this own
 owns test-first timing, this owns test design. They are counterparts, since tdd's "watch it fail
 for the right reason" is this rule at runtime.
 
-## `spec` — define what the system must do before choosing how
+## `glossary` — a domain concept has one registered term
 
-Owns the **glossary**, and the vocabulary chain: **industry to spec to code**. The spec does not
-originate terms, it adopts the established industry term and records the choice; `naming` rule 6
-then binds code to what the spec registered.
+Pulled out of `spec` (2026-09-22), so `spec` stays *what, at the right depth, before how* and the
+vocabulary has its own home. Owns the *register* act in the chain **industry → glossary → code**:
+adopt the established industry term for a domain concept, record it, and cite the source; coin a
+term only for a construct with no industry name, and mark it as ours. One term per concept.
 
-Domain concepts must use the industry term. Architectural constructs local to a codebase may be
-coined, but coinage is recorded in the glossary and marked as ours.
+Three peers on the vocabulary chain: this *registers* the term, `spec` *uses* it to say what the
+system does, `naming` *binds* code to it (rule 6). `naming` could absorb the register act, but its
+spine — "a name tells the truth about the thing it names" — is individual code names, not a domain
+registry; a different act. Each glossary entry cites its source, per `platform-correctness` rule 1.
 
-Each glossary entry cites its source, per `platform-correctness` rule 1.
+Name TBD: `glossary`, `define-terms`, `vocabulary`.
 
 ## `project-setup` — set up what is expensive to change later
 
