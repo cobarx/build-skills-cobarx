@@ -1,6 +1,6 @@
 # The outline is the skill
 
-**2026-09-20**
+**2026-09-20 · Claude Opus 5**
 
 ## Where we landed
 
@@ -78,3 +78,7 @@ narrative, one per idea. `docs/context/` holds what is still open.
 
 The section that earns this format is **what it cost**. A terse ADR always drops it, and it is the
 part that stops someone undoing the decision later.
+
+## Revisions
+
+- **v1.0 · 2026-09-20 · Claude Opus 5.** First version.
