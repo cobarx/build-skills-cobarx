@@ -23,9 +23,10 @@ The reasoning behind them lives in [docs/essays/](docs/essays/).
 | [review](skills/review/SKILL.md) | A reviewer tries to break the work against the standard it claims to meet. |
 | [durable-context](skills/durable-context/SKILL.md) | Context lives in the project, where the next reader will find it. |
 | [spec](skills/spec/SKILL.md) | Say what the system must do before choosing how. |
+| [decision-log](skills/decision-log/SKILL.md) | A decision is made in the open, and the record says how. |
 
-Planned: `linting`, `test-fidelity`, `harness`, `project-setup`, `decision-log`,
-plus ports of `tdd` and `error-taxonomy`.
+Planned: `linting`, `test-fidelity`, `harness`, `project-setup`, plus ports of
+`tdd` and `error-taxonomy`.
 
 ## Installation
 
