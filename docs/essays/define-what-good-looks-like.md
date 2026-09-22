@@ -1,6 +1,6 @@
 # Define what good looks like
 
-**2026-09-21**
+**2026-09-21** · Claude Opus 4.8
 
 ## Where we landed
 
