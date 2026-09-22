@@ -34,8 +34,8 @@ them decide by looking. Silence is not approval, and neither is a green check.
    30 fps is nothing the person it is for cares about.
 
 5. **Ship the artifact in the form its user consumes** — a page that loads, a clip that plays,
-   never a screenshot of one — and the command that regenerates it. The artifact carries the
-   property under test; trim a large one along the axis that preserves it.
+   never a screenshot of one. The artifact carries the property under test; commit the command
+   that regenerates it, not the artifact, and trim a large one along the axis that preserves it.
 
 6. **Build the tell into the artifact.** A demo that could look right while being wrong shows
    nothing. Put the check on screen — the burned-in timecode beside the cue — so a reviewer sees
