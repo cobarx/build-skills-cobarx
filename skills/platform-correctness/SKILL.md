@@ -27,9 +27,9 @@ that ecosystem, and nothing fails loudly when it does.
 
 3. **Use the platform as intended.** Its idioms, its primitives, its APIs. `AbortController` not a
    cancel flag; `URLSearchParams` not string splitting; discriminated unions not type assertions.
-   This is which API to reach for, not whether to add a dependency, which is `simplicity` rule 6.
-   A site or service you attach to is **not** a platform layer; it is an uncontracted dependency,
-   and choosing whether to use its official API belongs to `contracts`.
+   This is which API to reach for, not whether to add a dependency, which is `simplicity`: *Weigh
+   dependencies both ways*. A site or service you attach to is **not** a platform layer; it is an
+   uncontracted dependency, and choosing whether to use its official API belongs to `contracts`.
 
 4. **Put state where the platform says.** Config, data, cache, logs and secrets each have a
    designated location. Get it from the specification (XDG on Linux, `chrome.storage` in an
@@ -42,8 +42,9 @@ that ecosystem, and nothing fails loudly when it does.
    already unavailable for new code.
 
 7. **Precedence.** A logged project decision beats a platform convention, which beats personal
-   preference. **At an interoperability boundary the boundary's convention wins**, whatever the
-   language says inside. Deviating from a platform convention is a decision, and gets logged.
+   preference. **At an interoperability boundary the boundary's convention wins**, over a logged
+   decision too, whatever the language says inside. Deviating from a platform convention is a
+   decision, and gets logged.
 
 8. **Mechanize what can be mechanized.** Naming, import order, formatting and ecosystem lints go
    to `linting`. Anything a linter can check should not depend on a reviewer noticing.

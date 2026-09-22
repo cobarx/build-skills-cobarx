@@ -33,9 +33,10 @@ them decide by looking. Silence is not approval, and neither is a green check.
    every page works, and it communicates to a visitor; that its HTML validates and `ffprobe` reads
    30 fps is nothing the person it is for cares about.
 
-5. **Ship the artifact in the form its user consumes.** A page that loads, a clip that plays,
-   never a screenshot of one. The artifact carries the property under test; commit the command
-   that regenerates it, not the artifact, and trim a large one along the axis that preserves it.
+5. **Show the artifact in the form its user consumes.** Put a page that loads or a clip that plays
+   in front of the reviewer, never a screenshot of one. The artifact carries the property under
+   test; commit the command that regenerates it, not the artifact, and trim a large one along the
+   axis that preserves it.
 
 6. **Build the tell into the artifact.** A demo that could look right while being wrong shows
    nothing. Put the check on screen (the burned-in timecode beside the cue) so a reviewer sees

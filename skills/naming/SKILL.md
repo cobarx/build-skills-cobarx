@@ -26,7 +26,7 @@ looks reasonable enough.
 ## Rules
 
 1. **Name what it does, not what it accomplishes or how it behaves.** `updateTimestamp`, not
-   `refreshUI` (the outcome) and not `processEvent` (the mechanism).
+   `refreshUI` (the outcome) and not `mutateInPlace` (the mechanism).
 
 2. **A name excludes implementations; it does not admit them.** If two functions with different
    behaviour could both plausibly carry the name, the name says nothing. `parseManifest` admits
@@ -36,8 +36,8 @@ looks reasonable enough.
    a test attached. Splitting is the fix; a vaguer name is not.
 
 4. **Vagueness is denied, not discouraged.** `process`, `handle`, `manage`, `do`, `perform`,
-   `util`, `helper`, `data`, `info`, `temp`, `val`, `obj`. Enforced by `linting` via `id-denylist`
-   and `naming-convention`, so this is a build failure rather than a review opinion.
+   `util`, `helper`, `data`, `info`, `temp`, `val`, `obj`. `linting` (planned) makes this a build
+   failure; until it exists, a reviewer blocks on it.
 
 5. **Booleans read as assertions.** `isReady`, `hasCaptions`, `shouldRetry`. Not `ready`,
    `captions`, `retry`.
@@ -46,7 +46,8 @@ looks reasonable enough.
    concept, everywhere.
 
 7. **A rename is its own change.** Mechanical refactors are single units regardless of size
-   (`simplicity` rule 4), so rename in its own PR rather than smuggling it alongside behaviour.
+   (`simplicity`: *Exceptions, named so the rule survives*), so rename in its own PR rather than
+   smuggling it alongside behaviour.
 
 ## Not here
 

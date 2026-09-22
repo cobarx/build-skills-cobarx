@@ -23,10 +23,11 @@ actually contends for, and no more.
 3. **Isolate a shared resource only when a unit contends for it.** The cost rises from the branch,
    which is free, through a separate runtime (ports, caches) to separate data or services, which
    is dear; the more it costs, the stronger the contention must be to justify it. Name the
-   resource, or run in the shared one (`simplicity` rule 5).
+   resource, or run in the shared one (`simplicity`: *Extract, do not raise the threshold*).
 
 4. **Dependent units are sequenced, not parallelized.** A separate worktree does not dissolve an
-   ordering problem (`simplicity` rule 3); it hides it until the merge, where it costs more.
+   ordering problem (`simplicity`: *Sequence dependencies, do not merge them*); it hides it until
+   the merge, where it costs more.
 
 5. **Each branch merges as its own reviewable unit, in dependency order.** Parallel work is not one
    diff because it was done at one time.
@@ -38,8 +39,7 @@ actually contends for, and no more.
 
 The git commands that add, list, and prune a worktree are mechanics, not decisions; they live in
 git's own documentation. Whether something is one unit or several is `simplicity`. Where isolated
-config and data are allowed to live is `platform-correctness`. Merging skill changes back and
-versioning them is `skill-versioning`.
+config and data are allowed to live is `platform-correctness`.
 
 ---
 
