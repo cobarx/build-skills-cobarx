@@ -5,12 +5,11 @@ description: This skill should be used when preparing a change for review or dec
 
 # definition-of-done
 
-The change shows what it does and how it was checked; it does not merely say so.
+Done is the goal shown to be met.
 
-Done is the goal met, and shown to be met. The goal lives in the spec; a spec with no goal is
-broken. Checking every dimension against the goal is also how the spec becomes complete; one you
-cannot fully check is a spec with a hole. An assertion asks the reviewer to trust; an artifact lets
-them decide by looking. Silence is not approval, and neither is a green check.
+The goal lives in the spec; checking every dimension against it is also how a hole in the spec
+shows. An assertion asks the reviewer to trust; an artifact lets them decide by looking. Silence is
+not approval, and neither is a green check.
 
 ## Rules
 
@@ -18,10 +17,10 @@ them decide by looking. Silence is not approval, and neither is a green check.
    replace, not evidence. Every check shows its measured value beside the expected one; a bare
    check mark is an assertion.
 
-2. **State the goal before the work, or the spec is broken.** A goal is what the output must let its
-   user do, not what it is (a role: "a clip captions play against") nor a number it hits (an exact
-   byte count). Invented afterward to fit what you built, it passes by construction. Fix such a spec
-   rather than assert past it; a good one is `spec`.
+2. **No stated goal, nothing to check.** A unit smaller than its spec states its own goal, the
+   slice of the spec's goal it delivers; the unit that completes the spec also shows the whole
+   goal met. A missing goal, or one fitted afterward to what was built, is a spec defect: fix it
+   (`spec`) rather than assert past it.
 
 3. **Check every dimension; a skipped one is a failure.** Enumerate what the artifact must be and
    show each, rather than the routine you find convenient. A dimension the spec never named (the

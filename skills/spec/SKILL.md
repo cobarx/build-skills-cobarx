@@ -16,18 +16,22 @@ instead of picked.
 1. **What before how.** Write what the change must do, and the criteria it is judged against, before
    naming a tool, a library, or a design. Options offered before the criteria are unframed work.
 
-2. **Criteria come from the goal.** They are what `definition-of-done` checks against, and what a
+2. **The goal is what the output lets its user do.** Not what it is (a role: "a clip captions
+   play against") nor a number it hits (an exact byte count). State it before the work; a goal
+   fitted afterward to what was built passes by construction.
+
+3. **Criteria come from the goal.** They are what `definition-of-done` checks against, and what a
    `decision-log` entry weighs an option by. No goal, no criteria, no spec.
 
-3. **Spec what would be gotten wrong if left unsaid.** Not every behaviour, not just the
+4. **Spec what would be gotten wrong if left unsaid.** Not every behaviour, not just the
    architecture. What the builder gets right from convention can rest on convention; what bears on
    the goal, reads two ways, or would be filled with the convenient guess must be written.
 
-4. **Set the depth by the cost of a wrong guess, and by the builder.** The more a bad guess costs
+5. **Set the depth by the cost of a wrong guess, and by the builder.** The more a bad guess costs
    (safety, an irreversible action, a builder who builds exactly and only what is written, like a
    vendor or an agent), the closer to exhaustive. A builder who fills gaps with judgement needs less.
 
-5. **Complete when it cannot be met while missing the goal.** If someone could satisfy the whole
+6. **Complete when it cannot be met while missing the goal.** If someone could satisfy the whole
    spec and still miss the point, it has a hole; if a line could be cut and nothing would be gotten
    wrong, it is over-specced.
 

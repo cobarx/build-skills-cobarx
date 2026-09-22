@@ -5,7 +5,7 @@ description: This skill should be used when a choice is made between options (a 
 
 # decision-log
 
-A decision is made in the open, and the record says how.
+A decision is reasoned in the open.
 
 The choice is the least of it. What a later reader needs is why this option and not the others, so
 the record carries the reasoning, and the reasoning happens before the choice, not after it.

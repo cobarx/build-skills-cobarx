@@ -34,9 +34,10 @@ Semantic versioning, `MAJOR.MINOR.PATCH`:
 
 | Change to the library | Level | Example |
 |---|---|---|
-| Fix or reword rules inside an existing skill | patch | `1.4.0` → `1.4.1` |
-| Add or remove a skill | minor | `1.4.1` → `1.5.0` |
-| Rename a skill, or change how it is loaded or invoked | major | `1.5.0` → `2.0.0` |
+| Fix or reword a rule without changing what it requires | patch | `1.4.0` → `1.4.1` |
+| Add or remove a rule, or change what one requires | minor | `1.4.1` → `1.5.0` |
+| Add or remove a skill | minor | `1.5.0` → `1.6.0` |
+| Rename a skill, or change how it is loaded or invoked | major | `1.6.0` → `2.0.0` |
 
 Below `1.0`, a break may take the minor slot instead of forcing a major (rule 4).
 
