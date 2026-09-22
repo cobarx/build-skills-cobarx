@@ -62,10 +62,10 @@ completeness is adversarial: if you can build something that passes the whole sp
 the goal — a clip with every right attribute that does not play — the spec has a hole, and the
 counterexample names it.
 
-That move borrows from Formula 1: obey the letter of the rules while ignoring their spirit. But the
-point is not the cheat. It is that the letter and the spirit have drifted apart, and the drift is
-where good was never defined. A bad actor exploits the gap on purpose; the rest of us wander into it
-in good faith, and ship the mediocre thing the undefined rule allowed.
+The lesson underneath is quieter than a cheat: when the rules leave room — a loophole, an ambiguity
+— you get unintended results. A bad actor exploits the gap on purpose; most of us just wander into
+it in good faith and ship whatever the loose rule allowed. Closing the gap is not about catching
+anyone, but about not leaving the outcome to chance.
 
 ## Takeaways
 
