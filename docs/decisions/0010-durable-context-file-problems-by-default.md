@@ -1,7 +1,7 @@
 # 0010. A problem you notice is filed by default
 
 - **Status:** Accepted
-- **Decided:** 2026-09-24 (#PR) · **Recorded:** 2026-09-24 · Claude Opus 5.5
+- **Decided:** 2026-09-24 (#44) · **Recorded:** 2026-09-24 · Claude Opus 5.5
 - **Affects:** `durable-context`
 
 ## Context
