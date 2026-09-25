@@ -1,6 +1,6 @@
 # 0010. Look for a standard before inventing one
 
-- **Status:** Deprecated. Reverted; the review of record on #46 found the rule did not change behaviour and did not belong in `platform-correctness`.
+- **Status:** Superseded by [0012](0012-adopting-standards-a-peer-skill.md). Reverted in #48; the review of record on #46 found the rule did not change behaviour and did not belong in `platform-correctness`.
 - **Decided:** 2026-09-24 · **Recorded:** 2026-09-24 · Claude Opus 5.5
 - **Affects:** `platform-correctness` (new rule 2)
 
