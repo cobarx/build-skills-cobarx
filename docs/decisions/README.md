@@ -20,4 +20,5 @@ skill. A reversed decision gets a new record, and the old one is marked supersed
 | [0007](0007-review-adversarial-stance-is-not-a-skill.md) | The adversarial stance is not a skill | Accepted |
 | [0008](0008-durable-context-essays-three-documentation-classes.md) | Three documentation classes, not two | Accepted |
 | [0009](0009-seventy-line-limit.md) | No skill runs past seventy lines | Accepted |
+| [0010](0010-platform-correctness-look-for-a-standard-before-inventing-one.md) | Look for a standard before inventing one | Accepted |
 | [0010](0010-durable-context-file-problems-by-default.md) | A problem you notice is filed by default | Accepted |

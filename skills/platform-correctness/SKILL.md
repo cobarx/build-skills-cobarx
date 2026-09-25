@@ -1,6 +1,6 @@
 ---
 name: platform-correctness
-description: This skill should be used when deciding where configuration, data, cache, or logs live; when choosing how a program is configured or invoked; when naming things or laying out files; when choosing between a platform primitive and a hand-rolled equivalent; when setting or relying on a support baseline; when a deprecated API is involved; or whenever a convention is about to be asserted from memory rather than looked up.
+description: This skill should be used when deciding where configuration, data, cache, or logs live; when choosing how a program is configured or invoked; when naming things or laying out files; when about to invent a file name, format, or layout that a standard may already define; when choosing between a platform primitive and a hand-rolled equivalent; when setting or relying on a support baseline; when a deprecated API is involved; or whenever a convention is about to be asserted from memory rather than looked up.
 ---
 
 # platform-correctness
@@ -22,31 +22,37 @@ that ecosystem, and nothing fails loudly when it does.
    Cite what a linter cannot check: storage locations, wire formats, exit codes, the support
    baseline, how the program is configured and invoked.
 
-2. **Name the layers first.** OS, runtime, language, distribution channel, ecosystem. Each has its
+2. **Look for a standard before inventing one.** Before coining a file name, layout, format or
+   record shape, search for one that already exists, beyond the platform too: community
+   specifications such as MADR, SemVer or AGENTS.md. Adopt one that is in real use, fits what you
+   store, and costs less to follow than to invent. A draft or niche proposal is an option to weigh,
+   not a rule to obey; choosing it, or inventing your own anyway, is a decision, and gets logged.
+
+3. **Name the layers first.** OS, runtime, language, distribution channel, ecosystem. Each has its
    own conventions, and a choice can be correct at one layer and wrong at another.
 
-3. **Use the platform as intended.** Its idioms, its primitives, its APIs. `AbortController` not a
+4. **Use the platform as intended.** Its idioms, its primitives, its APIs. `AbortController` not a
    cancel flag; `URLSearchParams` not string splitting; discriminated unions not type assertions.
    This is which API to reach for, not whether to add a dependency, which is `simplicity`: *Weigh
    dependencies both ways*. A site or service you attach to is **not** a platform layer; it is an
    uncontracted dependency, and choosing whether to use its official API belongs to `contracts`.
 
-4. **Put state where the platform says.** Config, data, cache, logs and secrets each have a
+5. **Put state where the platform says.** Config, data, cache, logs and secrets each have a
    designated location. Get it from the specification (XDG on Linux, `chrome.storage` in an
    extension), not from habit. Getting this wrong is invisible until it bites.
 
-5. **Feature-detect, do not version-sniff.** State the support baseline explicitly, once, where
+6. **Feature-detect, do not version-sniff.** State the support baseline explicitly, once, where
    someone will find it.
 
-6. **Do not build on deprecations.** If a platform has announced a removal, the removed thing is
+7. **Do not build on deprecations.** If a platform has announced a removal, the removed thing is
    already unavailable for new code.
 
-7. **Precedence.** A logged project decision beats a platform convention, which beats personal
+8. **Precedence.** A logged project decision beats a platform convention, which beats personal
    preference. **At an interoperability boundary the boundary's convention wins**, over a logged
    decision too, whatever the language says inside. Deviating from a platform convention is a
    decision, and gets logged.
 
-8. **Mechanize what can be mechanized.** Naming, import order, formatting and ecosystem lints go
+9. **Mechanize what can be mechanized.** Naming, import order, formatting and ecosystem lints go
    to `linting`. Anything a linter can check should not depend on a reviewer noticing.
 
 ## Not here
