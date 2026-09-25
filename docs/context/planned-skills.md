@@ -219,9 +219,24 @@ trimmed (0002):
   definitions, conditions to closing), and where it breaks: no reasonableness standard, no
   adjudicator who infers intent.
 
-Open: does it apply only to a non-engineer author, or also to an engineer whose intent an agent
-builds (`spec` rule 5's builder, who builds exactly what is written)? The ladder works on both;
-the drafting mapping only on the first.
+**Who it is for: a spectrum, not a class of author** (settled 2026-09-24). Familiarity with specs
+runs from none, through a junior engineer or someone who has programmed a little, to a senior
+engineer, and even the far end rarely produces a high-quality spec solo. So the skill applies
+whenever a person holds the intent, and calibrates to what they bring rather than switching on
+for non-engineers. Consequences:
+
+- **Coaching is the default way a spec gets written with a person**, not a remedial mode. The
+  agent drafts and the author corrects, at every point on the spectrum.
+- **Calibrate the questions, do not skip them.** Someone further along needs fewer of the basic
+  questions (what kicks it off, what must be true first) and more of the probing ones (the failure
+  families, "what would make you say that's not what I meant"), which catch what experience
+  assumes.
+- **Bridge from the frame the author already has.** The contract-drafting mapping is one bridge;
+  test cases (Arrange, Act, Assert), user stories, and acceptance criteria are others. Pick the
+  one they know, or none.
+
+Prompted 2026-09-24: "i have tons of software engineering experience but wouldn't say i could
+build an exact spec solo myself and produce a high quality artifact."
 
 Name TBD. Requirements engineering's term for the act is *elicitation*, which 0006 favours; also
 `spec-interview`, `drawing-out`.
