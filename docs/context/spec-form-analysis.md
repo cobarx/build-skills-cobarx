@@ -56,7 +56,7 @@ with the form itself; it came from Metanoia.
 
 ## Left out of Metanoia, and why
 
-- **Eliciting a spec from a non-engineer** (draft first, at most three questions, ask for corrections
+- **Eliciting a spec from its author** (draft first, at most three questions, ask for corrections
   not approval), the failure families, and the **contract-drafting analogy**. Getting a spec out of
   a person is a different act from what the spec says: **its own skill** (decided 2026-09-24), in
   `planned-skills.md`. Rule 9 keeps the requirement; the families that help meet it move there.
