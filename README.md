@@ -28,7 +28,8 @@ The reasoning behind them lives in [docs/essays/](docs/essays/).
 | [adopting-standards](skills/adopting-standards/SKILL.md) | Adopt an existing standard before inventing your own. |
 
 Planned: `linting`, `test-fidelity`, `glossary`, `harness`, `project-setup`, a skill for the *why*
-behind a goal (name not settled), plus ports of `tdd` and `error-taxonomy`.
+behind a goal (name not settled), a skill for drawing a spec out of the person who holds the intent
+(name not settled), plus ports of `tdd` and `error-taxonomy`.
 
 ## Installation
 

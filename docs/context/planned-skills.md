@@ -194,6 +194,38 @@ Splits from siblings: `decision-log` owns how a decision is made and recorded, t
 decisions must be made before starting. `platform-correctness` owns conforming to a platform, this owns choosing
 one. `linting` owns the mechanism, this owns standing it up on day one.
 
+## `<name TBD>`: draw a spec out of the person who holds the intent
+
+Decided 2026-09-24, from the spec-form analysis (#51): coaching is its own skill, not a part of
+`spec`. `spec` owns what a spec says and its form; this owns getting it out of someone who knows
+exactly what the behaviour should be and cannot write it down in that form. Candidate spine: *the
+author's intent, in the author's words, checked by the author.*
+
+Source material is MetanoiaFramework `spec`, "Drawing a spec out of someone", to be extracted, not
+trimmed (0002):
+
+- **Draft first, ask second.** Most of a spec is already in the conversation, unsorted. At most
+  three questions in one message, aimed at the gaps.
+- **The question ladder**, in order of yield: narrate it happening once; how would you check it
+  worked; what must already be true; what kicks it off; the version where it goes wrong; what
+  would make you say "that's not what I meant"; is there a number in this.
+- **The failure families** for finding the failure scenario: too late or early, already happened,
+  never happens, not allowed, missing or wrong input, simultaneous, partially done, wrong state.
+- **Ask for corrections, not approval.** "Anything wrong or missing?" gets edits; "does this look
+  good?" gets a reflexive yes.
+- **The author's vocabulary, not the codebase's.** A spec its author cannot read back is a
+  translation taken on faith.
+- **The contract-drafting mapping** (conditions precedent, triggering event, obligation, carve-outs,
+  definitions, conditions to closing), and where it breaks: no reasonableness standard, no
+  adjudicator who infers intent.
+
+Open: does it apply only to a non-engineer author, or also to an engineer whose intent an agent
+builds (`spec` rule 5's builder, who builds exactly what is written)? The ladder works on both;
+the drafting mapping only on the first.
+
+Name TBD. Requirements engineering's term for the act is *elicitation*, which 0006 favours; also
+`spec-interview`, `drawing-out`.
+
 ## Also planned
 
 `harness` (make the system locally observable without external services), `tdd` (port),

@@ -57,8 +57,9 @@ with the form itself; it came from Metanoia.
 ## Left out of Metanoia, and why
 
 - **Eliciting a spec from a non-engineer** (draft first, at most three questions, ask for corrections
-  not approval) and the **contract-drafting analogy**. Written for Metanoia's audience. Valuable; a
-  candidate for `references/` if the trial shows agents writing specs without asking.
+  not approval), the failure families, and the **contract-drafting analogy**. Getting a spec out of
+  a person is a different act from what the spec says: **its own skill** (decided 2026-09-24), in
+  `planned-skills.md`. Rule 9 keeps the requirement; the families that help meet it move there.
 - **Inflection-point call-outs** (say when a spec saved a guess). Unproven in Metanoia by its own
   account, and not a rule about the spec.
 - **The worth-speccing questions.** `spec` rules 8 and 9 already set depth; the questions could
