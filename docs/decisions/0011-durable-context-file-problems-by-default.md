@@ -31,7 +31,9 @@ the knowledge.
 
 ## Consequences
 
-- `durable-context` gains rule 6, and its description gains the trigger so it loads on noticing a
-  problem, not only on recording one.
+- `durable-context` gains rule 6, and its description names problems noticed outside the task at
+  hand. In the review of #44 that trigger did not load the skill on its own (0 of 2 runs); the
+  skill loaded when the project's CLAUDE.md named it. A project that wants rule 6 applied names
+  `durable-context` at its entry point.
 - Issues inherit whatever the project says about publishing (a public repo's scrub policy applies
   to an issue body as much as to a commit).

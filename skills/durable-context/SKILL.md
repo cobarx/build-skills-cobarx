@@ -1,6 +1,6 @@
 ---
 name: durable-context
-description: This skill should be used when recording a decision, a follow-up, project knowledge, or working state; when you notice a bug, gap, or risk, whether or not it is the task at hand; when tempted to leave it in agent memory, a chat, or a PR description; or when deciding where a note should live so the next person or agent can find it. It governs where context lives, not what any single document says.
+description: This skill should be used when recording a decision, a follow-up, project knowledge, or working state; when you notice a bug, gap, or risk outside the task at hand; when tempted to leave it in agent memory, a chat, or a PR description; or when deciding where a note should live so the next person or agent can find it. It governs where context lives, not what any single document says.
 ---
 
 # durable-context
@@ -31,11 +31,11 @@ later. If it matters past this moment, it belongs in the project, in the open.
    rationale in `docs/essays/`, so a reader knows where to look before they look.
 
 6. **A problem you notice is filed, not just mentioned.** A bug, gap, or risk spotted on the way to
-   something else goes in the tracker before the work moves on; said only in a chat, it is gone
-   when the chat ends. Unsettled severity or an unknown fix is no reason to wait: say so in the
-   issue, which is where that discussion belongs. The one exception is the developer's to make,
-   never yours to infer: early in a project, areas not expected to work yet can be declared, at the
-   entry point or in the moment, and problems there go unfiled.
+   something else goes in the tracker, without asking first, before the work moves on; said only in
+   a chat, it is gone when the chat ends. Unsettled severity or an unknown fix is no reason to wait:
+   say so in the issue, which is where that discussion belongs. The one exception is the developer's
+   to make, never yours to infer: early in a project, areas not expected to work yet can be
+   declared, at the entry point or in the moment, and problems there go unfiled.
 
 ## Not here
 
