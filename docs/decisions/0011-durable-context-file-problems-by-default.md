@@ -1,4 +1,4 @@
-# 0010. A problem you notice is filed by default
+# 0011. A problem you notice is filed by default
 
 - **Status:** Accepted
 - **Decided:** 2026-09-24 (#44) · **Recorded:** 2026-09-24 · Claude Opus 5.5
