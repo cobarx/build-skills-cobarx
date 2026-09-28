@@ -67,7 +67,7 @@ ln -s ~/code/build-skills-cobarx/skills ~/.agents/skills/build-skills-cobarx
 Two conventions do most of the work:
 
 **The outline is the skill.** No expanded rationale, no worked examples where the rule is already
-unambiguous. No skill here runs past seventy lines.
+unambiguous. No skill here runs past seventy lines, not counting footnoted citations.
 
 **Draft long, then keep only what is a rule.** The long draft is a discovery tool, not the
 deliverable. The test applied to every line: does this change what anyone does? See

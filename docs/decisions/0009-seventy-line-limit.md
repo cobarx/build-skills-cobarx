@@ -1,6 +1,6 @@
 # 0009. No skill runs past seventy lines
 
-- **Status:** Accepted
+- **Status:** Accepted. Line count amended by [0013](0013-cite-sources-in-footnotes.md).
 - **Decided:** 2026-09-22 (#42) · **Recorded:** 2026-09-22 · Claude Opus 5.5
 - **Affects:** every skill
 

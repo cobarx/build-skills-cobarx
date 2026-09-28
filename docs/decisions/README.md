@@ -19,7 +19,8 @@ skill. A reversed decision gets a new record, and the old one is marked supersed
 | [0006](0006-glossary-industry-terms-over-coinage.md) | Industry terms over our own | Accepted |
 | [0007](0007-review-adversarial-stance-is-not-a-skill.md) | The adversarial stance is not a skill | Accepted |
 | [0008](0008-durable-context-essays-three-documentation-classes.md) | Three documentation classes, not two | Accepted |
-| [0009](0009-seventy-line-limit.md) | No skill runs past seventy lines | Accepted |
+| [0009](0009-seventy-line-limit.md) | No skill runs past seventy lines | Accepted, amended by 0013 |
 | [0010](0010-platform-correctness-look-for-a-standard-before-inventing-one.md) | Look for a standard before inventing one | Superseded by 0012 |
 | [0011](0011-durable-context-file-problems-by-default.md) | A problem you notice is filed by default | Accepted |
 | [0012](0012-adopting-standards-a-peer-skill.md) | Adopting standards is a peer skill, not a platform rule | Accepted |
+| [0013](0013-cite-sources-in-footnotes.md) | Cite sources in footnotes, outside the line limit | Accepted |
