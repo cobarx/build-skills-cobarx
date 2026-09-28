@@ -8,7 +8,9 @@ Unsettled. Moved here out of conversation so it survives.
 depth 3, function 50 lines, file 300 lines, parameters 4. These are common SonarJS and ESLint
 defaults. They are plausible and unconfirmed, and presenting them as settled is fake precision.
 
-**Licence undecided.** No `LICENSE` yet.
+**Licence undecided.** No `LICENSE` yet. [0014](https://github.com/cobarx/build-skills-cobarx/pull/54)
+proposes CC BY 4.0; CC BY or CC BY-SA is still open. Reading guide:
+[licence-by-vs-by-sa.md](licence-by-vs-by-sa.md).
 
 **Repo is private.** Created private as the reversible default, not as a decision. `ai-skills-cobarx`
 stays independently shareable, which was the reason for a separate repo at all.
