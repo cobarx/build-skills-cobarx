@@ -78,3 +78,15 @@ deliverable. The test applied to every line: does this change what anyone does? 
 - [ai-skills-cobarx](https://github.com/cobarx/ai-skills-cobarx) covers a different domain and
   stays independently shareable.
 - MetanoiaFramework is the source for several planned ports.
+
+## License
+
+The skills and documentation are licensed under [CC BY 4.0](LICENSE), © 2026 Hampton Maxwell.
+Code, when the repo has any, takes a software licence stated where it lives. See
+[0014](docs/decisions/0014-license-cc-by-4-0.md).
+
+To credit a skill you copy or adapt, give its title, author, source, licence, and what you
+changed:
+
+> Adapted from "simplicity" by Hampton Maxwell,
+> <https://github.com/cobarx/build-skills-cobarx>, CC BY 4.0. Changes: …
