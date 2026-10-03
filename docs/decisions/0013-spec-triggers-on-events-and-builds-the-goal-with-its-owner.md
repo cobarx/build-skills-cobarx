@@ -80,8 +80,8 @@ Understanding the problem, gathering data, and finding patterns before the goal 
   unrelated question (table above). Three runs per cell bounds this loosely; it is a check, not a
   rate.
 - Whether `spec` loads deep in a long session is untested and is the failure that started this.
-  It needs a check that replays a long conversation before the prompt, or an always-on rule, and
-  is left open.
+  It needs a check that replays a long conversation before the prompt, or an always-on rule;
+  the test and the decision it feeds are #58.
 - Wider triggers cost context in more sessions; if `spec` fires where it adds nothing, narrow the
   triggers in a new record.
 - Changing how a skill is loaded is a breaking change; below 1.0 it takes the minor slot.
