@@ -61,9 +61,10 @@ Observable triggers, and three rules:
 - *The goal comes from its owner, often in pieces.* Ask what the next step depends on, and don't
   hold the work for a full answer.
 - *Keep a working goal where both can see it.* A dated draft with open questions beside it. When
-  it moves, recheck what rested on the earlier draft. An overall goal can hold while smaller goals
-  beneath it are explored and replaced (the owner's framing: "build an app that allows people to
-  not deal with unwanted political texts", reached through smaller goals such as categorizing).
+  it moves, recheck what rested on the earlier draft. A product goal holds while its features go
+  through R&D (the owner's framing: "standard product design", with the product goal "build an app
+  that allows people to not deal with unwanted political texts" and categorizing as the first
+  feature in R&D). Product, feature and R&D are industry terms, per 0006.
 - *Specify the class, not the instance.*
 
 Rule 1 covers a how-question that arrives without its what, and separates exploring to find the
