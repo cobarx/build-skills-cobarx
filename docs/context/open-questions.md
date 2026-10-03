@@ -63,6 +63,11 @@ not yet drawn. Raised in `docs/essays/define-what-good-looks-like.md`.
 tells you which dive is worth doing, but that is one data point. Raised in
 `docs/essays/simplicity-is-not-size.md`.
 
+**Do skills still load deep in a long session?** In a fresh session `spec` loads when handed a
+choice (3/3), but in a long CampaignStop session it did not, at the same kind of moment. A
+fresh-session check can't reproduce that. Testing it needs a replayed long conversation before the
+prompt; the fallback is an always-on rule in CLAUDE.md. Raised in 0013.
+
 ## Stranded elsewhere
 
 Research for the **playhead** project, including the caption test corpus (Sintel's ~40 languages,
