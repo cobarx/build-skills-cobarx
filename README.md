@@ -73,12 +73,6 @@ unambiguous. No skill here runs past seventy lines.
 deliverable. The test applied to every line: does this change what anyone does? See
 [docs/essays/outline-is-the-skill.md](docs/essays/outline-is-the-skill.md).
 
-## Relationship to other repos
-
-- [ai-skills-cobarx](https://github.com/cobarx/ai-skills-cobarx) covers a different domain and
-  stays independently shareable.
-- MetanoiaFramework is the source for several planned ports.
-
 ## License
 
 The skills and documentation are licensed under [CC BY 4.0](LICENSE), © 2026 Hampton Maxwell.
