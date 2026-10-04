@@ -23,3 +23,4 @@ skill. A reversed decision gets a new record, and the old one is marked supersed
 | [0010](0010-platform-correctness-look-for-a-standard-before-inventing-one.md) | Look for a standard before inventing one | Superseded by 0012 |
 | [0011](0011-durable-context-file-problems-by-default.md) | A problem you notice is filed by default | Accepted |
 | [0012](0012-adopting-standards-a-peer-skill.md) | Adopting standards is a peer skill, not a platform rule | Accepted |
+| [0014](0014-license-cc-by-4-0.md) | License the text under CC BY 4.0; code takes a software licence | Accepted |
