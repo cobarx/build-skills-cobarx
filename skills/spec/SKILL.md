@@ -1,6 +1,8 @@
 ---
 name: spec
 description: This skill should be used when a change needs a choice about how to build it (a tool, a library, a design); when work jumps to a solution before what it must do is written down; or when it is unclear how much of the behaviour to pin down. It governs defining what the system must do, and how deeply, before choosing how.
+license: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/)
+metadata: {author: Hampton Maxwell, source: "https://github.com/cobarx/build-skills-cobarx/tree/main/skills/spec"}
 ---
 
 # spec
