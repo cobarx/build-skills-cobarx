@@ -82,8 +82,9 @@ deliverable. The test applied to every line: does this change what anyone does? 
 ## License
 
 The skills and documentation are licensed under [CC BY 4.0](LICENSE), © 2026 Hampton Maxwell.
-Code, when the repo has any, takes a software licence stated where it lives. See
-[0014](docs/decisions/0014-license-cc-by-4-0.md).
+Everything under `evals/`, prose, data, and code alike, is licensed under
+[Apache-2.0](evals/LICENSE) instead. See [0014](docs/decisions/0014-license-cc-by-4-0.md) and
+[0019](docs/decisions/0019-evals-take-apache-2-0.md).
 
 To credit a skill you copy or adapt, give its title, author, source, licence, and what you
 changed:
