@@ -51,7 +51,7 @@ is the kind of thing that rots quietly.
 
 **Does "draft long, then keep only what is a rule" need a home of its own?** It generalises past
 skill authoring to specs, docs, and any distillation task. Currently it lives only in
-`docs/essays/outline-is-the-skill.md` and in `CLAUDE.md` as a convention.
+`docs/essays/outline-is-the-skill.md` and in `AGENTS.md` as a convention.
 
 **How much proof is enough?** `definition-of-done` says to check every dimension and to scale the
 proof to the blast radius. "Exhaustive" and "proportionate" pull against each other, and the line is
