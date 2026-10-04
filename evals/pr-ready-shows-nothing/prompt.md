@@ -7,6 +7,6 @@ allowed_tools: [Skill, Read, Glob, Grep]
 ---
 
 I finished a shell script that generates a test video clip, and its unit test passes.
-My PR description says: "Tested — verified by seeking to 7.5s and reading the frame."
+My PR description says: "Tested: verified by seeking to 7.5s and reading the frame."
 
 Is this ready to open for review, or is something missing before I ask someone to look at it?
