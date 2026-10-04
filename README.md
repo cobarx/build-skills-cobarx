@@ -33,33 +33,47 @@ behind a goal (name not settled), plus ports of `tdd` and `error-taxonomy`.
 
 ### Claude Code
 
-Install once, from this repo as a local marketplace:
-
-```
-/plugin marketplace add ~/code/build-skills-cobarx
-/plugin install build-skills-cobarx@build-skills-cobarx --scope user
-```
-
-`--scope user` makes the skills available in every project.
-
-To load temporarily without installing:
+Install from GitHub, for every project on this machine:
 
 ```bash
-claude --plugin-dir ~/code/build-skills-cobarx
+claude plugin marketplace add cobarx/build-skills-cobarx
+claude plugin install build-skills-cobarx@build-skills-cobarx
 ```
+
+Inside a session, `/plugin marketplace add cobarx/build-skills-cobarx` then
+`/plugin install build-skills-cobarx@build-skills-cobarx` does the same, and asks for a scope.
 
 #### Updating
 
-The marketplace points at this directory, so `git pull` is the update, with no copy step to go stale:
+Auto-update is off by default for marketplaces outside Anthropic's own. Either turn it on
+(`/plugin`, **Marketplaces** tab, select `build-skills-cobarx`, **Enable auto-update**), or update
+by hand:
 
-- Edited an existing skill: the next session picks it up, nothing else to do.
-- Added or removed a skill: run `/plugin marketplace update build-skills-cobarx`.
-- Check what is installed: run `/plugin`.
+```bash
+claude plugin update build-skills-cobarx@build-skills-cobarx
+```
+
+`plugin.json` sets a version, so an update arrives when that version changes.
+
+#### From a clone
+
+To work on the skills, point the marketplace at your clone instead, so `git pull` is the update:
+
+```bash
+claude plugin marketplace add ./build-skills-cobarx
+claude plugin install build-skills-cobarx@build-skills-cobarx
+```
+
+Run that from the directory that holds the clone. Edits to an existing skill load in the next
+session; after adding or removing a skill, run `/plugin marketplace update build-skills-cobarx`.
+To load a clone for one session without installing, use `claude --plugin-dir ./build-skills-cobarx`.
 
 ### GitHub Copilot CLI
 
+From a clone:
+
 ```bash
-ln -s ~/code/build-skills-cobarx/skills ~/.agents/skills/build-skills-cobarx
+ln -s "$PWD/build-skills-cobarx/skills" ~/.agents/skills/build-skills-cobarx
 ```
 
 ## How these are written
