@@ -65,10 +65,12 @@ attribution conditions, which are identical.
    legal reviews treat ShareAlike more cautiously, and BY-SA material mixed into a BY or MIT
    project can only be shared onward under BY-SA, where BY mixes into anything. Against that, you
    called BY-SA "bold" and "transformative": the licence states the norm rather than inviting it.
-3. **The asymmetry.** As sole author you can later add CC BY alongside BY-SA (loosen); copies
-   already released under BY stay BY (cannot tighten). High. It weakens with each outside
-   contribution, which would arrive under whichever licence is current and need its contributor's
-   consent to change.
+3. **The asymmetry.** As sole author you can later add CC BY alongside BY-SA (loosen), and it
+   reaches every release, since everyone can take the freer terms. You can also move from BY to
+   BY-SA (tighten), but only future releases: copies already released under BY stay BY, and a
+   fork of the last BY release can close its changes. High. Outside contributions block only
+   loosening: a BY-SA contribution needs its contributor's consent to become BY, while BY
+   material may go into a BY-SA work without asking.
 
 **Secondary:**
 
