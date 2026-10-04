@@ -48,8 +48,9 @@ The rules are the ones the test case needed:
   correction), each argument marked as applying now or not.
 - One recommendation, with the conditions that would reverse it.
 - A summary opens the analysis (the second correction; the industry name is an executive summary).
-- The analysis stands alone; the reply is its path and at most a collapsed copy (the first
-  correction).
+- The analysis stands alone; the reply is its path (the first correction). A copy only where it
+  shows collapsed: in the terminal a `<details>` block printed in full, and the owner's answer was
+  "i said collapsed. if that can't be done, don't print it."
 
 ## Consequences
 

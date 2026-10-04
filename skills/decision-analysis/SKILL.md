@@ -35,9 +35,9 @@ handed the analysis can check it, and can disagree for reasons the analyst did n
 
 6. **The analysis stands alone; the reply only says where.** Write a plain file the decider can
    read without the agent, holding everything they need, including what could not be checked. The
-   reply is the file's absolute path, optionally followed by the file's full text in a collapsed
-   block. Nothing else: the summary opens the file, not the reply, and there is no recommendation
-   or caveat outside it. If it is worth saying, it belongs in the file.
+   reply is the file's absolute path. Add a copy of the file only where the reader's surface shows
+   it collapsed; a terminal shows it in full, so there the path stands alone. Nothing else: the
+   summary opens the file, not the reply, and there is no recommendation or caveat outside it.
 
 ## Not here
 
