@@ -80,6 +80,30 @@ attribution conditions, which are identical.
    open-access journals use BY (Plan S requires it). The licence did not make the difference;
    culture did (working notes, thread 8).
 
+## What other skills repos did, and what happened to copies
+
+Searched 2026-10-03. No general analysis of licences for skills exists;
+[agentskills#379](https://github.com/agentskills/agentskills/discussions/379) proposes CC BY for prose and a software licence for scripts, unresolved. Projects that wrote down
+a reason:
+
+- [skillboss-dojo#13](https://github.com/mazzyst/skillboss-dojo/pull/13) moved its skills from
+  BY-SA to Apache-2.0, keeping BY-SA for docs: "can I use this at work?" must be yes "with no clause
+  to reason about." Private use does not trigger ShareAlike, so this is consideration 2's
+  perception cost, paid.
+- [green-claude#51](https://github.com/Institut-du-Numerique-Responsable/green-claude/pull/51):
+  CC BY 4.0 for rules and `SKILL.md`, Apache-2.0 for code. The split 0014 proposes.
+- [alekslinde/skills#6](https://github.com/alekslinde/skills/pull/6): Apache-2.0 for everything,
+  because `npx skills` copies skill folders into commercial repos.
+
+Copies are common and whole-file. trailofbits' `audit-context-building` appears in about 30 other
+repos, mostly aggregators. Of eight sampled, none credits Trail of Bits in the skill file (nor
+does the original), and two now declare `license: MIT` after an aggregator relabelled it. BY-SA
+did not travel with the copies; credit, where it survived, was in repo READMEs and one mirror's
+generated `ORIGIN.md`. High on what was found, low on how typical it is: one skill, one search.
+
+This weakens consideration 1 as an argument for either licence: credit down the chain is carried
+by tooling and culture more than by terms. Provenance is now its own question, [#63](https://github.com/cobarx/build-skills-cobarx/issues/63).
+
 ## Questions to answer
 
 - Is root credit plus modification history enough, or must intermediate contributions stay open?
