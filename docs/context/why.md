@@ -225,6 +225,16 @@ are where Doctorow locates enshittification, so the relationship is direct only 
 run through one; compliance costs and scale economies still favour the large. Prior art:
 Schumacher, *Small Is Beautiful* (1973). Whether this belongs in the project's stated why is
 Hampton's call.
+Exit and voice are Hirschman's (*Exit, Voice, and Loyalty*, 1970): leave, or speak up. Hampton:
+that is also Stallman's goal, freedom as the ability to leave, and to voice when all else fails by
+creating your own solution. The four freedoms (run, study and change, redistribute, distribute
+changes) make exit and voice structural. A fork is exit that keeps the product, and voice made
+concrete: you leave, take it with you, and publish the alternative. Stallman's origin story is a
+denied voice: a printer at the MIT AI Lab (around 1980) whose driver source he could not get, so
+he could not fix it. A live consequence for this repo: copyleft is how Stallman protects those
+freedoms downstream. 0014 chose CC BY, which lets an adapter close what they add; CC BY-SA
+(copyleft) would not. The reading guide on the open `context/by-vs-by-sa` branch weighs exactly
+that.
 
 **Disposable is an anti-principle.** Hampton, 2026-10-05, refining his earlier "I want to throw
 things away" (kept as said in what-dominates.md). A good product can be repaired, recycled or
