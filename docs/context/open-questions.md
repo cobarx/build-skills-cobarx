@@ -19,6 +19,10 @@ as ours per the vocabulary rule, and open to a better name.
 and ships without it is its own counterexample. Markdown is the only file type here, so the
 question is whether non-code linting counts, which is itself an open question below.
 
+**What is build skills for?** Accountability, operating in the open, TQM, and why build anything
+that is not that good: guiding goals found 2026-10-05 and stated nowhere a newcomer reads. Notes in
+[why.md](why.md).
+
 ## For `linting`, before it can be written
 
 **How is a linter chosen for a stack?** Settled as an ordered procedure, kept here because it was
