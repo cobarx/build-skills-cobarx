@@ -28,6 +28,12 @@ From the Deming Institute's condensation of *Out of the Crisis*, pp. 23–24
 | 12a | Hourly workers keep their "right to pride of workmanship"; supervisors are responsible for quality, not "sheer numbers" | Remove the barriers that rob them of it |
 | 12b | The same right for people in management and engineering | Abolish, "inter alia", the annual or merit rating and management by objective |
 
+Hampton's example of 12b's request, as distinct from its mechanism: when someone who is not a
+product manager suggests a feature or challenges the product roadmap, how does the organisation
+respond? A challenge dismissed because it comes from outside the owning role is a barrier to pride
+of workmanship whether or not a merit rating exists. The response is also something an organisation
+can be observed doing, which makes the request testable.
+
 ## Summary
 
 On the requests, none of the three reliably carries the key points as a whole:
@@ -158,6 +164,9 @@ Key sources:
 - **Studies that measure the requests directly.** None was found for any of the three: teamwork
   across functions, whether workers are held to system-caused results, how targets are used, pride
   in work, compared between adopters and non-adopters. This is the central gap.
+- **A direct test of 12b.** How adopters respond when someone outside the owning role suggests a
+  feature or challenges a plan: heard and weighed, or dismissed. Observable in any organisation,
+  whichever methodology it uses.
 - **Request separated from mechanism.** Organisations that keep an obstacle Deming named (an
   individual evaluation, a cascaded target) yet meet the request, and ones that remove it and still
   fail. Either would show how far the mechanism decides the outcome.
