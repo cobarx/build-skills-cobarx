@@ -25,8 +25,9 @@ the Chicago notes-bibliography system, and GitHub's Markdown footnote support.
 - **A separate sources file** (`references/`). Costs no context until read, but the citation stops
   following the text: agents and people alike are much more likely to ignore it, or drop it when
   they copy or adapt the skill (the owner's objection, and decisive).
-- **Frontmatter `metadata`** (Agent Skills spec). Travels with the file, but is a string map with no
-  place for a note, and whether clients keep frontmatter on install or copy is untested.
+- **Frontmatter `metadata`** (Agent Skills spec). Travels with the file (#70 relies on it for each
+  skill's licence and source), but is a string map with no place for a note, and sits far from the
+  text it credits.
 - **Footnotes, excluded from the count.**
 
 ## Decision
