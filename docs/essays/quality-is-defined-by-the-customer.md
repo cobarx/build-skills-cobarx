@@ -1,8 +1,3 @@
-> **Review note (remove before merge): this is version A.** It stops at TQM's why: one paragraph
-> at the end of "Its why" says this repo's why is not yet written down. Version B, in
-> `quality-is-defined-by-the-customer-variant-b.md`, replaces that paragraph with a comparison of
-> TQM's why and this repo's. The intro sentence also differs. Nothing else does.
-
 # Quality is defined by the customer
 
 **2026-10-05 · Claude Opus 5.5**
@@ -10,8 +5,8 @@
 Total quality management (TQM) holds that quality is defined by the customer and built into the work
 by everyone who does it, not checked for at the end. The skills in this repo closely match it, all
 the way through: why TQM exists, what it holds quality to be, and the methods that follow from both.
-This essay explains TQM for a reader who has never met it, in that order, then shows where the
-skills match it and what is not built yet.
+This essay explains TQM for a reader who has never met it, in that order, sets TQM's why beside this
+repo's, then shows where the skills match it and what is not built yet.
 
 ## What TQM is
 
@@ -46,9 +41,19 @@ because the people it serves keep choosing it.
 The why has a second face, the people doing the work. Deming's twelfth point removes the barriers
 that rob workers, managers and engineers of their "right to pride of workmanship."[^deming]
 
-This repo has not written its own why down yet, though the skills carry one. This essay leaves it
-there and follows TQM's why into the what it produces, which is where the skills match most
-directly.
+Set beside it, this repo's why as it stands so far. Its essays say the skills exist because an
+agent's defaults are a helpful assistant's, not an engineer's: left alone, it builds something and
+then blesses it ([An assistant, not an engineer][assistant]). Hampton names what makes those
+defaults the problem: they are not visible or discussed, so no one can reason about them, and they
+author the agent's viewpoints, stated as fact when they are taste. And "more mediocrity traces to a
+goal never set than to a job done badly" ([Define what good looks like][good]).
+
+The two whys meet. Both start from the person the work is for. Both treat bad work as the system's
+doing, not the worker's: Deming put most defects on the system, and the essays put the agent's on
+its defaults. And both answer by making the system visible so it can be improved: TQM studies its
+process against what it predicted, and the skills replace unstated defaults with written rules that
+can be read, argued with and changed. TQM states its why at the scale of an organisation, lasting
+and providing jobs; the essays state this repo's at the scale of each piece of work.
 
 ## Its what: a satisfied customer, pursued as a process
 
@@ -139,6 +144,8 @@ TQM as the tradition the skills belong to, and links here.
 [0019]: ../decisions/0019-evals-take-apache-2-0.md
 [0020]: ../decisions/0020-spec-triggers-on-events-and-builds-the-goal-with-its-owner.md
 [open-questions]: ../context/open-questions.md
+[assistant]: assistant-not-engineer.md
+[good]: define-what-good-looks-like.md
 [issue-111]: https://github.com/cobarx/build-skills-cobarx/issues/111
 
 [^asq]: American Society for Quality, "What Is Total Quality Management (TQM)?",
