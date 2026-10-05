@@ -171,6 +171,20 @@ Where "measure it" is thin: the skills themselves are not yet measured. `evals/`
 licence (0019); the `simplicity` thresholds are borrowed, not measured (open questions); whether
 skills load deep in a long session is untested (#58).
 
+**This is a TQM framework.** Hampton, 2026-10-05. The other identities sit under it. TQM's usual
+principles, mapped:
+- Customer focus: `spec` 5, the goal is what the output lets its user do.
+- Total involvement: the agent as line worker, able to stop the line.
+- Process centered: the skills are process standards, not outcome targets.
+- Integrated system: the fractal; the same invariants at every level.
+- Continual improvement: supersede, never edit; essay revisions; planned evals.
+- Fact-based decisions: `definition-of-done` 1, show the measured value.
+- Communication: operate in the open.
+Spec driven is customer focus made concrete; single accountability and operating in the open are
+its accountability and communication. Genealogy: Deming and TQM, the Toyota Production System,
+Lean, then Lean software development (Poppendieck: eliminate waste, build integrity in, decide as
+late as possible, empower the team, see the whole). What is new is the line worker being an agent.
+
 ## Open threads
 
 **Where is the project's goal stated?** Accountability to reverse enshittification is a guiding
@@ -182,6 +196,11 @@ Recorded: date · Claude Opus 5.5", the name of whoever wrote it down. None name
 the decision log to carry accountability upward, the accountable party has to be on the record.
 MADR has an optional `decision-makers` field (0001 adopts MADR). Whether `decision-log` should
 require it is open.
+
+**Is TQM the brand or the genealogy?** As with DRY, the term carries baggage: a 1990s corporate
+programme, associated with ISO 9000 paperwork and quality circles, largely succeeded by Lean and
+Six Sigma. It may be the right lineage and the wrong label, or the right label with its meaning
+stated. Hampton's call.
 
 **What to call the principle, if not DRY?** DRY is the wrong branding (heard as "don't repeat
 code," which the framework permits inside a boundary) but the right genealogy, cited as where the
