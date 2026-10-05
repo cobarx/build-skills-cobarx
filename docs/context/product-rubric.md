@@ -98,6 +98,10 @@ who that user is, and which unit is scored first. Open, to ask:
   using it (`definition-of-done` 4), and it names what to fix. "Locks me in" is a dimension the
   first list lacked, and it is enshittification itself: does the product let its user leave with
   their data?
+- The rubric's two measures are Hirschman's (*Exit, Voice, and Loyalty*, 1970): the user's
+  complaint is voice, "would they leave if they could" is exit. Voice tells you what is wrong;
+  exit only tells you something is. Lock-in kills exit, and scale kills voice (the complaint
+  never reaches whoever decides), which is why both fail in enshittified products.
 - Hampton, put another way: does my product drive people away from it? The rubric's headline
   question; every dimension is a way a product can do it. Lock-in hides the answer: a trapped
   user's retention is not satisfaction, so the honest test is whether they would leave if they
