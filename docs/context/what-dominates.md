@@ -115,9 +115,19 @@ read as accountability too: a reviewer independent of the author (`review` 1), e
 claims (`definition-of-done` 1), reasoning in the open (`decision-log`), a goal from a named owner
 (`spec` 3), rules a human can audit. An agent cannot be held to account, so the accountable role
 at the what is a human, which is what the agent-centric chief-of-staff pattern leaves unassigned.
-(Interpretation, medium confidence.) Scope: Doctorow's enshittification is driven by platform
-incentives and lock-in, which skills cannot change; what they address is the decay that comes
-from no one answering for quality.
+(Interpretation, medium confidence.)
+
+**Accountability is relational.** Hampton: accountable to whom, and to what principles. Enshittification
+shows it: the product owner reports to someone who is not the customer, so the chain of answering
+points away from the user. Single accountability alone is structure without direction. The skills
+already give both relations for the what: to whom is the user (`spec` 5, the goal is what the
+output lets its user do; `spec` 3, the person whose problem it is), and to what is the declared
+standard (`review` 2, check the declared standard, not one you invent). Two cautions: "owner" in
+`spec` 3 means the person whose problem it is, but the word collides with the product owner role,
+which is exactly the enshittification chain; and "one place answers for each thing" and "answering
+ends at the user, against declared principles" may be two principles, not one (`simplicity` 1).
+Scope: the skills can point the engineering chain at the user; they cannot change who the product
+owner reports to.
 
 ## Open threads
 
