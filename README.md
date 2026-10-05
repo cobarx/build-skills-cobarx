@@ -68,13 +68,22 @@ Run that from the directory that holds the clone. Edits to an existing skill loa
 session; after adding or removing a skill, run `/plugin marketplace update build-skills-cobarx`.
 To load a clone for one session without installing, use `claude --plugin-dir ./build-skills-cobarx`.
 
-### GitHub Copilot CLI
+### Other agents
 
-From a clone:
+OpenAI Codex, GitHub Copilot (CLI, VS Code, JetBrains), Cursor, and Gemini CLI read the same
+[Agent Skills](https://agentskills.io) format, and all four load skills from `~/.agents/skills/`.
+Install there with the GitHub CLI:
 
 ```bash
-ln -s "$PWD/build-skills-cobarx/skills" ~/.agents/skills/build-skills-cobarx
+gh skill install cobarx/build-skills-cobarx --all --dir ~/.agents/skills
 ```
+
+Update with `gh skill update --all`. For an agent with its own directory, swap `--dir` for
+`--agent <name> --scope user`; `gh skill install --help` lists the names. `gh skill` is in preview
+in the GitHub CLI.
+
+Without the GitHub CLI, copy each folder under `skills/` into `~/.agents/skills/`, one folder per
+skill, directly under that directory.
 
 ## How these are written
 
