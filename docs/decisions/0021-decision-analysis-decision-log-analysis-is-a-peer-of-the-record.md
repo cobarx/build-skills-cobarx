@@ -57,7 +57,9 @@ The rules are the ones the test case needed:
   reversal conditions and caveats. The owner then settled it: "it should only be the file's summary
   and the path." The collapsed copy goes with it. A run of "copied rather than rewritten" still
   re-voiced the summary and added caveats, so the rule went blunt, in the owner's words: paste the
-  summary exactly as written, then the path, and no other information.
+  summary exactly as written, then the path, and no other information. Three runs of that wording
+  each replied with the file's summary verbatim and the path, nothing else. The owner then split it
+  in two: the file standing alone (rule 6) and the reply (rule 7).
 
 ## Consequences
 

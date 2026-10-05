@@ -35,10 +35,12 @@ handed the analysis can check it, and can disagree for reasons the analyst did n
 5. **Open with a summary.** The recommendation and the few reasons that decide it, before any
    detail, so the decider can stop there or read on knowing where it leads.
 
-6. **The analysis stands alone; the reply is its summary and its path.** Write it as a plain file
-   the decider can read without the agent, including what could not be checked. In the reply, paste
-   the file's summary exactly as written, then its absolute path on its own line. No other
-   information, caveats included; every detail is in the file.
+6. **The analysis stands alone.** Write it as a plain file the decider can read without the agent,
+   including what could not be checked.
+
+7. **The reply is the summary and the path.** Paste the file's summary exactly as written, then its
+   absolute path on its own line. No other information, caveats included; every detail is in the
+   file.
 
 ## Not here
 
