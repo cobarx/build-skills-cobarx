@@ -193,6 +193,12 @@ who that user is, and which unit is scored first. Open, to ask:
   chief-of-staff shape. Taste stays with a human where an agent cannot judge (`review` 3).
   Marketing in parallel forces the why early: Amazon's working backwards writes the press release
   before the product. Gap: the skills cover engineering functions; design and marketing have none.
+- Hampton: I may not have the taste for great UI or market fit, but I still get a better product
+  by treating hardware, marketing, product and the rest as integrated concerns. Taste raises the
+  ceiling; integration raises the floor. It is Deming's system view: a bad system beats a good
+  person every time (the Red Bead Experiment), and a good system lifts ordinary work. It is also
+  `definition-of-done` 3: every dimension considered, none skipped, so conflicts between concerns
+  surface early instead of at launch.
 - Who scores each dimension? Elegance and product fit need use by the person the output is for
   (`definition-of-done` 4); an agent that cannot judge one reports it blocked (`review` 3).
 - Who owns each dimension, so every score has one party who answers for it?
