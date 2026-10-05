@@ -75,8 +75,8 @@ Point text from the Deming Institute's condensation of *Out of the Crisis*, pp. 
 
 ### 1. Constancy of purpose
 
-> Create constancy of purpose toward improvement of product and service, with the aim to become
-> competitive and to stay in business, and to provide jobs.
+"Create constancy of purpose toward improvement of product and service, with the aim to become
+competitive and to stay in business, and to provide jobs."
 
 | | Directive | Practice |
 |---|---|---|
@@ -87,8 +87,8 @@ Point text from the Deming Institute's condensation of *Out of the Crisis*, pp. 
 
 ### 2. Adopt the new philosophy
 
-> Adopt the new philosophy. We are in a new economic age. Western management must awaken to the
-> challenge, must learn their responsibilities, and take on leadership for change.
+"Adopt the new philosophy. We are in a new economic age. Western management must awaken to the
+challenge, must learn their responsibilities, and take on leadership for change."
 
 | | Directive | Practice |
 |---|---|---|
@@ -99,8 +99,8 @@ Point text from the Deming Institute's condensation of *Out of the Crisis*, pp. 
 
 ### 3. Cease dependence on inspection
 
-> Cease dependence on inspection to achieve quality. Eliminate the need for inspection on a mass
-> basis by building quality into the product in the first place.
+"Cease dependence on inspection to achieve quality. Eliminate the need for inspection on a mass
+basis by building quality into the product in the first place."
 
 | | Directive | Practice |
 |---|---|---|
@@ -111,8 +111,8 @@ Point text from the Deming Institute's condensation of *Out of the Crisis*, pp. 
 
 ### 4. End buying on price tag
 
-> End the practice of awarding business on the basis of price tag. Instead, minimize total cost.
-> Move toward a single supplier for any one item, on a long-term relationship of loyalty and trust.
+"End the practice of awarding business on the basis of price tag. Instead, minimize total cost. Move
+toward a single supplier for any one item, on a long-term relationship of loyalty and trust."
 
 Note: The request is the long-term relationship that minimises total cost; one supplier per item is
 the mechanism Deming named.
@@ -126,8 +126,8 @@ the mechanism Deming named.
 
 ### 5. Improve constantly and forever
 
-> Improve constantly and forever the system of production and service, to improve quality and
-> productivity, and thus constantly decrease costs.
+"Improve constantly and forever the system of production and service, to improve quality and
+productivity, and thus constantly decrease costs."
 
 | | Directive | Practice |
 |---|---|---|
@@ -138,7 +138,7 @@ the mechanism Deming named.
 
 ### 6. Training on the job
 
-> Institute training on the job.
+"Institute training on the job."
 
 | | Directive | Practice |
 |---|---|---|
@@ -149,9 +149,9 @@ the mechanism Deming named.
 
 ### 7. Institute leadership
 
-> Institute leadership. The aim of supervision should be to help people and machines and gadgets
-> to do a better job. Supervision of management is in need of overhaul, as well as supervision of
-> production workers.
+"Institute leadership. The aim of supervision should be to help people and machines and gadgets to
+do a better job. Supervision of management is in need of overhaul, as well as supervision of
+production workers."
 
 | | Directive | Practice |
 |---|---|---|
@@ -162,7 +162,7 @@ the mechanism Deming named.
 
 ### 8. Drive out fear
 
-> Drive out fear, so that everyone may work effectively for the company.
+"Drive out fear, so that everyone may work effectively for the company."
 
 | | Directive | Practice |
 |---|---|---|
@@ -173,9 +173,9 @@ the mechanism Deming named.
 
 ### 9. Break down barriers between departments (key point)
 
-> Break down barriers between departments. People in research, design, sales, and production must
-> work as a team, to foresee problems of production and in use that may be encountered with the
-> product or service.
+"Break down barriers between departments. People in research, design, sales, and production must
+work as a team, to foresee problems of production and in use that may be encountered with the
+product or service."
 
 | | Directive | Practice |
 |---|---|---|
@@ -186,10 +186,10 @@ the mechanism Deming named.
 
 ### 10. Eliminate slogans and targets for the workforce (key point)
 
-> Eliminate slogans, exhortations, and targets for the work force asking for zero defects and new
-> levels of productivity. Such exhortations only create adversarial relationships, as the bulk of
-> the causes of low quality and low productivity belong to the system and thus lie beyond the power
-> of the work force.
+"Eliminate slogans, exhortations, and targets for the work force asking for zero defects and new
+levels of productivity. Such exhortations only create adversarial relationships, as the bulk of the
+causes of low quality and low productivity belong to the system and thus lie beyond the power of the
+work force."
 
 Note: The request is not holding the workforce to results the system controls; slogans and targets
 are the mechanism.
@@ -203,7 +203,7 @@ are the mechanism.
 
 ### 11a. Eliminate quotas on the floor
 
-> Eliminate work standards (quotas) on the factory floor. Substitute leadership.
+"Eliminate work standards (quotas) on the factory floor. Substitute leadership."
 
 | | Directive | Practice |
 |---|---|---|
@@ -214,8 +214,8 @@ are the mechanism.
 
 ### 11b. Eliminate management by objective (key point)
 
-> Eliminate management by objective. Eliminate management by numbers, numerical goals. Substitute
-> leadership.
+"Eliminate management by objective. Eliminate management by numbers, numerical goals. Substitute
+leadership."
 
 Note: The request is leadership in place of management by numbers; management by objective is the
 mechanism, so numerical objectives for processes are not the same obstacle as objectives for people.
@@ -229,8 +229,8 @@ mechanism, so numerical objectives for processes are not the same obstacle as ob
 
 ### 12a. Pride of workmanship, hourly workers (key point)
 
-> Remove barriers that rob the hourly worker of his right to pride of workmanship. The
-> responsibility of supervisors must be changed from sheer numbers to quality.
+"Remove barriers that rob the hourly worker of his right to pride of workmanship. The responsibility
+of supervisors must be changed from sheer numbers to quality."
 
 | | Directive | Practice |
 |---|---|---|
@@ -241,9 +241,9 @@ mechanism, so numerical objectives for processes are not the same obstacle as ob
 
 ### 12b. Pride of workmanship, management and engineering (key point)
 
-> Remove barriers that rob people in management and in engineering of their right to pride of
-> workmanship. This means, inter alia, abolishment of the annual or merit rating and of management
-> by objective.
+"Remove barriers that rob people in management and in engineering of their right to pride of
+workmanship. This means, inter alia, abolishment of the annual or merit rating and of management by
+objective."
 
 Note: "Inter alia": abolishing merit rating and management by objective is part of the request, not
 all of it. Hampton's example of the rest is above.
@@ -257,7 +257,7 @@ all of it. Hampton's example of the rest is above.
 
 ### 13. Education and self-improvement
 
-> Institute a vigorous program of education and self-improvement.
+"Institute a vigorous program of education and self-improvement."
 
 | | Directive | Practice |
 |---|---|---|
@@ -268,8 +268,8 @@ all of it. Hampton's example of the rest is above.
 
 ### 14. The transformation is everybody's job
 
-> Put everybody in the company to work to accomplish the transformation. The transformation is
-> everybody's job.
+"Put everybody in the company to work to accomplish the transformation. The transformation is
+everybody's job."
 
 | | Directive | Practice |
 |---|---|---|
