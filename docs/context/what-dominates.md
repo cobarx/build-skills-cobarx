@@ -185,6 +185,16 @@ its accountability and communication. Genealogy: Deming and TQM, the Toyota Prod
 Lean, then Lean software development (Poppendieck: eliminate waste, build integrity in, decide as
 late as possible, empower the team, see the whole). What is new is the line worker being an agent.
 
+**Each unit must be measurable and scorable.** Hampton, 2026-10-05, a principle discussed in
+another session today and not found recorded anywhere in the repo or its branches. TQM reinforces
+it, and it is part of why single accountability matters: a score needs one unit to attach to. A
+score on a fact two units own has no one to answer for it; an owner with no score cannot be held to
+account. Scored against the goal (`spec` 5), as a diagnostic, never a quota (Deming's point 11,
+`simplicity`'s "diagnostics, not targets"). A unit's score is also what tells you to dispose of it.
+The eval drafts already carry the positive controls the chief-of-staff article asks for: a
+known-bad case expected to score 0 and a known-good case expected to score 1.0 (draft 0017, #64;
+#61).
+
 ## Open threads
 
 **Where is the project's goal stated?** Accountability to reverse enshittification is a guiding
