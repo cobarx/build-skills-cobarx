@@ -145,7 +145,11 @@ it, so it carries upward instead of disappearing. The same shape at every rung, 
 fractal again, applied to an organization. Analogue: the Toyota andon cord, where anyone surfaces
 a problem and it travels up. Limit: the skills make the record exist and stay findable; they
 cannot make anyone above read it. Hampton: that is what the decision log does when done
-properly. "If I can't trust what you do in secret, you're
+properly. And Toyota in essence makes the line worker a manager of the plant: anyone can
+stop the line. The principle is jidoka (stop on an abnormality rather than pass it on); the andon
+cord is the signal. The agent using these skills is the line worker: it stops and surfaces
+(`review` 3, blocked rather than passed; `durable-context` 6, filed without asking), and the
+person accountable decides whether the line restarts. "If I can't trust what you do in secret, you're
 not particularly trustworthy." The repo practices openness throughout: `durable-context` ("in the
 open"), `decision-log` ("a decision is reasoned in the open"), rules a human can audit, a public
 repo under CC-BY. Industry term: working in the open (GDS, "make things open: it makes things
