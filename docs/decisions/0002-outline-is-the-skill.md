@@ -7,8 +7,8 @@
 
 ## Context
 
-The skills to be ported from MetanoiaFramework ran 300 to 800 lines each, about 2,200 combined:
-not reviewable. A skill loads into context every time it fires, and `simplicity` fires on every
+The skills to be ported from MetanoiaFramework, the owner's earlier private project, ran 300 to
+800 lines each, about 2,200 combined: not reviewable. A skill loads into context every time it fires, and `simplicity` fires on every
 unit of work, so its length is a tax on all of them.
 
 ## Options
