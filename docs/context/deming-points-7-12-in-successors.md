@@ -159,6 +159,60 @@ Key sources:
   A critic of ISO, so partisan.
 - ISO 9001:2015 itself is paywalled; its clause wording here comes from secondary quotations.
 
+## Why the requests were dropped
+
+Working framings, to be refined. Two that fit different cases.
+
+**Decoupling.** Adopting a practice's form without its substance. Boiral's ISO 9000 interviews fit
+it: support "often … only superficial", "ceremonial integrators" among the responses. The term
+comes from institutional theory, Meyer and Rowan's "myth and ceremony" (1977); that attribution is
+recalled, not checked.
+
+**Enshittification, with employees as the locked-in users.** Hampton's framing. Doctorow's
+enshittification is a platform turning on users it has locked in, to move value to itself. His
+stages (good to users, then worse for users to favour business customers, then worse for both to
+claw value back for the platform) are recalled here, not checked. Doctorow names the forces that
+"once acted as constraints" as "competition, regulation, labor power and interoperability"
+(Pluralistic, 8 May 2025, <https://pluralistic.net/2025/05/08/who-broke-the-internet/>). Read with
+employees as the users:
+
+- **Good to the users first.** At NUMMI, Toyota's management came with a no-layoff policy, and
+  worker satisfaction rose from about 80% to over 90% (Adler, agent-checked).
+- **Lock-in.** Skills worth most at one firm, and, in the US, benefits tied to the job. Reasoning,
+  not a source.
+- **Value moved to the owners.** GE 1997: senior executive pay "heavily weighted toward Six Sigma
+  commitment and success — success now increasingly defined as 'eatable' financial returns". At
+  3M, Six Sigma came with 8,000 layoffs and an intensified performance review.
+- **The constraint removed.** Points 8 and 12 (no fear, pride of workmanship, no merit rating) give
+  workers standing inside the firm: a labour constraint built into management. GE's 2000 policy to
+  remove the bottom 10% "every year" is a fear instrument aimed at it.
+
+Where it fits less well: at GE, forced ranking came with Six Sigma from the start, not after a
+good phase; ISO looks more like ceremony than extraction, which is decoupling. And Doctorow coined
+the term for platforms, so applying it to employers is an extension of it. This framing is the
+bridge to the anti-enshittification goal raised in #90's notes, and is meant to be refined there.
+
+## Deming's later emphasis
+
+Hampton's reading: over time Deming came to see that psychology was supported by measurement, so
+measurement stopped being the primary focus. Not a discounting of measurement; an ordering. The
+record of the shift:
+
+- 1950, to Japanese industrial leaders: "Statistical product quality administration is a splendid
+  new tool"
+  (<https://deming.org/speech-by-dr-deming-to-japanese-business-leaders-in-1950/>).
+- *Out of the Crisis*, deadly disease 5: "Management by use only of visible figures, with
+  little or no consideration of figures that are unknown or unknowable"
+  (<https://deming.org/myth-if-you-cant-measure-it-you-cant-manage-it/>).
+- 1989, the first presentation of what became the System of Profound Knowledge lists psychology
+  and "knowledge of cooperation and its benefits" beside knowledge of variation
+  (<https://deming.org/the-development-of-demings-management-system/>).
+- Later, in *The New Economics*: "It is wrong to suppose that if you can't measure it, you can't
+  manage it – a costly myth" (same Deming Institute page as deadly disease 5).
+
+By that reading, a successor that makes measurement its primary focus inverts the order Deming
+arrived at, whatever else it keeps.
+
 ## What would settle it
 
 - **Studies that measure the requests directly.** None was found for any of the three: teamwork
@@ -184,7 +238,8 @@ unchecked. These claims were then re-checked against the source by the author of
 ISO's principles document (every phrase quoted from it); Deming's 1994 *IndustryWeek* quote;
 Liker and Shook on MBO; Smalley on the cascade and appraisal; the *Globe and Mail* five-grade
 report; Womack; GE's 1997 and 2000 letters (every quote above); the 3M article (every quote above);
-ASQ's syllabus (SMART goals, OKRs, line of sight, coaching, and the absence of "fear"); and the
-Deming Institute's wording of points 9–12. Claims marked "agent-checked" were read by an agent but
+ASQ's syllabus (SMART goals, OKRs, line of sight, coaching, and the absence of "fear"); the
+Deming Institute's wording of points 9–12; Doctorow's list of constraints; and the four quotes on
+Deming's later emphasis. Claims marked "agent-checked" were read by an agent but
 not re-checked; claims marked "unchecked" were not read in full by anyone. Everything else comes
 from the agents' reports, checked by them against the cited source.
