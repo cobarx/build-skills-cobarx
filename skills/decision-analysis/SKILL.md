@@ -29,9 +29,9 @@ handed the analysis can check it, and can disagree for reasons the analyst did n
 4. **Give an authority's reason, not only its verdict.** When a maintainer, vendor or project
    recommends an option, say why they recommend it.
 
-5. **Make the best case for the option the decider resists, starting with why it exists.** The
-   problem it was built to solve comes first. Then give its strongest arguments their full weight,
-   and say of each whether it applies to this work now.
+5. **Steelman the option the decider resists, starting with why it exists.** The problem it was
+   built to solve comes first. Then give its strongest arguments their full weight, and say of each
+   whether it applies to this work now.
 
 6. **Recommend one.** Where it loses on a criterion, say why it still wins. No second pick: a
    preference only the decider holds is a question for them (rule 2).

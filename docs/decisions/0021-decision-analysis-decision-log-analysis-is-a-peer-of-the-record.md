@@ -53,9 +53,11 @@ The rules, and where each came from:
    "never claim blanket verification" after a run claimed every fact was fetched while stating two
    from memory.
 4. **An authority's reason, not only its verdict.** The second correction.
-5. **The resisted option's best case, starting with why it exists.** The second correction: its
+5. **Steelman the resisted option, starting with why it exists.** The second correction: its
    purpose is the decider's first question, and a decider who sees why each argument holds or
-   fails can trust the recommendation or overturn it.
+   fails can trust the recommendation or overturn it. "Steelman" is the industry term for
+   building the strongest version of the opposing case (0006); this rule adds the purpose first
+   and a verdict on each argument.
 6. **Recommend one.** Review: runs hedged with a preference-based second pick, traced to a criterion
    the recommendation lost on without saying why. So it must say why it still wins, and a
    preference only the decider holds becomes a question (rule 2). The owner: "an improvement" that
