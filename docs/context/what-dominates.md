@@ -285,6 +285,11 @@ who that user is, and which unit is scored first. Open, to ask:
 - A score can be a number or a verdict in words: "the set design is trash," with its reason, is as
   valid as a 3 out of 10, and usually says more about what to fix. The critic's judgement, not
   only a count.
+- Hampton: you don't need a score to say an app sucks. "It's laggy. The UI is confusing. I can't
+  get the data I want. It locks me in." The user's complaint is the measurement, found only by
+  using it (`definition-of-done` 4), and it names what to fix. "Locks me in" is a dimension the
+  first list lacked, and it is enshittification itself: does the product let its user leave with
+  their data?
 - Who scores each dimension? Elegance and product fit need use by the person the output is for
   (`definition-of-done` 4); an agent that cannot judge one reports it blocked (`review` 3).
 - Who owns each dimension, so every score has one party who answers for it?
