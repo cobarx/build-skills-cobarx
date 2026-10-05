@@ -274,7 +274,11 @@ stated. Hampton's call.
 elegance, product fit, reliability, ease of adoption and long-term maintainability, things rarely
 measured in corporate America. Goal not yet written (`spec` 1): what the rubric lets its user do,
 who that user is, and which unit is scored first. Open, to ask:
-- Which unit first: a PR, a component, a product, or the skills themselves?
+- Which unit first? Answered 2026-10-05: features and products, not backend services. So each
+  dimension is as the user meets it: reliability as experienced, not an SLO; adoption as a new
+  user's path to value; maintainability of the feature as it evolves.
+- What decision do the scores feed (ship, fix, replace, dispose, invest)? That is the rubric's
+  goal (`spec` 5), and it sets the scale and who reads it.
 - Who scores each dimension? Elegance and product fit need use by the person the output is for
   (`definition-of-done` 4); an agent that cannot judge one reports it blocked (`review` 3).
 - Who owns each dimension, so every score has one party who answers for it?
