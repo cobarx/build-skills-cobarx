@@ -109,9 +109,11 @@ used: clean interface, crude disposable internals.
 
 ## Open threads
 
-**Does "DRY" carry the wrong reading?** It is popularly heard as "don't repeat code," which drives
-premature abstraction. The name may need the original definition quoted beside it, or a term
-without the baggage (single source of truth). Partly answered by the next point.
+**What to call the principle, if not DRY?** Settled 2026-10-05 that DRY is the wrong branding
+(heard as "don't repeat code," which the framework permits inside a boundary) but the right
+genealogy: Hunt and Thomas's definition is where the principle comes from and should be cited as
+such. The name is open. Candidates: single source of truth (industry, but reads as data and
+config), or Hampton's plain "only one thing owns a thing."
 
 **Where does "only one thing owns a thing" live, and under what name?** It is cross-cutting (it
 shows in `simplicity`, `contracts`, `durable-context`, `decision-log` and AGENTS.md), so by
