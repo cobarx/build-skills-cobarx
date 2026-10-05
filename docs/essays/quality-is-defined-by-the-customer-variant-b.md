@@ -28,8 +28,12 @@ American organisations set out to learn how, and the US Navy adopted Deming's te
 its programme "Total Quality Management" in 1985.[^wiki]
 
 The name has faded since. ASQ notes TQM "is not as widely used in the United States as it once
-was,"[^asq] its ideas now filed under quality management, ISO 9000, Lean and Six Sigma.[^wiki] This
-essay uses the name for the ideas, not for the programmes or certifications that grew up around it.
+was,"[^asq] and much of its practice now goes under quality management, ISO 9000, Lean and Six
+Sigma.[^wiki] A methodology that keeps the measurement but drops Deming's recommendations for how an
+organisation is run (leadership in place of quotas and management by objective, driving out fear,
+breaking down barriers between departments, pride of workmanship: points 7 to 12[^deming]) leaves
+out a key part of his work. Hampton largely agrees with those recommendations, which is why this
+essay names TQM and Deming rather than a successor.
 
 ## Its why: lasting by serving the customer
 
