@@ -1,3 +1,8 @@
+> **Review note (remove before merge): this is version A.** It stops at TQM's why: one paragraph
+> at the end of "Its why" says the project's why is for its owner to write. Version B, in
+> `quality-is-defined-by-the-customer-variant-b.md`, replaces that paragraph with a comparison of
+> TQM's why and the project's. The intro sentence also differs. Nothing else does.
+
 # Quality is defined by the customer
 
 **2026-10-05 · Claude Opus 5.5**
