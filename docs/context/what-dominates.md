@@ -85,7 +85,20 @@ context), one registered term per concept (planned `glossary`), decisions supers
 edited. Industry names each cover a slice: single source of truth (data, config), DRY
 (knowledge), single responsibility (modules). None covers every level.
 
+**Spec driven and DRY.** Hampton's framing: the skills are a DRY framework as well as a spec-driven
+one. The two connect. Spec driven says the what is the authority; DRY says every authority is
+singular. The spec is the one authoritative representation of the goal, with one owner (`spec` 3),
+and checks and decision criteria derive from it (`spec` 7). `contracts` rule 1 ("two sources, and
+no third") is DRY stated directly. Neither identity appears in the README, which says only "skills
+for how software gets built."
+
 ## Open threads
+
+**Does "DRY" carry the wrong reading?** It is popularly heard as "don't repeat code," which drives
+premature abstraction ("duplication is far cheaper than the wrong abstraction," Sandi Metz).
+`simplicity` rule 1 already calls an abstraction invented to make the sentence work a failure. If
+the framework names itself DRY, it may need the original definition quoted beside the name, or a
+term without the baggage (single source of truth).
 
 **Where does "only one thing owns a thing" live, and under what name?** It is cross-cutting (it
 shows in `simplicity`, `contracts`, `durable-context`, `decision-log` and AGENTS.md), so by
