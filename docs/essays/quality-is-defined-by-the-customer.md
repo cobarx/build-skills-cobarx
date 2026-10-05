@@ -47,8 +47,8 @@ Set beside it, this repo's why as it stands so far. Its essays say the skills ex
 agent's defaults are a helpful assistant's, not an engineer's: left alone, it builds something and
 then blesses it ([An assistant, not an engineer][assistant]). Hampton names what makes those
 defaults the problem: they are not visible or discussed, so no one can reason about them, and they
-author the agent's viewpoints, stated as fact when they are taste. And "more mediocrity traces to a
-goal never set than to a job done badly" ([Define what good looks like][good]).
+author the agent's viewpoints, stated as fact when they are actually taste. And "more mediocrity
+traces to a goal never set than to a job done badly" ([Define what good looks like][good]).
 
 The two whys meet. Both start from the person the work is for. Both treat bad work as the system's
 doing, not the worker's: Deming put most defects on the system, and the essays put the agent's on
