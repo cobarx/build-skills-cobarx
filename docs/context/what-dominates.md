@@ -324,8 +324,11 @@ who that user is, and which unit is scored first. Open, to ask:
   delegation, the responder chain, Interface Builder, Foundation underneath, the same Objective-C
   runtime. The classes were new (no cells, Core Animation layers under every view, a flipped
   coordinate system). The philosophy was the what and survived the port; the classes were the how
-  and were replaced. That carried developers' knowledge too, so a Mac developer already knew how
-  to think on the iPhone: cohesion is also developer experience.
+  and were replaced. Hampton's correction: the gain was not Mac developers' skills transferring
+  (most iPhone developers were new to Apple). Mac design was fundamentally sound, so new developers
+  had a great foundation: a little effort gave a great app. Industry term: the pit of success
+  (Rico Mariani), where the right thing is the easy thing. Cohesion is developer experience
+  because a sound foundation does the work, not because knowledge carries.
 - Hampton: even the Linux solution is better. Run Windows apps behind an interface (Wine, Proton)
   in their own container. Windows has WoW64, but you want that forced abstraction layer. The
   legacy is a guest behind an explicit boundary, so the host stays clean and can be replaced
