@@ -16,12 +16,13 @@ handed the analysis can check it, and can disagree for reasons the analyst did n
 
 1. **The decider's criteria come first, objections included.** A preference or an unease the
    decider brings is a criterion. State it in their terms and weigh it like the others; do not
-   argue it away. The rest come from the goal (`spec`).
+   argue it away. When in doubt about what they mean, ask; an unknown the decider can settle is a
+   question, not an assumption. The rest come from the goal (`spec`).
 
 2. **Measure, do not recall.** Every fact the choice turns on comes from the system in front of
    you or a primary source, with how and when it was obtained. A remembered fact is a lead to check,
-   and ecosystems move faster than memory. When an authority recommends an option, give its reason,
-   not only its verdict.
+   and ecosystems move faster than memory. Mark any fact left unchecked; never claim blanket
+   verification. When an authority recommends an option, give its reason, not only its verdict.
 
 3. **Make the best case for the option the decider resists, starting with why it exists.** The
    problem it was built to solve comes first, because it is the decider's first question. Then give
@@ -30,7 +31,8 @@ handed the analysis can check it, and can disagree for reasons the analyst did n
 
 4. **Recommend one, and say what would reverse it.** End with a single recommendation and the
    observable conditions under which it should be revisited. Those conditions are what turn a
-   later reversal from a re-argument into a check.
+   later reversal from a re-argument into a check. Where it loses on a criterion, say why it still
+   wins.
 
 5. **Open with a summary.** The recommendation and the few reasons that decide it, before any
    detail, so the decider can stop there or read on knowing where it leads.

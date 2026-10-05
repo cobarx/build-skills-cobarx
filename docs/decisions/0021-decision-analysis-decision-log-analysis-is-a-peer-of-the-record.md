@@ -61,6 +61,14 @@ The rules are the ones the test case needed:
   each replied with the file's summary verbatim and the path, nothing else. The owner then split it
   in two: the file standing alone (rule 6) and the reply (rule 7).
 
+Three more changes in review on 2026-10-05, from a blind grade of three runs. Rule 1: two runs
+quietly widened the decider's objection ("outside the OS package manager" became "outside apt or
+snap"); the owner's answer was "when in doubt, ask. the decision analysis helps form the spec. you
+need clarity on unknowns." Rule 2: one run claimed every fact was fetched while stating two from
+memory, so no blanket claim of verification. Rule 4: two runs hedged with a second pick, traced to
+a criterion the recommendation lost on without saying why; it must now say why it still wins. The
+owner judged this "an improvement" that "feels incomplete", so it is to be revisited.
+
 ## Consequences
 
 - `decision-log` gains only a "Not here" pointer. Its rules 1 and 3 overlap the new skill; whether
