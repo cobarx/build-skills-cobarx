@@ -8,11 +8,14 @@ The reasoning behind them lives in [docs/essays/](docs/essays/).
 
 ## Lineage
 
-The skills are a close match for total quality management (TQM), the tradition of W. Edwards Deming.
-They share its definition of quality: what the people the work is for need, as they define it, not
-as the builder does. The methods follow from that. [Quality is defined by the
+The skills are a close match for total quality management (TQM). TQM holds that quality is defined
+by the customer and built into the work by everyone who does it, not checked for at the end. The
+skills share that definition: quality is what the people the work is for need, as they define it,
+not as the builder does, and the methods follow from that. [Quality is defined by the
 customer](docs/essays/quality-is-defined-by-the-customer.md) explains TQM for a reader new to it,
-from why it exists to how it works, and says what the skills have not built yet.
+from why it exists to how it works, and says what the skills have not built yet. TQM grew from the
+work of W. Edwards Deming, whose teaching Japanese industry took up after the Second World War; the
+US Navy gave it its name in 1985.
 
 ## Skills
 
