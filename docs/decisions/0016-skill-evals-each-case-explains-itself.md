@@ -1,7 +1,7 @@
 # 0016. `skill-evals`: each case explains itself in a README
 
-- **Status:** Proposed
-- **Decided:** 2026-10-03 · **Recorded:** 2026-10-03 · Claude Opus 5.5
+- **Status:** Accepted
+- **Decided:** 2026-10-05 · **Recorded:** 2026-10-03 · Claude Opus 5.5
 - **Affects:** `skill-evals` (planned), which carries the rule to every eval suite under `evals/`
 
 ## Context
@@ -69,3 +69,5 @@ anything, and the cases that check it loads would prove nothing.
 ## Consequences
 
 - A case's command is written in its README and has to work exactly as written.
+- Accepted with a review to come: the owner reviews it again once the suites are laid out per
+  0015 and every case has a README, to judge it on more examples (2026-10-05).
