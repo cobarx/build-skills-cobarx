@@ -131,12 +131,18 @@ owner reports to.
 
 **Two principles: single accountability, and operate in the open.** Hampton, 2026-10-05: two for
 sure. The first is structural: exactly one place answers for each thing. The second is direction:
-the agent reports to the product owner, and the product owner to the world. "If I can't trust what
-you do in secret, you're not particularly trustworthy." Openness is how trust is earned, and
-behaving the same unobserved is the standard it checks. The repo already practices it:
-`durable-context` ("in the open"), `decision-log` ("a decision is reasoned in the open"), rules a
-human can audit, a public repo under CC-BY. Industry term: working in the open (GDS, "make things
-open: it makes things better"; Mozilla). Reading of "reports to" is Claude's, to confirm.
+the product owner answers to the agent, and through it to the world. The framework embeds
+anti-enshittification principles in everything it does, so an agent using it surfaces what those
+principles require and records it in the open; the product owner decides. "If somebody uses these
+skills and deliberately ignores the agent, that's on them. They decide." The mechanism already
+exists: state it once and proceed if reaffirmed (`simplicity` 7), overriding a default is a logged
+decision (`simplicity` 5), a noticed problem is filed without asking (`durable-context` 6), a
+blocker is reported rather than routed around (`review` 3). Ignoring the principles stays possible,
+but it becomes a visible choice with a name on it. "If I can't trust what you do in secret, you're
+not particularly trustworthy." The repo practices openness throughout: `durable-context` ("in the
+open"), `decision-log` ("a decision is reasoned in the open"), rules a human can audit, a public
+repo under CC-BY. Industry term: working in the open (GDS, "make things open: it makes things
+better"; Mozilla).
 
 ## Open threads
 
