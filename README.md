@@ -26,6 +26,7 @@ The reasoning behind them lives in [docs/essays/](docs/essays/).
 | [decision-log](skills/decision-log/SKILL.md) | A decision is reasoned in the open. |
 | [decision-analysis](skills/decision-analysis/SKILL.md) | Give the decider what they need to weigh a choice themselves. |
 | [adopting-standards](skills/adopting-standards/SKILL.md) | Adopt an existing standard before inventing your own. |
+| [skill-evals](skills/skill-evals/SKILL.md) | Show that a skill changes what an agent does, with a measurement that could have shown it didn't. |
 
 Planned: `linting`, `test-fidelity`, `glossary`, `harness`, `project-setup`, a skill for the *why*
 behind a goal (name not settled), plus ports of `tdd` and `error-taxonomy`.
