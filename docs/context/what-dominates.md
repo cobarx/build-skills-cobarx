@@ -18,8 +18,8 @@ layer and the vendor SDK clients, not the app. Industry terms: ports and adapter
 architecture), and for persistence the repository pattern, which is what makes DynamoDB vs MySQL
 a swap. A repository isolates the engine only if its interface is shaped by what the domain asks,
 not by what the store can query; methods shaped around one store's access patterns carry it
-through. Data already in the store still needs a migration either way. The swap is as big as the leak: SDK types that escaped into application code make
-the gating choice everywhere.
+through. Data already in the store still needs a migration either way. The swap is as big as the
+leak: SDK types that escaped into application code make the gating choice everywhere.
 
 **That is why these skills insist on separation of concerns and contract enforcement.** Hampton's
 point. `contracts` (units meet only at explicit contracts, a supplier wrapped behind one) and
