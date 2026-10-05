@@ -1,7 +1,7 @@
 # 0018. `skill-evals`: a judge is a pinned model, approved by a repeatable qualification
 
-- **Status:** Proposed
-- **Decided:** not yet · **Recorded:** 2026-10-04, revised 2026-10-05 · Claude Opus 5.5
+- **Status:** Accepted
+- **Decided:** 2026-10-05 · **Recorded:** 2026-10-04, revised 2026-10-05 · Claude Opus 5.5
 - **Affects:** `skill-evals` (planned), which carries the rule to every eval suite under `evals/`
 
 ## Context
