@@ -78,9 +78,6 @@ Point text from the Deming Institute's condensation of *Out of the Crisis*, pp. 
 > Create constancy of purpose toward improvement of product and service, with the aim to become
 > competitive and to stay in business, and to provide jobs.
 
-Request: an organisation aimed, over the long term, at improving what it makes, to stay in business
-and provide jobs. Mechanism: none named.
-
 | | Canon | Practice |
 |---|---|---|
 | TQM | Calls for: ASQ's "strategic and systematic approach"; the Navy primer lists lack of constancy of purpose as a disease | Arthur D. Little's 1992 survey of 500+ firms: only a third saw any competitive impact |
@@ -92,8 +89,6 @@ and provide jobs. Mechanism: none named.
 
 > Adopt the new philosophy. We are in a new economic age. Western management must awaken to the
 > challenge, must learn their responsibilities, and take on leadership for change.
-
-Request: management learns its responsibilities and leads the change. Mechanism: none named.
 
 | | Canon | Practice |
 |---|---|---|
@@ -107,9 +102,6 @@ Request: management learns its responsibilities and leads the change. Mechanism:
 > Cease dependence on inspection to achieve quality. Eliminate the need for inspection on a mass
 > basis by building quality into the product in the first place.
 
-Request: quality built into the product in the first place. Mechanism: end dependence on mass
-inspection.
-
 | | Canon | Practice |
 |---|---|---|
 | TQM | Calls for, Crosby included ("prevention") | No adoption data found |
@@ -122,8 +114,8 @@ inspection.
 > End the practice of awarding business on the basis of price tag. Instead, minimize total cost.
 > Move toward a single supplier for any one item, on a long-term relationship of loyalty and trust.
 
-Request: minimise total cost through long-term supplier relationships of loyalty and trust.
-Mechanism: stop buying on price; move toward one supplier per item.
+Note: The request is the long-term relationship that minimises total cost; one supplier per item is
+the mechanism Deming named.
 
 | | Canon | Practice |
 |---|---|---|
@@ -137,8 +129,6 @@ Mechanism: stop buying on price; move toward one supplier per item.
 > Improve constantly and forever the system of production and service, to improve quality and
 > productivity, and thus constantly decrease costs.
 
-Request: improve the system continually. Mechanism: none named.
-
 | | Canon | Practice |
 |---|---|---|
 | TQM | Calls for: its closest match (ASQ's continual improvement; the Navy's "continuous effort") | Studies disagree: Ernst & Young found process improvement helped everywhere; Powell found it gave no general advantage |
@@ -149,8 +139,6 @@ Request: improve the system continually. Mechanism: none named.
 ### 6. Training on the job
 
 > Institute training on the job.
-
-Request: people trained in their own jobs. Mechanism: none named.
 
 | | Canon | Practice |
 |---|---|---|
@@ -165,8 +153,6 @@ Request: people trained in their own jobs. Mechanism: none named.
 > to do a better job. Supervision of management is in need of overhaul, as well as supervision of
 > production workers.
 
-Request: supervision helps people do a better job. Mechanism: overhaul supervision.
-
 | | Canon | Practice |
 |---|---|---|
 | TQM | Calls for: the Navy renamed TQM "Total Quality Leadership" in 1990 "to emphasize the crucial role leaders have"; leaders "Act as a coach and counselor, rather than simply as a judge"; ASQ's eight principles omit leadership | Powell: executive commitment produces advantage |
@@ -177,8 +163,6 @@ Request: supervision helps people do a better job. Mechanism: overhaul supervisi
 ### 8. Drive out fear
 
 > Drive out fear, so that everyone may work effectively for the company.
-
-Request: everyone able to work effectively, without fear. Mechanism: drive out fear.
 
 | | Canon | Practice |
 |---|---|---|
@@ -192,9 +176,6 @@ Request: everyone able to work effectively, without fear. Mechanism: drive out f
 > Break down barriers between departments. People in research, design, sales, and production must
 > work as a team, to foresee problems of production and in use that may be encountered with the
 > product or service.
-
-Request: departments working as one team to foresee problems in production and use. Mechanism:
-break down barriers between departments.
 
 | | Canon | Practice |
 |---|---|---|
@@ -210,8 +191,8 @@ break down barriers between departments.
 > the causes of low quality and low productivity belong to the system and thus lie beyond the power
 > of the work force.
 
-Request: stop holding the workforce to results the system controls. Mechanism: eliminate slogans,
-exhortations, and targets for zero defects and productivity.
+Note: The request is not holding the workforce to results the system controls; slogans and targets
+are the mechanism.
 
 | | Canon | Practice |
 |---|---|---|
@@ -223,8 +204,6 @@ exhortations, and targets for zero defects and productivity.
 ### 11a. Eliminate quotas on the floor
 
 > Eliminate work standards (quotas) on the factory floor. Substitute leadership.
-
-Request: leadership in place of floor quotas. Mechanism: eliminate work standards.
 
 | | Canon | Practice |
 |---|---|---|
@@ -238,8 +217,8 @@ Request: leadership in place of floor quotas. Mechanism: eliminate work standard
 > Eliminate management by objective. Eliminate management by numbers, numerical goals. Substitute
 > leadership.
 
-Request: leadership in place of management by numbers. Mechanism: eliminate management by
-objective and numerical goals.
+Note: The request is leadership in place of management by numbers; management by objective is the
+mechanism, so numerical objectives for processes are not the same obstacle as objectives for people.
 
 | | Canon | Practice |
 |---|---|---|
@@ -252,9 +231,6 @@ objective and numerical goals.
 
 > Remove barriers that rob the hourly worker of his right to pride of workmanship. The
 > responsibility of supervisors must be changed from sheer numbers to quality.
-
-Request: hourly workers keep their pride of workmanship; supervisors answer for quality, not
-numbers. Mechanism: remove the barriers.
 
 | | Canon | Practice |
 |---|---|---|
@@ -269,8 +245,8 @@ numbers. Mechanism: remove the barriers.
 > workmanship. This means, inter alia, abolishment of the annual or merit rating and of management
 > by objective.
 
-Request: the same right for managers and engineers. Mechanism: abolish, among other things, the
-annual or merit rating and management by objective.
+Note: "Inter alia": abolishing merit rating and management by objective is part of the request, not
+all of it. Hampton's example of the rest is above.
 
 | | Canon | Practice |
 |---|---|---|
@@ -283,8 +259,6 @@ annual or merit rating and management by objective.
 
 > Institute a vigorous program of education and self-improvement.
 
-Request: education and self-improvement beyond the job at hand. Mechanism: none named.
-
 | | Canon | Practice |
 |---|---|---|
 | TQM | Calls for: Baldrige scored education and training; the Navy ran courses | Training was widely adopted; Powell found no general advantage from it |
@@ -296,8 +270,6 @@ Request: education and self-improvement beyond the job at hand. Mechanism: none 
 
 > Put everybody in the company to work to accomplish the transformation. The transformation is
 > everybody's job.
-
-Request: everyone works on the transformation. Mechanism: none named.
 
 | | Canon | Practice |
 |---|---|---|
