@@ -16,8 +16,9 @@ handed the analysis can check it, and can disagree for reasons the analyst did n
 
 1. **The decider's criteria come first, objections included.** A preference or an unease the
    decider brings is a criterion. State it in their terms and weigh it like the others; do not
-   argue it away. When in doubt about what they mean, ask; an unknown the decider can settle is a
-   question, not an assumption. The rest come from the goal (`spec`).
+   argue it away. Ask when in doubt, and always when an option meets the objection only under a
+   reading broader than the decider's own words; put the question in the summary. An unknown the
+   decider can settle is a question, not an assumption. The rest come from the goal (`spec`).
 
 2. **Measure, do not recall.** Every fact the choice turns on comes from the system in front of
    you or a primary source, with how and when it was obtained. A remembered fact is a lead to check,
@@ -32,7 +33,7 @@ handed the analysis can check it, and can disagree for reasons the analyst did n
 4. **Recommend one, and say what would reverse it.** End with a single recommendation and the
    observable conditions under which it should be revisited. Those conditions are what turn a
    later reversal from a re-argument into a check. Where it loses on a criterion, say why it still
-   wins.
+   wins. No second pick: a preference only the decider holds is a question for them (rule 1).
 
 5. **Open with a summary.** The recommendation and the few reasons that decide it, before any
    detail, so the decider can stop there or read on knowing where it leads.
@@ -40,7 +41,11 @@ handed the analysis can check it, and can disagree for reasons the analyst did n
 6. **The analysis stands alone.** Write it as a plain file the decider can read without the agent,
    including what could not be checked.
 
-7. **The reply is the summary and the path.** Paste the file's summary exactly as written, then its
+7. **Reread the file before replying.** Look for a claim of verification broader than what was
+   checked, a second pick, and a criterion the recommendation loses on without saying why. Fix the
+   file, not the reply.
+
+8. **The reply is the summary and the path.** Paste the file's summary exactly as written, then its
    absolute path on its own line. No other information, caveats included; every detail is in the
    file.
 

@@ -69,6 +69,14 @@ memory, so no blanket claim of verification. Rule 4: two runs hedged with a seco
 a criterion the recommendation lost on without saying why; it must now say why it still wins. The
 owner judged this "an improvement" that "feels incomplete", so it is to be revisited.
 
+Three runs of those changes moved nothing: none flagged the broader reading, one opened with "All
+facts were checked", two still gave a second pick. Diagnosis: "when in doubt" never fires because
+the model is not in doubt (the trigger problem 0020 fixed for `spec`), and the blanket claim and
+the hedge survive because nothing makes the model reread. So rule 1 gains an observable trigger
+(an option that meets the objection only under a broader reading) with the question carried in the
+summary, so it reaches the decider through the reply rule; rule 4 forbids a second pick outright;
+and a new rule 7 rereads the file for both before replying. The reply rule becomes rule 8.
+
 ## Consequences
 
 - `decision-log` gains only a "Not here" pointer. Its rules 1 and 3 overlap the new skill; whether
