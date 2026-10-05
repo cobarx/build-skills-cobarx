@@ -302,6 +302,13 @@ who that user is, and which unit is scored first. Open, to ask:
   replaces the last: several UI frameworks, several config stores, several package systems. It is
   the case where the how could never be disposed of, because millions of programs depend on its
   internals (Hyrum's law): no boundary, so nothing can be thrown away.
+- Hampton: such choices are not architected away. Apple had to start from scratch (NeXTSTEP into
+  Mac OS X: Darwin, BSD, Cocoa), and repeatedly says "we will give you a way to do things that
+  works." The pattern across its transitions (68k to PowerPC, Classic and Carbon, PowerPC to
+  Intel with Rosetta, 32-bit apps dropped in 2019, Intel to Apple Silicon with Rosetta 2): a
+  bridge, a deadline, then removal. Microsoft promises never to break you; Apple promises a way
+  forward and breaks you on a schedule. One blessed way per problem is single accountability at
+  platform level: Windows has six ways to install software, macOS has one it stands behind.
 - Who scores each dimension? Elegance and product fit need use by the person the output is for
   (`definition-of-done` 4); an agent that cannot judge one reports it blocked (`review` 3).
 - Who owns each dimension, so every score has one party who answers for it?
