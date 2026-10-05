@@ -3,11 +3,9 @@
 ## Summary
 
 Skills for how software gets built: sizing units of work, platform conventions, naming,
-formatting, linting, testing, contracts. Kept separate from
-[ai-skills-cobarx](https://github.com/cobarx/ai-skills-cobarx), which stays independently
-shareable and covers a different domain (environment setup, organizing projects, system admin).
+formatting, linting, testing, contracts.
 
-Each skill is `skills/<name>/SKILL.md`, installable the same way as ai-skills-cobarx.
+Each skill is `skills/<name>/SKILL.md`; the README says how to install them.
 
 ## Load `simplicity` first
 

@@ -8,11 +8,6 @@ Unsettled. Moved here out of conversation so it survives.
 depth 3, function 50 lines, file 300 lines, parameters 4. These are common SonarJS and ESLint
 defaults. They are plausible and unconfirmed, and presenting them as settled is fake precision.
 
-**Licence undecided.** No `LICENSE` yet.
-
-**Repo is private.** Created private as the reversible default, not as a decision. `ai-skills-cobarx`
-stays independently shareable, which was the reason for a separate repo at all.
-
 **`docs/essays/` is a coinage.** There is no strong industry term for a post-hoc narrative about
 why a practice exists. Oxide's RFDs are the closest published model but are pre-decision. Recorded
 as ours per the vocabulary rule, and open to a better name.
@@ -53,7 +48,7 @@ is the kind of thing that rots quietly.
 
 **Does "draft long, then keep only what is a rule" need a home of its own?** It generalises past
 skill authoring to specs, docs, and any distillation task. Currently it lives only in
-`docs/essays/outline-is-the-skill.md` and in `CLAUDE.md` as a convention.
+`docs/essays/outline-is-the-skill.md` and in `AGENTS.md` as a convention.
 
 **How much proof is enough?** `definition-of-done` says to check every dimension and to scale the
 proof to the blast radius. "Exhaustive" and "proportionate" pull against each other, and the line is
@@ -62,6 +57,12 @@ not yet drawn. Raised in `docs/essays/define-what-good-looks-like.md`.
 **Is survey-then-dive a real pattern**, or an artifact of one probe? Survey first is cheap and
 tells you which dive is worth doing, but that is one data point. Raised in
 `docs/essays/simplicity-is-not-size.md`.
+
+**Do skills still load deep in a long session?** In a fresh session `spec` loads when handed a
+choice (3/3), but in a long CampaignStop session it did not, at the same kind of moment. A
+fresh-session check can't reproduce that. Testing it needs a replayed long conversation before the
+prompt; the fallback is an always-on rule in CLAUDE.md. Raised in 0020; the test and the
+decision it feeds are #58.
 
 ## Stranded elsewhere
 

@@ -34,34 +34,57 @@ behind a goal (name not settled), plus ports of `tdd` and `error-taxonomy`.
 
 ### Claude Code
 
-Install once, from this repo as a local marketplace:
-
-```
-/plugin marketplace add ~/code/build-skills-cobarx
-/plugin install build-skills-cobarx@build-skills-cobarx --scope user
-```
-
-`--scope user` makes the skills available in every project.
-
-To load temporarily without installing:
+Install from GitHub, for every project on this machine:
 
 ```bash
-claude --plugin-dir ~/code/build-skills-cobarx
+claude plugin marketplace add cobarx/build-skills-cobarx
+claude plugin install build-skills-cobarx@build-skills-cobarx
 ```
+
+Inside a session, `/plugin marketplace add cobarx/build-skills-cobarx` then
+`/plugin install build-skills-cobarx@build-skills-cobarx` does the same, and asks for a scope.
 
 #### Updating
 
-The marketplace points at this directory, so `git pull` is the update, with no copy step to go stale:
-
-- Edited an existing skill: the next session picks it up, nothing else to do.
-- Added or removed a skill: run `/plugin marketplace update build-skills-cobarx`.
-- Check what is installed: run `/plugin`.
-
-### GitHub Copilot CLI
+Auto-update is off by default for marketplaces outside Anthropic's own. Either turn it on
+(`/plugin`, **Marketplaces** tab, select `build-skills-cobarx`, **Enable auto-update**), or update
+by hand:
 
 ```bash
-ln -s ~/code/build-skills-cobarx/skills ~/.agents/skills/build-skills-cobarx
+claude plugin update build-skills-cobarx@build-skills-cobarx
 ```
+
+`plugin.json` sets a version, so an update arrives when that version changes.
+
+#### From a clone
+
+To work on the skills, point the marketplace at your clone instead, so `git pull` is the update:
+
+```bash
+claude plugin marketplace add ./build-skills-cobarx
+claude plugin install build-skills-cobarx@build-skills-cobarx
+```
+
+Run that from the directory that holds the clone. Edits to an existing skill load in the next
+session; after adding or removing a skill, run `/plugin marketplace update build-skills-cobarx`.
+To load a clone for one session without installing, use `claude --plugin-dir ./build-skills-cobarx`.
+
+### Other agents
+
+OpenAI Codex, GitHub Copilot (CLI, VS Code, JetBrains), Cursor, and Gemini CLI read the same
+[Agent Skills](https://agentskills.io) format, and all four load skills from `~/.agents/skills/`.
+Install there with the GitHub CLI:
+
+```bash
+gh skill install cobarx/build-skills-cobarx --all --dir ~/.agents/skills
+```
+
+Update with `gh skill update --all`. For an agent with its own directory, swap `--dir` for
+`--agent <name> --scope user`; `gh skill install --help` lists the names. `gh skill` is in preview
+in the GitHub CLI.
+
+Without the GitHub CLI, copy each folder under `skills/` into `~/.agents/skills/`, one folder per
+skill, directly under that directory.
 
 ## How these are written
 
@@ -73,12 +96,6 @@ unambiguous. No skill here runs past seventy lines.
 **Draft long, then keep only what is a rule.** The long draft is a discovery tool, not the
 deliverable. The test applied to every line: does this change what anyone does? See
 [docs/essays/outline-is-the-skill.md](docs/essays/outline-is-the-skill.md).
-
-## Relationship to other repos
-
-- [ai-skills-cobarx](https://github.com/cobarx/ai-skills-cobarx) covers a different domain and
-  stays independently shareable.
-- MetanoiaFramework is the source for several planned ports.
 
 ## License
 
