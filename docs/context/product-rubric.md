@@ -199,6 +199,14 @@ who that user is, and which unit is scored first. Open, to ask:
   person every time (the Red Bead Experiment), and a good system lifts ordinary work. It is also
   `definition-of-done` 3: every dimension considered, none skipped, so conflicts between concerns
   surface early instead of at launch.
+- Hampton: that also helps explain why startups are effective; the integrated concerns sit in the
+  hands of a few. Deming's point 9 holds by default when there are no departments. Communication
+  channels grow as n(n-1)/2 (Brooks), and Conway's law says a system mirrors the communication
+  structure of the organization that builds it, so as a company splits into divisions, its
+  products split along the same lines. Apple's achievement is keeping the integration at scale.
+  Agents with these skills let a few people hold more concerns at once, which extends the startup
+  advantage. Limits: concentration in a few is also a dependency on their taste and their blind
+  spots, so the reviewer from outside (`review` 1) matters more, not less.
 - Who scores each dimension? Elegance and product fit need use by the person the output is for
   (`definition-of-done` 4); an agent that cannot judge one reports it blocked (`review` 3).
 - Who owns each dimension, so every score has one party who answers for it?
