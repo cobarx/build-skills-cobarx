@@ -16,6 +16,11 @@ as ours per the vocabulary rule, and open to a better name.
 and ships without it is its own counterexample. Markdown is the only file type here, so the
 question is whether non-code linting counts, which is itself an open question below.
 
+**Do Deming's successors carry points 7–12?** Lean, Six Sigma and ISO 9000/9001 against Deming's
+points on leadership, fear, barriers, targets, management by objective and pride of workmanship.
+Raised in review of #110. Notes in
+[deming-points-7-12-in-successors.md](deming-points-7-12-in-successors.md).
+
 ## For `linting`, before it can be written
 
 **How is a linter chosen for a stack?** Settled as an ordered procedure, kept here because it was
