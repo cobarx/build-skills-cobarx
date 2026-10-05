@@ -202,6 +202,20 @@ its accountability and communication. Genealogy: Deming and TQM, the Toyota Prod
 Lean, then Lean software development (Poppendieck: eliminate waste, build integrity in, decide as
 late as possible, empower the team, see the whole). What is new is the line worker being an agent.
 
+**Why corporations stayed antithetical to Deming.** Hampton asked, 2026-10-05: TQM was widely
+adopted, so why are corporate structures so largely against what Deming recommended? Claude's
+reading, medium confidence: companies adopted the tools and not the philosophy (NUMMI: GM copied
+the tools, not the culture), and the tools fit inside the existing structure while the philosophy
+would have replaced it. Deming's "seven deadly diseases" read as a description of standard
+practice: lack of constancy of purpose, emphasis on short-term profits, annual performance review,
+mobility of management, management by visible figures alone. Shareholder-value incentives (agency
+theory, stock options, quarterly earnings) point accountability at investors, not customers, the
+enshittification chain. Deming put most defects on the system, which management owns; ranking
+and firing workers (GE's stack ranking under Welch, beside its Six Sigma) is the easier story.
+The divisional, finance-controlled structure (Sloan's GM) measures what is countable. And it is
+hard: it needs leaders with deep knowledge and long horizons, the same reason Apple's functional
+organization is rarely copied.
+
 **Disposable is an anti-principle.** Hampton, 2026-10-05, refining his earlier "I want to throw
 things away" (kept as said in what-dominates.md). A good product can be repaired, recycled or
 repurposed. Good software may not persist, but at the least it leaves useful lessons and is an
