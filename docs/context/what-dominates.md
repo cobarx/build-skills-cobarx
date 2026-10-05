@@ -60,7 +60,38 @@ checks, state the denominator) are buried inside it. These skills trigger on eve
 workflow is running (0020), so one can be taken into a solo session, a human team, or that loop.
 The skills apply to themselves the separation of concerns they demand of code.
 
+**The skills are fractal.** Hampton's observation. Zoom to any level (project, feature, component)
+and it is clear on its own. The invariants that repeat: a one-sentence purpose (`simplicity`), a
+goal serving its parent's and traced to an owner (`spec` 4, `definition-of-done` 2), a contract at
+its edge (`contracts`, "inside a system as much as at its edges"), and the goal shown met. The test
+is the `contracts` checkpoint generalized: a level is clear when its questions are answerable
+without zooming in. The how at one level is the what at the level below, so "the how is an
+implementation detail" holds at every level while each contract holds. The chief-of-staff pattern
+cannot be zoomed; it is taken whole.
+
+**Separation of concerns forces normalization.** Hampton's point, from early experience: many
+problems are avoided by normalizing data. Drawing a boundary forces the question of which side owns
+a fact. What it forces is one owner and one source of truth, not one stored copy: caches, read
+models and per-service copies are fine when derived from the owner and known to be copies. A
+denormalized store is fine behind a repository; a denormalized interface leaks it (the DynamoDB
+single-table case). DRY, as Hunt and Thomas defined it, is the same principle for knowledge:
+"every piece of knowledge must have a single, unambiguous, authoritative representation."
+
+**Only one thing owns a thing.** Named here as a key principle. The repo practices it at every
+level without stating it: every skill's "Not here" section, every split in `planned-skills.md`
+("X owns Y, this owns Z"), "do not give a skill policy that belongs to another" (AGENTS.md, 0003),
+one home per kind (`durable-context` 5), references in one direction (skills never link to
+context), one registered term per concept (planned `glossary`), decisions superseded rather than
+edited. Industry names each cover a slice: single source of truth (data, config), DRY
+(knowledge), single responsibility (modules). None covers every level.
+
 ## Open threads
+
+**Where does "only one thing owns a thing" live, and under what name?** It is cross-cutting (it
+shows in `simplicity`, `contracts`, `durable-context`, `decision-log` and AGENTS.md), so by
+`simplicity` rule 2 it is their peer, not part of one. Whether it is a skill (does it have a
+procedure?), a stated principle in AGENTS.md and the README, or an essay is open. So is the name:
+an industry term, if one covers every level, or a recorded coinage.
 
 **Should `decision-log` rule 4 scale by reversibility?** "Architecture and tooling choices are
 decisions" over-invests in choices a replacement can undo. Industry term: one-way vs two-way
