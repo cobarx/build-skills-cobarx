@@ -92,13 +92,23 @@ and checks and decision criteria derive from it (`spec` 7). `contracts` rule 1 (
 no third") is DRY stated directly. Neither identity appears in the README, which says only "skills
 for how software gets built."
 
+**DRY about ownership, permissive about code.** Hampton's point: Sandi Metz's "duplication is far
+cheaper than the wrong abstraction" is weighted for a code-centric world. Duplicated code inside a
+disposable unit is cheap; duplicated infrastructure (two auth systems, two queues, two stores of
+the same customer) is a fact with two owners, which enterprise tech rightly forbids. Metz is right
+about code and silent on knowledge, so she and DRY-as-defined do not conflict. The boundary is
+what makes disposal possible: "I want to throw things away, so I need boundaries to be able to
+dispose of them." Prior art: Parnas (decompose by what is likely to change), tef's "write code
+that is easy to delete, not easy to extend" (2016), Brooks's "plan to throw one away." Hampton
+called it a worse-is-better mindset; in Gabriel's original terms it is closer to the reverse
+(worse is better ranks implementation simplicity above the interface), so the label needs care if
+used: clean interface, crude disposable internals.
+
 ## Open threads
 
 **Does "DRY" carry the wrong reading?** It is popularly heard as "don't repeat code," which drives
-premature abstraction ("duplication is far cheaper than the wrong abstraction," Sandi Metz).
-`simplicity` rule 1 already calls an abstraction invented to make the sentence work a failure. If
-the framework names itself DRY, it may need the original definition quoted beside the name, or a
-term without the baggage (single source of truth).
+premature abstraction. The name may need the original definition quoted beside it, or a term
+without the baggage (single source of truth). Partly answered by the next point.
 
 **Where does "only one thing owns a thing" live, and under what name?** It is cross-cutting (it
 shows in `simplicity`, `contracts`, `durable-context`, `decision-log` and AGENTS.md), so by
