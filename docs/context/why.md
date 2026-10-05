@@ -204,54 +204,50 @@ late as possible, empower the team, see the whole). What is new is the line work
 
 **Why corporations stayed antithetical to Deming.** Hampton asked, 2026-10-05: TQM was widely
 adopted, so why are corporate structures so largely against what Deming recommended? Claude's
-reading, medium confidence: companies adopted the tools and not the philosophy (NUMMI: GM copied
-the tools, not the culture), and the tools fit inside the existing structure while the philosophy
-would have replaced it. Deming's "seven deadly diseases" read as a description of standard
-practice: lack of constancy of purpose, emphasis on short-term profits, annual performance review,
-mobility of management, management by visible figures alone. Shareholder-value incentives (agency
-theory, stock options, quarterly earnings) point accountability at investors, not customers, the
-enshittification chain. Deming put most defects on the system, which management owns; ranking
-and firing workers (GE's stack ranking under Welch, beside its Six Sigma) is the easier story.
-The divisional, finance-controlled structure (Sloan's GM) measures what is countable. And it is
-hard: it needs leaders with deep knowledge and long horizons, the same reason Apple's functional
-organization is rarely copied.
-Hampton: that is where I would like to see the economy move, back to small businesses with more
-direct relationships with their customers. A direct relationship is the shortest accountability
-chain: the person who decides answers to the customer, with no product owner reporting to someone
-else. Agents with these skills extend the startup advantage, so a small team can integrate
-concerns and reach quality once reserved for large ones. Counterforces (Claude's reading): the
-platforms between small businesses and their customers (app stores, marketplaces, ad networks)
-are where Doctorow locates enshittification, so the relationship is direct only if it does not
-run through one; compliance costs and scale economies still favour the large. Prior art:
+reading, medium confidence: companies adopted the tools and not the philosophy (NUMMI: GM copied the
+tools, not the culture), and the tools fit inside the existing structure while the philosophy would
+have replaced it. Deming's "seven deadly diseases" read as a description of standard practice: lack
+of constancy of purpose, emphasis on short-term profits, annual performance review, mobility of
+management, management by visible figures alone. Shareholder-value incentives (agency theory, stock
+options, quarterly earnings) point accountability at investors, not customers, the enshittification
+chain. Deming put most defects on the system, which management owns; ranking and firing workers
+(GE's stack ranking under Welch, beside its Six Sigma) is the easier story. The divisional,
+finance-controlled structure (Sloan's GM) measures what is countable. And it is hard: it needs
+leaders with deep knowledge and long horizons, the same reason Apple's functional organization is
+rarely copied. Hampton: that is where I would like to see the economy move, back to small businesses
+with more direct relationships with their customers. A direct relationship is the shortest
+accountability chain: the person who decides answers to the customer, with no product owner
+reporting to someone else. Agents with these skills extend the startup advantage, so a small team
+can integrate concerns and reach quality once reserved for large ones. Counterforces (Claude's
+reading): the platforms between small businesses and their customers (app stores, marketplaces, ad
+networks) are where Doctorow locates enshittification, so the relationship is direct only if it does
+not run through one; compliance costs and scale economies still favour the large. Prior art:
 Schumacher, *Small Is Beautiful* (1973). Whether this belongs in the project's stated why is
-Hampton's call.
-Exit and voice are Hirschman's (*Exit, Voice, and Loyalty*, 1970): leave, or speak up. Hampton:
-that is also Stallman's goal, freedom as the ability to leave, and to voice when all else fails by
-creating your own solution. The four freedoms (run, study and change, redistribute, distribute
-changes) make exit and voice structural. A fork is exit that keeps the product, and voice made
-concrete: you leave, take it with you, and publish the alternative. Stallman's origin story is a
-denied voice: a printer at the MIT AI Lab (around 1980) whose driver source was withheld, so
-nobody at the lab could fix it. A live consequence for this repo: copyleft is how Stallman protects those
-freedoms downstream. 0014 chose CC BY, which lets an adapter close what they add; CC BY-SA
+Hampton's call. Exit and voice are Hirschman's (*Exit, Voice, and Loyalty*, 1970): leave, or speak
+up. Hampton: that is also Stallman's goal, freedom as the ability to leave, and to voice when all
+else fails by creating your own solution. The four freedoms (run, study and change, redistribute,
+distribute changes) make exit and voice structural. A fork is exit that keeps the product, and voice
+made concrete: you leave, take it with you, and publish the alternative. Stallman's origin story is
+a denied voice: a printer at the MIT AI Lab (around 1980) whose driver source was withheld, so
+nobody at the lab could fix it. A live consequence for this repo: copyleft is how Stallman protects
+those freedoms downstream. 0014 chose CC BY, which lets an adapter close what they add; CC BY-SA
 (copyleft) would not. The reading guide on the open `context/by-vs-by-sa` branch weighs exactly
-that.
-Hampton: it's not an easy choice, and at the end of the day culture still matters: LLVM is
+that. Hampton: it's not an easy choice, and at the end of the day culture still matters: LLVM is
 permissive (BSD-style, now Apache 2.0 with LLVM exceptions), Linux is GPL, and both are vibrant.
 What sustains both is a culture of contributing upstream, and the economics behind it: carrying a
-private fork costs more than upstreaming, whatever the licence allows.
-Hampton: it's easy to bypass a licence, but to get the most out of TQM you have to dedicate
-yourself to the process. Compliance can be faked; commitment cannot. It is the NUMMI lesson again
-(the tools copied, the culture not) and Deming's first point, constancy of purpose. For this repo:
-a team can load every skill and tick every box without the commitment, and get little. What
-produces the commitment is the why, which is why the why is load bearing and why the essays carry
-the reasoning beside the rules.
-Hampton: they're managing outcomes, managing defects, instead of looking at the system. Deming's
-distinction, after Shewhart: common-cause variation comes from the system, special-cause from an
-identifiable event, and most variation is common cause. Treating a common-cause defect as special
-(blaming the person, reacting to each defect) is what Deming called tampering, and it makes the
-system worse (Deming's funnel experiment). Measuring outcomes is still right as feedback on the system;
-managing people by them is the failure. The repo already works this way: when an agent missed
-`spec` in a session, the fix was to the skill's trigger (0020), not only to that session's output.
+private fork costs more than upstreaming, whatever the licence allows. Hampton: it's easy to bypass
+a licence, but to get the most out of TQM you have to dedicate yourself to the process. Compliance
+can be faked; commitment cannot. It is the NUMMI lesson again (the tools copied, the culture not)
+and Deming's first point, constancy of purpose. For this repo: a team can load every skill and tick
+every box without the commitment, and get little. What produces the commitment is the why, which is
+why the why is load bearing and why the essays carry the reasoning beside the rules. Hampton:
+they're managing outcomes, managing defects, instead of looking at the system. Deming's distinction,
+after Shewhart: common-cause variation comes from the system, special-cause from an identifiable
+event, and most variation is common cause. Treating a common-cause defect as special (blaming the
+person, reacting to each defect) is what Deming called tampering, and it makes the system worse
+(Deming's funnel experiment). Measuring outcomes is still right as feedback on the system; managing
+people by them is the failure. The repo already works this way: when an agent missed `spec` in a
+session, the fix was to the skill's trigger (0020), not only to that session's output.
 
 **Disposable is an anti-principle.** Hampton, 2026-10-05, refining his earlier "I want to throw
 things away" (kept as said in what-dominates.md). A good product can be repaired, recycled or
