@@ -1,4 +1,4 @@
-# 0020. Decision analysis is a peer skill of the decision log
+# 0021. Decision analysis is a peer skill of the decision log
 
 - **Status:** Accepted
 - **Decided:** 2026-10-04 · **Recorded:** 2026-10-04 · Claude Opus 5.5
