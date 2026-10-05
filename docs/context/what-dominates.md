@@ -308,7 +308,7 @@ who that user is, and which unit is scored first. Open, to ask:
   Intel with Rosetta, 32-bit apps dropped in 2019, Intel to Apple Silicon with Rosetta 2): a
   bridge, a deadline, then removal. Microsoft promises never to break you; Apple promises a way
   forward and breaks you on a schedule. One blessed way per problem is single accountability at
-  platform level: Windows has six ways to install software, macOS has one it stands behind.
+  platform level: Windows has several ways to install software, macOS has one it stands behind.
 - Who scores each dimension? Elegance and product fit need use by the person the output is for
   (`definition-of-done` 4); an agent that cannot judge one reports it blocked (`review` 3).
 - Who owns each dimension, so every score has one party who answers for it?
