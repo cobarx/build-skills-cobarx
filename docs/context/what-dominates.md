@@ -339,6 +339,12 @@ who that user is, and which unit is scored first. Open, to ask:
   AngularJS 1.x and the announced Angular 2, it was night and day: two-way binding and the digest
   cycle against UI as a function of state, and a rewrite announced in 2014 that pushed people to
   React before it shipped.
+- Hampton: and Apple made it worth using; many of its frameworks opened new design space that was
+  useful from day one. Core Animation (fluid UI nearly free, the feel of the iPhone), Core
+  Location with MapKit, push notifications and in-app purchase, ARKit (2017, AR on hundreds of
+  millions of devices at launch), Core ML, HealthKit, accessibility built into the controls. A
+  sound foundation is the pit of success; a new capability is the reason to come. Each framework
+  was a product with the developer as its user, and it had product fit on day one.
 - Hampton: even the Linux solution is better. Run Windows apps behind an interface (Wine, Proton)
   in their own container. Windows has WoW64, but you want that forced abstraction layer. The
   legacy is a guest behind an explicit boundary, so the host stays clean and can be replaced
