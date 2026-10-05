@@ -107,7 +107,23 @@ called it a worse-is-better mindset; in Gabriel's original terms it is closer to
 (worse is better ranks implementation simplicity above the interface), so the label needs care if
 used: clean interface, crude disposable internals.
 
+**Accountability is a guiding goal of the project.** Hampton, 2026-10-05: creating accountability
+to reverse enshittification was one of the goals for build skills. Not written down anywhere in the
+repo before this note. The principle above is its structural form: for every fact, policy,
+contract or component, exactly one place answers for it when it is wrong. The rest of the skills
+read as accountability too: a reviewer independent of the author (`review` 1), evidence instead of
+claims (`definition-of-done` 1), reasoning in the open (`decision-log`), a goal from a named owner
+(`spec` 3), rules a human can audit. An agent cannot be held to account, so the accountable role
+at the what is a human, which is what the agent-centric chief-of-staff pattern leaves unassigned.
+(Interpretation, medium confidence.) Scope: Doctorow's enshittification is driven by platform
+incentives and lock-in, which skills cannot change; what they address is the decay that comes
+from no one answering for quality.
+
 ## Open threads
+
+**Where is the project's goal stated?** Accountability to reverse enshittification is a guiding
+goal but appears in neither the README nor AGENTS.md (`spec` 4: keep the goal written down where
+both can see it). Wording is Hampton's.
 
 **What to call the principle, if not DRY?** DRY is the wrong branding (heard as "don't repeat
 code," which the framework permits inside a boundary) but the right genealogy, cited as where the
@@ -123,6 +139,8 @@ Hampton: ownership is a role, not a mentality or culture. Whatever the term, it 
 role, one per thing. The cultural sense ("take ownership," "everyone owns quality") is the
 opposite: shared ownership is no owner. Role-based precedents: RACI (exactly one Accountable per
 task), Amazon's single-threaded owner.
+Hampton: "accountable" is a lot better. The term should build on accountability, not ownership.
+
 
 **Where does "only one thing owns a thing" live, and under what name?** It is cross-cutting (it
 shows in `simplicity`, `contracts`, `durable-context`, `decision-log` and AGENTS.md), so by
