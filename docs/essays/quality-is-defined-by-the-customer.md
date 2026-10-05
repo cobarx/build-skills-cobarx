@@ -29,8 +29,12 @@ organisation is run leaves out a key part of his work: departments working as a 
 not held to results the system controls, leadership in place of management by numbers, and pride of
 workmanship for everyone who does the work (points 9, 10, 11b and 12[^deming]). Hampton largely
 agrees with those recommendations, which is why this essay names TQM and Deming rather than a
-successor. How far the successors carry them is the subject of an unfinished [working
-note][successors].
+successor. Initial research is not encouraging. The successors' own texts keep instruments Deming
+asked to remove: ISO 9001 requires quality objectives that "be measurable", set at "relevant
+functions, levels and processes",[^iso9001] and ASQ's Six Sigma Black Belt syllabus teaches SMART
+goals and OKRs.[^bok] And Lean's own leaders say of hoshin kanri, its way of setting goals: "Many if
+not most efforts are superficial, resulting in a process that is little more than rebranded
+management by objectives (MBO)."[^hoshin] The research is an unfinished [working note][successors].
 
 ## Its why: lasting by serving the customer
 
@@ -176,3 +180,12 @@ TQM as the tradition the skills belong to, and links here.
     from the Japanese transcript held by JUSE. Excerpted in John Hunter, "Speech by Dr. Deming to
     Japanese Business Leaders in 1950", the W. Edwards Deming Institute,
     <https://deming.org/speech-by-dr-deming-to-japanese-business-leaders-in-1950/>.
+[^iso9001]: ISO 9001:2015, clause 6.2.1, as quoted in "It's time to understand ISO 9001:2015 Clause
+    6.2 Quality Objectives",
+    <https://blog.auditortrainingonline.com/blog/its-time-to-understand-iso-90012015-clause-6.2-quality-objectives>.
+    The standard itself is paywalled.
+[^bok]: American Society for Quality, Six Sigma Black Belt Body of Knowledge, 2022,
+    <https://www.asq.org/cert/resource/pdf/certification/2022-SSBB-BoK.pdf>.
+[^hoshin]: Jeffrey Liker and John Shook, "Hoshin Kanri as a Foundational Piece of a Lean Management
+    System", Lean Enterprise Institute, 11 March 2025,
+    <https://www.lean.org/the-lean-post/articles/hoshin-kanri-as-a-foundational-piece-of-a-lean-management-system/>.
