@@ -8,9 +8,6 @@ Unsettled. Moved here out of conversation so it survives.
 depth 3, function 50 lines, file 300 lines, parameters 4. These are common SonarJS and ESLint
 defaults. They are plausible and unconfirmed, and presenting them as settled is fake precision.
 
-**Repo is private.** Created private as the reversible default, not as a decision. `ai-skills-cobarx`
-stays independently shareable, which was the reason for a separate repo at all.
-
 **`docs/essays/` is a coinage.** There is no strong industry term for a post-hoc narrative about
 why a practice exists. Oxide's RFDs are the closest published model but are pre-decision. Recorded
 as ours per the vocabulary rule, and open to a better name.
