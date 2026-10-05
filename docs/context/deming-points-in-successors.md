@@ -11,14 +11,15 @@ marked as key points below.
 ## How to read this
 
 **Request and mechanism.** Each point makes a request, and some also name a mechanism: an obstacle
-Deming observed in the management of his time, to be removed. The mechanism is not the whole of
-the request. Removing it may not be enough, and other actions may be needed; 12b says so itself
-("This means, inter alia, abolishment of the annual or merit rating and of management by
-objective"). Each methodology is judged on whether it meets the request. Keeping an obstacle
-Deming named is evidence, not the test. Hampton's example for 12b: when someone who is not a
-product manager suggests a feature or challenges the product roadmap, how does the organisation
-respond? A challenge dismissed because it comes from outside the owning role is a barrier to pride
-of workmanship whether or not a merit rating exists, and the response can be observed.
+Deming observed in the management of his time, to be removed. The mechanism is not the whole of the
+request. Removing it may not be enough, and other actions may be needed; 12b says so itself ("This
+means, inter alia, abolishment of the annual or merit rating and of management by objective"), where
+*inter alia* means "among other things". Each methodology is judged on whether it meets the request.
+Keeping an obstacle Deming named is evidence, not the test. Hampton's example for 12b: when someone
+who is not a product manager suggests a feature or challenges the product roadmap, how does the
+organisation respond? A challenge dismissed because it comes from outside the owning role is a
+barrier to pride of workmanship whether or not a merit rating exists, and the response can be
+observed.
 
 **Canon and practice.** Canon is what a methodology's own texts ask for; practice is what the
 evidence shows adopters did. Verdicts on canon: *calls for*, *partly*, *silent*, *contradicts*, or
