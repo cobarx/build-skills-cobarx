@@ -326,6 +326,13 @@ who that user is, and which unit is scored first. Open, to ask:
   coordinate system). The philosophy was the what and survived the port; the classes were the how
   and were replaced. That carried developers' knowledge too, so a Mac developer already knew how
   to think on the iPhone: cohesion is also developer experience.
+- Hampton: even the Linux solution is better. Run Windows apps behind an interface (Wine, Proton)
+  in their own container. Windows has WoW64, but you want that forced abstraction layer. The
+  legacy is a guest behind an explicit boundary, so the host stays clean and can be replaced
+  underneath it; in Windows the legacy is the foundation. Wine is an adapter implementing a
+  contract it never had documentation for, built from observed behaviour (`contracts` 8, scaffold
+  what has no contract). Proton is what carried the Windows game catalogue to a new form factor,
+  the Steam Deck, which Windows itself kept failing to do.
 - Who scores each dimension? Elegance and product fit need use by the person the output is for
   (`definition-of-done` 4); an agent that cannot judge one reports it blocked (`review` 3).
 - Who owns each dimension, so every score has one party who answers for it?
