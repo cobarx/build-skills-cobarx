@@ -335,7 +335,10 @@ who that user is, and which unit is scored first. Open, to ask:
   decorators), the chief-of-staff article's shape; and AngularJS to Angular 2 (2016) was a rewrite
   that broke its users, not an Apple-style bridge. Caveats: Angular has since simplified
   (standalone components, signals), and React's own cohesion has eroded (hook rules, server
-  components tied to frameworks).
+  components tied to frameworks). Those are later; when React caught on (2014 to 2016) against
+  AngularJS 1.x and the announced Angular 2, it was night and day: two-way binding and the digest
+  cycle against UI as a function of state, and a rewrite announced in 2014 that pushed people to
+  React before it shipped.
 - Hampton: even the Linux solution is better. Run Windows apps behind an interface (Wine, Proton)
   in their own container. Windows has WoW64, but you want that forced abstraction layer. The
   legacy is a guest behind an explicit boundary, so the host stays clean and can be replaced
