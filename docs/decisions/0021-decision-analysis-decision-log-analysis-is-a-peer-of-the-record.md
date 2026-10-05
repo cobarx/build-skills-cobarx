@@ -77,6 +77,9 @@ the hedge survive because nothing makes the model reread. So rule 1 gains an obs
 summary, so it reaches the decider through the reply rule; rule 4 forbids a second pick outright;
 and a new rule 7 rereads the file for both before replying. The reply rule becomes rule 8.
 
+The owner then split asking out of rule 1 into its own rule 2, unchanged in wording, so the rules
+run to nine.
+
 ## Consequences
 
 - `decision-log` gains only a "Not here" pointer. Its rules 1 and 3 overlap the new skill; whether
