@@ -279,6 +279,9 @@ who that user is, and which unit is scored first. Open, to ask:
   user's path to value; maintainability of the feature as it evolves.
 - What decision do the scores feed (ship, fix, replace, dispose, invest)? That is the rubric's
   goal (`spec` 5), and it sets the scale and who reads it.
+- A score can be a number or a verdict in words: "the set design is trash," with its reason, is as
+  valid as a 3 out of 10, and usually says more about what to fix. The critic's judgement, not
+  only a count.
 - Who scores each dimension? Elegance and product fit need use by the person the output is for
   (`definition-of-done` 4); an agent that cannot judge one reports it blocked (`review` 3).
 - Who owns each dimension, so every score has one party who answers for it?
