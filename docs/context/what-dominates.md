@@ -270,6 +270,23 @@ programme, associated with ISO 9000 paperwork and quality circles, largely succe
 Six Sigma. It may be the right lineage and the wrong label, or the right label with its meaning
 stated. Hampton's call.
 
+**Building the rubric.** Hampton, 2026-10-05: start building a rubric whose scores measure UI
+elegance, product fit, reliability, ease of adoption and long-term maintainability, things rarely
+measured in corporate America. Goal not yet written (`spec` 1): what the rubric lets its user do,
+who that user is, and which unit is scored first. Open, to ask:
+- Which unit first: a PR, a component, a product, or the skills themselves?
+- Who scores each dimension? Elegance and product fit need use by the person the output is for
+  (`definition-of-done` 4); an agent that cannot judge one reports it blocked (`review` 3).
+- Who owns each dimension, so every score has one party who answers for it?
+- Which dimensions apply at which level of the fractal (product fit at product and feature,
+  maintainability at component)?
+Prior art to check before inventing (`adopting-standards`), guesses until checked: ISO/IEC 25010
+(product quality: reliability, maintainability, usability among its characteristics), Google's
+HEART framework (adoption, task success), behaviourally anchored rating scales (each score point
+described by an observable example, so a 7 means the same to every scorer). Elegance has no
+standard I know of. Risk: hard-to-measure qualities invite proxies (Goodhart), which the scores
+must resist by staying diagnostic.
+
 **What to call the principle, if not DRY?** DRY is the wrong branding (heard as "don't repeat
 code," which the framework permits inside a boundary) but the right genealogy, cited as where the
 principle comes from: Codd (data), Hunt and Thomas (knowledge), Parnas (modules). Hampton,
