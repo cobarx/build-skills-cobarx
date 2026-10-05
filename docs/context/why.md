@@ -141,7 +141,8 @@ Hampton: this is an opinionated framework with a clear set of values. Opinionate
 totalizing: the values are declared, adoption is a choice, and exit stays open. The skills load
 one at a time where they apply, the text is CC BY so anyone can fork or adapt it, and a person who
 ignores the agent decides that for themselves. Apple's "one way that works" is opinionated in the
-same sense; Rails' "opinionated software" is the industry term. The values, as found today:
+same sense; Rails' "opinionated software" is the industry term. The six values, confirmed by
+Hampton 2026-10-05:
 accountability, operating in the open, quality measured and improved (TQM), the what over the
 how, the user's outcome, pride in the work. The gap: an opinionated framework has to state its
 opinions, and these are stated nowhere a newcomer reads (the open thread below).
