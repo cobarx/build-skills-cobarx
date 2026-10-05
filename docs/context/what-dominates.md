@@ -195,6 +195,15 @@ The eval drafts already carry the positive controls the chief-of-staff article a
 known-bad case expected to score 0 and a known-good case expected to score 1.0 (draft 0017, #64;
 #61).
 
+Hampton: engineers say "I have an OpenAPI contract," 0 or 1; TQM says "I have a score." Both are
+kept, answering different questions. The contract stays binary: may this unit plug in? A contract
+mostly honoured is broken, and a replacement must conform fully, which is what makes it
+disposable. The score sits on top: how well does it serve the goal? Industry form: conformance to
+specification (Crosby, zero defects, the goalpost model) versus Taguchi's loss function, where
+quality degrades continuously with distance from the target, inside the spec limits as well as
+outside. `definition-of-done` 1 leans Taguchi already: the measured value beside the expected one,
+not a check mark.
+
 ## Open threads
 
 **Where is the project's goal stated?** Accountability to reverse enshittification is a guiding
