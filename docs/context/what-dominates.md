@@ -314,6 +314,12 @@ who that user is, and which unit is scored first. Open, to ask:
   UIKit, for touch). The gating choice swapped, the rest lifted: the AWS-to-GCP point at platform
   scale. The same base later carried iPadOS, watchOS, tvOS and visionOS, and the boundary ran the
   other way in 2020 when the iPhone's chips moved into the Mac and iPad apps ran on it.
+- Hampton: whereas Windows has totally sucked at adapting to new form factors. Windows 8 forced
+  one touch UI onto the desktop instead of swapping the UI layer per form factor; Windows RT on ARM
+  had no legacy apps; Windows Phone ended in 2017; Windows 10X was cancelled in 2021. The mechanism:
+  Windows' value is its legacy app catalogue, bound to the desktop and x86, so a new form factor
+  cannot carry the value with it. When backward compatibility is the product, the how has become
+  the what, and it cannot be disposed of. (Xbox, on a Windows-derived OS, is the exception.)
 - Who scores each dimension? Elegance and product fit need use by the person the output is for
   (`definition-of-done` 4); an agent that cannot judge one reports it blocked (`review` 3).
 - Who owns each dimension, so every score has one party who answers for it?
