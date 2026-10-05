@@ -1,5 +1,9 @@
 # Do Deming's successors carry his 14 points?
 
+**Unfinished draft.** The practice column rests mostly on single cases (GE and 3M, NUMMI and Toyota)
+rather than evidence representative of each methodology, so the summary generalises further than its
+evidence allows. Do not rely on it. The proper analysis is tracked in #115.
+
 Working notes, 2026-10-05. Not settled, and not expected to be in one pass. Raised in review of
 #110: a methodology that keeps the measurement but drops Deming's recommendations for how an
 organisation is run leaves out a key part of his work. This compares TQM, Lean, Six Sigma and ISO
