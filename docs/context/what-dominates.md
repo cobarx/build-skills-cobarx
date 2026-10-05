@@ -244,6 +244,14 @@ Hampton: every system had to compete on the market, not just AWS. Examples, sour
 Outside Amazon: Walmart Commerce Technologies (GoLocal delivery, 2021; Route Optimization as SaaS;
 Store Assist via Salesforce), and Ocado, a grocer that sells its warehouse platform to 13 partners
 including Kroger. The market is the outside scorecard that a captive internal consumer cannot be.
+Sources: [FBA](https://www.marketplacepulse.com/articles/a-decade-of-fulfillment-by-amazon-fba),
+[Buy with Prime](https://www.aboutamazon.com/news/retail/prime-shopping-expands-beyond-amazon-com),
+[ASCS](https://www.cnbc.com/2026/05/04/amazon-opens-up-its-logistics-network-to-other-businesses-in-new-growth-push.html),
+[MTurk](https://spectrum.ieee.org/untold-history-of-ai-mechanical-turk-revisited-tktkt),
+[Connect](https://siliconangle.com/2026/04/28/amazon-connects-second-act-contact-center-agentic-ai-suite/),
+[Just Walk Out](https://www.webpronews.com/amazons-just-walk-out-technology-pivots-to-third-party-venues-after-grocery-store-retreat/),
+[Walmart](https://chainstoreage.com/walmart-sell-its-ai-logistics-tool-other-businesses),
+[Ocado](https://www.digitalcommerce360.com/2025/12/30/kroger-partner-ocado-group-ends-exclusivity-agreements-us-supermarkets/).
 
 ## Open threads
 
