@@ -165,6 +165,15 @@ who that user is, and which unit is scored first. Open, to ask:
   contract it never had documentation for, built from observed behaviour (`contracts` 8, scaffold
   what has no contract). Proton is what carried the Windows game catalogue to a new form factor,
   the Steam Deck, which Windows itself kept failing to do.
+- Apple and TQM: two quality systems, TQM in operations (Cook's supply chain) and judgement in the
+  product (design review, the crit), with a DRI (directly responsible individual) on every task.
+  Hampton: the measurements are harder, not absent. The iPhone's success, customer loyalty, and how
+  much use people get out of their phones are the measurements; they are products of taste. Taste
+  is the input, judged in review before shipping; outcomes are the measurement, after. Deming said
+  as much: the most important figures for management are unknown or unknowable (*Out of the
+  Crisis*, quoting Lloyd Nelson). Caveat from the headline question: loyalty inflated by lock-in
+  (iMessage, the App Store) is not all satisfaction, so usage and would-they-leave-if-they-could
+  are the cleaner measures.
 - Who scores each dimension? Elegance and product fit need use by the person the output is for
   (`definition-of-done` 4); an agent that cannot judge one reports it blocked (`review` 3).
 - Who owns each dimension, so every score has one party who answers for it?
