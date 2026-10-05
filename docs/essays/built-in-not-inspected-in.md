@@ -18,17 +18,17 @@ American Society for Quality summarizes it as "a management system for a custome
 organization that engages all employees in continual improvement of the organization."[^asq]
 
 It grew out of the quality-control techniques of the half century before it,[^wiki] among them
-the work of Walter Shewhart at Bell Labs, mentor to W. Edwards Deming.[^pdsa] Japanese
-manufacturers applied those techniques well enough that by the late 1970s their high-quality,
-low-cost goods were outcompeting North America's and Western Europe's. American organisations set
-out to learn how, and the US Navy adopted Deming's teaching and named its programme "Total Quality
-Management" in 1985.[^wiki]
+the work of Walter Shewhart of Bell Labs and of W. Edwards Deming, the American he
+mentored.[^pdsa] Japanese manufacturers applied those techniques well enough that by the late
+1970s their high-quality, low-cost goods were outcompeting North America's and Western Europe's.
+American organisations set out to learn how, and the US Navy adopted Deming's teaching and named
+its programme "Total Quality Management" in 1985.[^wiki]
 
 Four ideas carry most of it, the last from Toyota's production system, TQM's close cousin:
 
 - **Build quality in; don't inspect it in.** Inspection at the end finds a defect after it is
-  made. Deming's third point: "Cease dependence on inspection to achieve quality," by "building
-  quality into the product in the first place."[^deming]
+  made. The third of Deming's fourteen points for management: "Cease dependence on inspection to
+  achieve quality," by "building quality into the product in the first place."[^deming]
 - **Most defects belong to the system, not the worker.** So the fix is to the process, not
   exhortation: Deming would drop slogans and numerical targets for the workforce (points 10 and
   11).
