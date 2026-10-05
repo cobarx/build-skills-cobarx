@@ -16,7 +16,7 @@ its provenance, the byline and the revision history, and will grow.
 ## Rules
 
 1. **Byline every essay.** Under the title, a `date · author` line. The author is whoever actually
-   wrote it (Claude names the model, a person names themselves), not the committer, and not a
+   wrote it (an agent names its model, a person names themselves), not the committer, and not a
    reviewer who only steered.
 
 2. **Log every substantive revision.** A change to what the essay claims appends a dated, bylined
