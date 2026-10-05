@@ -12,8 +12,9 @@ whether the skill loads at all.
 ## How we got there
 
 The prompt was "start simple and review the text." The skills we were going to port from
-MetanoiaFramework run 300 to 800 lines each, about 2,200 combined. That is not reviewable, and
-saying so was the first crack in the assumption that a skill is a document.
+MetanoiaFramework, an earlier private project of Hampton's, run 300 to 800 lines each, about 2,200
+combined. That is not reviewable, and saying so was the first crack in the assumption that a skill
+is a document.
 
 Then `simplicity` got outlined, at about thirty lines, and Hampton asked: what if that was the
 skill.
@@ -82,3 +83,5 @@ part that stops someone undoing the decision later.
 ## Revisions
 
 - **v1.0 · 2026-09-20 · Claude Opus 5.** First version.
+- **v1.0.1 · 2026-10-04 · Claude Opus 5.5** (#86). Said what MetanoiaFramework is on first
+  mention: the repo is going public, and nothing else in it explains the name.
