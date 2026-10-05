@@ -274,6 +274,7 @@ Hampton: but take accountability seriously and you have to get the training and 
 knowing how is not a root cause beside accountability; accountability drives the learning.
 Nietzsche (Twilight of the Idols, 1889, popularized by Frankl): "If we have our own why of life,
 we shall get along with almost any how." Give a great enough why and any how can be borne. The
+idea is Nietzsche's; Hampton found how it applies here. The
 order is why, then what, then how; the planned *why* skill in `planned-skills.md` ("why before
 what") is the first link.
 

@@ -47,9 +47,9 @@ None is disqualified. The weaker sources are a flag to validate the goal harder,
 the skill names the source so its weight is visible. Candidate spine: *a goal is only as trustworthy
 as the why behind it; name where it came from.*
 
-**Headline, 2026-10-05:** *give a great enough why, and any how can be borne.* Hampton's, after
-Nietzsche (*Twilight of the Idols*: "If we have our own why of life, we shall get along with almost
-any how"). It adds a sense of why the spine above lacks: the why as purpose that drives the work
+**Headline, 2026-10-05:** *give a great enough why, and any how can be borne.* Nietzsche's
+(*Twilight of the Idols*, 1889: "If we have our own why of life, we shall get along with almost
+any how"); Hampton found how it applies here. It adds a sense of why the spine above lacks: the why as purpose that drives the work
 (accountability makes you learn the how), not only the evidence that justifies the goal. Whether
 the two are one skill is open; a great enough why may be exactly one with a strong source. Context
 in [what-dominates.md](what-dominates.md).
