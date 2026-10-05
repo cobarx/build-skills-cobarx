@@ -194,6 +194,53 @@ Splits from siblings: `decision-log` owns how a decision is made and recorded, t
 decisions must be made before starting. `platform-correctness` owns conforming to a platform, this owns choosing
 one. `linting` owns the mechanism, this owns standing it up on day one.
 
+## `<name TBD>`: draw a spec out of the person who holds the intent
+
+Decided 2026-09-24, from the spec-form analysis (#51): coaching is its own skill, not a part of
+`spec`. `spec` owns what a spec says and `spec-form` its form; this owns getting it out of the
+person who holds the intent, however familiar they are with writing specs. Candidate spine: *the
+author's intent, in the author's words, checked by the author.*
+
+Source material is MetanoiaFramework `spec`, "Drawing a spec out of someone", to be extracted, not
+trimmed (0002):
+
+- **Draft first, ask second.** Most of a spec is already in the conversation, unsorted. At most
+  three questions in one message, aimed at the gaps.
+- **The question ladder**, in order of yield: narrate it happening once; how would you check it
+  worked; what must already be true; what kicks it off; the version where it goes wrong; what
+  would make you say "that's not what I meant"; is there a number in this.
+- **The failure families** for finding the failure scenario: too late or early, already happened,
+  never happens, not allowed, missing or wrong input, simultaneous, partially done, wrong state.
+- **Ask for corrections, not approval.** "Anything wrong or missing?" gets edits; "does this look
+  good?" gets a reflexive yes.
+- **The author's vocabulary, not the codebase's.** A spec its author cannot read back is a
+  translation taken on faith.
+- **The contract-drafting mapping** (conditions precedent, triggering event, obligation, carve-outs,
+  definitions, conditions to closing), and where it breaks: no reasonableness standard, no
+  adjudicator who infers intent.
+
+**Who it is for: a spectrum, not a class of author** (settled 2026-09-24). Familiarity with specs
+runs from none, through a junior engineer or someone who has programmed a little, to a senior
+engineer, and even the far end rarely produces a high-quality spec solo. So the skill applies
+whenever a person holds the intent, and calibrates to what they bring rather than switching on
+for non-engineers. Consequences:
+
+- **Coaching is the default way a spec gets written with a person**, not a remedial mode. The
+  agent drafts and the author corrects, at every point on the spectrum.
+- **Calibrate the questions, do not skip them.** Someone further along needs fewer of the basic
+  questions (what kicks it off, what must be true first) and more of the probing ones (the failure
+  families, "what would make you say that's not what I meant"), which catch what experience
+  assumes.
+- **Bridge from the frame the author already has.** The contract-drafting mapping is one bridge;
+  test cases (Arrange, Act, Assert), user stories, and acceptance criteria are others. Pick the
+  one they know, or none.
+
+Prompted 2026-09-24: "i have tons of software engineering experience but wouldn't say i could
+build an exact spec solo myself and produce a high quality artifact."
+
+Name TBD. Requirements engineering's term for the act is *elicitation*, which 0006 favours; also
+`spec-interview`, `drawing-out`.
+
 ## Also planned
 
 `harness` (make the system locally observable without external services), `tdd` (port),

@@ -56,11 +56,11 @@ it, so a choice can be weighed instead of picked.
 
 ## Not here
 
-Registering the terms a spec uses (the vocabulary chain, industry to code) is `glossary`
-(planned); binding code to those terms is `naming`. Whether the goal was met is `definition-of-done`.
-How a choice among options is made and recorded is `decision-log`. Understanding the problem and the
-evidence behind a goal is the planned *why* skill. This governs what the system must do, and how
-deeply, not how it is built.
+Registering the terms a spec uses (the vocabulary chain, industry to code) is `glossary` (planned);
+binding code to those terms is `naming`. Whether the goal was met is `definition-of-done`. How a
+choice among options is made and recorded is `decision-log`. Understanding the problem and the
+evidence behind a goal is the planned *why* skill. The form a spec is written in is `spec-form`.
+This governs what the system must do, and how deeply, not how it is built.
 
 ---
 

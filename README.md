@@ -23,12 +23,14 @@ The reasoning behind them lives in [docs/essays/](docs/essays/).
 | [review](skills/review/SKILL.md) | A reviewer tries to break the work against the standard it claims to meet. |
 | [durable-context](skills/durable-context/SKILL.md) | Context lives in the project, where the next reader, human or agent, will find it. |
 | [spec](skills/spec/SKILL.md) | Say what the system must do before choosing how. |
+| [spec-form](skills/spec-form/SKILL.md) | Write a spec so that someone who was not there can check every line of it. |
 | [decision-log](skills/decision-log/SKILL.md) | A decision is reasoned in the open. |
 | [decision-analysis](skills/decision-analysis/SKILL.md) | Give the decider what they need to weigh a choice themselves. |
 | [adopting-standards](skills/adopting-standards/SKILL.md) | Adopt an existing standard before inventing your own. |
 
 Planned: `linting`, `test-fidelity`, `glossary`, `harness`, `project-setup`, a skill for the *why*
-behind a goal (name not settled), plus ports of `tdd` and `error-taxonomy`.
+behind a goal (name not settled), a skill for drawing a spec out of the person who holds the intent
+(name not settled), plus ports of `tdd` and `error-taxonomy`.
 
 ## Installation
 
