@@ -129,6 +129,15 @@ ends at the user, against declared principles" may be two principles, not one (`
 Scope: the skills can point the engineering chain at the user; they cannot change who the product
 owner reports to.
 
+**Two principles: single accountability, and operate in the open.** Hampton, 2026-10-05: two for
+sure. The first is structural: exactly one place answers for each thing. The second is direction:
+the agent reports to the product owner, and the product owner to the world. "If I can't trust what
+you do in secret, you're not particularly trustworthy." Openness is how trust is earned, and
+behaving the same unobserved is the standard it checks. The repo already practices it:
+`durable-context` ("in the open"), `decision-log` ("a decision is reasoned in the open"), rules a
+human can audit, a public repo under CC-BY. Industry term: working in the open (GDS, "make things
+open: it makes things better"; Mozilla). Reading of "reports to" is Claude's, to confirm.
+
 ## Open threads
 
 **Where is the project's goal stated?** Accountability to reverse enshittification is a guiding
@@ -176,7 +185,8 @@ proves only that the wrong check works. Ownership (`definition-of-done`, `tdd`, 
 
 **Process is not auditable here.** The rules are readable, but whether an agent applied them in a
 session is not recorded; the only trail is what `definition-of-done` makes the change show. That
-covers outputs, not whether the goal came from its owner. Unclear whether it matters.
+covers outputs, not whether the goal came from its owner. Under "operate in the open" this matters:
+an agent's session is the part done in secret.
 
 **Possible second case for "own the type you accept"** (parked in `planned-skills.md`). Vendor SDK
 types leaking into application code is that coupling. It is hypothetical here, not an observed
