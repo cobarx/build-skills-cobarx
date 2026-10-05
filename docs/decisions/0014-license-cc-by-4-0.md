@@ -30,8 +30,8 @@ The choice was worked through on 2026-09-25, in the owner's working notes. What 
 
 ## Options
 
-- **AGPL, with a CLA.** The earlier direction for MetanoiaFramework. Buys friction and no
-  protection for a method; no skills repository surveyed uses it.
+- **AGPL, with a CLA.** Buys friction and no protection for a method; no skills repository
+  surveyed uses it.
 - **MIT or Apache-2.0.** The ecosystem's usual choice for skills. Treats a skill as a software
   component; credit is a notice, not a citation.
 - **CC BY-SA 4.0.** Keeps every public adaptation under the same terms. Its reach is narrow:
