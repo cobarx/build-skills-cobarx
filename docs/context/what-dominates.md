@@ -138,7 +138,13 @@ skills and deliberately ignores the agent, that's on them. They decide." The mec
 exists: state it once and proceed if reaffirmed (`simplicity` 7), overriding a default is a logged
 decision (`simplicity` 5), a noticed problem is filed without asking (`durable-context` 6), a
 blocker is reported rather than routed around (`review` 3). Ignoring the principles stays possible,
-but it becomes a visible choice with a name on it. "If I can't trust what you do in secret, you're
+but it becomes a visible choice with a name on it. Accountability built this way is bottom up: the
+product owner must be accountable, so they must make the manager accountable, so the manager
+makes the director accountable. An override at any level is recorded in the open with a name on
+it, so it carries upward instead of disappearing. The same shape at every rung, which is the
+fractal again, applied to an organization. Analogue: the Toyota andon cord, where anyone surfaces
+a problem and it travels up. Limit: the skills make the record exist and stay findable; they
+cannot make anyone above read it. "If I can't trust what you do in secret, you're
 not particularly trustworthy." The repo practices openness throughout: `durable-context` ("in the
 open"), `decision-log` ("a decision is reasoned in the open"), rules a human can audit, a public
 repo under CC-BY. Industry term: working in the open (GDS, "make things open: it makes things
