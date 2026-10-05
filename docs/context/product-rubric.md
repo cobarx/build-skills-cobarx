@@ -79,6 +79,29 @@ Sources: [FBA](https://www.marketplacepulse.com/articles/a-decade-of-fulfillment
 [Walmart](https://chainstoreage.com/walmart-sell-its-ai-logistics-tool-other-businesses),
 [Ocado](https://www.digitalcommerce360.com/2025/12/30/kroger-partner-ocado-group-ends-exclusivity-agreements-us-supermarkets/).
 
+**A better version improves what worked and keeps the cost to the rest small.** Hampton's criterion,
+2026-10-05: a superior product takes what already worked and improves on it, while minimizing the
+trade-offs to existing good functionality, and any trade-off it does make is named. The strict form
+is a Pareto improvement: better on at least one dimension, worse on none. It is judged on total cost
+of ownership and satisfaction over the product's life, not on features at the sale: Deming's fourth
+point ("minimize total cost"), and his 1950 speech, where the process of sales "is not something
+that finishes simply with transporting the products to the marketplace, and receiving money." In the
+scorecard, a new version is scored on every dimension the old one was, so a regression shows
+(`definition-of-done` 3), and a trade-off taken on purpose is framed and logged as a decision
+(`decision-log` 1 and 2).
+
+Worked example, the modern combustion-engine car. Better on safety, emissions and fuel economy
+(broadly established, not checked here), and it lasts longer: S&P Global Mobility puts the average
+age of US light vehicles at a record 12.8 years (press release, 21 May 2025), though high new-car
+prices may drive that as much as durability (not checked). But it costs more to repair, the maker
+controls more of who can repair it (not checked here), and features get sold back to the owner: in
+2022 BMW charged about $18 a month to switch on heated seats whose hardware was already fitted, and
+dropped it in September 2023 after the backlash while keeping other paid software functions (news
+reports, not read in full here). Better at the sale, not clearly better over its life. Hidden
+trade-offs are how a replica is sold as superior: the pattern of TQM's successors in #112's research
+note, and enshittification with the owner as the locked-in user. Source: [S&P Global
+Mobility](https://www.prnewswire.com/news-releases/us-vehicle-age-rises-again-to-12-8-years-in-2025--according-to-sp-global-mobility-302460548.html).
+
 ## Open threads
 
 **Building the rubric.** Hampton, 2026-10-05: start building a rubric whose scores measure UI
