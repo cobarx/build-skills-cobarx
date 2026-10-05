@@ -329,6 +329,13 @@ who that user is, and which unit is scored first. Open, to ask:
   had a great foundation: a little effort gave a great app. Industry term: the pit of success
   (Rico Mariani), where the right thing is the easy thing. Cohesion is developer experience
   because a sound foundation does the work, not because knowledge carries.
+  Hampton: React vs Angular. React's core is one sound idea (UI as a function of state, composed
+  components, one-way data flow), adoptable a component at a time inside an existing page.
+  Angular asks you to take the whole framework first (modules, dependency injection, RxJS,
+  decorators), the chief-of-staff article's shape; and AngularJS to Angular 2 (2016) was a rewrite
+  that broke its users, not an Apple-style bridge. Caveats: Angular has since simplified
+  (standalone components, signals), and React's own cohesion has eroded (hook rules, server
+  components tied to frameworks).
 - Hampton: even the Linux solution is better. Run Windows apps behind an interface (Wine, Proton)
   in their own container. Windows has WoW64, but you want that forced abstraction layer. The
   legacy is a guest behind an explicit boundary, so the host stays clean and can be replaced
