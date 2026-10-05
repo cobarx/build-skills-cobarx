@@ -333,6 +333,11 @@ who that user is, and which unit is scored first. Open, to ask:
   user's retention is not satisfaction, so the honest test is whether they would leave if they
   could. Windows 11 as the worked example: users holding on to Windows 10 past end of support,
   and leaving for macOS or Linux where they can.
+- How a product drives people away, from a live example (Claude Code's prompt autocomplete
+  suggesting "merge the pr?" before the user had reviewed it): it erodes confidence because it
+  does not produce the outcome the user is looking for. Output is not outcome (`spec` 5). The
+  cost is asymmetric: one wrong suggestion discounts every later one, so confidence is spent
+  faster than it is earned.
 - Hampton: Windows has no cohesive system philosophy, no common design language, no guiding
   principle for how problems are solved; macOS and Linux are generally cohesive (package
   management, system configuration). Cohesion is a product dimension the list lacked. Windows'
