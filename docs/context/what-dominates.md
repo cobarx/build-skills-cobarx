@@ -22,7 +22,10 @@ the gating choice everywhere.
 **That is why these skills insist on separation of concerns and contract enforcement.** Hampton's
 point. `contracts` (units meet only at explicit contracts, a supplier wrapped behind one) and
 `simplicity` (one unit, concerns as peers) keep each how behind a boundary small enough to replace.
-The skills are what make the how disposable, which is what frees attention for the what.
+The skills are what make the how disposable, which is what frees attention for the what. The same
+boundary pays twice: a component reasoned about in isolation, with only its contract in view, is
+the cognitive-load reduction `simplicity` exists for, and it is what lets a human audit agent output
+one component at a time.
 
 **Cheap to write is not cheap to verify.** A replacement is safe only when the spec is complete
 (`spec` rule 10), the contract holds (`contracts` rules 1 and 2), and checks assert the goal rather
