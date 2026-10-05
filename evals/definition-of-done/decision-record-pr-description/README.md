@@ -22,10 +22,9 @@ descriptions, before and after the example was added.
 
 1. With `--scaffold`, it runs `setup.sh`, which copies `files/` into the agent's empty workspace.
 2. It starts a fresh agent, the **agent under test**, with this repo's skills installed, and the
-   tools `Skill`, `Read`, `Glob` and `Grep`. It runs in a sandbox where this repo and its graders
-   aren't visible, capped at 25 turns and 600 seconds. It gets no shell: the work is reading files
-   and writing an excerpt, and leaving Bash out lets the case run on a machine whose `~/.ssh`
-   holds a symlink, where the runner refuses to grant one.
+   tools `Skill`, `Bash`, `Read`, `Glob` and `Grep` (Bash only with `--allow-tools Bash`), so it
+   can measure what it shows, such as a file's line count. It runs in a sandbox where this repo and
+   its graders aren't visible, capped at 25 turns and 600 seconds.
 3. It sends the prompt from `case.yaml`: a request for a PR description, with no mention of
    examples, testing or evidence.
 4. It grades the final reply with each file in `graders/`, 5 times, then 5 more with the skills
@@ -43,11 +42,11 @@ The `llm` grader is judged by Sonnet (decision 0018). Read a sample of the repli
 To run the case and both controls, from the repo root:
 
 ```
-claude plugin eval . --case 'decision-record-*' --scaffold --judge-model sonnet
+claude plugin eval . --case 'decision-record-*' --scaffold --allow-tools Bash --judge-model sonnet
 ```
 
 The command exits with status 1 because the known-bad control scores 0, which is what it should
-do. `--scaffold` and the first-run trust prompt behave as in
+do. The flags, including the `~/.ssh` limit on granting Bash, behave as in
 `../plot-signups-pr-description/README.md`.
 
 ## When to update
