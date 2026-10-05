@@ -258,8 +258,9 @@ Sources: [FBA](https://www.marketplacepulse.com/articles/a-decade-of-fulfillment
 
 **Why build anything that's not that good?** Hampton, 2026-10-05, closing the thread. Mediocre
 work gets built when accountability points away from the user, when good goes unmeasured, and when
-getting the how to work was itself the bar. Disposable hows remove the last excuse. Hampton: and cheap is cutting
-corners. Inexpensive to replace is not cheap; a disposable how is still built well. Already in the
+getting the how to work was itself the bar. Disposable hows remove the last excuse. Hampton: and
+cheap is cutting corners. Inexpensive to replace is not cheap; a disposable how is still built
+well. Already in the
 skills: `simplicity` 8 (the cheapest change is the one not written), `definition-of-done` 7 (demo
 for quality, not only correctness), and `define-what-good-looks-like` ("more mediocrity traces to a
 goal never set than to a job done badly"). The exception is a prototype, deliberately rough to find
