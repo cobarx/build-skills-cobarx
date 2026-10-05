@@ -192,17 +192,17 @@ good phase; ISO looks more like ceremony than extraction, which is decoupling. A
 the term for platforms, so applying it to employers is an extension of it. This framing is the
 bridge to the anti-enshittification goal raised in #90's notes, and is meant to be refined there.
 
-**Scale and diffuse ownership.** Hampton's framing. As corporations grew larger and more beholden
-to shareholders, scale and dispersed ownership added layers of abstraction between the people who
+**Scale and diffuse ownership.** Hampton's framing. As corporations grew larger and more beholden to
+shareholders, scale and dispersed ownership added layers of abstraction between the people who
 decide and the work, which interferes with breaking down barriers between departments (9). The same
 pressure throws out points 1 (constancy of purpose) and 2 (adopt the new philosophy). Deming named
 it in his deadly diseases: "Lack of constancy of purpose to plan product and service that will have
 a market and keep the company in business, and provide jobs", and "Emphasis on short-term profits:
 short-term thinking (just the opposite from constancy of purpose to stay in business), fed by fear
 of unfriendly takeover, and by push from bankers and owners for dividends"
-(<https://deming.org/explore/seven-deadly-diseases/>). To refine: whether scale itself is the
-cause or the governance that comes with it. Toyota is very large, so a counterexample to scale
-alone; how its ownership differs is not checked here.
+(<https://deming.org/explore/seven-deadly-diseases/>). Scale does not mandate the failure; it is a
+contributing factor (Hampton). Toyota is very large and keeps much of the canon, which fits that:
+what else separates it, such as how it is owned and governed, is not checked here.
 
 ## Deming's later emphasis
 
