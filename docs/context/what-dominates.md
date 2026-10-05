@@ -286,11 +286,15 @@ presuppose that you are building software. That is the aim. A rough read of the 
 - Bound to software as written: `naming` (identifiers), `format`, `fixtures`, `parallel-work`
   (worktrees and branches), `platform-correctness`, `skill-versioning`, and planned `linting`.
 That may be the fractal again: general principles, with software as one domain they apply to.
+Hampton, revised from use: in practice it is basically a software framework that extends well to
+certain aspects of other product domains. The product framework is the aim; the software framework
+is what exists. The general skills above are the parts that extend.
 
 ## Open threads
 
 **The stated purpose says software.** The README opens "Skills for how software gets built," and
-AGENTS.md says the same. Both contradict the aim of a product framework. Wording is Hampton's.
+AGENTS.md says the same. Accurate for what exists, silent on the aim. Whether and how to state the
+aim is Hampton's call, and his wording.
 
 **Where is the project's goal stated?** Accountability to reverse enshittification is a guiding
 goal but appears in neither the README nor AGENTS.md (`spec` 4: keep the goal written down where
