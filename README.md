@@ -6,6 +6,14 @@ Each skill is a short set of rules, loaded by an AI coding assistant when it app
 deliberately brief: a skill costs context every time it fires, so it holds rules and nothing else.
 The reasoning behind them lives in [docs/essays/](docs/essays/).
 
+## Lineage
+
+The skills are a close match for total quality management (TQM). TQM holds that quality is defined
+by the customer and built into the work by everyone who does it, not checked for at the end.
+[Quality is defined by the customer](docs/essays/quality-is-defined-by-the-customer.md) explains TQM
+for a reader new to it and shows where the skills match it. TQM grew from the work of W. Edwards
+Deming.
+
 ## Skills
 
 | Skill | Purpose |
