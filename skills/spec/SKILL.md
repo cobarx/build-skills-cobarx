@@ -15,30 +15,26 @@ it, so a choice can be weighed instead of picked.
 
 ## Rules
 
-1. **What before how.** Write what the change must do, and the criteria it is judged against, before
-   choosing a tool, a library, or a design. Options offered before the criteria are unframed work.
-   A question asked as a how ("can we", "which is better") still needs its what before an answer.
-   Exploring to find the what is not choosing the how: data, spikes and prototypes answer open
-   questions, and what they turn up is a hypothesis until the goal says it fits.
+1. **What before how.** Write what the change must do, and its criteria, before choosing a tool, a
+   library, or a design; options offered first are unframed work. A "can we" or "which is better"
+   still needs its what. Exploring to find the what is not choosing the how: what data, spikes and
+   prototypes turn up is a hypothesis until the goal says it fits.
 
-2. **The goal comes from its owner, often in pieces.** When it is not stated, ask the person whose
-   problem it is; do not fill it with the convenient reading. Many owners find the goal by
-   exploring, so ask what the next step depends on, and do not hold the work for a full answer.
+2. **The goal comes from its owner, often in pieces.** Ask the person whose problem it is; don't
+   fill the gap with the convenient reading. Ask what the next step depends on, and keep working
+   without the rest.
 
-3. **Keep a working goal where both can see it.** A draft, the open questions beside it, and each
-   answer recorded, dated, as it lands. Work proceeds against the current draft; an inferred part
-   stays marked as a guess until the owner confirms it. When the goal moves, recheck the criteria,
-   decisions and work that rested on the earlier draft rather than carry them forward.
-   A product goal holds while its features go through discovery, get built or get replaced; each
-   feature is judged against its own goal and must still serve the product's.
+3. **Keep a working goal where both can see it.** A dated draft, open questions beside it, answers
+   recorded as they land; an inferred part stays marked as a guess until confirmed. When it moves,
+   recheck what rested on the old draft. A product goal holds while its features go through
+   discovery; each feature is judged by its own goal and must serve the product's.
 
 4. **The goal is what the output lets its user do.** Not what it is (a role: "a clip captions
-   play against") nor a number it hits (an exact byte count). A goal refined by what was learned
-   about the problem is the process working; one fitted to what was built passes by construction.
+   play against") nor a number it hits (an exact byte count). Refining it by what was learned is
+   the process working; fitting it to what was built passes by construction.
 
-5. **Specify the class, not the instance.** Name the general problem the case in hand belongs to,
-   and write the spec for that. A fix fitted to the instance, such as a pattern that matches the
-   samples on hand, is a hypothesis about the class to test, not the solution.
+5. **Specify the class, not the instance.** Spec the general problem the case belongs to. A fix
+   fitted to the samples on hand is a hypothesis about the class, not the solution.
 
 6. **Criteria come from the goal.** They are what `definition-of-done` checks against, and what a
    `decision-log` entry weighs an option by. No goal, no criteria, no spec.
