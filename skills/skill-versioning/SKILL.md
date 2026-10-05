@@ -1,6 +1,8 @@
 ---
 name: skill-versioning
 description: This skill should be used when opening a PR that changes a skill library by adding, removing, editing, or renaming a skill; when choosing the next version for the library's plugin.json; or whenever that version is about to be bumped by habit rather than by what changed in the skills.
+license: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/)
+metadata: {author: Hampton Maxwell, source: "https://github.com/cobarx/build-skills-cobarx/tree/main/skills/skill-versioning"}
 ---
 
 # skill-versioning

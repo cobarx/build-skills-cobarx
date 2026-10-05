@@ -1,9 +1,10 @@
 {
   "name": "build-skills-cobarx",
   "description": "Skills for how software gets built, each loaded when it applies",
-  "version": "0.15.0",
+  "version": "0.16.0",
   "author": {
     "name": "Hampton Maxwell",
     "email": "me@hamptonmaxwell.com"
-  }
+  },
+  "license": "CC-BY-4.0 AND Apache-2.0"
 }
