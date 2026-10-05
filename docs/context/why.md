@@ -245,6 +245,13 @@ yourself to the process. Compliance can be faked; commitment cannot. It is the N
 a team can load every skill and tick every box without the commitment, and get little. What
 produces the commitment is the why, which is why the why is load bearing and why the essays carry
 the reasoning beside the rules.
+Hampton: they're managing outcomes, managing defects, instead of looking at the system. Deming's
+distinction, after Shewhart: common-cause variation comes from the system, special-cause from an
+identifiable event, and most variation is common cause. Treating a common-cause defect as special
+(blaming the person, reacting to each defect) is what Deming called tampering, and it makes the
+system worse (his funnel experiment). Measuring outcomes is still right as feedback on the system;
+managing people by them is the failure. The repo already works this way: when an agent missed
+`spec` in a session, the fix was to the skill's trigger (0020), not only to that session's output.
 
 **Disposable is an anti-principle.** Hampton, 2026-10-05, refining his earlier "I want to throw
 things away" (kept as said in what-dominates.md). A good product can be repaired, recycled or
