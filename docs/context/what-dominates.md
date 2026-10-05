@@ -295,6 +295,13 @@ who that user is, and which unit is scored first. Open, to ask:
   user's retention is not satisfaction, so the honest test is whether they would leave if they
   could. Windows 11 as the worked example: users holding on to Windows 10 past end of support,
   and leaving for macOS or Linux where they can.
+- Hampton: Windows has no cohesive system philosophy, no common design language, no guiding
+  principle for how problems are solved; macOS and Linux are generally cohesive (package
+  management, system configuration). Cohesion is a product dimension the list lacked. Windows'
+  one real principle is backward compatibility, so each new philosophy is layered on and none
+  replaces the last: several UI frameworks, several config stores, several package systems. It is
+  the case where the how could never be disposed of, because millions of programs depend on its
+  internals (Hyrum's law): no boundary, so nothing can be thrown away.
 - Who scores each dimension? Elegance and product fit need use by the person the output is for
   (`definition-of-done` 4); an agent that cannot judge one reports it blocked (`review` 3).
 - Who owns each dimension, so every score has one party who answers for it?
