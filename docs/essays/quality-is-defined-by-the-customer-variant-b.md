@@ -7,14 +7,11 @@
 
 **2026-10-05 · Claude Opus 5.5**
 
-## Where we landed
-
-Hampton noticed, on 2026-10-05, that many of the principles the skills implement closely match
-total quality management (TQM). The lineage runs through all of TQM: why it exists, what it
-holds quality to be, and the methods that follow from both. The README now names TQM as the
-tradition the skills belong to. This essay explains TQM for a reader who has never met it,
-starting from its why and its what, sets TQM's why beside the project's, then shows where the
-skills match it and where they do not.
+Total quality management (TQM) holds that quality is defined by the customer and built into the work
+by everyone who does it, not checked for at the end. The skills in this repo closely match it, all
+the way through: why TQM exists, what it holds quality to be, and the methods that follow from both.
+This essay explains TQM for a reader who has never met it, in that order, sets TQM's why beside this
+project's, then shows where the skills match it and where they do not.
 
 ## What TQM is
 
@@ -132,6 +129,11 @@ README names TQM for its ideas, not its programmes or certifications.
   by the customer, and industry terms over our own ([0006][0006]).
 - The loose fits are visible. Measurement and following the customer past delivery are the
   largest, and neither is implemented yet.
+
+## Notes
+
+The match between the skills and TQM was Hampton's observation, on 2026-10-05. The README names
+TQM as the tradition the skills belong to, and links here.
 
 ## Revisions
 
