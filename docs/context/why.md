@@ -84,6 +84,20 @@ throughout: `durable-context` ("in the open"), `decision-log` ("a decision is re
 open"), rules a human can audit, a public repo under CC-BY. Industry term: working in the open (GDS,
 "make things open: it makes things better"; Mozilla).
 
+**"So that" is the test of a why.** Hampton, 2026-10-05: all marketing is "so that." I get a job so
+that I can get money to spend on the things I want; I get a partner so that I have someone to share
+my life with. Ask "so that" of any what and you get its why; ask again until the answer is held for
+its own sake. Industry forms: means-end chains and laddering in marketing research (Gutman, 1982;
+Reynolds and Gutman, 1988: attribute, then consequence, then value); the user story's "so that"
+(Connextra, 2001); Toyota's five whys, which puts it back inside TQM; Rokeach's instrumental versus
+terminal values for where the ladder stops.
+
+**The corollary: what else would I rather be spending my time on?** Hampton. Opportunity cost as a
+test of the why: a why is great enough only if the work beats the alternatives for the same time.
+In the elevated sense, what gives my life purpose. The top of the "so that" ladder is a purpose,
+and that is the why great enough to bear any how. For a product it applies twice: the user's time
+(is this worth their hour?) and the builder's (fun, useful, pride, above).
+
 **Harmless is an incredibly hard goal.** Hampton, 2026-10-05, on Claude's "helpful, honest,
 harmless." It is an absence goal, and a negative cannot be proven: a system that does nothing also
 reports no harm. It is zero defects (Crosby's goalpost) where real harm is continuous (Taguchi).

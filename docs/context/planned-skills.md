@@ -54,6 +54,10 @@ any how"); Hampton found how it applies here. It adds a sense of why the spine a
 the two are one skill is open; a great enough why may be exactly one with a strong source. Context
 in [why.md](why.md), including the builder's why (fun, useful, pride).
 
+Candidate rules from the same session (Hampton's "so that" test and its corollary; context in
+[why.md](why.md)): state the what's "so that"; ladder it until the answer is held for its own sake;
+weigh the work against what else the same time could go to, for the user and for the builder.
+
 Name TBD: `rationale`, `problem`, `discovery`, `justification`, `why`. Open.
 
 Prompted 2026-09-22: "dod is not the why, it's the what; how you arrived at the goal is the why."
