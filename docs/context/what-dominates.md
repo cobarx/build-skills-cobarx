@@ -223,6 +223,14 @@ that level, and in the scorecard it is the dimension closed systems leave unscor
 `contracts`: internal boundaries do not announce themselves, which is where coupling accumulates;
 they are also where DX goes unmeasured. Where closed organizations do prioritize DX, it is by
 adopting the product framing on purpose (platform as a product, Team Topologies).
+Hampton: Amazon figured this out too; sell your internal systems. The Bezos API mandate (around
+2002, known through Steve Yegge's 2011 post, so secondhand) required every team to expose its data
+and functionality only through service interfaces, with no direct linking or reading another
+team's data store, and every interface "designed from the ground up to be externalizable." That
+is `contracts` (no third source), single accountability (each team owns its data), and DX forced by
+treating every internal consumer as a potential external customer. AWS is the case where the
+internal systems were in fact sold. (The "excess capacity" origin story is disputed by Amazon;
+the mandate is the stronger evidence.)
 
 ## Open threads
 
