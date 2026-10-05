@@ -87,9 +87,9 @@ creates upward pressure. conway's law in action." Each leaves a record someone h
 goal from a named owner (`spec` 3), a result measured against it (`definition-of-done` 1), a choice
 kept with its reasoning (`decision-log` 2). Conway's thesis is that organisations "are constrained
 to produce designs which are copies of the communication structures of these
-organizations."[^conway] Here the correspondence works from the other side: work that has to be
-specified, measured and recorded in the open needs an organisation whose communication can carry
-it.
+organizations."[^conway] The pressure runs through communication. Hampton: "these skills lead you
+in the direction of a particular communication style. that is likely to percolate up to the team
+communication style."
 
 **The name is dated.** ASQ notes TQM "is not as widely used in the United States as it once
 was,"[^asq] its ideas now filed under quality management, ISO 9000, Lean and Six Sigma.[^wiki] The
