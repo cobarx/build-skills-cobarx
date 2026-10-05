@@ -174,6 +174,16 @@ who that user is, and which unit is scored first. Open, to ask:
   Crisis*, quoting Lloyd Nelson). Caveat from the headline question: loyalty inflated by lock-in
   (iMessage, the App Store) is not all satisfaction, so usage and would-they-leave-if-they-could
   are the cleaner measures.
+- Hampton: Apple is a very functional organization; product, marketing and hardware are developed
+  jointly, in parallel. A good process, and others don't do it because it is hard to implement.
+  Apple is organised by function (design, hardware, software, marketing, operations) with one
+  P&L, not by business unit; leaders are experts in their function and debate across functions
+  (Podolny and Hansen, "How Apple Is Organized for Innovation," HBR, 2020, from memory). Deming's
+  point 9, break down barriers between departments, is the same idea. The film again: crafts
+  working jointly under one director. Why it is hard: it needs leaders who are domain experts, a
+  culture of argument across functions, and someone at the top who arbitrates, and it gives up
+  the per-unit P&L most companies use for accountability. Apple keeps single accountability per
+  decision (the DRI) instead of per business unit.
 - Who scores each dimension? Elegance and product fit need use by the person the output is for
   (`definition-of-done` 4); an agent that cannot judge one reports it blocked (`review` 3).
 - Who owns each dimension, so every score has one party who answers for it?
