@@ -80,8 +80,16 @@ main, `evals/` holds only a licence ([0019][0019]), and the `simplicity` thresho
 defaults, not measured ones ([open questions][open-questions]).
 
 **TQM runs an organisation; the skills govern a unit of work.** Leadership, supplier
-relationships, strategy, and how people are appraised make up much of Deming's fourteen points and
-have no counterpart here. A skill an agent loads for one change cannot set a company's strategy.
+relationships, strategy, and how people are appraised make up much of Deming's fourteen points,
+and no skill governs them directly. The skills still reach them. Hampton: "the spec, measurements &
+decision log will be a forcing function on the organization. it won't change it alone, but it
+creates upward pressure. conway's law in action." Each leaves a record someone has to answer to: a
+goal from a named owner (`spec` 3), a result measured against it (`definition-of-done` 1), a choice
+kept with its reasoning (`decision-log` 2). Conway's thesis is that organisations "are constrained
+to produce designs which are copies of the communication structures of these
+organizations."[^conway] Here the correspondence works from the other side: work that has to be
+specified, measured and recorded in the open needs an organisation whose communication can carry
+it.
 
 **The name is dated.** ASQ notes TQM "is not as widely used in the United States as it once
 was,"[^asq] its ideas now filed under quality management, ISO 9000, Lean and Six Sigma.[^wiki] The
@@ -117,3 +125,6 @@ README names TQM for its ideas, not its programmes or certifications.
 [^wiki]: Wikipedia, "Total quality management",
     <https://en.wikipedia.org/wiki/Total_quality_management>, retrieved 2026-10-05. History, and the
     Navy's naming in 1985.
+[^conway]: Melvin E. Conway, "How Do Committees Invent?", *Datamation*, April 1968,
+    <https://www.melconway.com/Home/Committees_Paper.html>. The quotation is the paper's stated
+    thesis.
