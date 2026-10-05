@@ -109,11 +109,12 @@ used: clean interface, crude disposable internals.
 
 ## Open threads
 
-**What to call the principle, if not DRY?** Settled 2026-10-05 that DRY is the wrong branding
-(heard as "don't repeat code," which the framework permits inside a boundary) but the right
-genealogy: Hunt and Thomas's definition is where the principle comes from and should be cited as
-such. The name is open. Candidates: single source of truth (industry, but reads as data and
-config), or Hampton's plain "only one thing owns a thing."
+**What to call the principle, if not DRY?** DRY is the wrong branding (heard as "don't repeat
+code," which the framework permits inside a boundary) but the right genealogy, cited as where the
+principle comes from: Codd (data), Hunt and Thomas (knowledge), Parnas (modules). Hampton,
+2026-10-05: the name is single source of truth, extended past data and config to contracts,
+skills, data models and components. An industry term, so no coinage to record. Where it is stated
+(the thread above) is still open; the name goes in a decision record when it lands.
 
 **Where does "only one thing owns a thing" live, and under what name?** It is cross-cutting (it
 shows in `simplicity`, `contracts`, `durable-context`, `decision-log` and AGENTS.md), so by
