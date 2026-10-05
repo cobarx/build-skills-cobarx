@@ -2,8 +2,7 @@
 
 Working notes, 2026-10-05. Not settled. Drawn from comparing the skills against the
 [chief-of-staff pattern](https://asyncdot.com/blog/chief-of-staff-pattern-orchestrating-claude-code-sessions/)
-for orchestrating Claude Code sessions. The article was read through a summarizer, so claims about
-it are medium confidence.
+for orchestrating Claude Code sessions (Mithushan Jalangan, 2026-09-19), read in full.
 
 ## Where we arrived
 
@@ -45,10 +44,21 @@ contract, never whether the contract is the goal. Its machinery (cmux, a board b
 scales production of the how.
 
 **Build skills is human auditable; that pattern is agent centric.** Its state lives behind a tool
-(against `durable-context` rule 4), and its auditor is an agent auditing agents, with the human
-receiving reports. Here the human sits at the goal (`spec` 3), the decisions (`decision-log` 3),
+(against `durable-context` rule 4), and its auditor is an agent auditing agents. The human leaves
+direction in board comments and receives reports, and a checkpoint is explicitly "not a permission
+request". Here the human sits at the goal (`spec` 3), the decisions (`decision-log` 3),
 and the consumable artifact (`definition-of-done` 5). The two connect: if the what dominates and a
 human owns it, the system must be readable by that human. (Interpretation, medium confidence.)
+
+**A framework you adopt whole vs standards that load where they apply.** Hampton's point. The
+pattern only works whole, by its own statement ("without a durable store you are not running this
+pattern"), and its parts presuppose each other: the red gate needs a validation contract on a
+board card, PROVE needs a delegate. Its standards live in one contract file. So you internalize the
+whole framework to use any of it, and it does not carry into a related but separate workflow. Its
+general rules ("prove a positive before believing a negative", positive controls for absence
+checks, state the denominator) are buried inside it. These skills trigger on events in whatever
+workflow is running (0020), so one can be taken into a solo session, a human team, or that loop.
+The skills apply to themselves the separation of concerns they demand of code.
 
 ## Open threads
 
