@@ -29,8 +29,8 @@ organisation is run leaves out a key part of his work: departments working as a 
 not held to results the system controls, leadership in place of management by numbers, and pride of
 workmanship for everyone who does the work (points 9, 10, 11b and 12[^deming]). Hampton largely
 agrees with those recommendations, which is why this essay names TQM and Deming rather than a
-successor. Research so far finds that none of the successors carries them reliably, though no study
-has measured that directly ([working note][successors]).
+successor. How far the successors carry them is the subject of an unfinished [working
+note][successors].
 
 ## Its why: lasting by serving the customer
 
