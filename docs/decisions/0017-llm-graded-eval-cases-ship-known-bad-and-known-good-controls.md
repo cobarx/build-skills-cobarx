@@ -6,10 +6,11 @@
 
 ## Context
 
-In #11, and in the first version of #61, every `llm` grader had only ever been seen to pass.
-Full marks with and without the skill is also what a grader that passes anything would produce.
-Adding only a known-bad answer wasn't enough either: in #61 a judge then failed a description that
-did exactly what the grader asked.
+In #11, and in the first version of #61, every `llm` grader had only ever been seen to pass. Full
+marks with and without the skill is also what a grader that passes anything would produce. Adding
+only a known-bad answer wasn't enough either: on #61's first case (a private project's clip, since
+replaced by the signups chart) a judge then failed a description that did exactly what the grader
+asked.
 
 ## Options
 
@@ -18,7 +19,9 @@ did exactly what the grader asked.
 - **Control cases in the same suite,** handing the graders fixed answers. They sit beside the case
   and rerun with it. They can share the case's graders by:
   - **copying them,** which lets the two drift apart;
-  - **the runner's `case.yaml` format,** which is undocumented;
+  - **the runner's `case.yaml` format,** whose schema is undocumented. #61 found it in the
+    runner's binary and uses it only for the setup script; whether it can point at another
+    case's graders is untested;
   - **symlinks,** which keep a single source. The runner follows them (checked in #61: a control
     loaded four linked graders and graded with them).
 
