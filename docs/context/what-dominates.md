@@ -270,6 +270,12 @@ deepest: knowing what good looks like, and how to reach it, takes experience
 (`define-what-good-looks-like`). Deming's points 6 and 13 (training, education). It is the reason
 the skills exist: to carry that knowledge, so a little effort reaches good work (the pit of
 success). "How" here is craft knowledge of quality, not the implementation how.
+Hampton: but take accountability seriously and you have to get the training and education. Not
+knowing how is not a root cause beside accountability; accountability drives the learning.
+Nietzsche (Twilight of the Idols, 1889, popularized by Frankl): "If we have our own why of life,
+we shall get along with almost any how." Give a great enough why and any how can be borne. The
+order is why, then what, then how; the planned *why* skill in `planned-skills.md` ("why before
+what") is the first link.
 
 **Disposable is an anti-principle.** Hampton, 2026-10-05, refining his earlier "I want to throw
 things away" (kept above as said). A good product can be repaired, recycled or repurposed. Good
