@@ -239,6 +239,12 @@ Hampton: it's not an easy choice, and at the end of the day culture still matter
 permissive (BSD-style, now Apache 2.0 with LLVM exceptions), Linux is GPL, and both are vibrant.
 What sustains both is a culture of contributing upstream, and the economics behind it: carrying a
 private fork costs more than upstreaming, whatever the licence allows.
+Hampton: it's easy to bypass a licence, but to get the most out of TQM you have to dedicate
+yourself to the process. Compliance can be faked; commitment cannot. It is the NUMMI lesson again
+(the tools copied, the culture not) and Deming's first point, constancy of purpose. For this repo:
+a team can load every skill and tick every box without the commitment, and get little. What
+produces the commitment is the why, which is why the why is load bearing and why the essays carry
+the reasoning beside the rules.
 
 **Disposable is an anti-principle.** Hampton, 2026-10-05, refining his earlier "I want to throw
 things away" (kept as said in what-dominates.md). A good product can be repaired, recycled or
