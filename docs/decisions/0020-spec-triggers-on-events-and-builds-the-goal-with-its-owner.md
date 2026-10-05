@@ -56,20 +56,24 @@ read as "do not explore until the goal is settled".
 
 ## Decision
 
-Observable triggers, and three rules:
+Observable triggers, and four rules:
 
-- *The goal comes from its owner, often in pieces.* Ask what the next step depends on, and don't
-  hold the work for a full answer.
-- *Keep a working goal where both can see it.* A dated draft with open questions beside it. When
-  it moves, recheck what rested on the earlier draft. A product goal holds while its features go
-  through discovery (the owner's framing: "standard product design", with the product goal "build
-  an app that allows people to not deal with unwanted political texts" and categorizing as the
-  first feature in discovery). Product, feature and discovery are industry terms, per 0006.
-- *Specify the class, not the instance.*
+- *Explore to find the what.* Data, spikes and prototypes answer open questions about the goal;
+  they don't choose the how.
+- *The goal comes from its owner, often in pieces.* Ask what the next step depends on, and keep
+  working without the rest.
+- *Keep the goal written down where both can see it.* Open questions beside it, answers dated,
+  inferences marked as guesses, and a recheck of what was built on it when it changes. A product
+  goal holds while its features move through discovery (the owner's framing: "standard product
+  design", with the product goal "build an app that allows people to not deal with unwanted
+  political texts" and categorizing as the first feature in discovery). Product, feature and
+  discovery are industry terms, per 0006.
+- *Specify the general problem, not the example.* A fix fitted to the examples on hand is a
+  hypothesis to test.
 
-Rule 1 covers a how-question that arrives without its what, and separates exploring to find the
-what from choosing the how. The goal rule now separates a goal refined by what was learned (the
-process working) from one fitted to what was built (the failure it always guarded against).
+Rule 1 also covers a how-question that arrives without its what. The goal rule now separates a goal
+refined by what was learned (the process working) from one fitted to what was built (the failure it
+always guarded against).
 
 Understanding the problem, gathering data, and finding patterns before the goal is set stay out of
 `spec`. They belong to the planned *why* skill, which this session gives its second instance.
