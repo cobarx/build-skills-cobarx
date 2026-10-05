@@ -19,7 +19,7 @@ question is whether non-code linting counts, which is itself an open question be
 **Do Deming's successors carry points 7–12?** Lean, Six Sigma and ISO 9000/9001 against Deming's
 points on leadership, fear, barriers, targets, management by objective and pride of workmanship.
 Raised in review of #110. Notes in
-[deming-points-7-12-in-successors.md](deming-points-7-12-in-successors.md).
+[deming-points-in-successors.md](deming-points-in-successors.md).
 
 ## For `linting`, before it can be written
 
