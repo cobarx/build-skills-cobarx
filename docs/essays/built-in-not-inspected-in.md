@@ -89,7 +89,15 @@ kept with its reasoning (`decision-log` 2). Conway's thesis is that organisation
 to produce designs which are copies of the communication structures of these
 organizations."[^conway] The pressure runs through communication. Hampton: "these skills lead you
 in the direction of a particular communication style. that is likely to percolate up to the team
-communication style."
+communication style." Conway wrote about structure, who communicates with whom, and this is style,
+how they communicate. The two meet where the record names a person, as the goal's owner is named
+(`spec` 3); there, style becomes structure.
+
+Conway's law also holds at the smallest scale, in its own direction. Hampton: "the developer and
+agent constitute an organization as well." The skills set that organisation's communication: the
+developer owns the goal (`spec` 3), and the agent works from the spec, not from guesses at it. If
+Conway holds, the design should copy that structure, in units that meet only at explicit contracts
+(`contracts`).
 
 **The name is dated.** ASQ notes TQM "is not as widely used in the United States as it once
 was,"[^asq] its ideas now filed under quality management, ISO 9000, Lean and Six Sigma.[^wiki] The
