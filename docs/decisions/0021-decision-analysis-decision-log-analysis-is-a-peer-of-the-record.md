@@ -80,6 +80,16 @@ and a new rule 7 rereads the file for both before replying. The reply rule becom
 The owner then split asking out of rule 1 into its own rule 2, unchanged in wording, so the rules
 run to nine.
 
+A final pass, at the owner's request, split two more rules and moved reasoning out of the rules
+into this record. Splits: an authority's reason became its own rule (it came from a separate
+correction), and "recommend one, and say what would reverse it" became two, since its title needed
+an "and". The reasoning moved here: a remembered fact is a lead to check because ecosystems move
+faster than memory; the resisted option's purpose comes first because it is the decider's first
+question, and a decider who sees why each argument holds or fails can trust the recommendation or
+overturn it; reversal conditions turn a later reversal from a re-argument into a check; the
+summary comes first so the decider can stop there or read on knowing where it leads. The rules run
+to eleven.
+
 ## Consequences
 
 - `decision-log` gains only a "Not here" pointer. Its rules 1 and 3 overlap the new skill; whether

@@ -23,33 +23,35 @@ handed the analysis can check it, and can disagree for reasons the analyst did n
    reading broader than the decider's own words. Put the questions in the summary.
 
 3. **Measure, do not recall.** Every fact the choice turns on comes from the system in front of
-   you or a primary source, with how and when it was obtained. A remembered fact is a lead to check,
-   and ecosystems move faster than memory. Mark any fact left unchecked; never claim blanket
-   verification. When an authority recommends an option, give its reason, not only its verdict.
+   you or a primary source, with how and when it was obtained. A remembered fact is a lead to check.
+   Mark any fact left unchecked; never claim blanket verification.
 
-4. **Make the best case for the option the decider resists, starting with why it exists.** The
-   problem it was built to solve comes first, because it is the decider's first question. Then give
-   its strongest arguments their full weight, and say of each whether it applies to this work now.
-   A decider who sees why each argument holds or fails can trust the recommendation, or overturn it.
+4. **Give an authority's reason, not only its verdict.** When a maintainer, vendor or project
+   recommends an option, say why they recommend it.
 
-5. **Recommend one, and say what would reverse it.** End with a single recommendation and the
-   observable conditions under which it should be revisited. Those conditions are what turn a
-   later reversal from a re-argument into a check. Where it loses on a criterion, say why it still
-   wins. No second pick: a preference only the decider holds is a question for them (rule 2).
+5. **Make the best case for the option the decider resists, starting with why it exists.** The
+   problem it was built to solve comes first. Then give its strongest arguments their full weight,
+   and say of each whether it applies to this work now.
 
-6. **Open with a summary.** The recommendation and the few reasons that decide it, before any
-   detail, so the decider can stop there or read on knowing where it leads.
+6. **Recommend one.** Where it loses on a criterion, say why it still wins. No second pick: a
+   preference only the decider holds is a question for them (rule 2).
 
-7. **The analysis stands alone.** Write it as a plain file the decider can read without the agent,
+7. **Say what would reverse it.** Give the observable conditions under which the recommendation
+   should be revisited.
+
+8. **Open with a summary.** The recommendation and the few reasons that decide it, before any
+   detail.
+
+9. **The analysis stands alone.** Write it as a plain file the decider can read without the agent,
    including what could not be checked.
 
-8. **Reread the file before replying.** Look for a claim of verification broader than what was
-   checked, a second pick, and a criterion the recommendation loses on without saying why. Fix the
-   file, not the reply.
+10. **Reread the file before replying.** Look for a claim of verification broader than what was
+    checked, a second pick, and a criterion the recommendation loses on without saying why. Fix
+    the file, not the reply.
 
-9. **The reply is the summary and the path.** Paste the file's summary exactly as written, then its
-   absolute path on its own line. No other information, caveats included; every detail is in the
-   file.
+11. **The reply is the summary and the path.** Paste the file's summary exactly as written, then
+    its absolute path on its own line. No other information, caveats included; every detail is in
+    the file.
 
 ## Not here
 
