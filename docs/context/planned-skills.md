@@ -49,10 +49,11 @@ as the why behind it; name where it came from.*
 
 **Headline, 2026-10-05:** *give a great enough why, and any how can be borne.* Nietzsche's
 (*Twilight of the Idols*, 1889: "If we have our own why of life, we shall get along with almost
-any how"); Hampton found how it applies here. It adds a sense of why the spine above lacks: the why as purpose that drives the work
-(accountability makes you learn the how), not only the evidence that justifies the goal. Whether
-the two are one skill is open; a great enough why may be exactly one with a strong source. Context
-in [why.md](why.md), including the builder's why (fun, useful, pride).
+any how"); Hampton found how it applies here. It adds a sense of why the spine above lacks: the
+why as purpose that drives the work (accountability makes you learn the how), not only the evidence
+that justifies the goal. Whether the two are one skill is open; a great enough why may be exactly
+one with a strong source. Context in [why.md](why.md), including the builder's why (fun, useful,
+pride).
 
 Candidate rules from the same session (Hampton's "so that" test and its corollary; context in
 [why.md](why.md)): state the what's "so that"; ladder it until the answer is held for its own sake;
