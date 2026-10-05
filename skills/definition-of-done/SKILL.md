@@ -34,10 +34,11 @@ not approval, and neither is a green check.
    every page works, and it communicates to a visitor; that its HTML validates and `ffprobe` reads
    30 fps is nothing the person it is for cares about.
 
-5. **Show the artifact in the form its user consumes.** Put a page that loads or a clip that plays
-   in front of the reviewer, never a screenshot of one. The artifact carries the property under
-   test; commit the command that regenerates it, not the artifact, and trim a large one along the
-   axis that preserves it.
+5. **Hand over the artifact in the form its user consumes.** Attach the page that loads or the clip
+   that plays to the review: never a screenshot of it, and never only the command that makes it.
+   The reviewer, or another agent, repeats your checks on the same thing. In the repo, commit the
+   command that regenerates it, not the artifact, and trim a large one along the axis that
+   preserves the property under test.
 
 6. **Build the tell into the artifact.** A demo that could look right while being wrong shows
    nothing. Put the check on screen (the burned-in timecode beside the cue) so a reviewer sees
