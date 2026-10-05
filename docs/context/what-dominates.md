@@ -309,6 +309,11 @@ who that user is, and which unit is scored first. Open, to ask:
   bridge, a deadline, then removal. Microsoft promises never to break you; Apple promises a way
   forward and breaks you on a schedule. One blessed way per problem is single accountability at
   platform level: Windows has several ways to install software, macOS has one it stands behind.
+- Hampton: that leads to lifting and porting macOS to the iPhone. iPhone OS (2007) kept Darwin,
+  the XNU kernel, Core Foundation and Foundation, and replaced only the UI layer (AppKit with
+  UIKit, for touch). The gating choice swapped, the rest lifted: the AWS-to-GCP point at platform
+  scale. The same base later carried iPadOS, watchOS, tvOS and visionOS, and the boundary ran the
+  other way in 2020 when the iPhone's chips moved into the Mac and iPad apps ran on it.
 - Who scores each dimension? Elegance and product fit need use by the person the output is for
   (`definition-of-done` 4); an agent that cannot judge one reports it blocked (`review` 3).
 - Who owns each dimension, so every score has one party who answers for it?
