@@ -112,9 +112,13 @@ used: clean interface, crude disposable internals.
 **What to call the principle, if not DRY?** DRY is the wrong branding (heard as "don't repeat
 code," which the framework permits inside a boundary) but the right genealogy, cited as where the
 principle comes from: Codd (data), Hunt and Thomas (knowledge), Parnas (modules). Hampton,
-2026-10-05: the name is single source of truth, extended past data and config to contracts,
-skills, data models and components. An industry term, so no coinage to record. Where it is stated
-(the thread above) is still open; the name goes in a decision record when it lands.
+2026-10-05: the principle is single source of truth extended to new domains (contracts, skills,
+data models, components). That describes it, but "single source of truth" carries data-centric
+baggage, so it needs a different term, recorded as ours if coined. Candidates: single ownership
+(matches the "X owns Y" wording already used across the repo; Rust's ownership is a near
+namesake), or Raymond's SPOT rule (single point of truth, applied to code as well as data in
+*The Art of Unix Programming*; attribution from memory, unchecked). Where it is stated (the
+thread above) is also open; the term goes in a decision record when it lands.
 
 **Where does "only one thing owns a thing" live, and under what name?** It is cross-cutting (it
 shows in `simplicity`, `contracts`, `durable-context`, `decision-log` and AGENTS.md), so by
