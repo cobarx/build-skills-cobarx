@@ -57,6 +57,10 @@ skill authoring to specs, docs, and any distillation task. Currently it lives on
 proof to the blast radius. "Exhaustive" and "proportionate" pull against each other, and the line is
 not yet drawn. Raised in `docs/essays/define-what-good-looks-like.md`.
 
+**How are features and products scored?** A rubric of what the user meets (laggy, confusing, can't
+get my data, locks me in), each dimension with one accountable owner, verdicts in words as well as
+numbers. Its goal and scorers are open. Notes in [product-rubric.md](product-rubric.md).
+
 **Is survey-then-dive a real pattern**, or an artifact of one probe? Survey first is cheap and
 tells you which dive is worth doing, but that is one data point. Raised in
 `docs/essays/simplicity-is-not-size.md`.
