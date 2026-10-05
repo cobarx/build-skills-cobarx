@@ -1,0 +1,1 @@
+../../decision-record-pr-description/graders/shows-the-decision-applied.md

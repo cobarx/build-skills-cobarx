@@ -1,0 +1,1 @@
+../../plot-signups-pr-description/graders/skill-fired.md

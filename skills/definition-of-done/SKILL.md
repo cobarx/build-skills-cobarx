@@ -1,6 +1,6 @@
 ---
 name: definition-of-done
-description: This skill should be used when preparing a change for review or deciding whether a unit is complete; when a PR description would otherwise say "tested", "verified", or "works" without showing it; when a change produces output someone should exercise (a rendered file, a running script, a page); or when checking a change against its spec. It governs what a change shows, not what its tests assert.
+description: This skill should be used when preparing a change for review or deciding whether a unit is complete; when a PR description would otherwise say "tested", "verified", or "works" without showing it; when a change produces output someone should exercise (a rendered file, a running script, a page, a rule that governs other work); or when checking a change against its spec. It governs what a change shows, not what its tests assert.
 license: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/)
 metadata: {author: Hampton Maxwell, source: "https://github.com/cobarx/build-skills-cobarx/tree/main/skills/definition-of-done"}
 ---
@@ -32,7 +32,8 @@ not approval, and neither is a green check.
 4. **Use the output as the person it is for would.** Not a metadata read, not one file in
    isolation; the whole of it, put to the purpose it exists for. A website is done when it loads,
    every page works, and it communicates to a visitor; that its HTML validates and `ffprobe` reads
-   30 fps is nothing the person it is for cares about.
+   30 fps is nothing the person it is for cares about. A rule, convention or decision is used by
+   applying it: show it applied to a real case, even when applying it for real is later work.
 
 5. **Hand over the artifact in the form its user consumes.** Attach the page that loads or the clip
    that plays to the review: never a screenshot of it, and never only the command that makes it.
