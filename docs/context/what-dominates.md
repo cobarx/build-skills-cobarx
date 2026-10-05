@@ -204,6 +204,15 @@ quality degrades continuously with distance from the target, inside the spec lim
 outside. `definition-of-done` 1 leans Taguchi already: the measured value beside the expected one,
 not a check mark.
 
+Hampton: the score is like a movie review, one score per dimension (set design, costumes, sound,
+special effects, casting, script, each 0 to 10). An analytic rubric, as opposed to a holistic one.
+Each dimension has one accountable owner (the film credits are the ownership map: production
+designer, costume designer, sound, VFX supervisor, casting director, writer), which is single
+accountability and scoring as one system. `definition-of-done` 3 already enumerates every
+dimension; this scores each instead of passing it. The whole is scored apart from its parts: a
+film can score well on every craft and still not work, which is `definition-of-done` 7 and
+`spec` 10, and the director owns that score.
+
 ## Open threads
 
 **Where is the project's goal stated?** Accountability to reverse enshittification is a guiding
