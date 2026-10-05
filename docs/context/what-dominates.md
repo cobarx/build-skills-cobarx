@@ -276,7 +276,21 @@ things can be thrown away. That is kaizen, continuous improvement, which puts it
 repair, reuse, recycle from the circular economy. The lessons persist even when the code does not,
 which is what `durable-context` and the essays are for.
 
+**A product framework, not a software one.** Hampton, 2026-10-05: build skills is a product
+framework that happens to have a lot of software terminology and policy; nothing in it should
+presuppose that you are building software. That is the aim. A rough read of the skills against it
+(Claude's, medium confidence):
+- General, with software examples: `spec`, `definition-of-done`, `review`, `decision-log`,
+  `durable-context`, `simplicity` (its thresholds aside), `contracts`, `adopting-standards`,
+  `essays`.
+- Bound to software as written: `naming` (identifiers), `format`, `fixtures`, `parallel-work`
+  (worktrees and branches), `platform-correctness`, `skill-versioning`, and planned `linting`.
+That may be the fractal again: general principles, with software as one domain they apply to.
+
 ## Open threads
+
+**The stated purpose says software.** The README opens "Skills for how software gets built," and
+AGENTS.md says the same. Both contradict the aim of a product framework. Wording is Hampton's.
 
 **Where is the project's goal stated?** Accountability to reverse enshittification is a guiding
 goal but appears in neither the README nor AGENTS.md (`spec` 4: keep the goal written down where
