@@ -256,6 +256,14 @@ Sources: [FBA](https://www.marketplacepulse.com/articles/a-decade-of-fulfillment
 [Walmart](https://chainstoreage.com/walmart-sell-its-ai-logistics-tool-other-businesses),
 [Ocado](https://www.digitalcommerce360.com/2025/12/30/kroger-partner-ocado-group-ends-exclusivity-agreements-us-supermarkets/).
 
+**Why build anything that's not that good?** Hampton, 2026-10-05, closing the thread. Mediocre
+work gets built when accountability points away from the user, when good goes unmeasured, and when
+getting the how to work was itself the bar. Cheap hows remove the last excuse. Already in the
+skills: `simplicity` 8 (the cheapest change is the one not written), `definition-of-done` 7 (demo
+for quality, not only correctness), and `define-what-good-looks-like` ("more mediocrity traces to a
+goal never set than to a job done badly"). The exception is a prototype, deliberately rough to find
+the what (`spec` 2): fine, so long as it is disposable and never shipped as finished.
+
 ## Open threads
 
 **Where is the project's goal stated?** Accountability to reverse enshittification is a guiding
