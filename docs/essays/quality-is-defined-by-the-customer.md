@@ -43,14 +43,18 @@ because the people it serves keep choosing it.
 The why has a second face, the people doing the work. Deming's twelfth point removes the barriers
 that rob workers, managers and engineers of their "right to pride of workmanship."[^deming]
 
-Set beside it, this repo's why as it stands so far. Its essays say the skills exist because an
-agent's defaults are a helpful assistant's, not an engineer's: left alone, it builds something and
-then blesses it ([An assistant, not an engineer][assistant]). Hampton names what makes those
-defaults the problem: they are not visible or discussed, so no one can reason about them, and they
-author the agent's viewpoints, stated as fact when they are actually taste. And "more mediocrity
-traces to a goal never set than to a job done badly" ([Define what good looks like][good]).
+Set beside it, this repo's why as it stands so far. Build skills is a methodology, in Hampton's
+framing: an alternative development and design flow to the one a stock agent interface produces. Its
+essays say why the stock flow falls short: an agent's defaults are a helpful assistant's, not an
+engineer's, and left alone it builds something and then blesses it ([An assistant, not an
+engineer][assistant]). Hampton names what makes those defaults the problem: they are not visible or
+discussed, so no one can reason about them, and they author the agent's viewpoints, stated as fact
+when they are actually taste. And "more mediocrity traces to a goal never set than to a job done
+badly" ([Define what good looks like][good]).
 
-The two whys meet. Both start from the person the work is for. Both treat bad work as the system's
+The two whys meet. Both are a way of working, not a fix to one step: TQM replaced inspection at the
+end with quality built into the whole process, and the skills replace the stock agent's flow rather
+than tuning it. Both start from the person the work is for. Both treat bad work as the system's
 doing, not the worker's: Deming put most defects on the system, and the essays put the agent's on
 its defaults. And both answer by making the system visible so it can be improved: TQM studies its
 process against what it predicted, and the skills replace unstated defaults with written rules that
