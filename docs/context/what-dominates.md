@@ -244,6 +244,9 @@ Hampton: every system had to compete on the market, not just AWS. Examples, sour
 Outside Amazon: Walmart Commerce Technologies (GoLocal delivery, 2021; Route Optimization as SaaS;
 Store Assist via Salesforce), and Ocado, a grocer that sells its warehouse platform to 13 partners
 including Kroger. The market is the outside scorecard that a captive internal consumer cannot be.
+Hampton: backend is a how no one cares about, unless you are Amazon or someone doing massive
+logistics. There the backend is either the scale constraint (the earlier exception) or it is sold,
+and then it is no longer a how: it has its own users and is scored as a product (FBA, AWS).
 Sources: [FBA](https://www.marketplacepulse.com/articles/a-decade-of-fulfillment-by-amazon-fba),
 [Buy with Prime](https://www.aboutamazon.com/news/retail/prime-shopping-expands-beyond-amazon-com),
 [ASCS](https://www.cnbc.com/2026/05/04/amazon-opens-up-its-logistics-network-to-other-businesses-in-new-growth-push.html),
