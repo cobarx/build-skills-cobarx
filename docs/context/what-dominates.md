@@ -15,8 +15,11 @@ their choices (DynamoDB vs MySQL) matter. They matter at massive data sets and c
 default.
 
 **You replace the gating choice, not the system.** Moving from AWS to GCP means redoing the infra
-layer and the vendor SDK clients, not the app. Industry term: ports and adapters (hexagonal
-architecture). The swap is as big as the leak: SDK types that escaped into application code make
+layer and the vendor SDK clients, not the app. Industry terms: ports and adapters (hexagonal
+architecture), and for persistence the repository pattern, which is what makes DynamoDB vs MySQL
+a swap. A repository isolates the engine only if its interface is shaped by what the domain asks,
+not by what the store can query; methods shaped around one store's access patterns carry it
+through. Data already in the store still needs a migration either way. The swap is as big as the leak: SDK types that escaped into application code make
 the gating choice everywhere.
 
 **That is why these skills insist on separation of concerns and contract enforcement.** Hampton's
