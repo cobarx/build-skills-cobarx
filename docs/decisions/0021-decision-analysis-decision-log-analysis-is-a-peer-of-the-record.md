@@ -52,7 +52,10 @@ The rules are the ones the test case needed:
   shows collapsed: in the terminal a `<details>` block printed in full, and the owner's answer was
   "i said collapsed. if that can't be done, don't print it." Revised in review on 2026-10-05,
   before merge: the reply may repeat the file's opening summary ("i'm not opposed to the summary
-  being the reply"), so long as it says nothing the file does not.
+  being the reply"), so long as it says nothing the file does not. Three runs of that wording kept
+  every reply true to its file but none to its summary: each wrote a longer digest, adding the
+  reversal conditions and caveats. The owner then settled it: "it should only be the file's summary
+  and the path." The collapsed copy goes with it.
 
 ## Consequences
 
