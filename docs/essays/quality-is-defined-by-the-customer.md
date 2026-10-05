@@ -36,20 +36,33 @@ The why has a second face, the people doing the work. Deming's twelfth point rem
 that rob workers, managers and engineers of their "right to pride of workmanship."[^deming]
 
 The skills state no why of their own; the project's is for its owner to write. What they share
-with TQM is the definition of quality that this why produces.
+with TQM is the what that follows from it, in part.
 
-## Its what: quality is what the customer needs
+## Its what: a satisfied customer, pursued as a process
 
-From that why follows TQM's definition of quality. It is not a property the builder measures
-against an internal standard; it is set by the customer. The Navy's programme put it plainly:
-"Quality is defined by customers' requirements."[^wiki] ASQ's first principle: "The primary goal
-of TQM is to meet or exceed customer expectations."[^asq]
+From that why follows TQM's what. Quality is not a property the builder measures against an
+internal standard; it is set by the customer. The Navy's programme put it plainly: "Quality is
+defined by customers' requirements."[^wiki] ASQ's first principle: "The primary goal of TQM is to
+meet or exceed customer expectations."[^asq]
 
-This is where the skills match most closely:
+Deming went further, in two ways. Satisfaction is the floor, not the goal: "It will not suffice to
+have customers that are merely satisfied," because a satisfied customer may still switch. "Profit
+in business comes from repeat customers, customers that boast about your product and service, and
+that bring friends with them."[^satisfied] And satisfaction is pursued as a process,
+not checked once as an outcome. In his 1950 speech to Japanese industrial leaders: "The process of
+sales is not something that finishes simply with transporting the products to the marketplace, and
+receiving money. In today's sales, after selling the product, the businessman must think about
+whether he has satisfied the customer, and how improvements can be made from then on."[^1950]
+Hampton's example is a salesperson who works with the customer until the product matches their
+needs.
 
-- **The user defines the goal.** `spec` 5: the goal is what the output lets its user do, not what
-  it is or a number it hits. `spec` 3: ask the person whose problem it is, and don't fill the gap
-  with the convenient reading.
+The skills match the start of that process:
+
+- **The user defines the goal.** `spec` 3: ask the person whose problem it is, and don't fill the
+  gap with the convenient reading. `spec` 5: the goal is what the output lets its user do, not
+  what it is or a number it hits. Deming's goal is wider: the customer satisfied, and coming back.
+- **The goal is worked out with its owner.** `spec` 3: the goal comes "often in pieces." `spec` 4:
+  date each answer as it lands, and when the goal changes, recheck the work built on the old one.
 - **The what comes first.** `spec` 1: what the change must do, and its criteria, before choosing a
   tool or a design.
 - **Done is judged as the user would judge it.** `definition-of-done` 4: use the output as the
@@ -85,6 +98,10 @@ analyse it.[^asq] Here, each change is held to evidence, but the skills themselv
 main, `evals/` holds only a licence ([0019][0019]), and the `simplicity` thresholds are borrowed
 defaults, not measured ones ([open questions][open-questions]).
 
+**TQM follows the customer past delivery; the skills stop at done.** `definition-of-done` checks
+a unit once, when it is handed over. Nothing in the skills goes back to the user afterward to ask
+whether they were satisfied and what to improve, which is where Deming's process continues.
+
 **TQM runs an organisation; the skills govern a unit of work.** Leadership, supplier
 relationships, strategy, and how people are appraised make up much of Deming's fourteen points,
 and no skill governs them directly. Hampton's hypothesis is that the skills push on the
@@ -101,8 +118,8 @@ README names TQM for its ideas, not its programmes or certifications.
   by the customer, and industry terms over our own ([0006][0006]).
 - The lineage survives a change of method. A skill's how can be replaced without leaving TQM, so
   long as the what it serves is still the user's.
-- The loose fits are visible. Measurement is the largest, and it is where the skills are weakest
-  by TQM's own standard.
+- The loose fits are visible. Measurement and what happens after delivery are the largest, and
+  they are where the skills are weakest by TQM's own standard.
 
 ## Revisions
 
@@ -128,3 +145,10 @@ README names TQM for its ideas, not its programmes or certifications.
 [^wiki]: Wikipedia, "Total quality management",
     <https://en.wikipedia.org/wiki/Total_quality_management>, retrieved 2026-10-05. History, the
     Navy's naming in 1985, and its definition of quality.
+[^satisfied]: W. Edwards Deming, *Out of the Crisis*, 2nd ed. (MIT Press, 2000), p. 119 of the
+    Kindle edition, as quoted by the W. Edwards Deming Institute,
+    <https://deming.org/quotes/it-will-not-suffice-to-have-customers-that-are-merely-satisfied-an-unhappy-customer-will-switch-unfortunately-a-satisfied-customer-may-also-switch-on-the-theory-that-he-could-not-lose-much-and-mi-3/>.
+[^1950]: W. Edwards Deming, speech to Japanese industrial leaders at Mt. Hakone, 1950, translated
+    from the Japanese transcript held by JUSE. Excerpted in John Hunter, "Speech by Dr. Deming to
+    Japanese Business Leaders in 1950", the W. Edwards Deming Institute,
+    <https://deming.org/speech-by-dr-deming-to-japanese-business-leaders-in-1950/>.
