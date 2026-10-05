@@ -197,8 +197,8 @@ one. `linting` owns the mechanism, this owns standing it up on day one.
 ## `<name TBD>`: draw a spec out of the person who holds the intent
 
 Decided 2026-09-24, from the spec-form analysis (#51): coaching is its own skill, not a part of
-`spec`. `spec` owns what a spec says and its form; this owns getting it out of the person who holds
-the intent, however familiar they are with writing specs. Candidate spine: *the
+`spec`. `spec` owns what a spec says and `spec-form` its form; this owns getting it out of the
+person who holds the intent, however familiar they are with writing specs. Candidate spine: *the
 author's intent, in the author's words, checked by the author.*
 
 Source material is MetanoiaFramework `spec`, "Drawing a spec out of someone", to be extracted, not
