@@ -18,7 +18,7 @@ how is still built well. Already in the skills: `simplicity` 8 (the cheapest cha
 written), `definition-of-done` 7 (demo for quality, not only correctness), and
 `define-what-good-looks-like` ("more mediocrity traces to a goal never set than to a job done
 badly"). The exception is a prototype, deliberately rough to find the what (`spec` 2): fine, so long
-as it is kept for its lessons and never shipped as finished. Hampton's answer to his own question:
+as it is kept for its lessons and never shipped as finished. Hampton's answer to the question:
 because you don't know how. The fourth reason, and the deepest: knowing what good looks like, and
 how to reach it, takes experience (`define-what-good-looks-like`). Deming's points 6 and 13
 (training, education). It is the reason the skills exist: to carry that knowledge, so a little
@@ -230,8 +230,8 @@ that is also Stallman's goal, freedom as the ability to leave, and to voice when
 creating your own solution. The four freedoms (run, study and change, redistribute, distribute
 changes) make exit and voice structural. A fork is exit that keeps the product, and voice made
 concrete: you leave, take it with you, and publish the alternative. Stallman's origin story is a
-denied voice: a printer at the MIT AI Lab (around 1980) whose driver source he could not get, so
-he could not fix it. A live consequence for this repo: copyleft is how Stallman protects those
+denied voice: a printer at the MIT AI Lab (around 1980) whose driver source was withheld, so
+nobody at the lab could fix it. A live consequence for this repo: copyleft is how Stallman protects those
 freedoms downstream. 0014 chose CC BY, which lets an adapter close what they add; CC BY-SA
 (copyleft) would not. The reading guide on the open `context/by-vs-by-sa` branch weighs exactly
 that.
@@ -249,7 +249,7 @@ Hampton: they're managing outcomes, managing defects, instead of looking at the 
 distinction, after Shewhart: common-cause variation comes from the system, special-cause from an
 identifiable event, and most variation is common cause. Treating a common-cause defect as special
 (blaming the person, reacting to each defect) is what Deming called tampering, and it makes the
-system worse (his funnel experiment). Measuring outcomes is still right as feedback on the system;
+system worse (Deming's funnel experiment). Measuring outcomes is still right as feedback on the system;
 managing people by them is the failure. The repo already works this way: when an agent missed
 `spec` in a session, the fix was to the skill's trigger (0020), not only to that session's output.
 
