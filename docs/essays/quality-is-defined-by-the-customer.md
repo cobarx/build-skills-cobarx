@@ -11,7 +11,7 @@ Total quality management (TQM) holds that quality is defined by the customer and
 by everyone who does it, not checked for at the end. The skills in this repo closely match it, all
 the way through: why TQM exists, what it holds quality to be, and the methods that follow from both.
 This essay explains TQM for a reader who has never met it, in that order, then shows where the
-skills match it and where they do not.
+skills match it and what is not built yet.
 
 ## What TQM is
 
@@ -26,6 +26,10 @@ mentored.[^pdsa] Japanese manufacturers applied those techniques well enough tha
 1970s their high-quality, low-cost goods were outcompeting North America's and Western Europe's.
 American organisations set out to learn how, and the US Navy adopted Deming's teaching and named
 its programme "Total Quality Management" in 1985.[^wiki]
+
+The name has faded since. ASQ notes TQM "is not as widely used in the United States as it once
+was,"[^asq] its ideas now filed under quality management, ISO 9000, Lean and Six Sigma.[^wiki] This
+essay uses the name for the ideas, not for the programmes or certifications that grew up around it.
 
 ## Its why: lasting by serving the customer
 
@@ -95,33 +99,28 @@ Each source is short, free, and written for newcomers: ASQ's overview lists TQM'
 principles,[^asq] the Deming Institute gives the fourteen points[^deming] and the PDSA cycle,[^pdsa]
 and Toyota describes its production system.[^toyota]
 
-## Where the match is loose
+## What is not built yet
 
-**TQM measures; the skills mostly do not yet.** TQM decides on data, with statistical tools to
-analyse it.[^asq] Here, each change is held to evidence, but the skills themselves are not: on
-main, `evals/` holds only a licence ([0019][0019]), and the `simplicity` thresholds are borrowed
-defaults, not measured ones ([open questions][open-questions]).
+**Measurement.** TQM decides on data, with statistical tools to analyse it.[^asq] Each change here
+is held to evidence, but the skills themselves are not measured yet: on main, `evals/` holds only a
+licence ([0019][0019]), and the `simplicity` thresholds are borrowed defaults, not measured ones
+([open questions][open-questions]).
 
-**TQM follows the customer past delivery; the skills do not yet.** `definition-of-done` checks a
-unit when it is handed over. Going back to the user afterward, to ask whether they were satisfied
-and what to improve, is where Deming's process continues, and it is not implemented yet.
+**Following the customer past delivery.** `definition-of-done` checks a unit when it is handed
+over. Going back to the user afterward, to ask whether they were satisfied and what to improve, is
+where Deming's process continues, and no skill does it yet.
 
-**TQM runs an organisation; the skills govern a unit of work.** Leadership, supplier
-relationships, strategy, and how people are appraised make up much of Deming's fourteen points,
-and no skill governs them directly. Hampton's hypothesis is that the skills push on the
-organisation anyway, through the communication style they teach. It is untested, and tracked in
-[#111][issue-111].
-
-**The name is dated.** ASQ notes TQM "is not as widely used in the United States as it once
-was,"[^asq] its ideas now filed under quality management, ISO 9000, Lean and Six Sigma.[^wiki] The
-README names TQM for its ideas, not its programmes or certifications.
+**Reaching the organisation.** Much of Deming's fourteen points concerns leadership, supplier
+relationships, strategy, and how people are appraised, and no skill governs those directly.
+Hampton's hypothesis is that the skills reach them anyway, through the communication style they
+teach. It is untested, and tracked in [#111][issue-111].
 
 ## What it shapes
 
 - A newcomer has a frame and a vocabulary to search with: decades of material on quality defined
   by the customer, and industry terms over our own ([0006][0006]).
-- The loose fits are visible. Measurement and following the customer past delivery are the
-  largest, and neither is implemented yet.
+- The work ahead has a reference. Measurement and following the customer past delivery are what
+  TQM's own standard asks of the skills next.
 
 ## Notes
 
