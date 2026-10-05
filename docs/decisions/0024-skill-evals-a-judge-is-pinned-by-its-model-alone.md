@@ -1,8 +1,8 @@
 # 0024. `skill-evals`: a judge is pinned by its model alone
 
-- **Status:** Proposed. Extends [0018](0018-skill-evals-judges-are-pinned-and-qualified.md) (what
+- **Status:** Accepted. Extends [0018](0018-skill-evals-judges-are-pinned-and-qualified.md) (what
   the pin leaves out, and what triggers qualification).
-- **Decided:** not yet · **Recorded:** 2026-10-05 · Claude Opus 5.5
+- **Decided:** 2026-10-05 · **Recorded:** 2026-10-05 · Claude Opus 5.5
 - **Affects:** `skill-evals` (rule 7)
 
 ## Context
