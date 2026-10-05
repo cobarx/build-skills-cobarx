@@ -98,6 +98,17 @@ In the elevated sense, what gives my life purpose. The top of the "so that" ladd
 and that is the why great enough to bear any how. For a product it applies twice: the user's time
 (is this worth their hour?) and the builder's (fun, useful, pride, above).
 
+**Worth doing well, judged by its why.** "Anything worth doing is worth doing right" is widely
+attributed to Hunter S. Thompson, but no primary source was found (2026-10-05). The origin is Lord
+Chesterfield, letter to his son, 10 March 1746, published in *Letters to His Son* (1774): "Whatever
+is worth doing at all, is worth doing well." Chesterton's rebuttal, *What's Wrong with the World*
+(1910), Part 4, Chapter 14: "If a thing is worth doing, it is worth doing badly," meaning the
+central things of a life (a love letter, raising children) should be done by amateurs, out of love,
+rather than handed to professionals. Hampton: Chesterton is speaking of a life lived by the heart,
+and that is doing well. The two agree once "well" is judged against the why rather than the
+polish: a love letter is good if the love comes through (`spec` 5, the goal is what the output
+lets its user do). Amateur comes from the Latin *amator*, lover.
+
 **Harmless is an incredibly hard goal.** Hampton, 2026-10-05, on Claude's "helpful, honest,
 harmless." It is an absence goal, and a negative cannot be proven: a system that does nothing also
 reports no harm. It is zero defects (Crosby's goalpost) where real harm is continuous (Taguchi).
