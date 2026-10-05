@@ -235,6 +235,10 @@ he could not fix it. A live consequence for this repo: copyleft is how Stallman 
 freedoms downstream. 0014 chose CC BY, which lets an adapter close what they add; CC BY-SA
 (copyleft) would not. The reading guide on the open `context/by-vs-by-sa` branch weighs exactly
 that.
+Hampton: it's not an easy choice, and at the end of the day culture still matters: LLVM is
+permissive (BSD-style, now Apache 2.0 with LLVM exceptions), Linux is GPL, and both are vibrant.
+What sustains both is a culture of contributing upstream, and the economics behind it: carrying a
+private fork costs more than upstreaming, whatever the licence allows.
 
 **Disposable is an anti-principle.** Hampton, 2026-10-05, refining his earlier "I want to throw
 things away" (kept as said in what-dominates.md). A good product can be repaired, recycled or
