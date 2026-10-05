@@ -84,6 +84,43 @@ throughout: `durable-context` ("in the open"), `decision-log` ("a decision is re
 open"), rules a human can audit, a public repo under CC-BY. Industry term: working in the open (GDS,
 "make things open: it makes things better"; Mozilla).
 
+**Harmless is an incredibly hard goal.** Hampton, 2026-10-05, on Claude's "helpful, honest,
+harmless." It is an absence goal, and a negative cannot be proven: a system that does nothing also
+reports no harm. It is zero defects (Crosby's goalpost) where real harm is continuous (Taguchi).
+Refusal is not harmless either; unhelpfulness has costs, and read literally the goal drives toward
+doing nothing. It is relational: harmless to whom? And it is a constraint, not a what (`spec` 5).
+Hampton: there are few harmless actions at a social level; almost every action shifts a cost onto
+someone. So the standard cannot be harmless. It is harms named, measured continuously, owned, and
+recorded in the open, with a human accountable at the point of irreversibility (the andon cord).
+Anthropic's own framing has reportedly moved from harmless as an absolute toward weighing harm
+against benefit (from memory; the published constitution is the source to check).
+
+**The vendor-promise model didn't work; the law is assigning accountability.** Hampton: there are
+now legal proposals, some adopted, that make people accountable for what the agent ships. From
+memory, medium-high confidence: Moffatt v. Air Canada (2024) held the airline liable for its
+chatbot's answers and rejected the claim that the chatbot answered for itself; the EU's revised
+Product Liability Directive (2024) brings software, AI included, under strict product liability;
+the EU AI Act puts obligations on deployers as well as builders, phasing in through 2027; US states
+including Colorado and California have their own measures. Each assigns a human or a company to
+answer for the agent, which is single accountability imposed from outside. Consequences for the
+open threads below: the decider on a decision record becomes evidence, an unauditable agent
+session becomes a liability exposure, and an artifact the person exercised (`definition-of-done`
+1) is a defensible record where "the agent said tests pass" is not.
+
+**Society is an ecosystem; there is no central decider.** Hampton, 2026-10-05. This is the limit
+of single accountability: it holds within a node (a team, a product, a company), not at the top.
+Society coordinates through overlapping feedback loops: markets, courts, regulators, the press,
+norms, users who leave. Ostrom's polycentric governance (many centres of decision, none supreme,
+each accountable to the others); Hayek's knowledge problem (no central decider could hold what the
+ecosystem knows). So "the product owner answers to the world" means an ecosystem of judges, not a
+judge at the top, and the legal turn is one loop tightening. Operating in the open matters more
+here: the open record is the interface between nodes that share no boss, and a decision made in
+secret escapes every loop. The fractal with its top rung changed: within each node one accountable
+owner, between nodes explicit contracts (laws, standards, protocols), above that no owner, as on
+the internet. The framework should not claim a root owner it cannot have; it can make every node
+accountable and every decision visible, so the loops have something to act on. (Interpretation,
+medium confidence.)
+
 **Deming and TQM: measure it and make it better.** Hampton, 2026-10-05: one of the spiritual
 principles behind the project, forgotten until this conversation and written down nowhere before
 this note. Much of the repo already reads as Deming:
@@ -184,7 +221,8 @@ both can see it). Wording is Hampton's.
 Recorded: date · Claude Opus 5.5", the name of whoever wrote it down. None names who decided. For
 the decision log to carry accountability upward, the accountable party has to be on the record.
 MADR has an optional `decision-makers` field (0001 adopts MADR). Whether `decision-log` should
-require it is open.
+require it is open. With people now legally accountable for what agents ship, the decider on the
+record is evidence, not tidiness.
 
 **Is TQM the brand or the genealogy?** As with DRY, the term carries baggage: a 1990s corporate
 programme, associated with ISO 9000 paperwork and quality circles, largely succeeded by Lean and
@@ -216,4 +254,5 @@ an industry term, if one covers every level, or a recorded coinage.
 **Process is not auditable here.** The rules are readable, but whether an agent applied them in a
 session is not recorded; the only trail is what `definition-of-done` makes the change show. That
 covers outputs, not whether the goal came from its owner. Under "operate in the open" this matters:
-an agent's session is the part done in secret.
+an agent's session is the part done in secret, and under the new liability rules a part someone may
+have to answer for.
