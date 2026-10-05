@@ -1,7 +1,7 @@
-> **Review note (remove before merge): this is version B.** It sets TQM's why beside the
-> project's: two paragraphs at the end of "Its why" compare them, using the essays on main. Version
-> A, in `quality-is-defined-by-the-customer.md`, has one paragraph there instead, saying the
-> project's why is for its owner to write. The intro sentence also differs. Nothing else does.
+> **Review note (remove before merge): this is version B.** It sets TQM's why beside this repo's:
+> two paragraphs at the end of "Its why" compare them, using the essays on main. Version A, in
+> `quality-is-defined-by-the-customer.md`, has one paragraph there instead, saying this repo's why
+> is not yet written down. The intro sentence also differs. Nothing else does.
 
 # Quality is defined by the customer
 
@@ -11,7 +11,7 @@ Total quality management (TQM) holds that quality is defined by the customer and
 by everyone who does it, not checked for at the end. The skills in this repo closely match it, all
 the way through: why TQM exists, what it holds quality to be, and the methods that follow from both.
 This essay explains TQM for a reader who has never met it, in that order, sets TQM's why beside this
-project's, then shows where the skills match it and where they do not.
+repo's, then shows where the skills match it and where they do not.
 
 ## What TQM is
 
@@ -38,17 +38,17 @@ because the people it serves keep choosing it.
 The why has a second face, the people doing the work. Deming's twelfth point removes the barriers
 that rob workers, managers and engineers of their "right to pride of workmanship."[^deming]
 
-Set beside it, the project's why as the repo states it so far. Its essays say the skills exist
-because an agent's defaults are a helpful assistant's, not an engineer's: left alone, it builds
-something and then blesses it ([An assistant, not an engineer][assistant]). And "more mediocrity
-traces to a goal never set than to a job done badly" ([Define what good looks like][good]).
+Set beside it, this repo's why as it stands so far. Its essays say the skills exist because an
+agent's defaults are a helpful assistant's, not an engineer's: left alone, it builds something and
+then blesses it ([An assistant, not an engineer][assistant]). And "more mediocrity traces to a goal
+never set than to a job done badly" ([Define what good looks like][good]).
 
-The two whys meet twice. Both start from the person the work is for. And both treat bad work as
-the system's doing, not the worker's: Deming put most defects on the system, and the essays put
-the agent's on its defaults, re-targeting those rather than blaming the agent. They part on scale.
-TQM's why is an organisation lasting and providing jobs; the project's, as written so far, is each
-piece of work being good, and says nothing yet of lasting, or of pride in the work. The project's
-full why is its owner's to state, and until then this comparison is only against the essays.
+The two whys meet twice. Both start from the person the work is for. And both treat bad work as the
+system's doing, not the worker's: Deming put most defects on the system, and the essays put the
+agent's on its defaults, re-targeting those rather than blaming the agent. They part on scale. TQM's
+why is an organisation lasting and providing jobs; this repo's, as written so far, is each piece of
+work being good, and says nothing yet of lasting, or of pride in the work. This repo's full why is
+not yet written down, and until it is, this comparison is only against the essays.
 
 ## Its what: a satisfied customer, pursued as a process
 

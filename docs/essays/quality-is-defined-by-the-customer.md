@@ -1,7 +1,7 @@
 > **Review note (remove before merge): this is version A.** It stops at TQM's why: one paragraph
-> at the end of "Its why" says the project's why is for its owner to write. Version B, in
+> at the end of "Its why" says this repo's why is not yet written down. Version B, in
 > `quality-is-defined-by-the-customer-variant-b.md`, replaces that paragraph with a comparison of
-> TQM's why and the project's. The intro sentence also differs. Nothing else does.
+> TQM's why and this repo's. The intro sentence also differs. Nothing else does.
 
 # Quality is defined by the customer
 
@@ -38,8 +38,9 @@ because the people it serves keep choosing it.
 The why has a second face, the people doing the work. Deming's twelfth point removes the barriers
 that rob workers, managers and engineers of their "right to pride of workmanship."[^deming]
 
-The skills state no why of their own; the project's is for its owner to write. What they share
-with TQM is the what that follows from it, in part.
+This repo has not written its own why down yet, though the skills carry one. This essay leaves it
+there and follows TQM's why into the what it produces, which is where the skills match most
+directly.
 
 ## Its what: a satisfied customer, pursued as a process
 
