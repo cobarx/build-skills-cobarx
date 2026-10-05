@@ -231,6 +231,19 @@ is `contracts` (no third source), single accountability (each team owns its data
 treating every internal consumer as a potential external customer. AWS is the case where the
 internal systems were in fact sold. (The "excess capacity" origin story is disputed by Amazon;
 the mandate is the stronger evidence.)
+Hampton: every system had to compete on the market, not just AWS. Examples, sourced 2026-10-05:
+- Fulfillment by Amazon (2006): Amazon's warehouses sold to third-party sellers; Buy with Prime
+  (2022, open to all US merchants 2023) extends it to merchants' own sites.
+- Amazon Supply Chain Services (2026): freight, warehousing, fulfillment and parcel, open to any
+  business, not only Amazon sellers (P&G, 3M, Lands' End).
+- Mechanical Turk (2005): built to find duplicate product pages in Amazon's catalog, then sold.
+- Amazon Connect (2017): the contact center behind Amazon's retail customer service, sold
+  through AWS.
+- Just Walk Out: pulled from most Amazon Fresh stores, yet in 375+ third-party venues
+  (stadiums, airports). The market scored it differently than its home did.
+Outside Amazon: Walmart Commerce Technologies (GoLocal delivery, 2021; Route Optimization as SaaS;
+Store Assist via Salesforce), and Ocado, a grocer that sells its warehouse platform to 13 partners
+including Kroger. The market is the outside scorecard that a captive internal consumer cannot be.
 
 ## Open threads
 
