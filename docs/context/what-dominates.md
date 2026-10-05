@@ -119,6 +119,10 @@ baggage, so it needs a different term, recorded as ours if coined. Candidates: s
 namesake), or Raymond's SPOT rule (single point of truth, applied to code as well as data in
 *The Art of Unix Programming*; attribution from memory, unchecked). Where it is stated (the
 thread above) is also open; the term goes in a decision record when it lands.
+Hampton: ownership is a role, not a mentality or culture. Whatever the term, it means an assigned
+role, one per thing. The cultural sense ("take ownership," "everyone owns quality") is the
+opposite: shared ownership is no owner. Role-based precedents: RACI (exactly one Accountable per
+task), Amazon's single-threaded owner.
 
 **Where does "only one thing owns a thing" live, and under what name?** It is cross-cutting (it
 shows in `simplicity`, `contracts`, `durable-context`, `decision-log` and AGENTS.md), so by
