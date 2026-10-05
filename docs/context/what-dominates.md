@@ -320,6 +320,12 @@ who that user is, and which unit is scored first. Open, to ask:
   Windows' value is its legacy app catalogue, bound to the desktop and x86, so a new form factor
   cannot carry the value with it. When backward compatibility is the product, the how has become
   the what, and it cannot be disposed of. (Xbox, on a Windows-derived OS, is the exception.)
+- Hampton: UIKit carried a lot of AppKit's design principles over. It did: MVC, target-action,
+  delegation, the responder chain, Interface Builder, Foundation underneath, the same Objective-C
+  runtime. The classes were new (no cells, Core Animation layers under every view, a flipped
+  coordinate system). The philosophy was the what and survived the port; the classes were the how
+  and were replaced. That carried developers' knowledge too, so a Mac developer already knew how
+  to think on the iPhone: cohesion is also developer experience.
 - Who scores each dimension? Elegance and product fit need use by the person the output is for
   (`definition-of-done` 4); an agent that cannot judge one reports it blocked (`review` 3).
 - Who owns each dimension, so every score has one party who answers for it?
