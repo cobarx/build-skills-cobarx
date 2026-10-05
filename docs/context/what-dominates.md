@@ -1,4 +1,4 @@
-# What dominates when the how is disposable
+# What dominates when the how is replaceable
 
 Working notes, 2026-10-05. Not settled. Drawn from comparing the skills against the
 [chief-of-staff pattern](https://asyncdot.com/blog/chief-of-staff-pattern-orchestrating-claude-code-sessions/)
@@ -24,7 +24,7 @@ leak: SDK types that escaped into application code make the gating choice everyw
 **That is why these skills insist on separation of concerns and contract enforcement.** Hampton's
 point. `contracts` (units meet only at explicit contracts, a supplier wrapped behind one) and
 `simplicity` (one unit, concerns as peers) keep each how behind a boundary small enough to replace.
-The skills are what make the how disposable, which is what frees attention for the what. The same
+The skills are what make the how replaceable, which is what frees attention for the what. The same
 boundary pays twice: a component reasoned about in isolation, with only its contract in view, is
 the cognitive-load reduction `simplicity` exists for, and it is what lets a human audit agent output
 one component at a time.
@@ -94,7 +94,7 @@ for how software gets built."
 
 **DRY about ownership, permissive about code.** Hampton's point: Sandi Metz's "duplication is far
 cheaper than the wrong abstraction" is weighted for a code-centric world. Duplicated code inside a
-disposable unit costs little; duplicated infrastructure (two auth systems, two queues, two stores of
+replaceable unit costs little; duplicated infrastructure (two auth systems, two queues, two stores of
 the same customer) is a fact with two owners, which enterprise tech rightly forbids. Metz is right
 about code and silent on knowledge, so she and DRY-as-defined do not conflict. The boundary is
 what makes disposal possible: "I want to throw things away, so I need boundaries to be able to
@@ -105,7 +105,7 @@ subsystem, and Brooks himself later called it too simplistic in favour of increm
 (1995). Boundaries move disposal from the system to any node, which is the fractal again. Hampton
 called it a worse-is-better mindset; in Gabriel's original terms it is closer to the reverse
 (worse is better ranks implementation simplicity above the interface), so the label needs care if
-used: clean interface, crude disposable internals.
+used: clean interface, replaceable internals.
 
 **Accountability is a guiding goal of the project.** Hampton, 2026-10-05: creating accountability
 to reverse enshittification was one of the goals for build skills. Not written down anywhere in the
@@ -190,7 +190,7 @@ another session today and not found recorded anywhere in the repo or its branche
 it, and it is part of why single accountability matters: a score needs one unit to attach to. A
 score on a fact two units own has no one to answer for it; an owner with no score cannot be held to
 account. Scored against the goal (`spec` 5), as a diagnostic, never a quota (Deming's point 11,
-`simplicity`'s "diagnostics, not targets"). A unit's score is also what tells you to dispose of it.
+`simplicity`'s "diagnostics, not targets"). A unit's score is also what tells you to repair or replace it.
 The eval drafts already carry the positive controls the chief-of-staff article asks for: a
 known-bad case expected to score 0 and a known-good case expected to score 1.0 (draft 0017, #64;
 #61).
@@ -198,7 +198,7 @@ known-bad case expected to score 0 and a known-good case expected to score 1.0 (
 Hampton: engineers say "I have an OpenAPI contract," 0 or 1; TQM says "I have a score." Both are
 kept, answering different questions. The contract stays binary: may this unit plug in? A contract
 mostly honoured is broken, and a replacement must conform fully, which is what makes it
-disposable. The score sits on top: how well does it serve the goal? Industry form: conformance to
+replaceable. The score sits on top: how well does it serve the goal? Industry form: conformance to
 specification (Crosby, zero defects, the goalpost model) versus Taguchi's loss function, where
 quality degrades continuously with distance from the target, inside the spec limits as well as
 outside. `definition-of-done` 1 leans Taguchi already: the measured value beside the expected one,
@@ -258,13 +258,23 @@ Sources: [FBA](https://www.marketplacepulse.com/articles/a-decade-of-fulfillment
 
 **Why build anything that's not that good?** Hampton, 2026-10-05, closing the thread. Mediocre
 work gets built when accountability points away from the user, when good goes unmeasured, and when
-getting the how to work was itself the bar. Disposable hows remove the last excuse. Hampton: and
-cheap is cutting corners. Inexpensive to replace is not cheap; a disposable how is still built
+getting the how to work was itself the bar. Replaceable hows remove the last excuse. Hampton: and
+cheap is cutting corners. Inexpensive to replace is not cheap; a replaceable how is still built
 well. Already in the
 skills: `simplicity` 8 (the cheapest change is the one not written), `definition-of-done` 7 (demo
 for quality, not only correctness), and `define-what-good-looks-like` ("more mediocrity traces to a
 goal never set than to a job done badly"). The exception is a prototype, deliberately rough to find
-the what (`spec` 2): fine, so long as it is disposable and never shipped as finished.
+the what (`spec` 2): fine, so long as it is kept for its lessons and never shipped as finished.
+
+**Disposable is an anti-principle.** Hampton, 2026-10-05, refining his earlier "I want to throw
+things away" (kept above as said). A good product can be repaired, recycled or repurposed. Good
+software may not persist, but at the least it leaves useful lessons and is an evolution towards
+the next, better iteration. macOS releases were never disposable: Apple built the Mac one annual
+release at a time. Boundaries exist so a part can be replaced while the whole evolves, not so
+things can be thrown away. That is kaizen, continuous improvement, which puts it back inside TQM;
+"disposable" was the opposite. Industry terms: evolutionary architecture (Ford, Parsons, Kua);
+repair, reuse, recycle from the circular economy. The lessons persist even when the code does not,
+which is what `durable-context` and the essays are for.
 
 ## Open threads
 
@@ -290,7 +300,7 @@ who that user is, and which unit is scored first. Open, to ask:
 - Which unit first? Answered 2026-10-05: features and products, not backend services. So each
   dimension is as the user meets it: reliability as experienced, not an SLO; adoption as a new
   user's path to value; maintainability of the feature as it evolves.
-- What decision do the scores feed (ship, fix, replace, dispose, invest)? That is the rubric's
+- What decision do the scores feed (ship, repair, replace, repurpose, invest)? That is the rubric's
   goal (`spec` 5), and it sets the scale and who reads it.
 - A score can be a number or a verdict in words: "the set design is trash," with its reason, is as
   valid as a 3 out of 10, and usually says more about what to fix. The critic's judgement, not
@@ -310,8 +320,8 @@ who that user is, and which unit is scored first. Open, to ask:
   management, system configuration). Cohesion is a product dimension the list lacked. Windows'
   one real principle is backward compatibility, so each new philosophy is layered on and none
   replaces the last: several UI frameworks, several config stores, several package systems. It is
-  the case where the how could never be disposed of, because millions of programs depend on its
-  internals (Hyrum's law): no boundary, so nothing can be thrown away.
+  the case where the how could never be replaced, because millions of programs depend on its
+  internals (Hyrum's law): no boundary, so nothing can be replaced.
 - Hampton: such choices are not architected away. Apple had to start from scratch (NeXTSTEP into
   Mac OS X: Darwin, BSD, Cocoa), and repeatedly says "we will give you a way to do things that
   works." The pattern across its transitions (68k to PowerPC, Classic and Carbon, PowerPC to
@@ -329,7 +339,7 @@ who that user is, and which unit is scored first. Open, to ask:
   had no legacy apps; Windows Phone ended in 2017; Windows 10X was cancelled in 2021. The mechanism:
   Windows' value is its legacy app catalogue, bound to the desktop and x86, so a new form factor
   cannot carry the value with it. When backward compatibility is the product, the how has become
-  the what, and it cannot be disposed of. (Xbox, on a Windows-derived OS, is the exception.)
+  the what, and it cannot be replaced. (Xbox, on a Windows-derived OS, is the exception.)
 - Hampton: UIKit carried a lot of AppKit's design principles over. It did: MVC, target-action,
   delegation, the responder chain, Interface Builder, Foundation underneath, the same Objective-C
   runtime. The classes were new (no cells, Core Animation layers under every view, a flipped
