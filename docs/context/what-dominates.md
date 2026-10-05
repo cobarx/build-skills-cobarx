@@ -99,7 +99,10 @@ the same customer) is a fact with two owners, which enterprise tech rightly forb
 about code and silent on knowledge, so she and DRY-as-defined do not conflict. The boundary is
 what makes disposal possible: "I want to throw things away, so I need boundaries to be able to
 dispose of them." Prior art: Parnas (decompose by what is likely to change), tef's "write code
-that is easy to delete, not easy to extend" (2016), Brooks's "plan to throw one away." Hampton
+that is easy to delete, not easy to extend" (2016). Not Brooks's "plan to throw one away"
+(1975): that is the whole system thrown away once, written before the modularity to rebuild a
+subsystem, and Brooks himself later called it too simplistic in favour of incremental building
+(1995). Boundaries move disposal from the system to any node, which is the fractal again. Hampton
 called it a worse-is-better mindset; in Gabriel's original terms it is closer to the reverse
 (worse is better ranks implementation simplicity above the interface), so the label needs care if
 used: clean interface, crude disposable internals.
