@@ -137,6 +137,14 @@ concentrated in whoever defines harm. Berlin's warning against value monism (*Tw
 Liberty*, 1958): the belief that all values fit one harmonious whole has been used to justify
 coercion. A limit for this framework: single source of truth applies to facts, ownership and
 contracts, never to values. One owner per fact; many value systems, declared and in the open.
+Hampton: this is an opinionated framework with a clear set of values. Opinionated is not
+totalizing: the values are declared, adoption is a choice, and exit stays open. The skills load
+one at a time where they apply, the text is CC BY so anyone can fork or adapt it, and a person who
+ignores the agent decides that for themselves. Apple's "one way that works" is opinionated in the
+same sense; Rails' "opinionated software" is the industry term. The values, as found today:
+accountability, operating in the open, quality measured and improved (TQM), the what over the
+how, the user's outcome, pride in the work. The gap: an opinionated framework has to state its
+opinions, and these are stated nowhere a newcomer reads (the open thread below).
 
 **Deming and TQM: measure it and make it better.** Hampton, 2026-10-05: one of the spiritual
 principles behind the project, forgotten until this conversation and written down nowhere before
