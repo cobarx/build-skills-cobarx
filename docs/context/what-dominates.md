@@ -265,6 +265,11 @@ skills: `simplicity` 8 (the cheapest change is the one not written), `definition
 for quality, not only correctness), and `define-what-good-looks-like` ("more mediocrity traces to a
 goal never set than to a job done badly"). The exception is a prototype, deliberately rough to find
 the what (`spec` 2): fine, so long as it is kept for its lessons and never shipped as finished.
+Hampton's answer to his own question: because you don't know how. The fourth reason, and the
+deepest: knowing what good looks like, and how to reach it, takes experience
+(`define-what-good-looks-like`). Deming's points 6 and 13 (training, education). It is the reason
+the skills exist: to carry that knowledge, so a little effort reaches good work (the pit of
+success). "How" here is craft knowledge of quality, not the implementation how.
 
 **Disposable is an anti-principle.** Hampton, 2026-10-05, refining his earlier "I want to throw
 things away" (kept above as said). A good product can be repaired, recycled or repurposed. Good
