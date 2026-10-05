@@ -4,11 +4,11 @@
 
 ## Where we landed
 
-Hampton, 2026-10-05: "many of the principles that this repo is designed to implement are a close
-match with TQM." Read against total quality management, most of the skills restate one of its
-principles for a single unit of work. The README now names TQM as the tradition the skills belong
-to. This essay explains TQM for a reader who has never met it, shows where the skills match it, and
-says where they do not.
+Hampton noticed, on 2026-10-05, that many of the principles the skills implement closely match
+total quality management (TQM). Read against it, most of the skills restate one of its principles
+for a single unit of work. The README now names TQM as the tradition the skills belong to. This
+essay explains TQM for a reader who has never met it, shows where the skills match it, and says
+where they do not.
 
 ## What TQM is
 
@@ -81,23 +81,9 @@ defaults, not measured ones ([open questions][open-questions]).
 
 **TQM runs an organisation; the skills govern a unit of work.** Leadership, supplier
 relationships, strategy, and how people are appraised make up much of Deming's fourteen points,
-and no skill governs them directly. The skills still reach them. Hampton: "the spec, measurements &
-decision log will be a forcing function on the organization. it won't change it alone, but it
-creates upward pressure. conway's law in action." Each leaves a record someone has to answer to: a
-goal from a named owner (`spec` 3), a result measured against it (`definition-of-done` 1), a choice
-kept with its reasoning (`decision-log` 2). Conway's thesis is that organisations "are constrained
-to produce designs which are copies of the communication structures of these
-organizations."[^conway] The pressure runs through communication. Hampton: "these skills lead you
-in the direction of a particular communication style. that is likely to percolate up to the team
-communication style." Conway wrote about structure, who communicates with whom, and this is style,
-how they communicate. The two meet where the record names a person, as the goal's owner is named
-(`spec` 3); there, style becomes structure.
-
-Conway's law also holds at the smallest scale, in its own direction. Hampton: "the developer and
-agent constitute an organization as well." The skills set that organisation's communication: the
-developer owns the goal (`spec` 3), and the agent works from the spec, not from guesses at it. If
-Conway holds, the design should copy that structure, in units that meet only at explicit contracts
-(`contracts`).
+and no skill governs them directly. Hampton's hypothesis is that the skills push on the
+organisation anyway, through the communication style they teach. It is untested, and tracked in
+[#111][issue-111].
 
 **The name is dated.** ASQ notes TQM "is not as widely used in the United States as it once
 was,"[^asq] its ideas now filed under quality management, ISO 9000, Lean and Six Sigma.[^wiki] The
@@ -118,6 +104,7 @@ README names TQM for its ideas, not its programmes or certifications.
 [0019]: ../decisions/0019-evals-take-apache-2-0.md
 [0020]: ../decisions/0020-spec-triggers-on-events-and-builds-the-goal-with-its-owner.md
 [open-questions]: ../context/open-questions.md
+[issue-111]: https://github.com/cobarx/build-skills-cobarx/issues/111
 
 [^asq]: American Society for Quality, "What Is Total Quality Management (TQM)?",
     <https://asq.org/quality-resources/total-quality-management>, reviewed November 2024. Overview
@@ -133,6 +120,3 @@ README names TQM for its ideas, not its programmes or certifications.
 [^wiki]: Wikipedia, "Total quality management",
     <https://en.wikipedia.org/wiki/Total_quality_management>, retrieved 2026-10-05. History, and the
     Navy's naming in 1985.
-[^conway]: Melvin E. Conway, "How Do Committees Invent?", *Datamation*, April 1968,
-    <https://www.melconway.com/Home/Committees_Paper.html>. The quotation is the paper's stated
-    thesis.
