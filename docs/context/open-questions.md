@@ -67,6 +67,10 @@ fresh-session check can't reproduce that. Testing it needs a replayed long conve
 prompt; the fallback is an always-on rule in CLAUDE.md. Raised in 0020; the test and the
 decision it feeds are #58.
 
+**What dominates when the how is cheap?** Whether `decision-log` rule 4 should scale by
+reversibility, whether `spec` rule 2 underweights prototyping, and where a red gate belongs. Notes
+and the points they rest on are in [what-dominates.md](what-dominates.md).
+
 ## Stranded elsewhere
 
 Research for the **playhead** project, including the caption test corpus (Sintel's ~40 languages,
