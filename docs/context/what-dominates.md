@@ -1,4 +1,4 @@
-# What dominates when the how is cheap
+# What dominates when the how is disposable
 
 Working notes, 2026-10-05. Not settled. Drawn from comparing the skills against the
 [chief-of-staff pattern](https://asyncdot.com/blog/chief-of-staff-pattern-orchestrating-claude-code-sessions/)
@@ -7,7 +7,7 @@ for orchestrating Claude Code sessions (Mithushan Jalangan, 2026-09-19), read in
 ## Where we arrived
 
 **The what dominates; the how is an implementation detail, in most pure software systems.**
-Hampton's claim. When agents make the how cheap to replace, choosing it stops gating the work, and
+Hampton's claim. When agents make the how inexpensive to replace, choosing it stops gating the work, and
 product fit (what the output lets its user do) becomes the scarce, valuable part. Engineers miss
 this because their sense of what matters was calibrated when a rewrite cost months, so they assume
 their choices (DynamoDB vs MySQL) matter. They matter at massive data sets and costs, not by
@@ -29,9 +29,9 @@ boundary pays twice: a component reasoned about in isolation, with only its cont
 the cognitive-load reduction `simplicity` exists for, and it is what lets a human audit agent output
 one component at a time.
 
-**Cheap to write is not cheap to verify.** A replacement is safe only when the spec is complete
+**Inexpensive to write is not inexpensive to verify.** A replacement is safe only when the spec is complete
 (`spec` rule 10), the contract holds (`contracts` rules 1 and 2), and checks assert the goal rather
-than the implementation (`definition-of-done`, planned `test-fidelity`). Cheap rewrites move the
+than the implementation (`definition-of-done`, planned `test-fidelity`). Inexpensive rewrites move the
 cost from building to verifying, and the skills sit on the verifying side.
 
 **The how still gates where it holds state or has callers you do not control.** Data (the
@@ -94,7 +94,7 @@ for how software gets built."
 
 **DRY about ownership, permissive about code.** Hampton's point: Sandi Metz's "duplication is far
 cheaper than the wrong abstraction" is weighted for a code-centric world. Duplicated code inside a
-disposable unit is cheap; duplicated infrastructure (two auth systems, two queues, two stores of
+disposable unit costs little; duplicated infrastructure (two auth systems, two queues, two stores of
 the same customer) is a fact with two owners, which enterprise tech rightly forbids. Metz is right
 about code and silent on knowledge, so she and DRY-as-defined do not conflict. The boundary is
 what makes disposal possible: "I want to throw things away, so I need boundaries to be able to
@@ -258,7 +258,8 @@ Sources: [FBA](https://www.marketplacepulse.com/articles/a-decade-of-fulfillment
 
 **Why build anything that's not that good?** Hampton, 2026-10-05, closing the thread. Mediocre
 work gets built when accountability points away from the user, when good goes unmeasured, and when
-getting the how to work was itself the bar. Cheap hows remove the last excuse. Already in the
+getting the how to work was itself the bar. Disposable hows remove the last excuse. Hampton: and cheap is cutting
+corners. Inexpensive to replace is not cheap; a disposable how is still built well. Already in the
 skills: `simplicity` 8 (the cheapest change is the one not written), `definition-of-done` 7 (demo
 for quality, not only correctness), and `define-what-good-looks-like` ("more mediocrity traces to a
 goal never set than to a job done badly"). The exception is a prototype, deliberately rough to find
@@ -401,7 +402,7 @@ doors. A two-way door may need one line of reasoning, not a framed comparison, t
 `definition-of-done` rule 8 scales proof to blast radius. Not yet checked against the decisions
 behind the rule.
 
-**Does `spec` rule 2 underweight prototyping?** If the how is cheap, building several rough
+**Does `spec` rule 2 underweight prototyping?** If the how is inexpensive, building several rough
 versions and keeping the one that fits may be the main way to find the what, not an occasional
 spike.
 
