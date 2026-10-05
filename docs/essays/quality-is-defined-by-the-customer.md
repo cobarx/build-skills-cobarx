@@ -25,10 +25,12 @@ its programme "Total Quality Management" in 1985.[^wiki]
 The name has faded since. ASQ notes TQM "is not as widely used in the United States as it once
 was,"[^asq] and much of its practice now goes under quality management, ISO 9000, Lean and Six
 Sigma.[^wiki] A methodology that keeps the measurement but drops Deming's recommendations for how an
-organisation is run (leadership in place of quotas and management by objective, driving out fear,
-breaking down barriers between departments, pride of workmanship: points 7 to 12[^deming]) leaves
-out a key part of his work. Hampton largely agrees with those recommendations, which is why this
-essay names TQM and Deming rather than a successor.
+organisation is run leaves out a key part of his work: departments working as a team, a workforce
+not held to results the system controls, leadership in place of management by numbers, and pride of
+workmanship for everyone who does the work (points 9, 10, 11b and 12[^deming]). Hampton largely
+agrees with those recommendations, which is why this essay names TQM and Deming rather than a
+successor. Whether the successors carry them is an open question, researched in [a working
+note][successors].
 
 ## Its why: lasting by serving the customer
 
@@ -147,6 +149,7 @@ TQM as the tradition the skills belong to, and links here.
 [assistant]: assistant-not-engineer.md
 [good]: define-what-good-looks-like.md
 [issue-111]: https://github.com/cobarx/build-skills-cobarx/issues/111
+[successors]: ../context/deming-points-7-12-in-successors.md
 
 [^asq]: American Society for Quality, "What Is Total Quality Management (TQM)?",
     <https://asq.org/quality-resources/total-quality-management>, reviewed November 2024. Overview
