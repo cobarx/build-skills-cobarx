@@ -47,20 +47,9 @@ A change is anything handed to a reader. A diff, a PR description, a review comm
 
 ## Thresholds
 
-`simplicity` sets these; `linting` enforces them. Cognitive over cyclomatic: cyclomatic counts
-branches, cognitive penalizes nesting, which is closer to what a person can hold in their head.
-
-| Measure | Default |
-|---|---|
-| Cognitive complexity | 15 |
-| Nesting depth | 3 |
-| Function length | 50 lines |
-| File length | 300 lines |
-| Parameters | 4 |
-
-These are diagnostics, not targets. A function over fifty lines is not wrong for being long; it is
-long because a design decision upstream went wrong, and the number is how you notice. Complexity
-essential to the problem must be paid for; complexity introduced by the solution is waste.
+Complexity essential to the problem must be paid for; complexity introduced by the solution is
+waste. For code, the thresholds that measure it are in
+[references/thresholds.md](references/thresholds.md): load it when writing or reviewing code.
 
 Completion is not here. See `definition-of-done`.
 
