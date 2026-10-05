@@ -290,6 +290,11 @@ who that user is, and which unit is scored first. Open, to ask:
   using it (`definition-of-done` 4), and it names what to fix. "Locks me in" is a dimension the
   first list lacked, and it is enshittification itself: does the product let its user leave with
   their data?
+- Hampton, put another way: does my product drive people away from it? The rubric's headline
+  question; every dimension is a way a product can do it. Lock-in hides the answer: a trapped
+  user's retention is not satisfaction, so the honest test is whether they would leave if they
+  could. Windows 11 as the worked example: users holding on to Windows 10 past end of support,
+  and leaving for macOS or Linux where they can.
 - Who scores each dimension? Elegance and product fit need use by the person the output is for
   (`definition-of-done` 4); an agent that cannot judge one reports it blocked (`review` 3).
 - Who owns each dimension, so every score has one party who answers for it?
