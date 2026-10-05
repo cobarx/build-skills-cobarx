@@ -27,8 +27,8 @@ it, so a choice can be weighed instead of picked.
    answer recorded, dated, as it lands. Work proceeds against the current draft; an inferred part
    stays marked as a guess until the owner confirms it. When the goal moves, recheck the criteria,
    decisions and work that rested on the earlier draft rather than carry them forward.
-   A product goal holds while its features go through R&D, ship or get replaced; each feature is
-   judged against its own goal and must still serve the product's.
+   A product goal holds while its features go through discovery, get built or get replaced; each
+   feature is judged against its own goal and must still serve the product's.
 
 4. **The goal is what the output lets its user do.** Not what it is (a role: "a clip captions
    play against") nor a number it hits (an exact byte count). A goal refined by what was learned

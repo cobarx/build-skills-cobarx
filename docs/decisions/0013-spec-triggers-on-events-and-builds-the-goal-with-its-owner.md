@@ -62,9 +62,12 @@ Observable triggers, and three rules:
   hold the work for a full answer.
 - *Keep a working goal where both can see it.* A dated draft with open questions beside it. When
   it moves, recheck what rested on the earlier draft. A product goal holds while its features go
-  through R&D (the owner's framing: "standard product design", with the product goal "build an app
-  that allows people to not deal with unwanted political texts" and categorizing as the first
-  feature in R&D). Product, feature and R&D are industry terms, per 0006.
+  through discovery (the owner's framing: "standard product design", with the product goal "build
+  an app that allows people to not deal with unwanted political texts" and categorizing as the
+  first feature in discovery). Product, feature and discovery are industry terms, per 0006. The
+  owner first said R&D; discovery is the product-design term for ideation and research before a
+  feature is built, paired with delivery (Cagan, *Inspired*; Torres, *Continuous Discovery
+  Habits*).
 - *Specify the class, not the instance.*
 
 Rule 1 covers a how-question that arrives without its what, and separates exploring to find the
