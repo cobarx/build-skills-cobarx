@@ -9,10 +9,10 @@ The reasoning behind them lives in [docs/essays/](docs/essays/).
 ## Lineage
 
 The skills are a close match for total quality management (TQM), the tradition of W. Edwards
-Deming: quality built into the process rather than inspected in at the end, judged by the person
-the work is for, decided on evidence, and improved continually. [Built in, not inspected
-in](docs/essays/built-in-not-inspected-in.md) explains TQM for a reader new to it, maps it to the
-skills, and says where the match is loose.
+Deming. They share its definition of quality: what the people the work is for need, as they
+define it, not as the builder does. The methods follow from that. [Quality is defined by the
+customer](docs/essays/quality-is-defined-by-the-customer.md) explains TQM for a reader new to it,
+from why it exists to how it works, and says where the match is loose.
 
 ## Skills
 
