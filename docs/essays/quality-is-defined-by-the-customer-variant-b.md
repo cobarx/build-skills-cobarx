@@ -58,15 +58,16 @@ defined by customers' requirements."[^wiki] ASQ's first principle: "The primary 
 meet or exceed customer expectations."[^asq]
 
 Deming went further, in two ways. Satisfaction is the floor, not the goal: "It will not suffice to
-have customers that are merely satisfied," because a satisfied customer may still switch. "Profit
-in business comes from repeat customers, customers that boast about your product and service, and
-that bring friends with them."[^satisfied] And satisfaction is pursued as a process,
-not checked once as an outcome. In his 1950 speech to Japanese industrial leaders: "The process of
-sales is not something that finishes simply with transporting the products to the marketplace, and
-receiving money. In today's sales, after selling the product, the businessman must think about
-whether he has satisfied the customer, and how improvements can be made from then on."[^1950]
-Hampton's example is a salesperson who works with the customer until the product matches their
-needs.
+have customers that are merely satisfied," because a satisfied customer may still switch. "Profit in
+business comes from repeat customers, customers that boast about your product and service, and that
+bring friends with them."[^satisfied] And satisfaction is pursued as a process, not checked once as
+an outcome. In his 1950 speech to Japanese industrial leaders: "The process of sales is not
+something that finishes simply with transporting the products to the marketplace, and receiving
+money. In today's sales, after selling the product, the businessman must think about whether he has
+satisfied the customer, and how improvements can be made from then on."[^1950] John Hunter, writing
+for the Deming Institute, points to where that process runs today: customer support after the sale.
+Companies that treat it as a cost to cut suffer what he calls "the lost opportunity to learn by
+engaging with those attempting to use your products and services."[^1950]
 
 The skills match the start of that process:
 
