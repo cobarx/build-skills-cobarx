@@ -131,6 +131,12 @@ and choose. In an ecosystem, pluralism is handled by exit and voice (Hirschman, 
 Loyalty*, 1970): people move to products whose values they share, or argue for change. Lock-in
 removes exit, which is why it is a harm under nearly every value system: it stops people acting on
 their own. (Interpretation, medium confidence.)
+Hampton: harmless is a totalizing value, with enormous costs attached. Applied to everything, one
+value overrides all the others: refusals, paternalism, one group's values imposed on all, power
+concentrated in whoever defines harm. Berlin's warning against value monism (*Two Concepts of
+Liberty*, 1958): the belief that all values fit one harmonious whole has been used to justify
+coercion. A limit for this framework: single source of truth applies to facts, ownership and
+contracts, never to values. One owner per fact; many value systems, declared and in the open.
 
 **Deming and TQM: measure it and make it better.** Hampton, 2026-10-05: one of the spiritual
 principles behind the project, forgotten until this conversation and written down nowhere before
