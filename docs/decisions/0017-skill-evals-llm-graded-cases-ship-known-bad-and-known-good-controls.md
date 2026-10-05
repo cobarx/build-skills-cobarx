@@ -1,7 +1,7 @@
 # 0017. `skill-evals`: an LLM-graded case ships a known-bad and a known-good control
 
-- **Status:** Proposed
-- **Decided:** 2026-10-03 · **Recorded:** 2026-10-03 · Claude Opus 5.5
+- **Status:** Accepted
+- **Decided:** 2026-10-05 · **Recorded:** 2026-10-03 · Claude Opus 5.5
 - **Affects:** `skill-evals` (planned), which carries the rule to every eval suite under `evals/`
 
 ## Context

@@ -37,6 +37,35 @@ who won't know the standard:
 The rest of 29119-3 is left out. The front matter's `description` stays one line and points to the
 README.
 
+Example, for a small case. It is illustrative: the case is one #11 plans, not yet built. A full one
+is #61's `evals/definition-of-done/plot-signups-pr-description/README.md`.
+
+```markdown
+# test-assertions-quiet
+
+An eval case for the `definition-of-done` skill.
+
+## Purpose
+
+Does `definition-of-done` stay unloaded on a near miss? The prompt asks which assertions a unit
+test should make. That is close to the skill's triggers, but its description says it governs
+"what a change shows, not what its tests assert". A skill that loads here would load on almost
+anything, and the cases that check it loads would prove nothing.
+
+## How it behaves
+
+`claude plugin eval` sends `prompt.md` to a fresh agent with this repo's skills installed.
+`graders/skill-quiet.md` passes a run only if the agent never calls `Skill` to load
+`definition-of-done` (`min: 0`, `max: 0`). Run it from the repo root:
+
+    claude plugin eval . --case test-assertions-quiet
+
+## When to update
+
+- **The skill's `description` changes.** That text decides when the skill loads. Rerun, and check
+  the prompt is still a near miss rather than a trigger.
+```
+
 ## Consequences
 
 - A case's command is written in its README and has to work exactly as written.
