@@ -97,9 +97,9 @@ analyse it.[^asq] Here, each change is held to evidence, but the skills themselv
 main, `evals/` holds only a licence ([0019][0019]), and the `simplicity` thresholds are borrowed
 defaults, not measured ones ([open questions][open-questions]).
 
-**TQM follows the customer past delivery; the skills stop at done.** `definition-of-done` checks
-a unit once, when it is handed over. Nothing in the skills goes back to the user afterward to ask
-whether they were satisfied and what to improve, which is where Deming's process continues.
+**TQM follows the customer past delivery; the skills do not yet.** `definition-of-done` checks a
+unit when it is handed over. Going back to the user afterward, to ask whether they were satisfied
+and what to improve, is where Deming's process continues, and it is not implemented yet.
 
 **TQM runs an organisation; the skills govern a unit of work.** Leadership, supplier
 relationships, strategy, and how people are appraised make up much of Deming's fourteen points,
@@ -115,8 +115,8 @@ README names TQM for its ideas, not its programmes or certifications.
 
 - A newcomer has a frame and a vocabulary to search with: decades of material on quality defined
   by the customer, and industry terms over our own ([0006][0006]).
-- The loose fits are visible. Measurement and what happens after delivery are the largest, and
-  they are where the skills are weakest by TQM's own standard.
+- The loose fits are visible. Measurement and following the customer past delivery are the
+  largest, and neither is implemented yet.
 
 ## Revisions
 
