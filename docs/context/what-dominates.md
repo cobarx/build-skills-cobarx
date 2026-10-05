@@ -144,7 +144,8 @@ makes the director accountable. An override at any level is recorded in the open
 it, so it carries upward instead of disappearing. The same shape at every rung, which is the
 fractal again, applied to an organization. Analogue: the Toyota andon cord, where anyone surfaces
 a problem and it travels up. Limit: the skills make the record exist and stay findable; they
-cannot make anyone above read it. "If I can't trust what you do in secret, you're
+cannot make anyone above read it. Hampton: that is what the decision log does when done
+properly. "If I can't trust what you do in secret, you're
 not particularly trustworthy." The repo practices openness throughout: `durable-context` ("in the
 open"), `decision-log` ("a decision is reasoned in the open"), rules a human can audit, a public
 repo under CC-BY. Industry term: working in the open (GDS, "make things open: it makes things
@@ -155,6 +156,12 @@ better"; Mozilla).
 **Where is the project's goal stated?** Accountability to reverse enshittification is a guiding
 goal but appears in neither the README nor AGENTS.md (`spec` 4: keep the goal written down where
 both can see it). Wording is Hampton's.
+
+**Decision records name the recorder, not the decider.** Every record here carries "Decided: date ·
+Recorded: date · Claude Opus 5.5", the name of whoever wrote it down. None names who decided. For
+the decision log to carry accountability upward, the accountable party has to be on the record.
+MADR has an optional `decision-makers` field (0001 adopts MADR). Whether `decision-log` should
+require it is open.
 
 **What to call the principle, if not DRY?** DRY is the wrong branding (heard as "don't repeat
 code," which the framework permits inside a boundary) but the right genealogy, cited as where the
