@@ -215,6 +215,16 @@ and firing workers (GE's stack ranking under Welch, beside its Six Sigma) is the
 The divisional, finance-controlled structure (Sloan's GM) measures what is countable. And it is
 hard: it needs leaders with deep knowledge and long horizons, the same reason Apple's functional
 organization is rarely copied.
+Hampton: that is where I would like to see the economy move, back to small businesses with more
+direct relationships with their customers. A direct relationship is the shortest accountability
+chain: the person who decides answers to the customer, with no product owner reporting to someone
+else. Agents with these skills extend the startup advantage, so a small team can integrate
+concerns and reach quality once reserved for large ones. Counterforces (Claude's reading): the
+platforms between small businesses and their customers (app stores, marketplaces, ad networks)
+are where Doctorow locates enshittification, so the relationship is direct only if it does not
+run through one; compliance costs and scale economies still favour the large. Prior art:
+Schumacher, *Small Is Beautiful* (1973). Whether this belongs in the project's stated why is
+Hampton's call.
 
 **Disposable is an anti-principle.** Hampton, 2026-10-05, refining his earlier "I want to throw
 things away" (kept as said in what-dominates.md). A good product can be repaired, recycled or
