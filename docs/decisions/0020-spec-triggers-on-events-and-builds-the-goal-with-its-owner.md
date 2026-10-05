@@ -1,4 +1,4 @@
-# 0013. `spec` triggers on observable events, and builds the goal with its owner
+# 0020. `spec` triggers on observable events, and builds the goal with its owner
 
 - **Status:** Accepted
 - **Decided:** 2026-10-03 · **Recorded:** 2026-10-03 · Claude Opus 5.5
