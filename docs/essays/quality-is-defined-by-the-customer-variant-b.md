@@ -8,7 +8,8 @@ Hampton noticed, on 2026-10-05, that many of the principles the skills implement
 total quality management (TQM). The lineage runs through all of TQM: why it exists, what it
 holds quality to be, and the methods that follow from both. The README now names TQM as the
 tradition the skills belong to. This essay explains TQM for a reader who has never met it,
-starting from its why and its what, then shows where the skills match it and where they do not.
+starting from its why and its what, sets TQM's why beside the project's, then shows where the
+skills match it and where they do not.
 
 ## What TQM is
 
@@ -35,8 +36,17 @@ because the people it serves keep choosing it.
 The why has a second face, the people doing the work. Deming's twelfth point removes the barriers
 that rob workers, managers and engineers of their "right to pride of workmanship."[^deming]
 
-The skills state no why of their own; the project's is for its owner to write. What they share
-with TQM is the what that follows from it, in part.
+Set beside it, the project's why as the repo states it so far. Its essays say the skills exist
+because an agent's defaults are a helpful assistant's, not an engineer's: left alone, it builds
+something and then blesses it ([An assistant, not an engineer][assistant]). And "more mediocrity
+traces to a goal never set than to a job done badly" ([Define what good looks like][good]).
+
+The two whys meet twice. Both start from the person the work is for. And both treat bad work as
+the system's doing, not the worker's: Deming put most defects on the system, and the essays put
+the agent's on its defaults, re-targeting those rather than blaming the agent. They part on scale.
+TQM's why is an organisation lasting and providing jobs; the project's, as written so far, is each
+piece of work being good, and says nothing yet of lasting, or of pride in the work. The project's
+full why is its owner's to state, and until then this comparison is only against the essays.
 
 ## Its what: a satisfied customer, pursued as a process
 
@@ -126,6 +136,8 @@ README names TQM for its ideas, not its programmes or certifications.
 [0019]: ../decisions/0019-evals-take-apache-2-0.md
 [0020]: ../decisions/0020-spec-triggers-on-events-and-builds-the-goal-with-its-owner.md
 [open-questions]: ../context/open-questions.md
+[assistant]: assistant-not-engineer.md
+[good]: define-what-good-looks-like.md
 [issue-111]: https://github.com/cobarx/build-skills-cobarx/issues/111
 
 [^asq]: American Society for Quality, "What Is Total Quality Management (TQM)?",
