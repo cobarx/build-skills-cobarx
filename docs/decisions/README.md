@@ -32,3 +32,4 @@ skill. A reversed decision gets a new record, and the old one is marked supersed
 | [0019](0019-evals-take-apache-2-0.md) | The evals directory takes Apache-2.0 | Accepted |
 | [0020](0020-spec-triggers-on-events-and-builds-the-goal-with-its-owner.md) | `spec` triggers on observable events, and builds the goal with its owner | Accepted |
 | [0021](0021-decision-analysis-decision-log-analysis-is-a-peer-of-the-record.md) | Decision analysis is a peer skill of the decision log | Accepted |
+| [0022](0022-simplicity-thresholds-move-to-a-reference.md) | `simplicity`'s thresholds move to a reference | Accepted |
