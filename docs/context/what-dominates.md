@@ -213,6 +213,17 @@ dimension; this scores each instead of passing it. The whole is scored apart fro
 film can score well on every craft and still not work, which is `definition-of-done` 7 and
 `spec` 10, and the director owns that score.
 
+**Closed systems neglect developer experience.** Hampton's observation: engineers writing code
+outside open systems routinely do not prioritize DX. A reading through the principles above: an
+internal consumer is captive, so nothing holds the author to account for their experience, which
+is the enshittification mechanism (lock-in removes accountability to the user) at the scale of a
+module. Open source answers to the world and to users who can leave. Under the fractal every unit
+has a user, often a developer (or now an agent) calling its contract, so DX is customer focus at
+that level, and in the scorecard it is the dimension closed systems leave unscored. It matches
+`contracts`: internal boundaries do not announce themselves, which is where coupling accumulates;
+they are also where DX goes unmeasured. Where closed organizations do prioritize DX, it is by
+adopting the product framing on purpose (platform as a product, Team Topologies).
+
 ## Open threads
 
 **Where is the project's goal stated?** Accountability to reverse enshittification is a guiding
