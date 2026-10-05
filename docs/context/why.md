@@ -121,6 +121,17 @@ the internet. The framework should not claim a root owner it cannot have; it can
 accountable and every decision visible, so the loops have something to act on. (Interpretation,
 medium confidence.)
 
+**Harmless means different things to different people.** Hampton, 2026-10-05: within a society
+there are multiple competing, sometimes mutually exclusive value systems. Isaiah Berlin's value
+pluralism: values can be incommensurable, and their conflict is not a mistake to be resolved. So
+no definition of harm is neutral; a system that claims to be harmless has silently adopted one
+value system and imposes it on people who hold others. The honest move is to declare the values
+(operate in the open; `review` 2, check the declared standard), so others can see them, disagree,
+and choose. In an ecosystem, pluralism is handled by exit and voice (Hirschman, *Exit, Voice, and
+Loyalty*, 1970): people move to products whose values they share, or argue for change. Lock-in
+removes exit, which is why it is a harm under nearly every value system: it stops people acting on
+their own. (Interpretation, medium confidence.)
+
 **Deming and TQM: measure it and make it better.** Hampton, 2026-10-05: one of the spiritual
 principles behind the project, forgotten until this conversation and written down nowhere before
 this note. Much of the repo already reads as Deming:
