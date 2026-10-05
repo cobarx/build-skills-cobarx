@@ -24,6 +24,7 @@ The reasoning behind them lives in [docs/essays/](docs/essays/).
 | [durable-context](skills/durable-context/SKILL.md) | Context lives in the project, where the next reader, human or agent, will find it. |
 | [spec](skills/spec/SKILL.md) | Say what the system must do before choosing how. |
 | [decision-log](skills/decision-log/SKILL.md) | A decision is reasoned in the open. |
+| [decision-analysis](skills/decision-analysis/SKILL.md) | Give the decider what they need to weigh a choice themselves. |
 | [adopting-standards](skills/adopting-standards/SKILL.md) | Adopt an existing standard before inventing your own. |
 
 Planned: `linting`, `test-fidelity`, `glossary`, `harness`, `project-setup`, a skill for the *why*

@@ -35,7 +35,8 @@ the record carries the reasoning, and the reasoning happens before the choice, n
 
 Defining what the change must do, and the criteria a decision is weighed by, is `spec`. Which
 decisions must be made before starting is `project-setup`. Where a record lives so it can be found
-is `durable-context`. This governs how a decision is made and recorded.
+is `durable-context`. Performing the analysis a decider weighs is `decision-analysis`. This governs
+how a decision is made and recorded.
 
 ---
 
