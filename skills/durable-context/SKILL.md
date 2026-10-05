@@ -22,9 +22,9 @@ later. If it matters past this moment, it belongs in the project, in the open.
    and buried; a follow-up has to outlive it.
 
 3. **Index every context file so a reader can reach it from the entry point.** Follow the indexes
-   down from the `README` or `CLAUDE.md`; in a nested project a file's link lives in the nearest
-   index, not the root, and each index points on to the next. A file no chain of indexes reaches
-   cannot be found, which is the same as not existing.
+   down from the `README` or the agent instruction file (`AGENTS.md`, `CLAUDE.md`); in a nested
+   project a file's link lives in the nearest index, not the root, and each index points on to the
+   next. A file no chain of indexes reaches cannot be found, which is the same as not existing.
 
 4. **Keep it plain and open.** Markdown or the like, readable without a particular tool. If only one
    tool can read it, it is hidden.
