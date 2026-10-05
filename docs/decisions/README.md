@@ -24,9 +24,9 @@ skill. A reversed decision gets a new record, and the old one is marked supersed
 | [0011](0011-durable-context-file-problems-by-default.md) | A problem you notice is filed by default | Accepted |
 | [0012](0012-adopting-standards-a-peer-skill.md) | Adopting standards is a peer skill, not a platform rule | Accepted |
 | [0014](0014-license-cc-by-4-0.md) | License the text under CC BY 4.0; code takes a software licence | Accepted |
-| [0015](0015-eval-cases-sit-under-their-skill.md) | Eval cases sit under the skill they test | Proposed |
-| [0016](0016-eval-cases-explain-themselves.md) | Each eval case explains itself in a README | Proposed |
-| [0017](0017-llm-graded-eval-cases-ship-known-bad-and-known-good-controls.md) | An LLM-graded eval case ships a known-bad and a known-good control | Proposed |
-| [0018](0018-llm-graders-are-judged-by-sonnet.md) | Eval cases' LLM graders are judged by Sonnet | Proposed |
+| [0015](0015-skill-evals-cases-sit-under-their-skill.md) | `skill-evals`: cases sit under the skill they test | Proposed |
+| [0016](0016-skill-evals-each-case-explains-itself.md) | `skill-evals`: each case explains itself in a README | Proposed |
+| [0017](0017-skill-evals-llm-graded-cases-ship-known-bad-and-known-good-controls.md) | `skill-evals`: an LLM-graded case ships a known-bad and a known-good control | Proposed |
+| [0018](0018-skill-evals-llm-graders-are-judged-by-sonnet.md) | `skill-evals`: LLM graders are judged by Sonnet | Proposed |
 | [0019](0019-evals-take-apache-2-0.md) | The evals directory takes Apache-2.0 | Accepted |
 | [0020](0020-spec-triggers-on-events-and-builds-the-goal-with-its-owner.md) | `spec` triggers on observable events, and builds the goal with its owner | Accepted |

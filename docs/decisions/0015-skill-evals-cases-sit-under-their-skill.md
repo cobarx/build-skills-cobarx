@@ -1,8 +1,8 @@
-# 0015. Eval cases sit under the skill they test
+# 0015. `skill-evals`: cases sit under the skill they test
 
 - **Status:** Proposed
 - **Decided:** 2026-10-03 · **Recorded:** 2026-10-03 · Claude Opus 5.5
-- **Affects:** every eval suite under `evals/` (library-wide; names no skill)
+- **Affects:** `skill-evals` (planned), which carries the rule to every eval suite under `evals/`
 
 ## Context
 

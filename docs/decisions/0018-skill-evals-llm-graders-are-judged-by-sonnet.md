@@ -1,8 +1,8 @@
-# 0018. Eval cases' LLM graders are judged by Sonnet
+# 0018. `skill-evals`: LLM graders are judged by Sonnet
 
 - **Status:** Proposed
 - **Decided:** 2026-10-04 · **Recorded:** 2026-10-04 · Claude Opus 5.5
-- **Affects:** every eval suite under `evals/` (library-wide; names no skill)
+- **Affects:** `skill-evals` (planned), which carries the rule to every eval suite under `evals/`
 
 ## Context
 
