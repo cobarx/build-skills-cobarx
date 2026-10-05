@@ -149,7 +149,7 @@ TQM as the tradition the skills belong to, and links here.
 [assistant]: assistant-not-engineer.md
 [good]: define-what-good-looks-like.md
 [issue-111]: https://github.com/cobarx/build-skills-cobarx/issues/111
-[successors]: ../context/deming-points-7-12-in-successors.md
+[successors]: ../context/deming-points-in-successors.md
 
 [^asq]: American Society for Quality, "What Is Total Quality Management (TQM)?",
     <https://asq.org/quality-resources/total-quality-management>, reviewed November 2024. Overview
