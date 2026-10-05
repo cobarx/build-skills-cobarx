@@ -184,6 +184,15 @@ who that user is, and which unit is scored first. Open, to ask:
   culture of argument across functions, and someone at the top who arbitrates, and it gives up
   the per-unit P&L most companies use for accountability. Apple keeps single accountability per
   decision (the DRI) instead of per business unit.
+- Hampton: building a product with these skills, those functions can run in parallel and get the
+  better result. What Apple finds hard to staff becomes available: agents with the skills as the
+  functional experts, `review`'s lenses as the argument across functions, one human owner as the
+  arbiter and the DRI. What has to hold (Claude's reading, medium confidence): parallel is not
+  independent. Apple's functions argue continuously; the integration is the point. Without a
+  shared what (`spec`) and someone settling disputes, parallel agents are silos, the
+  chief-of-staff shape. Taste stays with a human where an agent cannot judge (`review` 3).
+  Marketing in parallel forces the why early: Amazon's working backwards writes the press release
+  before the product. Gap: the skills cover engineering functions; design and marketing have none.
 - Who scores each dimension? Elegance and product fit need use by the person the output is for
   (`definition-of-done` 4); an agent that cannot judge one reports it blocked (`review` 3).
 - Who owns each dimension, so every score has one party who answers for it?
