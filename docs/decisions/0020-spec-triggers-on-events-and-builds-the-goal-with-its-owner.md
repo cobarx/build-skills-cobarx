@@ -64,10 +64,7 @@ Observable triggers, and three rules:
   it moves, recheck what rested on the earlier draft. A product goal holds while its features go
   through discovery (the owner's framing: "standard product design", with the product goal "build
   an app that allows people to not deal with unwanted political texts" and categorizing as the
-  first feature in discovery). Product, feature and discovery are industry terms, per 0006. The
-  owner first said R&D; discovery is the product-design term for ideation and research before a
-  feature is built, paired with delivery (Cagan, *Inspired*; Torres, *Continuous Discovery
-  Habits*).
+  first feature in discovery). Product, feature and discovery are industry terms, per 0006.
 - *Specify the class, not the instance.*
 
 Rule 1 covers a how-question that arrives without its what, and separates exploring to find the
