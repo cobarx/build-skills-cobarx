@@ -155,6 +155,22 @@ open"), `decision-log` ("a decision is reasoned in the open"), rules a human can
 repo under CC-BY. Industry term: working in the open (GDS, "make things open: it makes things
 better"; Mozilla).
 
+**Deming and TQM: measure it and make it better.** Hampton, 2026-10-05: one of the spiritual
+principles behind the project, forgotten until this conversation and written down nowhere before
+this note. Much of the repo already reads as Deming:
+- Build quality in rather than inspect it in (point 3): spec before building, the tell built into
+  the artifact (`definition-of-done` 6), the planned red gate and `test-fidelity`.
+- Bring data, not claims: `definition-of-done` 1, show the measured value beside the expected one.
+- Eliminate numerical quotas (point 11): `simplicity`'s thresholds are "diagnostics, not targets";
+  `spec` 5, the goal is not a number it hits. Measure to understand, never as the target.
+- The system, not the person: most defects are the system's, which management owns. That is the
+  bottom-up chain above, each level accountable for the system it runs.
+- Drive out fear (point 8): stopping the line has to be safe, or no one pulls the cord.
+- Plan, do, study, act: `spec`, build, `definition-of-done`, then supersede in the decision log.
+Where "measure it" is thin: the skills themselves are not yet measured. `evals/` holds only its
+licence (0019); the `simplicity` thresholds are borrowed, not measured (open questions); whether
+skills load deep in a long session is untested (#58).
+
 ## Open threads
 
 **Where is the project's goal stated?** Accountability to reverse enshittification is a guiding
