@@ -55,7 +55,9 @@ The rules are the ones the test case needed:
   being the reply"), so long as it says nothing the file does not. Three runs of that wording kept
   every reply true to its file but none to its summary: each wrote a longer digest, adding the
   reversal conditions and caveats. The owner then settled it: "it should only be the file's summary
-  and the path." The collapsed copy goes with it.
+  and the path." The collapsed copy goes with it. A run of "copied rather than rewritten" still
+  re-voiced the summary and added caveats, so the rule went blunt, in the owner's words: paste the
+  summary exactly as written, then the path, and no other information.
 
 ## Consequences
 

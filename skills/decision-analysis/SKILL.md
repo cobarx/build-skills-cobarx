@@ -36,9 +36,9 @@ handed the analysis can check it, and can disagree for reasons the analyst did n
    detail, so the decider can stop there or read on knowing where it leads.
 
 6. **The analysis stands alone; the reply is its summary and its path.** Write it as a plain file
-   the decider can read without the agent, including what could not be checked. The reply is the
-   file's opening summary, copied rather than rewritten, then the file's absolute path. Reversal
-   conditions, caveats and every other section stay in the file.
+   the decider can read without the agent, including what could not be checked. In the reply, paste
+   the file's summary exactly as written, then its absolute path on its own line. No other
+   information, caveats included; every detail is in the file.
 
 ## Not here
 
