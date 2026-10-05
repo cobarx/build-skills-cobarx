@@ -35,7 +35,7 @@ Other lessons had no home either:
 A peer skill, `skill-evals`. The owner chose it (2026-10-05): "1 & 2 are good. we should implement
 them. deterministic checks like #2 are great." The name says what is evaluated; `evals` alone
 would admit any eval (`naming` rule 2). The owner's separate `skill-evals` repository, a benchmark
-of this library against others, shares the name.
+of this library against others, is being renamed so the two aren't confused (2026-10-05).
 
 | Rule | Source |
 |---|---|
