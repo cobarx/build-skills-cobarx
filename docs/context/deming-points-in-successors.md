@@ -21,15 +21,15 @@ organisation respond? A challenge dismissed because it comes from outside the ow
 barrier to pride of workmanship whether or not a merit rating exists, and the response can be
 observed.
 
-**Canon and practice.** Canon is what a methodology's own texts ask for; practice is what the
-evidence shows adopters did. Verdicts on canon: *calls for*, *partly*, *silent*, *contradicts*, or
-*splits* where its own teachers disagree.
+**Directive and practice.** Directive is what a methodology's own texts ask for; practice is what
+the evidence shows adopters did. Verdicts on directive: *calls for*, *partly*, *silent*,
+*contradicts*, or *splits* where its own teachers disagree.
 
 **What each row means.**
 
 - **TQM** is scored as the American Society for Quality's eight principles together with the US
-  Navy's original programme, which adopted Deming's teaching. TQM has no single canon, so where a
-  teacher in its tradition (Crosby, Juran) departs from a point, the row says so.
+  Navy's original programme, which adopted Deming's teaching. TQM has no single set of directives,
+  so where a teacher in its tradition (Crosby, Juran) departs from a point, the row says so.
 - **Lean** means Toyota's own system and statements, and Western adoption where the evidence
   differs.
 - **Six Sigma** separates the statistical method from the management programme around it, as GE
@@ -53,9 +53,9 @@ None of the four carries all 14 points.
   "specific, measurable" targets while reprinting Deming's points. In practice it was adopted as
   tools, training and slogans; the best study found that only its "tacit resources" (open culture,
   employee empowerment, executive commitment) predicted results.
-- **Lean**'s canon calls for most points. It keeps three mechanisms Deming named (two or three
+- **Lean**'s directives call for most points. It keeps three mechanisms Deming named (two or three
   suppliers per part instead of one, cascaded numerical targets, individual evaluation) while
-  arguing they serve the request. Toyota's practice mostly supports the canon; Western adoption
+  arguing they serve the request. Toyota's practice mostly supports its directives; Western adoption
   often kept the tools and dropped the long-term, people-centred requests, by Lean's own leaders'
   account.
 - **Six Sigma**'s method fits 3, 5 and 10. The programme around it contradicts 1, 2, 8, 11b, 12b
@@ -65,8 +65,8 @@ None of the four carries all 14 points.
   requirements are narrower, and require measurable objectives. Deming called the series
   "conformance specifications", "not enough".
 
-On the key points, Lean's canon comes closest, and only under management that takes it seriously.
-Practice evidence that measures the requests directly is absent for all four.
+On the key points, Lean's directives come closest, and only under management that takes them
+seriously. Practice evidence that measures the requests directly is absent for all four.
 
 ## The 14 points
 
@@ -78,7 +78,7 @@ Point text from the Deming Institute's condensation of *Out of the Crisis*, pp. 
 > Create constancy of purpose toward improvement of product and service, with the aim to become
 > competitive and to stay in business, and to provide jobs.
 
-| | Canon | Practice |
+| | Directive | Practice |
 |---|---|---|
 | TQM | Calls for: ASQ's "strategic and systematic approach"; the Navy primer lists lack of constancy of purpose as a disease | Arthur D. Little's 1992 survey of 500+ firms: only a third saw any competitive impact |
 | Lean | Calls for: Toyota's guiding principles, "stable, long-term growth and mutual benefits" | Toyota kept regular staff through 2009 with executive pay cuts, but laid off 800 temporary workers in Kyushu; the NHS warns Lean "must never be seen as a tool for headcount reduction" |
@@ -90,11 +90,11 @@ Point text from the Deming Institute's condensation of *Out of the Crisis*, pp. 
 > Adopt the new philosophy. We are in a new economic age. Western management must awaken to the
 > challenge, must learn their responsibilities, and take on leadership for change.
 
-| | Canon | Practice |
+| | Directive | Practice |
 |---|---|---|
 | TQM | Calls for (Navy): it tested an approach "based on the philosophy of W. Edwards Deming"; ASQ is silent on it | Hackman & Wageman: "Rhetoric is winning over substance" (abstract) |
 | Lean | Calls for: the Toyota Way's two pillars, continuous improvement and respect for people | Womack, Lean's founder, 2017: efforts to transform large, mature organisations "haven't worked" |
-| Six Sigma | Splits: leadership roles in the canon, but GE paired it with removing the bottom 10% every year | Training was a prerequisite for promotion, so leaders learned the method, not the philosophy |
+| Six Sigma | Splits: leadership roles in its directives, but GE paired it with removing the bottom 10% every year | Training was a prerequisite for promotion, so leaders learned the method, not the philosophy |
 | ISO 9001 | Mostly silent: the guidance notes an environment "profoundly different from recent decades", but ISO 9001 is for demonstrating conformity | Adoption ranges from symbolic to substantive (secondary) |
 
 ### 3. Cease dependence on inspection
@@ -102,7 +102,7 @@ Point text from the Deming Institute's condensation of *Out of the Crisis*, pp. 
 > Cease dependence on inspection to achieve quality. Eliminate the need for inspection on a mass
 > basis by building quality into the product in the first place.
 
-| | Canon | Practice |
+| | Directive | Practice |
 |---|---|---|
 | TQM | Calls for, Crosby included ("prevention") | No adoption data found |
 | Lean | Calls for: jidoka builds quality into the process | Toyota's own history: the shift from inspection to building quality in after it began TQC in 1961; in 2010 its president said "priorities became confused" |
@@ -117,7 +117,7 @@ Point text from the Deming Institute's condensation of *Out of the Crisis*, pp. 
 Note: The request is the long-term relationship that minimises total cost; one supplier per item is
 the mechanism Deming named.
 
-| | Canon | Practice |
+| | Directive | Practice |
 |---|---|---|
 | TQM | Silent in ASQ's principles; the Navy counts suppliers as part of the system | Powell's definition of TQM in practice includes "closer supplier relationships … (often sole-sourcing key components)" |
 | Lean | Request yes, mechanism no: two or three suppliers per component, contracts "for the life of a model"; Ohno: "bullying suppliers is totally alien" to TPS | Toyota's CCC21 sought 30% price cuts on 170 parts without suppliers calling it unfair; the Big Three used reverse auctions (not clearly Lean adopters) |
@@ -129,7 +129,7 @@ the mechanism Deming named.
 > Improve constantly and forever the system of production and service, to improve quality and
 > productivity, and thus constantly decrease costs.
 
-| | Canon | Practice |
+| | Directive | Practice |
 |---|---|---|
 | TQM | Calls for: its closest match (ASQ's continual improvement; the Navy's "continuous effort") | Studies disagree: Ernst & Young found process improvement helped everywhere; Powell found it gave no general advantage |
 | Lean | Calls for: "all employees implement daily incremental kaizen" | Toyota logged 810,000 suggestions in 2023; Womack describes Western kaizen as small-scale, without changing management systems |
@@ -140,7 +140,7 @@ the mechanism Deming named.
 
 > Institute training on the job.
 
-| | Canon | Practice |
+| | Directive | Practice |
 |---|---|---|
 | TQM | Calls for, though TQM training meant its principles, team skills and problem-solving | Powell: training gave no general advantage |
 | Lean | Calls for: Toyota adopted Training Within Industry, Job Relations classes from 1951 and Job Instruction from January 1952 | Job Instruction is tied to standardised work at Toyota; Western practice not determined |
@@ -153,7 +153,7 @@ the mechanism Deming named.
 > to do a better job. Supervision of management is in need of overhaul, as well as supervision of
 > production workers.
 
-| | Canon | Practice |
+| | Directive | Practice |
 |---|---|---|
 | TQM | Calls for: the Navy renamed TQM "Total Quality Leadership" in 1990 "to emphasize the crucial role leaders have"; leaders "Act as a coach and counselor, rather than simply as a judge"; ASQ's eight principles omit leadership | Powell: executive commitment produces advantage |
 | Lean | Calls for: supervisors "as teachers" (Spear & Bowen) | NUMMI improved on GM's supervision; GM did not spread it |
@@ -164,7 +164,7 @@ the mechanism Deming named.
 
 > Drive out fear, so that everyone may work effectively for the company.
 
-| | Canon | Practice |
+| | Directive | Practice |
 |---|---|---|
 | TQM | Calls for: ASQ, "Total employee commitment can only be obtained after fear has been driven from the workplace" (secondary) | Powell: an open culture predicts results; nothing measures fear |
 | Lean | Calls for: any operator can stop the line (andon) | NUMMI workers still reported "fear tactics"; a 2017 Toyota suicide was ruled work-related harassment |
@@ -177,7 +177,7 @@ the mechanism Deming named.
 > work as a team, to foresee problems of production and in use that may be encountered with the
 > product or service.
 
-| | Canon | Practice |
+| | Directive | Practice |
 |---|---|---|
 | TQM | Calls for: ASQ puts "the horizontal processes interconnecting these functions" at the focus (secondary); the Navy used cross-functional teams | Quality circles, which sit within one department, were called a self-destructing fad (unchecked) |
 | Lean | Calls for: hoshin aligns "vertically and horizontally … across departments" | Thin; a NUMMI ex-manager called GM a "throw it over the wall organization" |
@@ -194,7 +194,7 @@ the mechanism Deming named.
 Note: The request is not holding the workforce to results the system controls; slogans and targets
 are the mechanism.
 
-| | Canon | Practice |
+| | Directive | Practice |
 |---|---|---|
 | TQM | Splits: Crosby's performance standard is "zero defects"; ASQ is silent | Powell's definition of TQM in practice includes "themes or slogans" |
 | Lean | Calls for, in substance: abnormalities are the system's to fix (jidoka) | No evidence of slogans either way |
@@ -205,10 +205,10 @@ are the mechanism.
 
 > Eliminate work standards (quotas) on the factory floor. Substitute leadership.
 
-| | Canon | Practice |
+| | Directive | Practice |
 |---|---|---|
 | TQM | Silent; the Navy primer reprints the point without applying it | None found |
-| Lean | Contradicts in form: fixed cycle times, treated in the canon as hypotheses to improve | NUMMI workers set their own standards; a review finds harm in low-complexity manual work |
+| Lean | Contradicts in form: fixed cycle times, treated in its directives as hypotheses to improve | NUMMI workers set their own standards; a review finds harm in low-complexity manual work |
 | Six Sigma | Silent | 3M staff dreamed up green-belt programmes "to fill their quota" |
 | ISO 9001 | Silent | None found |
 
@@ -220,7 +220,7 @@ are the mechanism.
 Note: The request is leadership in place of management by numbers; management by objective is the
 mechanism, so numerical objectives for processes are not the same obstacle as objectives for people.
 
-| | Canon | Practice |
+| | Directive | Practice |
 |---|---|---|
 | TQM | Contradicts, in most of the tradition: the Navy set "specific, measurable short-term and mid-term performance targets"; Juran and Crosby both call for goal-setting | Powell's definition of TQM in practice includes "goal-orientation and zeal for data" |
 | Lean | Splits: hoshin cascades numerical targets, which Toyota stops at section manager (Smalley) and advocates call direction, not appraisal | Liker and Shook: most efforts are "little more than rebranded management by objectives (MBO)"; Smalley's failure mode, "hoshin becomes a personal-appraisal exercise" |
@@ -232,7 +232,7 @@ mechanism, so numerical objectives for processes are not the same obstacle as ob
 > Remove barriers that rob the hourly worker of his right to pride of workmanship. The
 > responsibility of supervisors must be changed from sheer numbers to quality.
 
-| | Canon | Practice |
+| | Directive | Practice |
 |---|---|---|
 | TQM | Calls for, through employee empowerment (secondary) | Powell: employee empowerment produces advantage |
 | Lean | Calls for: frontline workers improve their own jobs (Spear & Bowen) | NUMMI satisfaction rose; a review finds harm in low-complexity manual work |
@@ -248,10 +248,10 @@ mechanism, so numerical objectives for processes are not the same obstacle as ob
 Note: "Inter alia": abolishing merit rating and management by objective is part of the request, not
 all of it. Hampton's example of the rest is above.
 
-| | Canon | Practice |
+| | Directive | Practice |
 |---|---|---|
 | TQM | Splits: the Navy names "Performance appraisal and reward systems that can concentrate on individual behavior" as an obstacle; ASQ is silent; Baldrige scored employee performance and recognition | Merit pay reportedly persisted under TQM (unchecked) |
-| Lean | Not found in the canon for managers and engineers; Toyota evaluates individuals, on "ability to act and compassion", which may not be the rating Deming meant | 2019: Toyota's union considered a five-grade evaluation for raises, which "reflects management's wishes" |
+| Lean | Not found in its directives for managers and engineers; Toyota evaluates individuals, on "ability to act and compassion", which may not be the rating Deming meant | 2019: Toyota's union considered a five-grade evaluation for raises, which "reflects management's wishes" |
 | Six Sigma | Contradicts: training "an ironclad prerequisite for promotion … and a requirement for any award of stock options" (GE 1997); forced ranking (GE 2000) | 3M researchers filled a "red book" of charts; Art Fry: "how fast a culture can be torn apart" |
 | ISO 9001 | Leans against: the principles suggest "self-evaluation of performance against personal objectives" | None found |
 
@@ -259,7 +259,7 @@ all of it. Hampton's example of the rest is above.
 
 > Institute a vigorous program of education and self-improvement.
 
-| | Canon | Practice |
+| | Directive | Practice |
 |---|---|---|
 | TQM | Calls for: Baldrige scored education and training; the Navy ran courses | Training was widely adopted; Powell found no general advantage from it |
 | Lean | Calls for: "developing human resources who can think independently and implement kaizen" | Western practice not determined |
@@ -271,7 +271,7 @@ all of it. Hampton's example of the rest is above.
 > Put everybody in the company to work to accomplish the transformation. The transformation is
 > everybody's job.
 
-| | Canon | Practice |
+| | Directive | Practice |
 |---|---|---|
 | TQM | Calls for: ASQ, "All employees participate" (secondary); the Navy, "throughout the organization" | 93% of large firms adopted TQM "in some form" (Arthur D. Little) |
 | Lean | Calls for: Toyota's suggestion handbook, "we need everyone to be involved in kaizen" | Emiliani describes "fake Lean" as "the dehumanized form of Lean" |
@@ -312,11 +312,11 @@ Sources:
 
 ### Lean
 
-Toyota's own system and Western Lean diverge. Toyota's canon asks for nearly every point, and NUMMI
-showed it could deliver much of 7–12 under Toyota's management, though even there workers reported
-fear and pressure. Its no-layoff record covers regular employees, not temporary ones. Lean's own
-leaders say Western adoption is often shallow: Womack, "Lean rhymes with mean, and too many managers
-have twisted it in that direction"; Liker and Shook on hoshin as rebranded MBO.
+Toyota's own system and Western Lean diverge. Toyota's directives ask for nearly every point, and
+NUMMI showed it could deliver much of 7–12 under Toyota's management, though even there workers
+reported fear and pressure. Its no-layoff record covers regular employees, not temporary ones.
+Lean's own leaders say Western adoption is often shallow: Womack, "Lean rhymes with mean, and too
+many managers have twisted it in that direction"; Liker and Shook on hoshin as rebranded MBO.
 
 Sources:
 
@@ -439,8 +439,8 @@ a market and keep the company in business, and provide jobs", and "Emphasis on s
 short-term thinking (just the opposite from constancy of purpose to stay in business), fed by fear
 of unfriendly takeover, and by push from bankers and owners for dividends"
 (<https://deming.org/explore/seven-deadly-diseases/>). Scale does not mandate the failure; it is a
-contributing factor (Hampton). Toyota is very large and keeps much of the canon, which fits that:
-what else separates it, such as how it is owned and governed, is not checked here.
+contributing factor (Hampton). Toyota is very large and keeps much of what its directives ask, which
+fits that: what else separates it, such as how it is owned and governed, is not checked here.
 
 ## Deming's later emphasis
 
