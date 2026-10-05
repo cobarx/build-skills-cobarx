@@ -50,7 +50,9 @@ The rules are the ones the test case needed:
 - A summary opens the analysis (the second correction; the industry name is an executive summary).
 - The analysis stands alone; the reply is its path (the first correction). A copy only where it
   shows collapsed: in the terminal a `<details>` block printed in full, and the owner's answer was
-  "i said collapsed. if that can't be done, don't print it."
+  "i said collapsed. if that can't be done, don't print it." Revised in review on 2026-10-05,
+  before merge: the reply may repeat the file's opening summary ("i'm not opposed to the summary
+  being the reply"), so long as it says nothing the file does not.
 
 ## Consequences
 

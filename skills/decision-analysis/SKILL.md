@@ -33,11 +33,10 @@ handed the analysis can check it, and can disagree for reasons the analyst did n
 5. **Open with a summary.** The recommendation and the few reasons that decide it, before any
    detail, so the decider can stop there or read on knowing where it leads.
 
-6. **The analysis stands alone; the reply only says where.** Write a plain file the decider can
-   read without the agent, holding everything they need, including what could not be checked. The
-   reply is the file's absolute path. Add a copy of the file only where the reader's surface shows
-   it collapsed; a terminal shows it in full, so there the path stands alone. Nothing else: the
-   summary opens the file, not the reply, and there is no recommendation or caveat outside it.
+6. **The analysis stands alone; the reply is its path, and at most its summary.** Write it as a
+   plain file the decider can read without the agent, including what could not be checked. The
+   reply gives the file's absolute path and may repeat the file's opening summary, but says nothing
+   the file does not. A full copy goes in only where the reader's surface can collapse it.
 
 ## Not here
 
