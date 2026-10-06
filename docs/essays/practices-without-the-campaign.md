@@ -3,14 +3,15 @@
 **2026-10-05 · Claude Opus 5.5**
 
 When an agent does the work, a best practice is something it loads as the work starts, not
-something reviewers enforce after. The costs that made teams leave practices unwritten or let them
-lapse were mostly social, and most of them are gone. This essay covers what those costs were, what
-replaced them, and what is still left to do.
+something reviewers enforce after. That removes most of what a practice cost. Cost was never the
+main reason practices went unwritten, though: most developers aren't in the habit of setting them.
+This essay covers what a practice used to cost, what replaced that, how the habit can move into
+the process, and what is still left to do.
 
 ## What a best practice used to cost
 
-Writing the practice down was the cheap part. Most of the cost came after:
-
+- **Identifying it.** Someone has to spend time working out what the best practice is: what the
+  options are, what the industry settled on, and what fits this codebase.
 - **Circulating it.** It goes in a wiki, a talk, or an onboarding doc, and every new hire has to
   find it.
 - **Getting buy-in.** Everyone who would follow it has to agree to, or at least not resist.
@@ -19,9 +20,13 @@ Writing the practice down was the cheap part. Most of the cost came after:
 - **Getting people used to feedback.** People take a correction better the more often they've
   had one. Until then, each correction costs some goodwill.
 
-These costs recur. They are paid per PR and per person, and again whenever someone joins, so a
-team rationed them. It wrote fewer practices than it believed in, enforced the ones a reviewer
-would notice, and let the rest decay into a wiki page nobody opened.
+Enforcement costs recur. They are paid on every PR, for every person, and again whenever someone
+joins. A team that did set practices enforced the ones a reviewer would notice and let the rest
+decay into a wiki page nobody opened.
+
+Most teams never got that far, and not because they weighed the cost and declined. Setting
+practices isn't something most developers do as a habit. A choice gets made in a PR, works, and
+gets copied, and nobody stops to ask whether it should be the rule.
 
 ## What replaced it
 
@@ -39,19 +44,28 @@ it was supposed to, not to find out for the first time whether it did. A failed 
 therefore news about the process: a rule that didn't load, or a rule that said the wrong thing.
 The fix goes into the skill, not the PR.
 
-## Writing the rule got cheaper too
+## Finding and writing the rule got cheaper too
 
-The work that remains is mostly writing the rule, and that is no harder than it was. Usually it is
-easier, because the agent does much of the work:
+The work that remains is mostly finding the practice and writing the rule, and that is no harder
+than it was. Usually it is easier, because the agent does much of the work:
 
+- **Research.** It finds the standard, the prior art and the sources, so the rule can cite them
+  rather than restate them. [Quality is defined by the customer][tqm] was researched this way.
 - **Drafting.** It writes a reasonable first version of the rule from a sentence of intent.
 - **Alignment.** It searches the existing rules for any that conflict and brings them in line,
   which used to depend on someone happening to remember the old rule.
-- **Research.** It finds the standard, the prior art and the sources, so the rule can cite them
-  rather than restate them. [Quality is defined by the customer][tqm] was researched this way.
 
-The author's job moves from writing and campaigning to deciding: whether the draft is the rule
-they mean, and whether to adopt it.
+The author's job moves from researching, writing and campaigning to deciding: whether the draft is
+the rule they mean, and whether to adopt it.
+
+## The habit can live in the process
+
+Cheaper practices don't create the habit of setting them. What can is making it a step of the
+process, triggered when the moment comes rather than left to someone remembering. Some skills
+here do this already. `decision-log` triggers when a choice is made between options, so the
+choice gets recorded rather than copied. `adopting-standards` triggers before a format or
+convention is invented, so the agent looks for a settled practice first. The developer doesn't
+need the habit, because the agent has the trigger.
 
 ## What is still left
 
@@ -75,8 +89,10 @@ once, when the rule is adopted, not on every PR.
 
 ## What it shapes
 
-- **Write down the practices you believe in.** The reason for rationing them is mostly gone. A
-  practice that was never worth a campaign is worth a skill.
+- **Trigger on the moment a practice is needed.** A skill that loads when a choice is made does
+  the work of a habit nobody had to form.
+- **Write down the practices you believe in.** The cost of keeping one is mostly gone. A practice
+  that was never worth a campaign is worth a skill.
 - **Treat a failed final check as a defect in the process.** Fix the skill that should have
   prevented it, not only the change it caught.
 - **Spend review on the rules, not on compliance.** The judgment people used to spend repeating
