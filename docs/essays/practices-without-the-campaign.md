@@ -74,12 +74,15 @@ need the habit, because the agent has the trigger.
 ## What is still left
 
 **The rule has to be right.** An agent follows a wrong rule as reliably as a right one, so a bad
-practice now spreads as cheaply as a good one. Deciding is the step that stays human, and it is
-where the saved effort should go.
+practice now spreads as cheaply as a good one. Deciding is the step that stays human. The agent
+can help, though: it can evaluate a proposed rule and find examples that test whether the pattern
+really generalises. If asked, it can also push back on the author's least-informed impulses
+before they become rules.
 
 **The rule has to say what it means.** A person reading a vague rule fills it in from shared
 context. An agent follows the words as written. That is why the test for every line here is
-whether it changes what anyone does ([The outline is the skill][outline]).
+whether it changes what anyone does ([The outline is the skill][outline]). The same evaluation
+covers this: an agent can say where a rule is ambiguous before it's adopted.
 
 **Some rules need a judge.** A linter checks layout and thresholds. Whether a name fits, or a
 unit's purpose fits one sentence, needs a model to judge. That judge then has to be qualified and
