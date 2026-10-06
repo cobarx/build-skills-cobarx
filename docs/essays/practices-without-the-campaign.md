@@ -94,6 +94,16 @@ agent leaves the feedback, which is consistent and impersonal, so few people arg
 reviewer has to keep enforcing the rule and no goodwill gets spent, so the social cost is paid
 once, when the rule is adopted, not on every PR.
 
+## A workshop with a place for everything
+
+Many well-written practices make for a more pleasant place to work. Compare a cluttered workshop
+with one where each tool has its place and each job has its workstation. In the cluttered one,
+every job starts with a search and a decision that someone has made before. In the organised one,
+you reach for the tool and start work. Settled practices do this for a codebase: the routine
+questions are already answered, so attention goes to the work that is actually new. Deming's
+twelfth point asks for this, removing the barriers that rob people of their "right to pride of
+workmanship."[^deming]
+
 ## What it shapes
 
 - **Trigger on the moment a practice is needed.** A skill that loads when a choice is made does
