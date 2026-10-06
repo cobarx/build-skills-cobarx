@@ -1,0 +1,102 @@
+# Best practices without the campaign
+
+**2026-10-05 · Claude Opus 5.5**
+
+When an agent does the work, a best practice is something it loads as the work starts, not
+something reviewers enforce after. The costs that made teams leave practices unwritten or let them
+lapse were mostly social, and most of them are gone. This essay covers what those costs were, what
+replaced them, and what is still left to do.
+
+## What a best practice used to cost
+
+Writing the practice down was the cheap part. Most of the cost came after:
+
+- **Circulating it.** It goes in a wiki, a talk, or an onboarding doc, and every new hire has to
+  find it.
+- **Getting buy-in.** Everyone who would follow it has to agree to, or at least not resist.
+- **Enforcing it in review.** Someone checks every PR against it and leaves the same comment for
+  the tenth time.
+- **Getting people used to feedback.** People take a correction better the more often they've
+  had one. Until then, each correction costs some goodwill.
+
+These costs recur. They are paid per PR and per person, and again whenever someone joins, so a
+team rationed them. It wrote fewer practices than it believed in, enforced the ones a reviewer
+would notice, and let the rest decay into a wiki page nobody opened.
+
+## What replaced it
+
+An agent loads the practice at the start of a unit of work and follows it while it works. In this
+repo that is the first line of AGENTS.md: load `simplicity` before starting any unit of work. The
+agent doesn't need persuading, doesn't resent the tenth correction, and doesn't forget the rule
+between tasks. Circulation and getting used to feedback drop to nearly nothing, and buy-in is paid
+once.
+
+Because the practice is part of the process, the check before merging becomes a final
+verification pass and stops being the main defence. Deming's third point asks for exactly this:
+"Cease dependence on inspection to achieve quality," by "building quality into the product in the
+first place."[^deming] The check still runs. Its job is to confirm that the process produced what
+it was supposed to, not to find out for the first time whether it did. A failed check is
+therefore news about the process: a rule that didn't load, or a rule that said the wrong thing.
+The fix goes into the skill, not the PR.
+
+## Writing the rule got cheaper too
+
+The work that remains is mostly writing the rule, and that is no harder than it was. Usually it is
+easier, because the agent does much of the work:
+
+- **Drafting.** It writes a reasonable first version of the rule from a sentence of intent.
+- **Alignment.** It searches the existing rules for any that conflict and brings them in line,
+  which used to depend on someone happening to remember the old rule.
+- **Research.** It finds the standard, the prior art and the sources, so the rule can cite them
+  rather than restate them. [Quality is defined by the customer][tqm] was researched this way.
+
+The author's job moves from writing and campaigning to deciding: whether the draft is the rule
+they mean, and whether to adopt it.
+
+## What is still left
+
+**The rule has to be right.** An agent follows a wrong rule as reliably as a right one, so a bad
+practice now spreads as cheaply as a good one. Deciding is the step that stays human, and it is
+where the saved effort should go.
+
+**The rule has to say what it means.** A person reading a vague rule fills it in from shared
+context. An agent follows the words as written. That is why the test for every line here is
+whether it changes what anyone does ([The outline is the skill][outline]).
+
+**Some rules need a judge.** A linter checks layout and thresholds. Whether a name fits, or a
+unit's purpose fits one sentence, needs a model to judge. That judge then has to be qualified and
+pinned like any other dependency ([0018][0018], [0024][0024]).
+
+**Buy-in, once.** Code a person writes by hand goes through the same agent review, and that review
+requires it to conform to the practice. The team still has to agree to the rule. After that, the
+agent leaves the feedback, which is consistent and impersonal, so few people argue with it. No
+reviewer has to keep enforcing the rule and no goodwill gets spent, so the social cost is paid
+once, when the rule is adopted, not on every PR.
+
+## What it shapes
+
+- **Write down the practices you believe in.** The reason for rationing them is mostly gone. A
+  practice that was never worth a campaign is worth a skill.
+- **Treat a failed final check as a defect in the process.** Fix the skill that should have
+  prevented it, not only the change it caught.
+- **Spend review on the rules, not on compliance.** The judgment people used to spend repeating
+  comments goes into deciding whether a rule is right.
+
+## Notes
+
+The observation is Hampton's, on 2026-10-05: the effort of documenting best practices,
+circulating them and getting buy-in "all goes away when you can validate at the end and specify
+that the best practices are part of the development flow."
+
+## Revisions
+
+- **v1.0 · 2026-10-05 · Claude Opus 5.5.** First version.
+
+[tqm]: quality-is-defined-by-the-customer.md
+[outline]: outline-is-the-skill.md
+[0018]: ../decisions/0018-skill-evals-judges-are-pinned-and-qualified.md
+[0024]: ../decisions/0024-skill-evals-a-judge-is-pinned-by-its-model-alone.md
+
+[^deming]: W. Edwards Deming, *Out of the Crisis* (MIT Press), pp. 23-24, as condensed by the
+    W. Edwards Deming Institute, "Dr. Deming's 14 Points for Management",
+    <https://deming.org/explore/fourteen-points/>.
