@@ -96,7 +96,7 @@ once, when the rule is adopted, not on every PR.
 
 ## A workshop with a place for everything
 
-Many well-written practices make for a more pleasant place to work. Compare a cluttered workshop
+A collection of well-written practices makes for a more pleasant place to work. Compare a cluttered workshop
 with one where each tool has its place and each job has its workstation. In the cluttered one,
 every job starts with a search and a decision that someone has made before. In the organised one,
 you reach for the tool and start work. Settled practices do this for a codebase: the routine
