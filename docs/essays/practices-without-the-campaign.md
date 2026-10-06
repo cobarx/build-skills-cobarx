@@ -10,8 +10,9 @@ the process, and what is still left to do.
 
 ## What a best practice used to cost
 
-- **Identifying it.** Someone has to spend time working out what the best practice is: what the
-  options are, what the industry settled on, and what fits this codebase.
+- **The experience to identify it.** A best practice is a general rule, and a general rule takes
+  exposure to many problems: enough failures to see what can go wrong, and which practice would
+  have prevented each one. One bad incident teaches a fix. A rule takes years of them.
 - **Circulating it.** It goes in a wiki, a talk, or an onboarding doc, and every new hire has to
   find it.
 - **Getting buy-in.** Everyone who would follow it has to agree to, or at least not resist.
@@ -49,6 +50,9 @@ The fix goes into the skill, not the PR.
 The work that remains is mostly finding the practice and writing the rule, and that is no harder
 than it was. Usually it is easier, because the agent does much of the work:
 
+- **Experience.** It has seen far more failures than any one developer: other codebases,
+  postmortems, and the literature that generalised them. It can name what tends to go wrong and
+  the practice that prevents it, without the team living through each failure first.
 - **Research.** It finds the standard, the prior art and the sources, so the rule can cite them
   rather than restate them. [Quality is defined by the customer][tqm] was researched this way.
 - **Drafting.** It writes a reasonable first version of the rule from a sentence of intent.
