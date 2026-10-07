@@ -61,8 +61,9 @@ A contract converts unknowns into known behaviour. That removes coupling to anyt
 and coupling, in Hampton's view, is a very expensive design choice. A caller that depends on a
 contract has a claim: if the other team breaks it, the caller reports a bug and the fix is theirs. A
 caller that depends on undocumented behaviour has none: if the other team changes it, the caller can
-lose weeks negotiating to get it changed back. Hyrum's law says such behaviour will be depended on
-anyway. The contract decides whose problem it is when it changes.
+lose weeks negotiating to get it changed back. With enough users, someone will depend on
+undocumented behaviour anyway; that is Hyrum's law.[^hyrum] The contract decides whose problem it is
+when it changes.
 
 Converting the unknowns also surfaces them. Hampton's observation is that many design choices are
 not choices at all, but behaviour no one considered. Writing the contract, or trying to build a
