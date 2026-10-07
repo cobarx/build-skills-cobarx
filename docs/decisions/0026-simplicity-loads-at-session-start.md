@@ -1,7 +1,7 @@
 # 0026. `simplicity` loads at session start
 
 - **Status:** Accepted
-- **Decided:** 2026-10-06 (#PR) · **Recorded:** 2026-10-06 · Claude Opus 5.5
+- **Decided:** 2026-10-06 (#120) · **Recorded:** 2026-10-06 · Claude Opus 5.5
 - **Affects:** `simplicity`, how the plugin loads
 
 ## Context
