@@ -38,18 +38,16 @@ A change is anything handed to a reader. A diff, a PR description, a review comm
    order. State it once; if reaffirmed, proceed.
 
 8. **The cheapest change to review is the one not written.** Reuse before implementing, delete
-   before adding, and produce nothing the spec and the standards do not require: no documentation,
-   tests, validation, error types, fallbacks, special cases or compatibility shims beyond them.
-   Volume is a cost even when every individual piece is small, and it is the cost that rises
-   fastest when producing more is nearly free.
+   before adding, and produce nothing the spec and the standards do not require. Volume is a cost
+   even when each piece is small, and it rises fastest when producing more is nearly free. This
+   governs output presented as finished; working notes are exempt.
 
-   Working notes are not the target. A scratchpad costs nobody but its author, and thinking in
-   writing is not the same as shipping prose. The target is output presented as finished.
+9. **Touch only what the requirement reaches.** Anything else you would improve is its own unit:
+   offer it, and do it only once approved.
 
-9. **Touch only what the requirement reaches.** A change to existing code holds that requirement
-   and nothing else: no extracting, moving, renaming, re-typing or re-documenting code it does not
-   reach. New behaviour goes where the old behaviour lives, in the style already there. If the
-   requirement needs the old code restructured first, that is its own unit, landed before it.
+10. **Adopt the style of finished work.** New work follows an existing finished unit of its kind,
+    whether code, documentation, a spec or a contract. Where that example falls short, follow it
+    anyway and offer the cleanup under rule 9.
 
 ## Thresholds
 
