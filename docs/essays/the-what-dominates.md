@@ -29,25 +29,26 @@ types have escaped into application code, the gating choice is everywhere.
 Drawing the boundary also forces the question of which side owns a fact. Hampton learned early that
 normalizing data avoids many problems, and one case he recalls is from Digital Path, a wireless
 internet service provider. It placed repeater devices in homes and on towers, and a large hub might
-hold a dozen or more. Each device's address was typed in by hand, so one site could end up as three
-or more location records, with some of its devices linked to each. You couldn't see what devices
-were at a location. Once the addresses went through the USPS address service, each site had a single
-location record, and every device there was linked to it.
+hold a dozen or more. Each device's address was typed in by hand, so the same site could show up
+under three or more spellings. Someone looking up a site saw only some of the devices there, with
+nothing to say the rest were filed under another spelling. Once every address went through the USPS
+address service, a site was one place, and looking it up showed everything at it.
 
 A boundary forces the same move. What it requires is one owner and one source of truth, not one
 stored copy. A cache, a read model or a per-service copy is fine, so long as it derives from the
 owner and is known to be a copy. A denormalized store is fine behind a repository. A denormalized
 interface leaks it.
 
-The same thing holds at platform scale. When Apple built the iPhone's operating system, it kept
-the Mac's foundation layers (Core Foundation and Foundation) underneath and replaced the user
-interface layer, AppKit, with UIKit, built for touch.[^ios] Hampton's counter-case is Windows,
-whose one constant principle, as he reads it, is backward compatibility. With enough programs
-depending on its internals, every observable behaviour is depended on by somebody (Hyrum's
-law).[^hyrum] There is no boundary to swap behind, so each new approach is layered on top of the
-old ones instead of replacing them.
-Hampton's comparison is Linux, which runs Windows programs through Wine and Proton: the legacy is a
-guest behind an explicit layer, and the host underneath stays replaceable.
+The same thing holds at platform scale. When Apple built the iPhone's operating system, it kept the
+Mac's foundation layers (Core Foundation and Foundation) underneath and swapped only the user
+interface layer. UIKit, its replacement for the Mac's AppKit, kept AppKit's design (target-action,
+delegation, the responder chain) in new classes built for touch.[^ios] Hampton's counter-case is
+Windows, whose one constant principle, as he reads it, is backward compatibility. With enough
+programs depending on its internals, every observable behaviour is depended on by somebody (Hyrum's
+law).[^hyrum] There is no boundary to swap behind, so each new approach is layered on top of the old
+ones instead of replacing them. Hampton's comparison is Linux, which runs Windows programs through
+Wine and Proton: the legacy is a guest behind an explicit layer, and the host underneath stays
+replaceable.
 
 ## That is what the skills' boundaries are for
 
@@ -172,8 +173,10 @@ mapping to specific rules are Claude's.
     mapping layers using a collection-like interface for accessing domain objects."
 [^ios]: Apple, *Cocoa Fundamentals Guide*, "What Is Cocoa?", updated 18 September 2013,
     <https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/CocoaFundamentals/WhatIsCocoa/WhatIsCocoa.html>.
-    The iOS Core Services layer "includes both Foundation and Core Foundation", and UIKit takes
-    the place AppKit has on the Mac.
+    The iOS Core Services layer "includes both Foundation and Core Foundation". "The UIKit framework
+    in iOS is the sister framework of the AppKit framework in OS X": it shares AppKit's
+    target-action, delegation and responder chain, implemented for the Multi-Touch event model, and
+    drops AppKit's cells.
 [^hyrum]: Hyrum Wright, "Hyrum's Law", <https://www.hyrumslaw.com/>: "With a sufficient number of
     users of an API, it does not matter what you promise in the contract: all observable behaviors
     of your system will be depended on by somebody."
