@@ -17,24 +17,31 @@ cases of the rule, and `simplicity` 8 named only documentation and tests.
 
 ## Options
 
-- **A new skill.** Rejected: the rule keeps a change cheap to review, which is `simplicity`'s one
+- **A new skill.** Rejected: the rules keep a change cheap to review, which is `simplicity`'s one
   sentence.
 - **Extend `naming` 7 and `format` 3.** Rejected: they are cases of a cross-cutting rule, and the
   rule is their peer, not part of either.
-- **Widen `simplicity` 8 and add a rule beside it.** 8 is about producing things nobody asked for;
-  the new rule is about changing what is already there.
+- **List what rule 8 forbids** (validation, error types, fallbacks, shims). Tried in the first
+  draft of #119; rejected in review: a longer list is more detail, not a clearer rule, and still
+  incomplete.
+- **Generalise rule 8, and add a scope rule and a style rule beside it.**
 
 ## Decision
 
-Rule 8 lists validation, error types, fallbacks, special cases and compatibility shims beside
-documentation and tests. New rule 9, *Touch only what the requirement reaches*: a change to
-existing code holds that requirement and nothing else, new behaviour goes where the old lives in
-the style already there, and a needed restructuring is its own unit, landed first.
+- Rule 8 says "produce nothing the spec and the standards do not require", in place of naming
+  documentation and tests. Its working-notes paragraph, added in #4 after rule 8 was misapplied to
+  delete `docs/context/`, becomes one sentence: the rule governs finished output.
+- New rule 9, *Touch only what the requirement reaches*: anything else you would improve is its
+  own unit, offered, and done only once approved.
+- New rule 10, *Adopt the style of finished work*: new work follows an existing finished unit of its
+  kind (code, documentation, a spec, a contract), and where that example falls short, it is still
+  followed and the cleanup offered under rule 9.
 
 ## Consequences
 
-- `simplicity` grows from 58 to 64 lines.
+- `simplicity` grows from 58 to 62 lines.
 - Rule 9 sits beside rule 5 (*Extract, do not raise the threshold*): extracting to meet a threshold
   is still right, but as its own unit, not inside a behaviour change.
+- Rule 10 applies beyond code. Consistency lowers review cost for any artifact.
 - In the pilot no skill in this library loaded on its own; only descriptions were in context. These
   rules change what an agent does once `simplicity` loads. Whether it loads is a separate change.
