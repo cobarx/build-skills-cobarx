@@ -52,6 +52,9 @@ claude plugin install build-skills-cobarx@build-skills-cobarx
 Inside a session, `/plugin marketplace add cobarx/build-skills-cobarx` then
 `/plugin install build-skills-cobarx@build-skills-cobarx` does the same, and asks for a scope.
 
+The plugin's session-start hook puts `simplicity` in context at the start of every session,
+because it applies to every unit of work. The other skills load when they apply.
+
 #### Updating
 
 Auto-update is off by default for marketplaces outside Anthropic's own. Either turn it on
@@ -93,6 +96,9 @@ in the GitHub CLI.
 
 Without the GitHub CLI, copy each folder under `skills/` into `~/.agents/skills/`, one folder per
 skill, directly under that directory.
+
+These agents don't run the Claude Code hook yet, so `simplicity` loads only when its description
+matches. Support for each is tracked in #134.
 
 ## How these are written
 
