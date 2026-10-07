@@ -34,3 +34,4 @@ skill. A reversed decision gets a new record, and the old one is marked supersed
 | [0021](0021-decision-analysis-decision-log-analysis-is-a-peer-of-the-record.md) | Decision analysis is a peer skill of the decision log | Accepted |
 | [0022](0022-simplicity-thresholds-move-to-a-reference.md) | `simplicity`'s thresholds move to a reference | Accepted |
 | [0024](0024-skill-evals-a-judge-is-pinned-by-its-model-alone.md) | `skill-evals`: a judge is pinned by its model alone | Accepted |
+| [0025](0025-simplicity-a-change-holds-only-its-requirement.md) | `simplicity`: a change holds only its requirement | Accepted |
