@@ -57,6 +57,13 @@ third source (`contracts` 1). A dependency with no contract is wrapped behind on
 Each unit does one thing, and a concern that cuts across others is their peer (`simplicity` 1 and
 2). Together they keep each how behind a boundary small enough to replace.
 
+What a contract removes is unknowns, and with them coupling, which in Hampton's view is a very
+expensive design choice. A caller that depends on a contract has a claim: if the other team breaks
+it, the caller reports a bug and the fix is theirs. A caller that depends on undocumented behaviour
+has none: if the other team changes it, the caller can lose weeks negotiating to get it changed
+back. Hyrum's law says such behaviour will be depended on anyway. The contract decides whose problem
+it is when it changes.
+
 The same boundary is what makes an agent's output auditable. A person reads one unit at a time,
 with only its contract in view: less to hold in mind, and one thing to focus on. That reduction in
 cognitive load is what `simplicity` exists for.
