@@ -57,9 +57,9 @@ third source (`contracts` 1). A dependency with no contract is wrapped behind on
 Each unit does one thing, and a concern that cuts across others is their peer (`simplicity` 1 and
 2). Together they keep each how behind a boundary small enough to replace.
 
-The same boundary pays twice. A unit read with only its contract in view is the reduction in
-cognitive load that `simplicity` exists for. It is also what lets a person audit an agent's output
-one unit at a time.
+The same boundary is what makes an agent's output auditable. A person reads one unit at a time,
+with only its contract in view: less to hold in mind, and one thing to focus on. That reduction in
+cognitive load is what `simplicity` exists for.
 
 The skills hold themselves to it. Set them beside the chief-of-staff pattern for orchestrating
 Claude Code sessions.[^cos] As Claude reads it, its loop checks that work was done correctly against
