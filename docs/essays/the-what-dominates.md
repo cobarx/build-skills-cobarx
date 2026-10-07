@@ -103,27 +103,32 @@ it is sold it is no longer a how. It has its own users, and it is judged as a pr
 
 ## Replaceable, not disposable
 
-Hampton first put it as wanting to throw things away, with boundaries there to make that possible.
-He then refined it: disposable is an anti-principle. A good product can be repaired, recycled or
-repurposed. Good software may not last, but at the least it leaves lessons and moves toward a better
-next version. Boundaries exist so that a part can be replaced while the whole keeps evolving. That
-is continuous improvement, and the industry term for the architecture is evolutionary.[^ford] The
-lessons outlive the code, which is what `durable-context` and the essays are for.
+If the how can be replaced cheaply, it is tempting to treat it as disposable: build it quickly, and
+throw it away when it stops working. Hampton started there and then rejected it. A replaceable part
+is not thrown away; it is improved on. The boundary lets one part change while the whole keeps
+going, so each replacement is a step in the evolution of something that lasts. A good product works
+the same way: it can be repaired, recycled or repurposed, not only discarded.
 
-The prior art is David Parnas, who decomposed systems by the design decisions likely to
-change,[^parnas] and tef's "write code that is easy to delete, not easy to extend".[^tef] It is not
-Fred Brooks's "plan to throw one away". That was a whole system thrown away once, written before
-the modularity existed to rebuild one part, and Brooks later withdrew it in favour of building
-incrementally.[^brooks]
+Two things follow. First, a replaceable part still has to be built well. Inexpensive to replace is
+not the same as cheap, and cheap, in Hampton's terms, is cutting corners. A part is replaced because
+something better is now known, not because it was built to fail. Second, what carries from one
+version to the next is what was learned. The code may not survive, so the lessons have to, which is
+what `durable-context` and the essays are for.
 
-Inexpensive to replace is not the same as cheap. In Hampton's terms, cheap is cutting corners: a
-replaceable how is still built well.
+The prior art puts replacement in the same place. David Parnas divided a system into modules around
+the design decisions most likely to change, so that each change stays inside one module,[^parnas]
+and tef's "write code that is easy to delete, not easy to extend" is the same idea from the other
+side.[^tef] Both replace a part. Fred Brooks's "plan to throw one away" replaced the whole: build
+the system once to learn, then discard it. That is the disposable view, and Brooks later withdrew it
+in favour of building incrementally.[^brooks] The industry name for what the part-by-part approach
+produces is an evolutionary architecture, one that supports guided, incremental change.[^ford]
 
-The same distinction settles duplication. Sandi Metz's "duplication is far cheaper than the wrong
-abstraction"[^metz] is right about code inside a replaceable unit. DRY, as Hunt and Thomas defined
-it, is about knowledge, not code.[^dry] Duplicated infrastructure, such as two auth systems or two
-stores of the same customer, is a fact with two owners, and that is what DRY forbids. Read that way,
-Metz and DRY do not conflict.
+The line between the part that changes and the whole that lasts also settles how much duplication to
+accept. Inside a replaceable part, duplicated code is cheap, and that is where Sandi Metz's
+"duplication is far cheaper than the wrong abstraction" applies.[^metz] Across parts, a duplicated
+fact is not cheap: two auth systems, or two stores of the same customer, give one fact two owners.
+DRY, as Hunt and Thomas defined it, was always about knowledge, not code,[^dry] so it forbids the
+second case and says nothing against the first. Metz and DRY do not conflict.
 
 ## Still open
 
