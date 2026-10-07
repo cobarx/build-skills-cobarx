@@ -64,6 +64,10 @@ caller that depends on undocumented behaviour has none: if the other team change
 lose weeks negotiating to get it changed back. Hyrum's law says such behaviour will be depended on
 anyway. The contract decides whose problem it is when it changes.
 
+Converting the unknowns also surfaces them. Hampton's observation is that many design choices are
+not choices at all, but behaviour no one considered. Writing the contract, or trying to build a
+client from it (`contracts` 2), turns each one up, and it is then decided instead of inherited.
+
 The same boundary is what makes an agent's output auditable. A person reads one unit at a time,
 with only its contract in view: less to hold in mind, and one thing to focus on. That reduction in
 cognitive load is what `simplicity` exists for.
