@@ -32,7 +32,7 @@ descriptions match.
 ## Consequences
 
 - Every Claude Code session carries `simplicity`, about 60 lines, whether or not the task needs it.
-- Agents that don't run Claude Code hooks (Codex, Copilot, Cursor, Gemini CLI) are unchanged; the
-  README says to point their always-loaded instructions at the skill.
+- Other agents (Codex, Copilot, Cursor, Gemini CLI, OpenCode) are unchanged for now. Making the
+  load work on each is tracked in #134.
 - A change in how a skill loads is a breaking change (`skill-versioning`); below 1.0 it takes the
   minor slot: 0.18.0 → 0.19.0.

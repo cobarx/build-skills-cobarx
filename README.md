@@ -97,9 +97,8 @@ in the GitHub CLI.
 Without the GitHub CLI, copy each folder under `skills/` into `~/.agents/skills/`, one folder per
 skill, directly under that directory.
 
-These agents don't run the Claude Code hook, so `simplicity` loads only when its description
-matches. To keep it in context, point the agent's always-loaded instructions (`AGENTS.md` or
-equivalent) at it.
+These agents don't run the Claude Code hook yet, so `simplicity` loads only when its description
+matches. Support for each is tracked in #134.
 
 ## How these are written
 
