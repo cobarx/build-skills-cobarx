@@ -47,6 +47,22 @@ None is disqualified. The weaker sources are a flag to validate the goal harder,
 the skill names the source so its weight is visible. Candidate spine: *a goal is only as trustworthy
 as the why behind it; name where it came from.*
 
+**Headline, 2026-10-05:** *give a great enough why, and any how can be borne.* After Nietzsche
+(*Twilight of the Idols*, 1889: "If we have our own why of life, we shall get along with almost any
+how"); Hampton found how it applies here. It adds a sense of why the spine above lacks: the why as
+purpose that drives the work (accountability makes you learn the how), not only the evidence that
+justifies the goal. Whether the two are one skill is open; a great enough why may be exactly one
+with a strong source. Against the ranking above: a lifelong dream may be the weakest evidence that
+a goal is right, but as purpose it can be the strongest. The builder has a why as well as the user:
+Hampton names it as fun, usefulness and pride in the work (Deming's point 12, pride of
+workmanship). Session notes in #90.
+
+Candidate rules from the same session, from Hampton's "so that" test and its corollary: state the
+what's "so that"; ladder it until the answer is held for its own sake; weigh the work against what
+else the same time could go to, for the user and for the builder. The ladder's industry forms:
+means-end chains in marketing research (Gutman, 1982), the user story's "so that" (Connextra,
+2001), Toyota's five whys.
+
 Name TBD: `rationale`, `problem`, `discovery`, `justification`, `why`. Open.
 
 Prompted 2026-09-22: "dod is not the why, it's the what; how you arrived at the goal is the why."
