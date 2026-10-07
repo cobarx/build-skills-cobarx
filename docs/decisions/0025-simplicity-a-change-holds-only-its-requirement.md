@@ -1,7 +1,7 @@
 # 0025. `simplicity`: a change holds only its requirement
 
 - **Status:** Accepted
-- **Decided:** 2026-10-06 (#PR) · **Recorded:** 2026-10-06 · Claude Opus 5.5
+- **Decided:** 2026-10-06 (#119) · **Recorded:** 2026-10-06 · Claude Opus 5.5
 - **Affects:** `simplicity`
 
 ## Context
