@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+# Claude Code SessionStart hook: put `simplicity` in context at the start of every session.
+# It applies to every unit of work, and left to its description it did not load (decision 0026).
+set -euo pipefail
+
+dir="${CLAUDE_PLUGIN_ROOT}/skills/simplicity"
+body=$(awk 'seen >= 2 { print } /^---$/ { seen++ }' "$dir/SKILL.md")
+
+context="The build-skills-cobarx \`simplicity\` skill applies to every unit of work, so it is loaded here in full. Other build-skills-cobarx skills load with the Skill tool when they apply.
+
+Base directory for this skill: $dir
+
+$body"
+
+escape() {
+  local s="$1"
+  s="${s//\\/\\\\}"
+  s="${s//\"/\\\"}"
+  s="${s//$'\n'/\\n}"
+  s="${s//$'\t'/\\t}"
+  printf '%s' "$s"
+}
+
+printf '{"hookSpecificOutput":{"hookEventName":"SessionStart","additionalContext":"%s"}}\n' "$(escape "$context")"
