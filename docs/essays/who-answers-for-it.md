@@ -11,7 +11,10 @@ it rests on, how the skills already carry them, and where they stop.
 
 Cory Doctorow coined the word for how platforms decay: "first, they are good to their users; then
 they abuse their users to make things better for their business customers; finally, they abuse those
-business customers to claw back all the value for themselves. Then, they die."[^doctorow]
+business customers to claw back all the value for themselves. Then, they die."[^doctorow] It has
+since entered common use for phoning it in and screwing the customer, well beyond platforms, and
+Doctorow welcomes that: his 2025 book gives readers "explicit permission to use this word in a loose
+sense."[^loose] Hampton means the broad sense, and so does this essay.
 
 Read as a chain of who answers to whom, the mechanism is plain. The people who build the product
 answer to a product owner, and the product owner answers to someone who is not the user. Every link
@@ -154,6 +157,10 @@ specific rules, and the reading through Ostrom and Hirschman, are Claude's.
 
 [^doctorow]: Cory Doctorow, "Tiktok's enshittification", *Pluralistic*, 21 January 2023,
     <https://pluralistic.net/2023/01/21/potemkin-ai/>.
+[^loose]: Cory Doctorow, *Enshittification: Why Everything Suddenly Got Worse and What to Do
+    About It* (2025), as quoted in *The New York Times*, 5 October 2025, and in Wikipedia,
+    "Enshittification", <https://en.wikipedia.org/wiki/Enshittification>, retrieved 2026-10-06. Not
+    checked against the book.
 [^dry]: Andrew Hunt and David Thomas, *The Pragmatic Programmer* (Addison-Wesley, 1999): "Every
     piece of knowledge must have a single, unambiguous, authoritative representation within a
     system." Wording checked against the 20th anniversary edition (2019), Tip 15,
