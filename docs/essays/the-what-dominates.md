@@ -27,12 +27,12 @@ already in the store still has to be migrated either way. The swap is as big as 
 types have escaped into application code, the gating choice is everywhere.
 
 Drawing the boundary also forces the question of which side owns a fact. Hampton learned early that
-normalizing data avoids many problems, and one case he recalls is from Digital Path. The business
-placed repeater devices in homes and on towers, and a large hub might hold a dozen or more. Each
-device's address was entered by hand, so one physical location could have three or more records, and
-it was hard even to see which devices were at a given site. Passing each address through the USPS
-address service gives it one canonical form, so one place has one record: the service owns what an
-address is.
+normalizing data avoids many problems, and one case he recalls is from Digital Path, a wireless
+internet service provider. It placed repeater devices in homes and on towers, and a large hub might
+hold a dozen or more. Each device's address was entered by hand, so one physical location could have
+three or more records, and it was hard even to see which devices were at a given site. Passing each
+address through the USPS address service gives it one canonical form, so one place has one record:
+the service owns what an address is.
 
 A boundary forces the same move. What it requires is one owner and one source of truth, not one
 stored copy. A cache, a read model or a per-service copy is fine, so long as it derives from the
