@@ -2,8 +2,9 @@
 
 ## Summary
 
-Skills for crafting high-quality software and physical products together with an AI agent: sizing
-units of work, platform conventions, naming, formatting, linting, testing, contracts.
+Skills for designing and building high-quality software and physical products with an AI
+assistant: sizing units of work, platform conventions, naming, formatting, linting, testing,
+contracts.
 
 Each skill is `skills/<name>/SKILL.md`; the README says how to install them.
 
