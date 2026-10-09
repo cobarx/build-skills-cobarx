@@ -2,8 +2,8 @@
 
 ## Summary
 
-Skills for how software gets built: sizing units of work, platform conventions, naming,
-formatting, linting, testing, contracts.
+Skills for designing and building high-quality software and physical products with AI assistance:
+sizing units of work, platform conventions, naming, formatting, linting, testing, contracts.
 
 Each skill is `skills/<name>/SKILL.md`; the README says how to install them.
 
