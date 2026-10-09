@@ -1,6 +1,7 @@
 # build-skills-cobarx
 
-Skills for crafting high-quality software and physical products with an AI agent.
+Skills for crafting high-quality software and physical products together with an AI agent. They
+help you get clear on what you want, so the agent can build it well.
 
 Most were written while building software; however, the principles carry over, and the skills are
 designed to be adapted to other domains. Measuring the real part before designing around it is

@@ -1,7 +1,7 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "build-skills-cobarx",
-  "description": "Hampton Maxwell's skills for crafting high-quality software and physical products with an AI agent",
+  "description": "Get clear on what you want, so your AI agent can build it well",
   "owner": {
     "name": "Hampton Maxwell",
     "email": "me@hamptonmaxwell.com"
@@ -9,7 +9,7 @@
   "plugins": [
     {
       "name": "build-skills-cobarx",
-      "description": "Skills for crafting high-quality software and physical products with an AI agent",
+      "description": "Skills for crafting high-quality software and physical products together with an AI agent",
       "author": {
         "name": "Hampton Maxwell",
         "email": "me@hamptonmaxwell.com"
