@@ -1,7 +1,7 @@
 # build-skills-cobarx
 
-Skills for designing and building high-quality software and physical products with an AI
-assistant. They help you get clear on what you want, so your assistant can build it well.
+Skills for designing and building high-quality software and physical products with AI assistance.
+You provide the clarity so that the AI can build what you're seeking.
 
 Most were written while building software; however, the principles carry over, and the skills are
 designed to be adapted to other domains. Measuring the real part before designing around it is
