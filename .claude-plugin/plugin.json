@@ -1,6 +1,6 @@
 {
   "name": "build-skills-cobarx",
-  "description": "Skills for how software gets built, each loaded when it applies",
+  "description": "Skills for crafting high-quality software and physical products with an AI agent",
   "version": "0.17.2",
   "author": {
     "name": "Hampton Maxwell",

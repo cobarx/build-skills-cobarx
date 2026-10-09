@@ -1,8 +1,13 @@
 # build-skills-cobarx
 
-Skills for how software gets built.
+Skills for crafting high-quality software and physical products with an AI agent.
 
-Each skill is a short set of rules, loaded by an AI coding assistant when it applies. They are
+Most were written while building software; however, the principles carry over, and the skills are
+designed to be adapted to other domains. Measuring the real part before designing around it is
+`fixtures`; building a drawer organizer on the [Gridfinity](https://gridfinity.xyz) grid rather
+than inventing your own is `adopting-standards`.
+
+Each skill is a short set of rules, loaded by an AI agent when it applies. They are
 deliberately brief: a skill costs context every time it fires, so it holds rules and nothing else.
 The reasoning behind them lives in [docs/essays/](docs/essays/).
 
