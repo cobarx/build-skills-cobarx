@@ -1,7 +1,7 @@
 # build-skills-cobarx
 
 Skills for designing and building high-quality software and physical products with AI assistance.
-You provide the clarity so that the AI can build what you're seeking.
+The skills help you define your vision, so the AI can implement it.
 
 Most were written while building software; however, the principles carry over, and the skills are
 designed to be adapted to other domains. Measuring the real part before designing around it is
