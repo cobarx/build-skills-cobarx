@@ -1,0 +1,1 @@
+../../plot-signups-pr-description/graders/how-tested-and-results.md

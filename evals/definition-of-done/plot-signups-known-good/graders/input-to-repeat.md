@@ -1,0 +1,1 @@
+../../plot-signups-pr-description/graders/input-to-repeat.md
