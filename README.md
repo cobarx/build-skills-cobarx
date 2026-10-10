@@ -1,4 +1,4 @@
-# build-skills-cobarx
+# build-skills
 
 Skills for designing and building high-quality software and physical products with AI assistance.
 They help you define your vision, allowing the AI to implement it.
@@ -51,21 +51,21 @@ behind a goal (name not settled), plus ports of `tdd` and `error-taxonomy`.
 Install from GitHub, for every project on this machine:
 
 ```bash
-claude plugin marketplace add cobarx/build-skills-cobarx
-claude plugin install build-skills-cobarx@build-skills-cobarx
+claude plugin marketplace add cobarx/build-skills
+claude plugin install build-skills@build-skills
 ```
 
-Inside a session, `/plugin marketplace add cobarx/build-skills-cobarx` then
-`/plugin install build-skills-cobarx@build-skills-cobarx` does the same, and asks for a scope.
+Inside a session, `/plugin marketplace add cobarx/build-skills` then
+`/plugin install build-skills@build-skills` does the same, and asks for a scope.
 
 #### Updating
 
 Auto-update is off by default for marketplaces outside Anthropic's own. Either turn it on
-(`/plugin`, **Marketplaces** tab, select `build-skills-cobarx`, **Enable auto-update**), or update
+(`/plugin`, **Marketplaces** tab, select `build-skills`, **Enable auto-update**), or update
 by hand:
 
 ```bash
-claude plugin update build-skills-cobarx@build-skills-cobarx
+claude plugin update build-skills@build-skills
 ```
 
 `plugin.json` sets a version, so an update arrives when that version changes.
@@ -75,13 +75,13 @@ claude plugin update build-skills-cobarx@build-skills-cobarx
 To work on the skills, point the marketplace at your clone instead, so `git pull` is the update:
 
 ```bash
-claude plugin marketplace add ./build-skills-cobarx
-claude plugin install build-skills-cobarx@build-skills-cobarx
+claude plugin marketplace add ./build-skills
+claude plugin install build-skills@build-skills
 ```
 
 Run that from the directory that holds the clone. Edits to an existing skill load in the next
-session; after adding or removing a skill, run `/plugin marketplace update build-skills-cobarx`.
-To load a clone for one session without installing, use `claude --plugin-dir ./build-skills-cobarx`.
+session; after adding or removing a skill, run `/plugin marketplace update build-skills`.
+To load a clone for one session without installing, use `claude --plugin-dir ./build-skills`.
 
 ### Other agents
 
@@ -90,7 +90,7 @@ OpenAI Codex, GitHub Copilot (CLI, VS Code, JetBrains), Cursor, and Gemini CLI r
 Install there with the GitHub CLI:
 
 ```bash
-gh skill install cobarx/build-skills-cobarx --all --dir ~/.agents/skills
+gh skill install cobarx/build-skills --all --dir ~/.agents/skills
 ```
 
 Update with `gh skill update --all`. For an agent with its own directory, swap `--dir` for
@@ -122,4 +122,4 @@ To credit a skill you copy or adapt, give its title, author, source, licence, an
 changed:
 
 > Adapted from "simplicity" by Hampton Maxwell,
-> <https://github.com/cobarx/build-skills-cobarx>, CC BY 4.0. Changes: …
+> <https://github.com/cobarx/build-skills>, CC BY 4.0. Changes: …
